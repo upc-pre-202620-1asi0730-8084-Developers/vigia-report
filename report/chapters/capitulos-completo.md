@@ -287,6 +287,12 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
       <td>Leonardo López</td>
       <td>Corrección de las URLs de despliegue, actualización de la sección 5.1 y de las secciones 5.2.2.6 y 5.2.2.7, tabla de contenidos, Student Outcome, Conclusiones y normalización de encabezados.</td>
     </tr>
+    <tr>
+      <td>1.0.6</td>
+      <td>2026-11-03</td>
+      <td>Leonardo López</td>
+      <td>Modelo simplificado del transportista en las historias de usuario, conversión de imágenes HTML a Markdown, enlaces al repositorio, competidor BuildPass y corrección de perfiles de integrantes.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -294,7 +300,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 
 ## Project Report Collaboration Insights
 
-Repositorio del Project Report: **https://tinyurl.com/2c98uev3**
+Repositorio del Project Report: **https://github.com/upc-pre-202620-1asi0730-8084-Developers/vigia-report**
 
 ### AV1
 
@@ -587,7 +593,7 @@ El equipo reúne perfiles complementarios en desarrollo backend, desarrollo fron
 
 | | |
 |---|---|
-| <img src="../../assets/chapther-1/Fabian.jpg" width="150"> | **Apellidos y Nombres:** Sandoval, Fabián<br><br>**Código:** u2022XXXXX<br><br>**Carrera:** Ingeniería de Software<br><br>**Rol en el equipo:** Team Leader |
+| ![Fabian](../../assets/chapther-1/Fabian.jpg) | **Apellidos y Nombres:** Sandoval, Fabián<br><br>**Código:** u20221a132<br><br>**Carrera:** Ingeniería de Software<br><br>**Rol en el equipo:** Team Leader |
 
 *Soy estudiante de Ingeniería de Software con experiencia en desarrollo backend con Spring Boot y en desarrollo frontend con Vue 3 y PrimeVue, así como en el uso de Docker para la configuración de entornos de desarrollo. Manejo Git y GitHub aplicando GitFlow y Conventional Commits, lo que me permite coordinar la integración del trabajo del equipo en los repositorios del proyecto. Aporto al equipo en la organización de las tareas, la definición de la arquitectura de la solución y la implementación de los servicios del RESTful API.*
 
@@ -597,7 +603,7 @@ El equipo reúne perfiles complementarios en desarrollo backend, desarrollo fron
 
 | |                                                                                                                                                          |
 |---|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="../../assets/chapther-1/leo.jpeg" width="150"> | **Apellidos y Nombres:** Lopez, Leonardo<br><br>**Código:** u20241a649<br><br>**Carrera:** Ingeniería de Software<br><br>**Rol en el equipo:** Developer |
+| ![leo](../../assets/chapther-1/leo.jpeg) | **Apellidos y Nombres:** Lopez, Leonardo<br><br>**Código:** u20241a649<br><br>**Carrera:** Ingeniería de Software<br><br>**Rol en el equipo:** Developer |
 
 *Mi nombre es leonardo gabriel lopez torres, estoy en el 6to ciclo de la carrera de ing de software en la upc, por lo general los conocimientos que tengo es sobre c sharp, c++, typesecript y javasciprt*
 
@@ -607,7 +613,7 @@ El equipo reúne perfiles complementarios en desarrollo backend, desarrollo fron
 
 | | |
 |---|---|
-| <img src="../../assets/chapther-1/Andree.jpg" width="150"> | **Apellidos y Nombres:** Cardenas Huaman, Mathias Andree<br><br>**Código:** u202316353<br><br>**Carrera:** Ingeniería de Software<br><br>**Rol en el equipo:** Developer |
+| ![Andree](../../assets/chapther-1/Andree.jpg) | **Apellidos y Nombres:** Cardenas Huaman, Mathias Andree<br><br>**Código:** u202316353<br><br>**Carrera:** Ingeniería de Software<br><br>**Rol en el equipo:** Developer |
 
 *Actualmente me encuentro estudiando la carrera de Ingeniería de Software. Soy proactivo y comunicativo, trabajo en equipo y resolución de problemas, también me gusta colocarme objetivos desafiantes para mejorar. Me encanta el curso y mi meta es completarla con la máxima nota posible.*
 
@@ -617,7 +623,7 @@ El equipo reúne perfiles complementarios en desarrollo backend, desarrollo fron
 
 | | |
 |---|---|
-| <img src="../../assets/chapther-1/Elizabeth.jpg" width="150"> | **Apellidos y Nombres:** Apaza Bocanegra, Elizabeth Noelia<br><br>**Código:** u20231c197<br><br>**Carrera:** Ingeniería de Software<br><br>**Rol en el equipo:** Developer |
+| ![Elizabeth](../../assets/chapther-1/Elizabeth.jpg) | **Apellidos y Nombres:** Apaza Bocanegra, Elizabeth Noelia<br><br>**Código:** u20231c197<br><br>**Carrera:** Ingeniería de Software<br><br>**Rol en el equipo:** Developer |
 
 *Soy estudiante de la carrera de Ingeniería de Software, tengo 20 años y me defino como una persona responsable, organizada y con facilidad para colaborar con los demás. Disfruto mucho del trabajo en equipo porque me permite intercambiar ideas y seguir aprendiendo de mi carrera. Me interesa desarrollar constantemente nuevas habilidades y busco aportar siempre con una comunicación clara y efectiva en cada proyecto. Mi objetivo es fortalecer mi formación académica y aprovechar cada experiencia para crecer tanto en lo profesional como en lo personal.*
 
@@ -627,7 +633,7 @@ El equipo reúne perfiles complementarios en desarrollo backend, desarrollo fron
 
 | |                                                                                                                                                                    |
 |---|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="../../assets/chapther-1/Ramos-Elias.jpg" width="150"> | **Apellidos y Nombres:** Ramos Cerdan, Elis Daniel<br><br>**Código:** u20201a277<br><br>**Carrera:** Ingeniería de Software<br><br>**Rol en el equipo:** Developer |
+| ![Ramos Elias](../../assets/chapther-1/Ramos-Elias.jpg) | **Apellidos y Nombres:** Ramos Cerdan, Elias Daniel<br><br>**Código:** u20201a277<br><br>**Carrera:** Ingeniería de Software<br><br>**Rol en el equipo:** Developer |
 
 *Mi nombre es Elias Daniel Ramos Cerdan y estoy en el séptimo ciclo de la carrera de Ingeniería de Software. Me adapto con facilidad a entornos nuevos y siempre busco maneras de mejorar mi ejecución de cada avance en los trabajos. El desarrollo de software es un área de gran interés para mí, tengo conocimientos en C++, python, html, css, y javascript y disfruto abordando problemas que exigen tanto razonamiento lógico como creatividad. Dentro del grupo mi objetivo es brindar soluciones que favorezcan un buen desarrollo del proyecto, y siempre estar al tanto de que se haga lo mejor de lo mejor.*
 
@@ -772,7 +778,7 @@ Para el desarrollo de la plataforma Vigía, el equipo identificó y categorizó 
 
 - **FA-01.** Creemos que un módulo de conformación y programación de despachos permitirá al jefe de almacén registrar los ítems, las cantidades, el peso de salida y el transportista asignado, generando un manifiesto digital identificable de forma unívoca.
 
-- **FA-02.** Creemos que un módulo de registro de eventos de tránsito permitirá al transportista reportar la salida, los hitos de la ruta y la llegada del despacho, otorgando a los responsables de obra visibilidad sobre el estado de los materiales en camino.
+- **FA-02.** Creemos que un módulo de registro de eventos de tránsito permitirá al personal de almacén registrar la salida, los hitos de la ruta y la llegada del despacho, a partir de lo informado por el transportista y del dispositivo de seguimiento,, otorgando a los responsables de obra visibilidad sobre el estado de los materiales en camino.
 
 - **FA-03.** Creemos que un módulo de recepción, verificación y conciliación en obra permitirá al personal en destino registrar la cantidad efectivamente recibida, marcar discrepancias por faltantes o daños y generar el acta de recepción digital con evidencia fotográfica, operando bajo condiciones de conectividad intermitente.
 
@@ -794,7 +800,7 @@ mediante el módulo de conformación y programación de despachos (FA-01).
 **Hypothesis Statement 2 (HS-02) — Registro de eventos de tránsito**
 
 Creemos que lograremos reducir el número de incidencias no reportadas durante el traslado
-si los transportistas y los responsables del frente de obra
+si el personal de almacén y los responsables del frente de obra
 obtienen visibilidad compartida sobre el estado y la ubicación declarada de cada despacho en curso
 mediante el módulo de registro de eventos de tránsito (FA-02).
 
@@ -980,6 +986,15 @@ Samsara es una plataforma de gestión de flotas y activos que emplea localizaci�
 
 **Sitio web:** https://www.samsara.com/
 
+
+##### Competidor 5: BuildPass
+
+**Tipo:** Competidor indirecto.
+
+BuildPass es una plataforma de gestión de construcción para contratistas generales que reúne preconstrucción, finanzas y operaciones en obra en un solo sistema. Sus módulos cubren cómputos métricos y estimación, presupuesto, órdenes de compra y subcontratos, y operaciones de campo como bitácoras diarias, planos, registros de ingreso y solicitudes de información (RFI). Su sitio no menciona el seguimiento de materiales ni de entregas, por lo que cubre de forma parcial el ámbito de Vigía a través de la gestión de compras y del control de obra, orientada principalmente al mercado de Estados Unidos y Australia.
+
+**Sitio web:** https://www.buildpass.ai/us
+
 #### 2.1.1. Análisis competitivo
 
 En esta sección se presenta el Competitive Analysis Landscape elaborado por el equipo, con el objetivo de conocer mejor a los competidores identificados en la sección anterior, contrastando la idea inicial que el equipo tenía sobre ellos con la información recogida de sus propuestas de valor, mercados objetivo y canales de distribución.
@@ -991,26 +1006,26 @@ En esta sección se presenta el Competitive Analysis Landscape elaborado por el 
 
 <!-- Insertar el logo de cada competidor en la cabecera de su columna correspondiente -->
 
-| | **Vigía** (Trazza Labs) | **Procore** ![procore.png](../../assets/chapther-2/competidores/procore.png)| **Autodesk Construction Cloud** ![autodesk.png](../../assets/chapther-2/competidores/autodesk.png)| **S10 Perú** ![s10.jpeg](../../assets/chapther-2/competidores/s10.jpeg)| **Samsara** ![samsana.jpeg](../../assets/chapther-2/competidores/samsana.jpeg)|
-|---|---|---|---|---|---|
-| **Perfil: Overview** | Plataforma enfocada en asegurar la trazabilidad de los materiales desde el despacho en el almacén central hasta la recepción en el frente de obra. Registra las cantidades y el peso despachados, los eventos del traslado y las cantidades efectivamente recibidas. | Plataforma integral para la gestión de proyectos de construcción, que abarca materiales, inventarios, entregas, costos y operaciones de obra. | Plataforma de gestión de construcción que centraliza la información de los proyectos y permite administrar activos, costos, documentos y operaciones. | Solución peruana para la elaboración de presupuestos, programación de obra y control de costos, ampliamente adoptada por constructoras del país. | Plataforma enfocada en la gestión de flotas y activos mediante localización satelital y telemática. |
-| **Perfil: Ventaja competitiva. ¿Qué valor ofrece a los clientes?** | Reconcilia sobre un mismo despacho la información registrada por el almacén, el transportista y el frente de obra, permitiendo detectar discrepancias en el momento de la recepción y sustentar la responsabilidad ante un faltante. | Ofrece una solución integral que permite gestionar múltiples procesos de una empresa constructora desde una misma plataforma. | Permite centralizar la información de los proyectos e integrarse de forma nativa con las herramientas de diseño del ecosistema Autodesk. | Ofrece un control detallado del presupuesto y los costos de obra, con análisis de precios unitarios adaptados a las prácticas del mercado peruano. | Permite conocer la ubicación y el estado de vehículos y activos en tiempo real mediante dispositivos instalados en la unidad. |
-| **Perfil de Marketing: Mercado objetivo** | Empresas constructoras e inmobiliarias medianas de Lima Metropolitana con varios frentes de obra activos, junto con los operadores logísticos y transportistas que les prestan servicio. | Empresas constructoras, contratistas generales, desarrolladores inmobiliarios y contratistas especializados de alcance internacional. | Empresas constructoras y equipos de proyecto que requieren gestionar información, activos y operaciones de construcción. | Empresas constructoras, consultoras y entidades públicas del Perú que elaboran presupuestos y controlan costos de obra. | Empresas que administran flotas y activos móviles, incluyendo organizaciones del sector construcción y transporte. |
-| **Perfil de Marketing: Estrategias de marketing** | Contacto directo con empresas constructoras, entrevistas con potenciales usuarios, demostraciones del producto y pruebas piloto con empresas locales. | Marketing digital, contenido especializado para el sector construcción, demostraciones comerciales y venta directa. | Marketing digital, demostraciones y posicionamiento como plataforma integral dentro del ecosistema Autodesk. | Venta directa, capacitaciones, presencia en gremios del sector y posicionamiento como estándar de facto en el mercado peruano. | Marketing dirigido a empresas, demostraciones comerciales y venta directa de soluciones de gestión de flotas. |
-| **Perfil de Producto: Productos y servicios** | Conformación y programación de despachos, generación de manifiestos digitales, registro de eventos de tránsito, recepción y conciliación en obra con evidencia fotográfica, y tablero de analítica e incidencias. | Gestión de materiales, inventarios, entregas, recepción, costos, documentos y colaboración de proyectos de construcción. | Gestión de proyectos, activos, documentos, costos, cronogramas y colaboración entre equipos de construcción. | Presupuestos, análisis de precios unitarios, programación de obra, control de costos y valorizaciones. | Localización satelital, gestión de flotas, seguimiento de activos, telemática y monitoreo de vehículos y maquinaria. |
-| **Perfil de Producto: Precios y costos** | Por definir. Se plantea un modelo de suscripción accesible para empresas constructoras medianas, con planes diferenciados según el número de obras o de despachos gestionados. | Cotización comercial según las necesidades y el tamaño de cada organización. | Precio determinado según las soluciones contratadas y el número de usuarios. | Licenciamiento por usuario, con distintas ediciones según los módulos contratados. | Cotización según la cantidad de vehículos y activos, e incluye el costo del hardware instalado. |
-| **Perfil de Producto: Canales de distribución (Web y/o Móvil)** | Aplicación web adaptable a las dimensiones del dispositivo, orientada al uso desde teléfonos inteligentes en almacén y frente de obra, con operación bajo conectividad intermitente. | Plataforma web y aplicación móvil para la gestión de proyectos y operaciones en campo. | Plataforma web y aplicaciones móviles para equipos de oficina técnica y de campo. | Aplicación de escritorio, con versiones en la nube según la edición contratada. | Plataforma web, aplicaciones móviles y dispositivos físicos instalados en las unidades. |
+| | **Vigía** (Trazza Labs) | **Procore** ![procore.png](../../assets/chapther-2/competidores/procore.png)| **Autodesk Construction Cloud** ![autodesk.png](../../assets/chapther-2/competidores/autodesk.png)| **S10 Perú** ![s10.jpeg](../../assets/chapther-2/competidores/s10.jpeg)| **Samsara** ![samsana.jpeg](../../assets/chapther-2/competidores/samsana.jpeg)| **BuildPass** |
+|---|---|---|---|---|---|---|
+| **Perfil: Overview** | Plataforma enfocada en asegurar la trazabilidad de los materiales desde el despacho en el almacén central hasta la recepción en el frente de obra. Registra las cantidades y el peso despachados, los eventos del traslado y las cantidades efectivamente recibidas. | Plataforma integral para la gestión de proyectos de construcción, que abarca materiales, inventarios, entregas, costos y operaciones de obra. | Plataforma de gestión de construcción que centraliza la información de los proyectos y permite administrar activos, costos, documentos y operaciones. | Solución peruana para la elaboración de presupuestos, programación de obra y control de costos, ampliamente adoptada por constructoras del país. | Plataforma enfocada en la gestión de flotas y activos mediante localización satelital y telemática. | Plataforma de gestión de construcción para contratistas generales que reúne preconstrucción, finanzas y operaciones en obra en un solo sistema, desde la primera estimación hasta el pago final. |
+| **Perfil: Ventaja competitiva. ¿Qué valor ofrece a los clientes?** | Reconcilia sobre un mismo despacho la información registrada por el almacén, el transportista y el frente de obra, permitiendo detectar discrepancias en el momento de la recepción y sustentar la responsabilidad ante un faltante. | Ofrece una solución integral que permite gestionar múltiples procesos de una empresa constructora desde una misma plataforma. | Permite centralizar la información de los proyectos e integrarse de forma nativa con las herramientas de diseño del ecosistema Autodesk. | Ofrece un control detallado del presupuesto y los costos de obra, con análisis de precios unitarios adaptados a las prácticas del mercado peruano. | Permite conocer la ubicación y el estado de vehículos y activos en tiempo real mediante dispositivos instalados en la unidad. | Un solo sistema para todo el negocio del contratista, que evita reingresar datos en varias herramientas, con visibilidad de varios proyectos desde una pantalla y agentes de IA que actúan solo con aprobación del usuario. |
+| **Perfil de Marketing: Mercado objetivo** | Empresas constructoras e inmobiliarias medianas de Lima Metropolitana con varios frentes de obra activos, junto con los operadores logísticos y transportistas que les prestan servicio. | Empresas constructoras, contratistas generales, desarrolladores inmobiliarios y contratistas especializados de alcance internacional. | Empresas constructoras y equipos de proyecto que requieren gestionar información, activos y operaciones de construcción. | Empresas constructoras, consultoras y entidades públicas del Perú que elaboran presupuestos y controlan costos de obra. | Empresas que administran flotas y activos móviles, incluyendo organizaciones del sector construcción y transporte. | Contratistas generales, remodeladores y constructores comerciales, desde pequeños hasta grandes, principalmente en Estados Unidos y Australia. |
+| **Perfil de Marketing: Estrategias de marketing** | Contacto directo con empresas constructoras, entrevistas con potenciales usuarios, demostraciones del producto y pruebas piloto con empresas locales. | Marketing digital, contenido especializado para el sector construcción, demostraciones comerciales y venta directa. | Marketing digital, demostraciones y posicionamiento como plataforma integral dentro del ecosistema Autodesk. | Venta directa, capacitaciones, presencia en gremios del sector y posicionamiento como estándar de facto en el mercado peruano. | Marketing dirigido a empresas, demostraciones comerciales y venta directa de soluciones de gestión de flotas. | Demostraciones agendadas desde su sitio web, red de contratistas y subcontratistas, integraciones y marketplace de plantillas, y alianzas para cumplimiento (por ejemplo, ISO con Elliott Safety). |
+| **Perfil de Producto: Productos y servicios** | Conformación y programación de despachos, generación de manifiestos digitales, registro de eventos de tránsito, recepción y conciliación en obra con evidencia fotográfica, y tablero de analítica e incidencias. | Gestión de materiales, inventarios, entregas, recepción, costos, documentos y colaboración de proyectos de construcción. | Gestión de proyectos, activos, documentos, costos, cronogramas y colaboración entre equipos de construcción. | Presupuestos, análisis de precios unitarios, programación de obra, control de costos y valorizaciones. | Localización satelital, gestión de flotas, seguimiento de activos, telemática y monitoreo de vehículos y maquinaria. | Módulos Win (preconstrucción), Pay (finanzas), Build (operaciones en obra: bitácoras, planos, seguridad, registro de ingreso, RFI) y Connect (integraciones y agentes de IA). Su sitio no menciona el seguimiento de materiales ni de entregas. |
+| **Perfil de Producto: Precios y costos** | Por definir. Se plantea un modelo de suscripción accesible para empresas constructoras medianas, con planes diferenciados según el número de obras o de despachos gestionados. | Cotización comercial según las necesidades y el tamaño de cada organización. | Precio determinado según las soluciones contratadas y el número de usuarios. | Licenciamiento por usuario, con distintas ediciones según los módulos contratados. | Cotización según la cantidad de vehículos y activos, e incluye el costo del hardware instalado. | No publica precios en su sitio; ofrece agendar una demostración y enlaza a una sección de planes. |
+| **Perfil de Producto: Canales de distribución (Web y/o Móvil)** | Aplicación web adaptable a las dimensiones del dispositivo, orientada al uso desde teléfonos inteligentes en almacén y frente de obra, con operación bajo conectividad intermitente. | Plataforma web y aplicación móvil para la gestión de proyectos y operaciones en campo. | Plataforma web y aplicaciones móviles para equipos de oficina técnica y de campo. | Aplicación de escritorio, con versiones en la nube según la edición contratada. | Plataforma web, aplicaciones móviles y dispositivos físicos instalados en las unidades. | Plataforma web y aplicaciones para iOS y Android. |
 
 **Análisis SWOT**
 
 A continuación se presenta el análisis SWOT elaborado para la startup y para cada uno de los competidores identificados. Las fortalezas de Trazza Labs se orientan a sostener las oportunidades detectadas y a construir la ventaja competitiva declarada en el cuadro anterior.
 
-| | **Vigía** (Trazza Labs) | **Procore** | **Autodesk Construction Cloud** | **S10 Perú** | **Samsara** |
-|---|---|---|---|---|---|
-| **Fortalezas** | Enfoque específico en la trazabilidad de la cadena de custodia; reconciliación entre lo despachado y lo recibido; operación bajo conectividad intermitente; conocimiento directo del mercado peruano; propuesta orientada a constructoras medianas. | Plataforma consolidada a nivel internacional; amplitud funcional; especialización en el sector construcción; ecosistema de integraciones. | Marca ampliamente reconocida; integración nativa con herramientas de diseño; respaldo corporativo; gestión centralizada de información. | Alta penetración en el mercado peruano; conocimiento del marco normativo local; base instalada consolidada; familiaridad del personal técnico con la herramienta. | Seguimiento en tiempo real; hardware propio; capacidades de telemática; solución probada en gestión de flotas. |
-| **Debilidades** | Startup sin trayectoria ni casos de referencia; menor amplitud funcional frente a plataformas integrales; recursos limitados; dependencia de la adopción por parte de dos segmentos a la vez. | Complejidad y costo elevados para empresas medianas; menor enfoque específico en el traslado y la conciliación de materiales; orientación a mercados de habla inglesa. | Propuesta amplia no especializada en el tramo de traslado y recepción; curva de aprendizaje pronunciada; costo elevado para empresas medianas. | Orientación al presupuesto y al control de costos, sin cobertura del traslado ni de la recepción física; interfaz de escritorio con limitada operación en campo. | No conoce el contenido de la carga ni registra la conformidad de la entrega; requiere inversión en hardware; no está orientada al sector construcción. |
-| **Oportunidades** | Creciente digitalización y formalización del sector construcción en el Perú; necesidad de reducir pérdidas por faltantes; posibilidad de integración futura con sistemas de presupuesto y control de costos ya adoptados por las constructoras. | Expansión hacia mercados latinoamericanos; integración con herramientas empresariales de terceros. | Crecimiento de la gestión digital de activos; ampliación del ecosistema de integraciones. | Ampliación de su alcance hacia la gestión de la operación en campo; migración de su base instalada a soluciones en la nube. | Crecimiento del uso de dispositivos conectados en logística y construcción; mayor exigencia de control sobre activos móviles. |
-| **Amenazas** | Competidores consolidados con mayor capacidad de inversión; resistencia al cambio del personal operativo; dificultad para lograr la adopción simultánea de constructoras y transportistas. | Competencia de plataformas especializadas de menor costo y complejidad; soluciones locales adaptadas a cada mercado. | Competencia directa de Procore y de plataformas especializadas con procesos más sencillos. | Aparición de soluciones en la nube con mayor cobertura funcional; competencia de plataformas internacionales. | Competencia de otras plataformas de localización y telemática; sensibilidad de los clientes al costo del hardware. |
+| | **Vigía** (Trazza Labs) | **Procore** | **Autodesk Construction Cloud** | **S10 Perú** | **Samsara** | **BuildPass** |
+|---|---|---|---|---|---|---|
+| **Fortalezas** | Enfoque específico en la trazabilidad de la cadena de custodia; reconciliación entre lo despachado y lo recibido; operación bajo conectividad intermitente; conocimiento directo del mercado peruano; propuesta orientada a constructoras medianas. | Plataforma consolidada a nivel internacional; amplitud funcional; especialización en el sector construcción; ecosistema de integraciones. | Marca ampliamente reconocida; integración nativa con herramientas de diseño; respaldo corporativo; gestión centralizada de información. | Alta penetración en el mercado peruano; conocimiento del marco normativo local; base instalada consolidada; familiaridad del personal técnico con la herramienta. | Seguimiento en tiempo real; hardware propio; capacidades de telemática; solución probada en gestión de flotas. | Plataforma integral de preconstrucción, finanzas y operaciones; red amplia de contratistas, subcontratistas y trabajadores de campo; aplicaciones móviles. |
+| **Debilidades** | Startup sin trayectoria ni casos de referencia; menor amplitud funcional frente a plataformas integrales; recursos limitados; dependencia de la adopción por parte de dos segmentos a la vez. | Complejidad y costo elevados para empresas medianas; menor enfoque específico en el traslado y la conciliación de materiales; orientación a mercados de habla inglesa. | Propuesta amplia no especializada en el tramo de traslado y recepción; curva de aprendizaje pronunciada; costo elevado para empresas medianas. | Orientación al presupuesto y al control de costos, sin cobertura del traslado ni de la recepción física; interfaz de escritorio con limitada operación en campo. | No conoce el contenido de la carga ni registra la conformidad de la entrega; requiere inversión en hardware; no está orientada al sector construcción. | Sin funcionalidad declarada de trazabilidad de materiales ni conciliación entre despacho y recepción; enfocada en el mercado estadounidense y australiano, sin presencia declarada en el Perú. |
+| **Oportunidades** | Creciente digitalización y formalización del sector construcción en el Perú; necesidad de reducir pérdidas por faltantes; posibilidad de integración futura con sistemas de presupuesto y control de costos ya adoptados por las constructoras. | Expansión hacia mercados latinoamericanos; integración con herramientas empresariales de terceros. | Crecimiento de la gestión digital de activos; ampliación del ecosistema de integraciones. | Ampliación de su alcance hacia la gestión de la operación en campo; migración de su base instalada a soluciones en la nube. | Crecimiento del uso de dispositivos conectados en logística y construcción; mayor exigencia de control sobre activos móviles. | Ampliar su alcance hacia la logística de materiales mediante integraciones y agentes de IA. |
+| **Amenazas** | Competidores consolidados con mayor capacidad de inversión; resistencia al cambio del personal operativo; dificultad para lograr la adopción simultánea de constructoras y transportistas. | Competencia de plataformas especializadas de menor costo y complejidad; soluciones locales adaptadas a cada mercado. | Competencia directa de Procore y de plataformas especializadas con procesos más sencillos. | Aparición de soluciones en la nube con mayor cobertura funcional; competencia de plataformas internacionales. | Competencia de otras plataformas de localización y telemática; sensibilidad de los clientes al costo del hardware. | Una eventual integración con soluciones de seguimiento de materiales o flotas podría acercarla al problema que atiende Vigía. |
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
@@ -1277,7 +1292,7 @@ El entrevistado considera que una nueva herramienta debería centralizar la info
 | Objetivos             | Garantizar la recepción de materiales en óptimas condiciones y cantidades para cumplir la meta diaria de obra al 100%, y proponer mejoras para agilizar los procesos.                                                                                                                                                          |
 | Fecha de la entrevista | 15/09/2026                                                                                                                                                                                                                                                                                              |
 | Inicio en el video consolidado | 0:00                                                                                                                                                                                                                                                                                                      |
-| Captura                | <img src="../../assets/Chapther-4/entrevistas/entrevista-JenniferRuiz">                                                                                                                                                                                                                                                                                        |
+| Captura                | ![entrevista JenniferRuiz](../../assets/Chapther-4/entrevistas/entrevista-JenniferRuiz.png)                                                                                                                                                                                                                                                                                        |
 | Url:                   | https://tinyurl.com/2bk4j9a2                                                                                                                                                                                                                                                                                                             |
 
 Jennifer narró su experiencia como ingeniera civil que asumió funciones de coordinadora en proyectos de infraestructura educativa, y explicó que, al trabajar en provincias, la empresa le asigna un hospedaje cercano para facilitar sus largas jornadas que suelen extenderse hasta las siete de la noche. Describió que la notificación de un despacho llega mediante una guía de remisión indicando que el material está en ruta, y que en el frente de obra usa un sistema de inventario corporativo con buena señal de internet, lo cual agiliza notablemente el flujo de trabajo. Contó que, en una ocasión, un despacho de cerámicos llegó con colores y cantidades diferentes a lo solicitado y que la solución fue rechazar el camión completo porque en la obra no pueden recibir entregas parciales de una compra total. Mencionó que lo que más la desgasta es el conteo unitario y la verificación exhaustiva de calidad al recibir lotes masivos, a pesar de considerar siempre un cinco por ciento de merma por traslado. Sobre el vocabulario, remarcó que en su obra al registro de entradas y salidas de material le dicen simplemente el Kárdex, y que a la validación matutina de seguridad la llaman la charla de Soma. Comentó que los proveedores de agregados cambian constantemente, pues esto depende de la región, aunque mantienen a Aceros Arequipa como aliado fijo por su calidad y suelen realizar préstamos internos de materiales entre distintas obras.
@@ -1296,7 +1311,7 @@ Jennifer narró su experiencia como ingeniera civil que asumió funciones de coo
 | Objectivos             | Organizar los despachos de materiales de manera rápida y ordenada, reducir errores y retrasos, centralizar la información de cada despacho y contar con evidencias claras de cada etapa del proceso.                                                                                                                         |
 | Fecha de la entrevista | 13/09/2026                                                                                                                                                                                                                                                                                                                   |
 | Duración               | 16:36                                                                                                                                                                                                                                                                                                                        |
-| Captura                | <img src="../../assets/Chapther-4/entrevistas/entrevista-AngelBarrera.png" alt="Captura entrevista Angel Barrera" width="350">                                                                                                                                                                                                     |
+| Captura                | ![Captura entrevista Angel Barrera](../../assets/Chapther-4/entrevistas/entrevista-AngelBarrera.png)                                                                                                                                                                                                     |
 | Url:                   | https://tinyurl.com/295hvb4u |
 
 **Resumen de la entrevista**
@@ -1314,7 +1329,7 @@ El entrevistado se desempeña como jefe de almacén y despacho, cuenta con ampli
 | Objectivos             | Atiende normalmente entre 3 y 5 obras activas y coordina entre 15 y 25 despachos por semana.                                                                                                                                                                                                                                 |
 | Fecha de la entrevista | 14/09/2026                                                                                                                                                                                                                                                                                                                   |
 | Duracion               | 11:30                                                                                                                                                                                                                                                                                                                        |
-| Captura                | <img src="../../assets/Chapther-4/entrevistas/entrevista-MiguelPomasonco.png" alt="Captura entrevista Miguel Pomasonco" width="350">                                                                                                                                                                                      |
+| Captura                | ![Captura entrevista Miguel Pomasonco](../../assets/Chapther-4/entrevistas/entrevista-MiguelPomasonco.png)                                                                                                                                                                                      |
 | Url:                   | https://tinyurl.com/2923phzy |
 
 **Resumen de la entrevista**
@@ -1332,7 +1347,7 @@ El entrevistado se desempeña como coordinador de despacho y transporte de mater
 | Objectivos             | Terminar cada ruta sin contratiempos ni descuentos en su liquidación por diferencias que él no ocasionó, para seguir sosteniendo a su familia con este trabajo |
 | Fecha de la entrevista | 10/09/26                                                                                                                                                      |
 | Inicio en el video consolidado | 0:00                                                                                                                                                          |
-| Captura                |  <img src="../../assets/Chapther-4/entrevistas/entrevista-WalterMamani.png" alt="Captura entrevista Walter Mamani" width="350">       |
+| Captura                |  ![Captura entrevista Walter Mamani](../../assets/Chapther-4/entrevistas/entrevista-WalterMamani.png)       |
 | Url:                   | https://28mbcfe.s.gy/my-link                                                                                                                                                   |
 
 
@@ -1632,12 +1647,12 @@ El segundo tramo recorre desde la asignación de la unidad y el transportista ha
 
 *Primer Tramo de Línea de tiempo del Big Picture EventStorming de Vigía*
 
-![IMAGEN 1 — primer tramo de la línea de tiempo](../../assets/chapther-2/big-event-storming/big-picture-tramo-1.png)
+![Big Picture EventStorming, primer tramo](../../assets/chapther-2/big-event-storming/big-picture-tramo-1.png)
 
 **Figura 10**
 *Segundo Tramo de Línea de tiempo del Big Picture EventStorming de Vigía*
 
-![IMAGEN 2 — segundo tramo de la línea de tiempo](../../assets/chapther-2/big-event-storming/big-picture-tramo-2.png)
+![Big Picture EventStorming, segundo tramo](../../assets/chapther-2/big-event-storming/big-picture-tramo-2.png)
 
 *Nota.* Tablero elaborado de forma colaborativa por el equipo de Trazza Labs en la herramienta Miro, durante la sesión de Big Picture EventStorming descrita en esta sección. La línea de tiempo se presenta en dos tramos por razones de legibilidad y corresponde a un único tablero continuo. El tablero en su resolución original, con la totalidad de los eventos y sus agrupaciones, puede consultarse en el siguiente enlace: [Big-Picture-Event-Storming](https://da.gd/hqzGI).
 
@@ -1703,17 +1718,17 @@ Cada User Story sigue el formato "Como [rol], deseo [acción], para [beneficio]"
 | US-01 | Registro de empresa y activación de suscripción | Como Administrador de la constructora, deseo registrar mi empresa con el plan de suscripción que elegí y pagarlo, para activar mi suscripción y empezar a invitar a mi equipo a usar la plataforma. | Dado que el administrador llega con el plan elegido en el Landing Page (o lo elige al registrarse), cuando completa el formulario de registro con los datos de la empresa, entonces el sistema crea la empresa y muestra el plan elegido para confirmar el pago.<br><br>Dado que el administrador confirma el plan de suscripción elegido, cuando realiza el pago a través de la pasarela de pago, entonces el sistema activa la suscripción y habilita el acceso a la plataforma.<br><br>Dado que el pago es rechazado por la pasarela de pago, cuando el sistema recibe la notificación de rechazo, entonces el sistema informa al administrador y mantiene la suscripción en estado pendiente. | EP-01 |
 | US-02 | Invitación de usuarios y asignación de roles | Como Administrador de la constructora, deseo invitar a los miembros de mi equipo y asignarles un rol, para que cada uno acceda solo a las funciones que le corresponden. | Dado que el administrador registra el correo electrónico y el rol de un nuevo usuario, cuando envía la invitación, entonces el sistema notifica al invitado y registra la invitación como pendiente.<br><br>Dado que el usuario invitado acepta la invitación, cuando completa su registro, entonces el sistema le asigna el rol indicado y habilita su acceso a las funciones correspondientes.<br><br>Dado que un usuario no tiene un rol asignado, cuando intenta acceder a una función restringida, entonces el sistema deniega el acceso. | EP-01 |
 | TS-01 | Endpoint de autenticación de usuarios | Como desarrollador del frontend, necesito un endpoint de autenticación que valide las credenciales y devuelva un token de sesión, para poder implementar el inicio de sesión y restringir las pantallas según el rol del usuario. | Dado que el cliente envía credenciales válidas al endpoint de autenticación, cuando el servidor las valida, entonces el servidor responde con un código 200 y un token de sesión.<br><br>Dado que el cliente envía credenciales inválidas, cuando el servidor las valida, entonces el servidor responde con un código 401 sin emitir token.<br><br>Dado que el token de sesión ha expirado, cuando el cliente lo utiliza en una solicitud, entonces el servidor responde con un código 401 e indica que el token no es válido. | EP-01 |
-| US-15 | Inicio de sesión | Como Usuario (residente de obra, jefe de almacén, despachador o transportista), deseo iniciar sesión con mis credenciales, para acceder a las funciones que corresponden a mi rol. | Dado que el usuario ingresa un correo electrónico y una contraseña registrados, cuando envía el formulario, entonces el sistema lo autentica y lo redirige a las funciones de su rol.<br><br>Dado que el usuario ingresa credenciales incorrectas, cuando envía el formulario, entonces el sistema informa que las credenciales no son válidas sin indicar cuál de los dos datos falló.<br><br>Dado que la sesión del usuario ha expirado, cuando intenta realizar una acción dentro de la plataforma, entonces el sistema le solicita iniciar sesión nuevamente. | EP-01 |
+| US-15 | Inicio de sesión | Como Usuario (residente de obra, jefe de almacén o despachador), deseo iniciar sesión con mis credenciales, para acceder a las funciones que corresponden a mi rol. | Dado que el usuario ingresa un correo electrónico y una contraseña registrados, cuando envía el formulario, entonces el sistema lo autentica y lo redirige a las funciones de su rol.<br><br>Dado que el usuario ingresa credenciales incorrectas, cuando envía el formulario, entonces el sistema informa que las credenciales no son válidas sin indicar cuál de los dos datos falló.<br><br>Dado que la sesión del usuario ha expirado, cuando intenta realizar una acción dentro de la plataforma, entonces el sistema le solicita iniciar sesión nuevamente. | EP-01 |
 | EP-02 | Gestión de Pedidos y Despacho | Permite coordinar el pedido de materiales entre la obra y el almacén central, conformar la carga, registrar el pesaje en báscula y emitir la documentación que autoriza la salida del despacho. | No aplica a nivel de Epic; se detalla en las User Stories y Technical Stories relacionadas. | — |
 | US-03 | Envío de pedido de materiales | Como Residente de obra, deseo enviar un pedido de materiales al almacén central, para asegurar el abastecimiento de mi frente de obra. | Dado que el residente completa el pedido con los materiales y las cantidades requeridas, cuando lo envía, entonces el sistema registra el pedido y lo notifica al almacén central.<br><br>Dado que el pedido fue enviado, cuando el almacén lo recibe, entonces el sistema muestra al residente el estado "Pedido recibido". | EP-02 |
 | US-16 | Verificación de existencias disponibles | Como Jefe de almacén, deseo verificar las existencias disponibles al recibir un pedido, para determinar si puedo atenderlo completo o solo de forma parcial. | Dado que llega un nuevo pedido al almacén, cuando el jefe de almacén consulta las existencias de los materiales solicitados, entonces el sistema muestra la cantidad disponible de cada material.<br><br>Dado que la cantidad disponible de un material es menor a la solicitada, cuando el jefe de almacén confirma la verificación, entonces el sistema marca el pedido como "Atención parcial" e indica el material con existencia insuficiente. | EP-02 |
 | US-04 | Conformación de carga y registro de pesaje | Como Jefe de almacén, deseo registrar el pesaje y conformar la carga de un despacho, para dejar evidencia verificable de lo que efectivamente se despacha. | Dado que el jefe de almacén asigna los materiales de un pedido a una unidad de transporte, cuando confirma la asignación, entonces el sistema registra la conformación de la carga.<br><br>Dado que la unidad cargada pasa por la báscula, cuando el jefe de almacén registra el peso, entonces el sistema asocia el peso registrado con el despacho correspondiente.<br><br>Dado que el pesaje registrado no coincide con el peso estimado del pedido dentro de un margen tolerable, cuando el sistema evalúa la diferencia, entonces el sistema marca el despacho con una alerta de revisión. | EP-02 |
 | US-05 | Emisión de guía de remisión y asignación de transportista | Como Jefe de almacén, deseo emitir la guía de remisión digital y asignar el transportista, para autorizar la salida del despacho. | Dado que el despacho tiene el pesaje registrado, cuando el jefe de almacén asigna un transportista y confirma la emisión, entonces el sistema genera la guía de remisión digital y marca el despacho como autorizado.<br><br>Dado que un despacho no tiene el pesaje registrado, cuando el jefe de almacén intenta emitir la guía de remisión, entonces el sistema impide la emisión e indica el dato faltante. | EP-02 |
 | TS-02 | Endpoint de registro de pesaje | Como desarrollador del frontend, necesito un endpoint para registrar el pesaje de un despacho, para poder mostrar en la pantalla de Despachos el peso asociado de forma inmediata a la guía de remisión correspondiente. | Dado que el cliente envía el identificador del despacho y el valor del peso registrado, cuando el servidor procesa la solicitud, entonces el servidor responde con un código 201 y el recurso de pesaje creado.<br><br>Dado que el cliente envía un identificador de despacho inexistente, cuando el servidor procesa la solicitud, entonces el servidor responde con un código 404. | EP-02 |
-| EP-03 | Trazabilidad en Tránsito | Permite al transportista registrar el inicio del traslado, actualizar su estado y reportar incidencias de ruta, sincronizando la información con el servidor de forma periódica en segundo plano. Conforme al hallazgo de la sección 2.4, la ubicación en tránsito se registra de forma autónoma a partir del dispositivo de seguimiento satelital vinculado a la unidad (ver EP-08); las historias de este Epic cubren el registro manual complementario del transportista (inicio de traslado, incidencias) mientras la app no dependa exclusivamente del dispositivo. | No aplica a nivel de Epic; se detalla en las User Stories y Technical Stories relacionadas. | — |
-| US-06 | Inicio de traslado | Como Transportista, deseo iniciar el traslado desde la aplicación, para que el almacén y la obra conozcan que el despacho está en camino. | Dado que el transportista tiene un despacho asignado con la guía de remisión emitida, cuando confirma el inicio del traslado, entonces el sistema registra el evento y lo notifica al almacén y a la obra de destino. | EP-03 |
-| US-07 | Registro de incidencia de ruta | Como Transportista, deseo registrar una incidencia de ruta, para dejar constancia de un desvío o una demora ocurrida durante el traslado. | Dado que el transportista está en tránsito, cuando registra una incidencia con su tipo y una descripción breve, entonces el sistema la asocia al despacho en curso y notifica a la obra de destino.<br><br>Dado que el transportista registra una incidencia, cuando confirma el registro, entonces el sistema la almacena localmente en el dispositivo hasta el siguiente ciclo de sincronización periódica. | EP-03 |
-| US-08 | Sincronización periódica de registros de tránsito | Como Transportista, deseo que mis registros se sincronicen automáticamente de forma periódica en segundo plano, para no tener que enviarlos manualmente uno por uno. | Dado que existen registros almacenados localmente en el dispositivo del transportista, cuando se cumple el intervalo de sincronización periódica, entonces el sistema sincroniza los registros pendientes con el servidor sin intervención del transportista.<br><br>Dado que un registro sincronizado hace referencia a un despacho que ya no existe, cuando el sistema intenta sincronizarlo, entonces el sistema marca el registro como no sincronizado y lo reporta como incidencia técnica. | EP-03 |
+| EP-03 | Trazabilidad en Tránsito | Permite al personal de almacén registrar el inicio del traslado, actualizar su estado y reportar las incidencias de ruta informadas por el transportista, sincronizando la información con el servidor de forma periódica en segundo plano. El transportista no tiene una cuenta propia: es un registro administrado por el personal de almacén. Conforme al hallazgo de la sección 2.4, la ubicación en tránsito se registra de forma autónoma a partir del dispositivo de seguimiento satelital vinculado a la unidad (ver EP-08); las historias de este Epic cubren el registro manual complementario que realiza el personal de almacén por el transportista (inicio de traslado, incidencias) mientras el seguimiento no dependa exclusivamente del dispositivo. | No aplica a nivel de Epic; se detalla en las User Stories y Technical Stories relacionadas. | — |
+| US-06 | Inicio de traslado | Como Jefe de almacén, deseo registrar el inicio del traslado de un despacho en nombre del transportista, para que el almacén y la obra conozcan que el despacho está en camino. | Dado que el despacho tiene una unidad de transporte asignada y la guía de remisión emitida, cuando el jefe de almacén confirma el inicio del traslado, entonces el sistema registra el evento y lo notifica a la obra de destino. | EP-03 |
+| US-07 | Registro de incidencia de ruta | Como Jefe de almacén, deseo registrar una incidencia de ruta reportada por el transportista, para dejar constancia de un desvío o una demora ocurrida durante el traslado. | Dado que el despacho está en tránsito, cuando el jefe de almacén registra una incidencia informada por el transportista con su tipo y una descripción breve, entonces el sistema la asocia al despacho en curso y notifica a la obra de destino.<br><br>Dado que el jefe de almacén registra una incidencia sin conexión a internet, cuando confirma el registro, entonces el sistema la almacena localmente en el dispositivo hasta el siguiente ciclo de sincronización periódica. | EP-03 |
+| US-08 | Sincronización periódica de registros de tránsito | Como Jefe de almacén, deseo que los registros de tránsito se sincronicen automáticamente de forma periódica en segundo plano, para no tener que enviarlos manualmente uno por uno. | Dado que existen registros de tránsito almacenados localmente en el dispositivo del jefe de almacén, cuando se cumple el intervalo de sincronización periódica, entonces el sistema sincroniza los registros pendientes con el servidor sin intervención del usuario.<br><br>Dado que un registro sincronizado hace referencia a un despacho que ya no existe, cuando el sistema intenta sincronizarlo, entonces el sistema marca el registro como no sincronizado y lo reporta como incidencia técnica. | EP-03 |
 | TS-03 | Endpoint de sincronización en lote | Como desarrollador del frontend, necesito un endpoint que reciba en lote los registros de tránsito almacenados localmente, para poder enviarlos en cada ciclo de sincronización periódica sin que el usuario intervenga. | Dado que el cliente envía un lote de eventos de tránsito con marca de tiempo local, cuando el servidor los procesa, entonces el servidor responde con un código 200 y el detalle de los eventos aceptados y rechazados.<br><br>Dado que el lote incluye un evento duplicado ya registrado previamente, cuando el servidor lo detecta, entonces el servidor lo descarta sin generar un registro duplicado. | EP-03 |
 | EP-04 | Recepción y Verificación en Obra | Permite al residente de obra registrar la llegada de la unidad, verificar el material recibido contra la guía de remisión digital y dar conformidad de recepción o reportar una discrepancia. | No aplica a nivel de Epic; se detalla en las User Stories y Technical Stories relacionadas. | — |
 | US-09 | Verificación del material recibido | Como Residente de obra, deseo verificar el material recibido contra la guía de remisión digital, para confirmar si el despacho llegó completo. | Dado que la unidad llega al frente de obra con un despacho autorizado, cuando el residente registra la llegada, entonces el sistema muestra el detalle de lo despachado para su verificación.<br><br>Dado que el residente cuenta lo descargado y lo compara contra la guía de remisión, cuando confirma que las cantidades coinciden, entonces el sistema registra la conformidad de recepción y cierra el despacho. | EP-04 |
@@ -1737,7 +1752,7 @@ Cada User Story sigue el formato "Como [rol], deseo [acción], para [beneficio]"
 | EP-08 | Registro de Flota y Dispositivos | Permite registrar las unidades de transporte, vincular su dispositivo de seguimiento satelital y definir las geocercas del almacén y de la obra, como condición previa para que un despacho pueda registrarse y para que el tránsito se registre de forma autónoma (EP-03). | No aplica a nivel de Epic; se detalla en las User Stories y Technical Stories relacionadas. | — |
 | US-18 | Registro de unidad de transporte y vinculación de dispositivo GPS | Como Jefe de almacén, deseo registrar una unidad de transporte y vincularle su dispositivo de seguimiento satelital, para poder asignarla a un despacho con trazabilidad de ubicación. | Dado que el jefe de almacén registra los datos de una nueva unidad de transporte, cuando confirma el registro, entonces el sistema la incorpora a la flota disponible para asignación de despachos.<br><br>Dado que el jefe de almacén vincula un dispositivo de seguimiento satelital a la unidad, cuando confirma la vinculación, entonces el sistema asocia las futuras posiciones reportadas por ese dispositivo a esa unidad.<br><br>Dado que el dispositivo que se intenta vincular ya está asignado a otra unidad, cuando el jefe de almacén confirma la vinculación, entonces el sistema rechaza la vinculación e indica la unidad a la que ya pertenece. | EP-08 |
 | US-19 | Definición de geocercas de almacén y obra | Como Jefe de almacén, deseo definir la geocerca del almacén y de cada obra, para que el sistema pueda detectar automáticamente la salida y la llegada de una unidad. | Dado que el jefe de almacén dibuja el perímetro de un predio (almacén u obra) en el mapa, cuando confirma la geocerca, entonces el sistema la asocia a ese predio para su uso en la detección automática de eventos de tránsito. | EP-08 |
-| TS-08 | Endpoint de recepción de reportes del dispositivo GPS | Como desarrollador de la Web Application, necesito que el API reciba los reportes periódicos de posición del dispositivo de seguimiento satelital, para poder mostrar en las pantallas de Transporte y Envíos la ubicación de la unidad sin que el transportista registre nada. | Dado que el dispositivo GPS de una unidad en tránsito envía un reporte de posición, cuando el servidor lo recibe, entonces el servidor registra el evento de ubicación asociado al despacho en curso y responde con un código 200.<br><br>Dado que el reporte de posición proviene de un dispositivo no vinculado a ninguna unidad activa, cuando el servidor lo recibe, entonces el servidor descarta el reporte y lo registra como evento no asociado. | EP-08 |
+| TS-08 | Endpoint de recepción de reportes del dispositivo GPS | Como desarrollador de la Web Application, necesito que el API reciba los reportes periódicos de posición del dispositivo de seguimiento satelital, para poder mostrar en las pantallas de Transporte y Envíos la ubicación de la unidad sin que el personal de almacén tenga que registrarla manualmente. | Dado que el dispositivo GPS de una unidad en tránsito envía un reporte de posición, cuando el servidor lo recibe, entonces el servidor registra el evento de ubicación asociado al despacho en curso y responde con un código 200.<br><br>Dado que el reporte de posición proviene de un dispositivo no vinculado a ninguna unidad activa, cuando el servidor lo recibe, entonces el servidor descarta el reporte y lo registra como evento no asociado. | EP-08 |
 
 ### 3.2. Impact Mapping
 
@@ -1816,7 +1831,7 @@ La estimación se expresa en Story Points, bajo la escala de Fibonacci (1 / 2 / 
 | 5 | 2 | TS-06 | Endpoint de contacto para suscripción | Como desarrollador del frontend del Landing Page, necesito un endpoint que reciba los datos de contacto de las empresas interesadas en suscribirse, para poder conectar el formulario del sitio con el equipo comercial de Trazza Labs desde un mismo canal. | 2 |
 | 6 | 2 | US-01 | Registro de empresa y activación de suscripción | Como Administrador de la constructora, deseo registrar mi empresa con el plan de suscripción que elegí y pagarlo, para activar mi suscripción y empezar a invitar a mi equipo a usar la plataforma. | 5 |
 | 7 | 2 | TS-01 | Endpoint de autenticación de usuarios | Como desarrollador del frontend, necesito un endpoint de autenticación que valide las credenciales y devuelva un token de sesión, para poder implementar el inicio de sesión y restringir las pantallas según el rol del usuario. | 3 |
-| 8 | 2 | US-15 | Inicio de sesión | Como Usuario (residente de obra, jefe de almacén, despachador o transportista), deseo iniciar sesión con mis credenciales, para acceder a las funciones que corresponden a mi rol. | 2 |
+| 8 | 2 | US-15 | Inicio de sesión | Como Usuario (residente de obra, jefe de almacén o despachador), deseo iniciar sesión con mis credenciales, para acceder a las funciones que corresponden a mi rol. | 2 |
 | 9 | 2 | US-02 | Invitación de usuarios y asignación de roles | Como Administrador de la constructora, deseo invitar a los miembros de mi equipo y asignarles un rol, para que cada uno acceda solo a las funciones que le corresponden. | 3 |
 | 10 | 2 | US-17 | Gestión del ciclo de vida de la suscripción | Como Administrador de la constructora, deseo consultar el estado de mi suscripción y renovarla o regularizar un pago rechazado, para mantener el acceso de mi empresa a la plataforma sin interrupciones. | 3 |
 | 11 | 3 | US-03 | Envío de pedido de materiales | Como Residente de obra, deseo enviar un pedido de materiales al almacén central, para asegurar el abastecimiento de mi frente de obra. | 3 |
@@ -1826,7 +1841,7 @@ La estimación se expresa en Story Points, bajo la escala de Fibonacci (1 / 2 / 
 | 15 | 3 | TS-02 | Endpoint de registro de pesaje | Como desarrollador del frontend, necesito un endpoint para registrar el pesaje de un despacho, para poder mostrar en la pantalla de Despachos el peso asociado de forma inmediata a la guía de remisión correspondiente. | 3 |
 | 16 | 4 | US-05 | Emisión de guía de remisión y asignación de transportista | Como Jefe de almacén, deseo emitir la guía de remisión digital y asignar el transportista, para autorizar la salida del despacho. | 3 |
 | 17 | 4 | TS-08 | Endpoint de recepción de reportes del dispositivo GPS | Como desarrollador de la Web Application, necesito que el API reciba los reportes periódicos de posición del dispositivo de seguimiento satelital, para poder mostrar en las pantallas de Transporte y Envíos la ubicación de la unidad sin que el transportista registre nada. | 5 |
-| 18 | 4 | US-06 | Inicio de traslado | Como Transportista, deseo iniciar el traslado desde la aplicación, para que el almacén y la obra conozcan que el despacho está en camino. | 2 |
+| 18 | 4 | US-06 | Inicio de traslado | Como Jefe de almacén, deseo registrar el inicio del traslado de un despacho en nombre del transportista, para que el almacén y la obra conozcan que el despacho está en camino. | 2 |
 | 19 | 4 | US-09 | Verificación del material recibido | Como Residente de obra, deseo verificar el material recibido contra la guía de remisión digital, para confirmar si el despacho llegó completo. | 5 |
 | 20 | 4 | US-10 | Reporte de discrepancia en recepción | Como Residente de obra, deseo reportar una discrepancia al momento de la recepción, para dejar constancia inmediata de un faltante o un daño detectado. | 3 |
 | 21 | 4 | TS-04 | Endpoint de comparación de cantidades | Como desarrollador del frontend, necesito un endpoint que compare las cantidades despachadas con las recibidas, para poder mostrar en la pantalla de Recepciones la conformidad o la diferencia de cada ítem de forma inmediata. | 3 |
@@ -1835,8 +1850,8 @@ La estimación se expresa en Story Points, bajo la escala de Fibonacci (1 / 2 / 
 | 24 | 5 | US-12 | Generación de reporte de sustento | Como Responsable de oficina técnica, deseo generar un reporte de sustento a partir de un caso de discrepancia, para presentarlo ante la gerencia o ante la empresa de transporte. | 5 |
 | 25 | 5 | US-13 | Cierre de caso de discrepancia | Como Responsable de oficina técnica, deseo cerrar un caso de discrepancia registrando la responsabilidad determinada, para dejar constancia del resultado y prevenir casos similares. | 2 |
 | 26 | 5 | US-16 | Verificación de existencias disponibles | Como Jefe de almacén, deseo verificar las existencias disponibles al recibir un pedido, para determinar si puedo atenderlo completo o solo de forma parcial. | 2 |
-| 27 | 6 | US-07 | Registro de incidencia de ruta | Como Transportista, deseo registrar una incidencia de ruta, para dejar constancia de un desvío o una demora ocurrida durante el traslado. | 3 |
-| 28 | 6 | US-08 | Sincronización periódica de registros de tránsito | Como Transportista, deseo que mis registros se sincronicen automáticamente de forma periódica en segundo plano, para no tener que enviarlos manualmente uno por uno. | 5 |
+| 27 | 6 | US-07 | Registro de incidencia de ruta | Como Jefe de almacén, deseo registrar una incidencia de ruta reportada por el transportista, para dejar constancia de un desvío o una demora ocurrida durante el traslado. | 3 |
+| 28 | 6 | US-08 | Sincronización periódica de registros de tránsito | Como Jefe de almacén, deseo que los registros de tránsito se sincronicen automáticamente de forma periódica en segundo plano, para no tener que enviarlos manualmente uno por uno. | 5 |
 | 29 | 6 | TS-03 | Endpoint de sincronización en lote | Como desarrollador del frontend, necesito un endpoint que reciba en lote los registros de tránsito almacenados localmente, para poder enviarlos en cada ciclo de sincronización periódica sin que el usuario intervenga. | 5 |
 | 30 | 6 | US-14 | Sincronización periódica de registros de recepción | Como Residente de obra, deseo que mi registro de recepción se sincronice automáticamente de forma periódica en segundo plano, para no tener que enviarlo manualmente. | 3 |
 | 31 | 6 | TS-07 | Endpoint de sincronización de registros de recepción | Como desarrollador del frontend, necesito un endpoint que reciba en lote los registros de recepción almacenados localmente, para poder enviarlos en cada ciclo de sincronización periódica sin que el residente intervenga. | 3 |
@@ -1939,7 +1954,7 @@ Esta sección traduce las decisiones de la sección 4.1.1 a estándares de inter
 
 | Breakpoint | Rango | Prioridad de diseño |
 |---|---|---|
-| Mobile | < 600px | Prioridad principal para la Web Application (residente de obra, transportista, despachador) |
+| Mobile | < 600px | Prioridad principal para la Web Application (residente de obra, jefe de almacén, despachador) |
 | Tablet | 600px – 960px | Soporte secundario |
 | Desktop | > 960px | Prioridad principal para el Landing Page y para las vistas de oficina técnica / gerencia |
 
@@ -1951,7 +1966,7 @@ Esta sección traduce las decisiones de la sección 4.1.1 a estándares de inter
 | Tablet (600–960px) | 8 | 24px | 16px |
 | Desktop (> 960px) | 12 | 32px | 24px |
 
-**Enfoque mobile-first.** Todo componente de la Web Application se diseña primero para el ancho mobile y luego se expande a tablet/desktop, en lugar del enfoque inverso, dado que los actores con mayor frecuencia de uso (residente, despachador, transportista) operan desde el teléfono en campo con conectividad intermitente. El Landing Page, en cambio, se diseña desktop-first y se adapta hacia mobile, dado que su consumo inicial ocurre con mayor frecuencia desde un escritorio de oficina técnica o gerencia.
+**Enfoque mobile-first.** Todo componente de la Web Application se diseña primero para el ancho mobile y luego se expande a tablet/desktop, en lugar del enfoque inverso, dado que los actores con mayor frecuencia de uso (residente, jefe de almacén, despachador) operan desde el teléfono en campo con conectividad intermitente. El Landing Page, en cambio, se diseña desktop-first y se adapta hacia mobile, dado que su consumo inicial ocurre con mayor frecuencia desde un escritorio de oficina técnica o gerencia.
 
 **Componentes base (PrimeVue).** Se estandariza el uso de un subconjunto reducido de componentes de PrimeVue para mantener consistencia y reducir la curva de aprendizaje del equipo: `Button`, `InputText`, `Dropdown`, `DataTable`, `Card`, `Tag` (para los estados de conformidad/discrepancia descritos en 4.1.1), `Toast` (para confirmaciones y errores) y `Dialog`. No se introducen componentes adicionales salvo que una funcionalidad no pueda resolverse con este subconjunto.
 
@@ -1973,7 +1988,7 @@ Esta sección traduce las decisiones de la sección 4.1.1 a estándares de inter
 
 ### 4.2. Information Architecture
 
-En esta sección el equipo plantea las decisiones y el sustento que dirigen la forma en que se organiza el contenido en las experiencias web de Vigía, incluyendo el Landing Page y la Web Application. Las propuestas buscan que los visitantes y los usuarios —los residentes de obra, jefes de almacén, despachadores y transportistas descritos en la sección 2.3.1— se adapten con facilidad a la funcionalidad de cada producto y encuentren lo que necesitan sin esfuerzo adicional, considerando en particular que gran parte de la interacción ocurre en campo, bajo presión de tiempo y con conectividad intermitente.
+En esta sección el equipo plantea las decisiones y el sustento que dirigen la forma en que se organiza el contenido en las experiencias web de Vigía, incluyendo el Landing Page y la Web Application. Las propuestas buscan que los visitantes y los usuarios —los residentes de obra, jefes de almacén y despachadores descritos en la sección 2.3.1— se adapten con facilidad a la funcionalidad de cada producto y encuentren lo que necesitan sin esfuerzo adicional, considerando en particular que gran parte de la interacción ocurre en campo, bajo presión de tiempo y con conectividad intermitente.
 
 Las decisiones se apoyan directamente en los artefactos ya elaborados en capítulos anteriores: los seis Bounded Context candidatos del Big Picture EventStorming (sección 2.4) determinan la organización principal del contenido; el Ubiquitous Language (sección 2.5) determina el vocabulario de las etiquetas; y las Epics y User Stories (sección 3.1) determinan qué necesita ser encontrado, filtrado o navegado en cada pantalla.
 
@@ -1991,7 +2006,7 @@ La sección se organiza en cinco partes: Organization Systems, Labeling Systems,
 
 | Esquema | Dónde se aplica | Justificación |
 |---|---|---|
-| Según audiencia (por rol) | Menú principal de la Web Application | Cada rol (residente, jefe de almacén, transportista, oficina técnica) tiene objetivos y tareas distintas, confirmadas en el User Task Matrix; mostrar solo lo relevante para su rol reduce la carga cognitiva en campo. |
+| Según audiencia (por rol) | Menú principal de la Web Application | Cada rol (residente, jefe de almacén, despachador, oficina técnica) tiene objetivos y tareas distintas, confirmadas en el User Task Matrix; mostrar solo lo relevante para su rol reduce la carga cognitiva en campo. |
 | Cronológico | Línea de tiempo de un caso de discrepancia (US-11) e historial de despachos | El orden temporal es, en sí mismo, la evidencia que sustenta la determinación de responsabilidad. |
 | Por tópicos | Secciones del Landing Page (Segmento 1 / Segmento 2 / Cómo funciona / Contacto) | Cada visitante llega con una necesidad de información distinta y debe poder ubicarla sin leer la página completa. |
 | Alfabético | Selectores de materiales dentro de un pedido | Es el esquema con menor carga de interpretación para una lista larga y sin jerarquía intrínseca entre sus elementos. |
@@ -2019,7 +2034,7 @@ Las etiquetas de Vigía se toman directamente del Ubiquitous Language definido e
 |---|---|---|
 | Pedidos | Ahí puede crear y revisar el estado de lo que solicitó al almacén | Residente de obra |
 | Despachos | Ahí puede conformar carga, pesar y emitir la guía de remisión | Jefe de almacén, Despachador |
-| Tránsito | Ahí puede iniciar un traslado y reportar una incidencia de ruta | Transportista |
+| Tránsito | Ahí puede registrar el inicio de un traslado y las incidencias de ruta informadas por el transportista | Jefe de almacén, Despachador |
 | Recepción | Ahí puede verificar el material recibido y dar conformidad | Residente de obra |
 | Discrepancias | Ahí encuentra los casos abiertos, la evidencia y el estado de resolución | Residente de obra, Jefe de almacén, Oficina técnica |
 | Equipo | Ahí administra los usuarios de su empresa y sus roles | Administrador de la constructora |
@@ -2146,7 +2161,7 @@ En todos los casos, el filtro se aplica sobre datos ya cargados para la empresa 
 
 **Web Application — Desktop.** Se utiliza un menú lateral (sidebar) fijo con las etiquetas de la sección 4.2.2, filtradas según el rol del usuario autenticado (Organization System por audiencia, sección 4.2.1). El usuario nunca ve una opción de menú a la que no tiene acceso, en lugar de mostrarla deshabilitada, para no generar confusión sobre las funciones que sí le corresponden.
 
-**Web Application — Mobile.** Dado que el residente de obra, el jefe de almacén y el transportista operan principalmente desde el teléfono (sección 2.3.1), se utiliza una barra de navegación inferior con un máximo de cuatro accesos directos a las secciones más frecuentes de cada rol, más un acceso a "Más" para las secciones restantes. Esta decisión prioriza el alcance del pulgar en el uso con una sola mano, considerando además el uso ocasional con guantes de trabajo mencionado en la sección 4.1.2.
+**Web Application — Mobile.** Dado que el residente de obra y el jefe de almacén operan principalmente desde el teléfono (sección 2.3.1), se utiliza una barra de navegación inferior con un máximo de cuatro accesos directos a las secciones más frecuentes de cada rol, más un acceso a "Más" para las secciones restantes. Esta decisión prioriza el alcance del pulgar en el uso con una sola mano, considerando además el uso ocasional con guantes de trabajo mencionado en la sección 4.1.2.
 
 **Navegación dentro del flujo operativo.** Conforme a la organización secuencial definida en la sección 4.2.1, cada pantalla del flujo pedido → despacho → tránsito → recepción muestra un indicador de progreso (stepper) con los pasos anterior y siguiente, para que el usuario sepa en todo momento en qué punto de la cadena de custodia se encuentra el despacho que está viendo.
 
@@ -2287,45 +2302,41 @@ Para mantener una experiencia visual consistente en toda la Landing Page, aplica
 
 ##### Landing Page para Desktop Web Browser
 
-<p align="center">
-  <img src="../../assets/Chapther-4/wireframes-landing/Hero%20Section.png" width="48%">
-  <img src="../../assets/Chapther-4/wireframes-landing/Problem%20and%20Process%20Section.png" width="48%">
-</p>
+![Hero Section](../../assets/Chapther-4/wireframes-landing/Hero%20Section.png)
 
-<p align="center">
-  <img src="../../assets/Chapther-4/wireframes-landing/Benefits%20Section.png" width="48%">
-  <img src="../../assets/Chapther-4/wireframes-landing/Pricing%20Section.png" width="48%">
-</p>
+![Problem and Process Section](../../assets/Chapther-4/wireframes-landing/Problem%20and%20Process%20Section.png)
 
-<p align="center">
-  <img src="../../assets/Chapther-4/wireframes-landing/Demo%20Section.png" width="48%">
-  <img src="../../assets/Chapther-4/wireframes-landing/Team%20Section.png" width="48%">
-</p>
 
-<p align="center">
-  <img src="../../assets/Chapther-4/wireframes-landing/Footer.png" width="48%">
-</p>
+![Benefits Section](../../assets/Chapther-4/wireframes-landing/Benefits%20Section.png)
+
+![Pricing Section](../../assets/Chapther-4/wireframes-landing/Pricing%20Section.png)
+
+
+![Demo Section](../../assets/Chapther-4/wireframes-landing/Demo%20Section.png)
+
+![Team Section](../../assets/Chapther-4/wireframes-landing/Team%20Section.png)
+
+
+![Footer](../../assets/Chapther-4/wireframes-landing/Footer.png)
 
 #### 4.3.2. Landing Page Mock-up
 
-<p align="center">
-  <img src="../../assets/Chapther-4/mock-ups-landing/Hero%20Section.png" width="48%">
-  <img src="../../assets/Chapther-4/mock-ups-landing/Problem%20and%20Process%20Section.png" width="48%">
-</p>
+![Hero Section](../../assets/Chapther-4/mock-ups-landing/Hero%20Section.png)
 
-<p align="center">
-  <img src="../../assets/Chapther-4/mock-ups-landing/Benefits%20Section.png" width="48%">
-  <img src="../../assets/Chapther-4/mock-ups-landing/Pricing%20Section.png" width="48%">
-</p>
+![Problem and Process Section](../../assets/Chapther-4/mock-ups-landing/Problem%20and%20Process%20Section.png)
 
-<p align="center">
-  <img src="../../assets/Chapther-4/mock-ups-landing/Demo%20Section.png" width="48%">
-  <img src="../../assets/Chapther-4/mock-ups-landing/Team%20Section.png" width="48%">
-</p>
 
-<p align="center">
-  <img src="../../assets/Chapther-4/mock-ups-landing/Footer.png" width="48%">
-</p>
+![Benefits Section](../../assets/Chapther-4/mock-ups-landing/Benefits%20Section.png)
+
+![Pricing Section](../../assets/Chapther-4/mock-ups-landing/Pricing%20Section.png)
+
+
+![Demo Section](../../assets/Chapther-4/mock-ups-landing/Demo%20Section.png)
+
+![Team Section](../../assets/Chapther-4/mock-ups-landing/Team%20Section.png)
+
+
+![Footer](../../assets/Chapther-4/mock-ups-landing/Footer.png)
 
 ### 4.4. Web Applications UX/UI Design
 
@@ -4023,7 +4034,7 @@ Esta sección documenta el **Sprint 1** (entrega AV1), correspondiente a la prim
 
 #### 5.2.1. Sprint 1
 
-**Duración:** 01 de septiembre de 2026 – 18 de septiembre de 2026 (según el historial de commits del repositorio Vigia-Report y del repositorio vigia-website).
+**Duración:** 01 de septiembre de 2026 – 18 de septiembre de 2026 (según el historial de commits del repositorio vigia-report y del repositorio vigia-website).
 
 **Objetivo del Sprint:** Implementar y desplegar la primera versión del Landing Page de Vigía, cubriendo la propuesta de valor del producto, los beneficios diferenciados por segmento objetivo y el formulario de solicitud de demostración, para cumplir el requisito de implementación de la entrega AV1.
 
@@ -4057,7 +4068,7 @@ Esta sección documenta el Sprint Planning, los líderes y colaboradores por asp
 |---|---|---|
 | Landing Page (UI/Frontend) | Elías (UX/UI y Frontend) | Leonardo Lopez |
 | Investigación y contenido por segmento | Elizabeth (Investigación y negocio) | Mathias |
-| Documentación del informe (Vigia-Report) | Leonardo Lopez (Documentación y soporte) | Todo el equipo |
+| Documentación del informe (vigia-report) | Leonardo Lopez (Documentación y soporte) | Todo el equipo |
 | Coordinación general y arquitectura | Fabián Sandoval (Team Leader) | Todo el equipo |
 
 ##### 5.2.1.3. Sprint Backlog 1
@@ -5910,9 +5921,9 @@ El despliegue del Landing Page se configuró en GitHub Pages sobre el repositori
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
-El equipo trabajó bajo GitFlow, con una rama `feature/<nombre>` por integrante sobre el repositorio Vigia-Report, integrando el trabajo a `develop` mediante Pull Request. Durante el Sprint 1 se fusionaron los Pull Requests #7, #8, #9 y #10 hacia `develop`, evidenciando revisión antes de la integración en lugar de commits directos sobre la rama compartida.
+El equipo trabajó bajo GitFlow, con una rama `feature/<nombre>` por integrante sobre el repositorio vigia-report, integrando el trabajo a `develop` mediante Pull Request. Durante el Sprint 1 se fusionaron los Pull Requests #7, #8, #9 y #10 hacia `develop`, evidenciando revisión antes de la integración en lugar de commits directos sobre la rama compartida.
 
-**Participación registrada (commits en Vigia-Report a la fecha de esta entrega):**
+**Participación registrada (commits en vigia-report a la fecha de esta entrega):**
 
 | Integrante (usuario de GitHub) | Commits | Rama de trabajo     |
 |---|---|---------------------|
@@ -5974,7 +5985,7 @@ Esta sección documenta el Sprint Planning, los líderes y colaboradores por asp
 | Frontend Web Application (UI/Frontend) | Elías (UX/UI y Frontend) | Leonardo Lopez |
 | RESTful API / Backend | Fabián Sandoval (Team Leader) | Mathias |
 | Landing Page (nueva versión) | Elías (UX/UI y Frontend) | Elizabeth (Investigación y negocio) |
-| Documentación del informe (Vigia-Report) | Leonardo Lopez (Documentación y soporte) | Todo el equipo |
+| Documentación del informe (vigia-report) | Leonardo Lopez (Documentación y soporte) | Todo el equipo |
 | Coordinación general y arquitectura | Fabián Sandoval (Team Leader) | Todo el equipo |
 
 ##### 5.2.2.3. Sprint Backlog 2

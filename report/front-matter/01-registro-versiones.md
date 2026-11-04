@@ -198,5 +198,11 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
       <td>Leonardo López</td>
       <td>Corrección de las URLs de despliegue, actualización de la sección 5.1 y de las secciones 5.2.2.6 y 5.2.2.7, tabla de contenidos, Student Outcome, Conclusiones y normalización de encabezados.</td>
     </tr>
+    <tr>
+      <td>1.0.6</td>
+      <td>2026-11-03</td>
+      <td>Leonardo López</td>
+      <td>Modelo simplificado del transportista en las historias de usuario, conversión de imágenes HTML a Markdown, enlaces al repositorio, competidor BuildPass y corrección de perfiles de integrantes.</td>
+    </tr>
   </tbody>
 </table>

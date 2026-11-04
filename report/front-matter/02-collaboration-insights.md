@@ -1,6 +1,6 @@
 ## Project Report Collaboration Insights
 
-Repositorio del Project Report: **https://tinyurl.com/2c98uev3**
+Repositorio del Project Report: **https://github.com/upc-pre-202620-1asi0730-8084-Developers/vigia-report**
 
 ### AV1
 
