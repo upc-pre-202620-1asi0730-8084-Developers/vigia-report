@@ -22,13 +22,13 @@ Velásquez Núñez, Ángel Augusto
 
 
 
-Equipo
+Startup
 
 **Trazza Labs**
 
-Proyecto
+Producto
 
-**Vigia**
+**Vigía**
 
 **Integrantes**
 
@@ -36,13 +36,13 @@ Proyecto
 |------------|-----------------------------------|
 | u20241a649 | Lopez, Leonardo                   |
 | u20231c197 | Apaza Bocanegra, Elizabeth Noelia |
-| U202316353 | Cardenas Huaman, Mathias Andree               |
+| u202316353 | Cardenas Huaman, Mathias Andree               |
 | u20201a277 | Ramos Cerdan, Elias Daniel                |
 | u20221a132 | Sandoval Cueto, Fabian Jesus                |
 
-Periodo 202620
+Ciclo académico 2026-20
 
-Septiembre 2026
+Noviembre 2026
 
 
 <br>
