@@ -22,3 +22,19 @@ Los cinco integrantes registran commits propios sobre el repositorio durante el 
 
 ![Collaboration-insigths.png](../../assets/chapther-5/Collaboration-insights.png)
 
+
+### TB1
+
+Para la entrega TB1 el informe siguió elaborándose bajo GitFlow: cada integrante trabajó en su rama personal `feature/<nombre>` e integró su avance mediante Pull Request. El repositorio `vigia-report` registra 23 Pull Requests fusionados a la fecha. En esta entrega se agregaron las secciones de diseño de producto (capítulo IV), el Sprint 2 y los diagramas de arquitectura, y se corrigieron los artefactos presentados en AV1 con la retroalimentación recibida, lo que se refleja en las versiones 1.0.1 a 1.0.4 del Registro de Versiones del Informe.
+
+El siguiente cuadro resume los commits por integrante en el repositorio del informe, según GitHub, al 3 de noviembre de 2026:
+
+| Integrante | Usuario de GitHub | Commits | Rama de trabajo |
+|---|---|---|---|
+| Leonardo Lopez | `LeonardoLopez138` | 63 | `feature/leonardo` |
+| Elías Ramos | `eliocerdan` | 49 | `feature/Ramos` |
+| Elizabeth Apaza | `ApazaEN` | 43 | `feature/Apaza` |
+| Fabián Sandoval | `FabianSandovalCueto` / `JFabianSandoval` | 27 | `feature/Sandoval` |
+| Mathias Cárdenas | `Usuario353` | 23 | `feature/Cardenas` |
+
+Los cinco integrantes tienen commits propios en el informe, de modo que todos participaron en su elaboración, conforme lo exige el enunciado del proyecto. Los analíticos de colaboración y de commits de la implementación se presentan en la sección 5.2.2.8.

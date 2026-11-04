@@ -22,13 +22,13 @@ Velásquez Núñez, Ángel Augusto
 
 
 
-Equipo
+Startup
 
 **Trazza Labs**
 
-Proyecto
+Producto
 
-**Vigia**
+**Vigía**
 
 **Integrantes**
 
@@ -36,19 +36,56 @@ Proyecto
 |------------|-----------------------------------|
 | u20241a649 | Lopez, Leonardo                   |
 | u20231c197 | Apaza Bocanegra, Elizabeth Noelia |
-| U202316353 | Cardenas Huaman, Mathias Andree               |
+| u202316353 | Cardenas Huaman, Mathias Andree               |
 | u20201a277 | Ramos Cerdan, Elias Daniel                |
 | u20221a132 | Sandoval Cueto, Fabian Jesus                |
 
-Periodo 202620
+Ciclo académico 2026-20
 
-Septiembre 2026
+Noviembre 2026
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 
 
 </div>
+
+<div style="page-break-after: always;"></div>
 
 ## Registro de Versiones del Informe
 
@@ -244,8 +281,16 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
       <td>Elías Ramos</td>
       <td>Actualización final de Mock-ups de la Web Application y diagramas C4 para TB1.</td>
     </tr>
+    <tr>
+      <td>1.0.5</td>
+      <td>2026-11-03</td>
+      <td>Leonardo López</td>
+      <td>Corrección de las URLs de despliegue, actualización de la sección 5.1 y de las secciones 5.2.2.6 y 5.2.2.7, tabla de contenidos, Student Outcome, Conclusiones y normalización de encabezados.</td>
+    </tr>
   </tbody>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 ## Project Report Collaboration Insights
 
@@ -271,6 +316,131 @@ Los cinco integrantes registran commits propios sobre el repositorio durante el 
 
 ![Collaboration-insigths.png](../../assets/chapther-5/Collaboration-insights.png)
 
+
+### TB1
+
+Para la entrega TB1 el informe siguió elaborándose bajo GitFlow: cada integrante trabajó en su rama personal `feature/<nombre>` e integró su avance mediante Pull Request. El repositorio `vigia-report` registra 23 Pull Requests fusionados a la fecha. En esta entrega se agregaron las secciones de diseño de producto (capítulo IV), el Sprint 2 y los diagramas de arquitectura, y se corrigieron los artefactos presentados en AV1 con la retroalimentación recibida, lo que se refleja en las versiones 1.0.1 a 1.0.4 del Registro de Versiones del Informe.
+
+El siguiente cuadro resume los commits por integrante en el repositorio del informe, según GitHub, al 3 de noviembre de 2026:
+
+| Integrante | Usuario de GitHub | Commits | Rama de trabajo |
+|---|---|---|---|
+| Leonardo Lopez | `LeonardoLopez138` | 63 | `feature/leonardo` |
+| Elías Ramos | `eliocerdan` | 49 | `feature/Ramos` |
+| Elizabeth Apaza | `ApazaEN` | 43 | `feature/Apaza` |
+| Fabián Sandoval | `FabianSandovalCueto` / `JFabianSandoval` | 27 | `feature/Sandoval` |
+| Mathias Cárdenas | `Usuario353` | 23 | `feature/Cardenas` |
+
+Los cinco integrantes tienen commits propios en el informe, de modo que todos participaron en su elaboración, conforme lo exige el enunciado del proyecto. Los analíticos de colaboración y de commits de la implementación se presentan en la sección 5.2.2.8.
+
+<div style="page-break-after: always;"></div>
+
+## Contenido
+
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de las entrevistas](#222-registro-de-las-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](#31-user-stories)
+  - [3.2. Impact Mapping](#32-impact-mapping)
+  - [3.3. Product Backlog](#33-product-backlog)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guide](#412-web-style-guide)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagrams](#481-database-diagrams)
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+- [Conclusiones](#conclusiones)
+  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Bibliografía](#bibliografía)
+- [Anexo A. Videos de Exposiciones](#anexo-a-videos-de-exposiciones)
+
+<div style="page-break-after: always;"></div>
+
+## Student Outcome
+
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
+**ABET – EAC - Student Outcome 5**
+
+**Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+
 <table>
   <thead>
     <tr>
@@ -279,127 +449,81 @@ Los cinco integrantes registran commits propios sobre el repositorio durante el 
       <th>Conclusiones</th>
     </tr>
   </thead>
-
   <tbody>
     <tr>
+      <td rowspan="2"><strong>Trabaja en equipo para proporcionar liderazgo en forma conjunta</strong></td>
       <td>
-        Trabaja en equipo para proporcionar liderazgo en forma conjunta
+        <ul>
+          <li><strong>Sandoval Cueto, Fabián</strong>
+            <br><em>— AV1:</em> Coordinó la definición de la arquitectura de la solución y organizó la integración del trabajo del equipo en el repositorio, revisando y aprobando los Pull Requests #7, #8, #9 y #10 hacia la rama develop.
+            <br><em>— TB1:</em> Lideró la reestructuración de la arquitectura asumiendo la totalidad del C4 Model y el diseño de la base de datos simulada mediante JSON Server. Además, coordinó proactivamente la reasignación de los Bounded Contexts en el desarrollo del frontend para evitar bloqueos en el equipo.
+          </li>
+          <br>
+          <li><strong>Lopez, Leonardo</strong>
+            <br><em>— AV1:</em> Lideró la configuración del control de versiones mediante GitFlow y ramas por integrante, además del despliegue del Landing Page. Asimismo, coordinó la redacción y consistencia del informe entre capítulos.
+            <br><em>— TB1:</em> Asumió el liderazgo en la gestión del ciclo de vida del desarrollo, documentando la configuración del software y planificando los Sprints en el Capítulo V. Guio la consolidación de requisitos corrigiendo el Product Backlog y refinando el análisis del Needfinding.
+          </li>
+          <br>
+          <li><strong>Ramos Cerdán, Elías Daniel</strong>
+            <br><em>— AV1:</em> Lideró el desarrollo del diseño UX/UI correspondiente a la Landing Page y a la Web Application, elaborando wireframes, mock-ups, User Flow Diagrams y el prototipo de navegación. Además, mantuvo la consistencia visual entre las diferentes vistas y roles considerados para Vigía.
+            <br><em>— TB1:</em> Lideró la estandarización de la experiencia de usuario, traduciendo al inglés y actualizando los mock-ups separados por roles específicos. Dirigió la compilación final del reporte en la rama <code>main</code>, la elaboración de diapositivas y la documentación de Performance.
+          </li>
+          <br>
+          <li><strong>Cardenas Huaman, Mathias Andree</strong>
+            <br><em>— AV1:</em> Guio al equipo en la formulación de las hipótesis de valor y coordinó la estructuración del Lean UX Canvas para alinear la visión del negocio con métricas de éxito medibles. Asimismo, asumió el liderazgo técnico en el diseño orientado a objetos, definiendo los agregados, entidades y contratos de dominio en UML para cada Bounded Context en estrecha coordinación con sus compañeros.
+            <br><em>— TB1:</em> Lideró el alineamiento de la visión del producto corrigiendo, estructurando y traduciendo los Hypothesis Statements del Lean UX para enfocarlos en metas reales de un negocio emergente.
+          </li>
+          <br>
+          <li><strong>Apaza Bocanegra, Elizabeth Noelia</strong>
+            <br><em>— AV1:</em> Contribuyó al análisis inicial del proyecto desarrollando la sección de Antecedentes y problemática, así como los Lean UX Problem Statements. Con este aporte, facilitó que el equipo tuviera un marco de referencia claro sobre el contexto y las necesidades de los usuarios para alinear el diseño de la solución.
+            <br><em>— TB1:</em> Lideró la validación continua del problema en campo, incorporando, documentando y analizando demográficamente nuevas entrevistas para asegurar que los artefactos de diseño respondan fielmente a los usuarios objetivo.
+          </li>
+        </ul>
       </td>
-
-<td>
-        <p>
-          <strong>Sandoval Cueto, Fabián — AV1:</strong>
-          Coordinó la definición de la arquitectura de la solución y organizó la integración
-          del trabajo del equipo en el repositorio, revisando y aprobando los Pull Requests
-          #7, #8, #9 y #10 hacia la rama <code>develop</code>.
-        </p>
-
-<p>
-          <strong>Lopez, Leonardo — AV1:</strong>
-          Lideró la configuración del control de versiones mediante GitFlow y ramas por
-          integrante, además del despliegue del Landing Page. Asimismo, coordinó la redacción
-          y consistencia del informe entre capítulos.
-        </p>
-
-<p>
-          <strong>Ramos Cerdán, Elías Daniel — AV1:</strong>
-          Lideró el desarrollo del diseño UX/UI correspondiente a la Landing Page y a la
-          Web Application, elaborando wireframes, mock-ups, User Flow Diagrams y el prototipo
-          de navegación. Además, mantuvo la consistencia visual entre las diferentes vistas
-          y roles considerados para Vigía.
-        </p>
-
-<p>
-          <strong>Cardenas Huaman, Mathias Andree — AV1:</strong>
-          Guio al equipo en la formulación de las hipótesis de valor y coordinó la estructuración
-          del Lean UX Canvas para alinear la visión del negocio con métricas de éxito medibles.
-          Asimismo, asumió el liderazgo técnico en el diseño orientado a objetos, definiendo los
-          agregados, entidades y contratos de dominio en UML para cada Bounded Context en estrecha
-          coordinación con sus compañeros.
-        </p>
-
-<p>
-          <strong>Apaza Bocanegra, Elizabeth Noelia — AV1:</strong>
-          Contribuyó al análisis inicial del proyecto desarrollando la sección de Antecedentes y
-          problemática, así como los Lean UX Problem Statements. Con este aporte, facilitó que el
-          equipo tuviera un marco de referencia claro sobre el contexto y las necesidades de los
-          usuarios para alinear el diseño de la solución.
-        </p>
-      </td>
-
-<td>
-        Como equipo, demostramos un liderazgo compartido al asumir responsabilidades en diferentes
-        áreas del proyecto según nuestras fortalezas. Distribuimos el liderazgo entre la arquitectura
-        de la solución, el control de versiones, el diseño UX/UI, la investigación, Lean UX y el
-        modelado orientado a objetos. Esta organización permitió que cada integrante aportara desde
-        su especialidad y que las decisiones tomadas en una sección se mantuvieran relacionadas con
-        el resto del proyecto. De esta manera, logramos avanzar de forma conjunta manteniendo
-        coherencia entre el problema identificado, los requisitos, el diseño y la solución propuesta.
+      <td>
+        <p><strong>AV1:</strong> Como equipo, demostramos un liderazgo compartido al asumir responsabilidades en diferentes áreas del proyecto según nuestras fortalezas. Distribuimos el liderazgo entre la arquitectura de la solución, el control de versiones, el diseño UX/UI, la investigación, Lean UX y el modelado orientado a objetos. Esta organización permitió que cada integrante aportara desde su especialidad y que las decisiones tomadas en una sección se mantuvieran relacionadas con el resto del proyecto. De esta manera, logramos avanzar de forma conjunta manteniendo coherencia entre el problema identificado, los requisitos, el diseño y la solución propuesta.</p>
+        <p><strong>TB1:</strong> Como equipo, demostramos un liderazgo compartido y adaptativo al asumir responsabilidades críticas en la fase de desarrollo frontend. Distribuimos el liderazgo técnico y organizativo: la reestructuración arquitectónica, la gestión de sprints, la estandarización de UI, el alineamiento estratégico del Lean UX y la investigación continua. Esta agilidad nos permitió redistribuir tareas de programación frente a bloqueos y avanzar de forma cohesionada, manteniendo la coherencia entre la codificación de los Bounded Contexts y la documentación exigida.</p>
       </td>
     </tr>
-
-<tr>
+    <tr>
+      <td rowspan="2"><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</strong></td>
       <td>
-        Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas
-        y cumple objetivos
+        <ul>
+          <li><strong>Sandoval Cueto, Fabián</strong>
+            <br><em>— AV1:</em> Definió junto al equipo el alcance del Sprint 1, correspondiente al Landing Page, y el orden de prioridad del Product Backlog, asegurando que las tareas asignadas fueran claras para cada integrante.
+            <br><em>— TB1:</em> Cumplió con el desarrollo frontend del Bounded Context de "Trazabilidad en Tránsito" tras un intercambio colaborativo de tareas con su compañero, y estableció exitosamente los datasets globales del proyecto para que todo el equipo pudiera consumir datos.
+          </li>
+          <br>
+          <li><strong>Lopez, Leonardo</strong>
+            <br><em>— AV1:</em> Documentó el Sprint Backlog y las evidencias de desarrollo, ejecución y despliegue del Sprint 1, dejando trazabilidad de las tareas cumplidas por el equipo.
+            <br><em>— TB1:</em> Adaptándose ágilmente a la redistribución de tareas, completó la implementación frontend del Bounded Context "Gestión de Pedidos y Despacho", y alcanzó las metas de corrección estadística en el análisis de las entrevistas.
+          </li>
+          <br>
+          <li><strong>Ramos Cerdán, Elías Daniel</strong>
+            <br><em>— AV1:</em> Cumplió las actividades asignadas relacionadas con el Startup Profile, registro de entrevistas, diseño de la Landing Page, diseño de la Web Application, User Flow Diagrams y prototipado. Asimismo, trabajó mediante la rama feature/Ramos, registrando sus avances mediante commits y aportando progresivamente al informe del proyecto.
+            <br><em>— TB1:</em> Logró los objetivos de codificación frontend implementando su Bounded Context asignado, "Gestión de Discrepancias y Evidencia", y garantizó la entrega a tiempo de los artefactos consolidando las versiones finales en el repositorio principal.
+          </li>
+          <br>
+          <li><strong>Cardenas Huaman, Mathias Andree</strong>
+            <br><em>— AV1:</em> Promovió la participación activa del grupo durante la ideación del Lean UX Canvas para integrar las diferentes perspectivas del equipo. Planificó y ejecutó a tiempo la elaboración de los diagramas de clases UML, descomponiendo el trabajo en entregables claros y asegurando que las clases modeladas respondieran a las historias de usuario y alcances del Sprint.
+            <br><em>— TB1:</em> Alcanzó las metas de implementación frontend establecidas para el Bounded Context de "Recepción y Verificación en Obra", asegurando su correcta integración en el control de versiones dentro de los plazos.
+          </li>
+          <br>
+          <li><strong>Apaza Bocanegra, Elizabeth Noelia</strong>
+            <br><em>— AV1:</em> Cumplió con las tareas de investigación y diseño establecidas, ejecutando dos entrevistas a usuarios objetivo para la validación del problema. Además, aportó al avance estructural y visual del proyecto elaborando los Web Applications Wireflow Diagrams y los wireframes correspondientes a la Web Application, logrando las metas asignadas para esta entrega.
+            <br><em>— TB1:</em> Cumplió con el desarrollo del código frontend para el Bounded Context de "Registro de Flota y Dispositivos", y completó las metas de documentación subiendo la evidencia de investigación al repositorio centralizado.
+          </li>
+        </ul>
       </td>
-
-<td>
-        <p>
-          <strong>Sandoval Cueto, Fabián — AV1:</strong>
-          Definió junto al equipo el alcance del Sprint 1, correspondiente al Landing Page,
-          y el orden de prioridad del Product Backlog, asegurando que las tareas asignadas
-          fueran claras para cada integrante.
-        </p>
-
-<p>
-          <strong>Lopez, Leonardo — AV1:</strong>
-          Documentó el Sprint Backlog y las evidencias de desarrollo, ejecución y despliegue
-          del Sprint 1, dejando trazabilidad de las tareas cumplidas por el equipo.
-        </p>
-
-<p>
-          <strong>Ramos Cerdán, Elías Daniel — AV1:</strong>
-          Cumplió las actividades asignadas relacionadas con el Startup Profile, registro
-          de entrevistas, diseño de la Landing Page, diseño de la Web Application, User Flow
-          Diagrams y prototipado. Asimismo, trabajó mediante la rama
-          <code>feature/Ramos</code>, registrando sus avances mediante commits y aportando
-          progresivamente al informe del proyecto.
-        </p>
-
-<p>
-          <strong>Cardenas Huaman, Mathias Andree — AV1:</strong>
-          Promovió la participación activa del grupo durante la ideación del Lean UX Canvas para
-          integrar las diferentes perspectivas del equipo. Planificó y ejecutó a tiempo la elaboración
-          de los diagramas de clases UML, descomponiendo el trabajo en entregables claros y asegurando
-          que las clases modeladas respondieran a las historias de usuario y alcances del Sprint.
-        </p>
-
-<p>
-          <strong>Apaza Bocanegra, Elizabeth Noelia — AV1:</strong>
-          Cumplió con las tareas de investigación y diseño establecidas, ejecutando dos entrevistas
-          a usuarios objetivo para la validación del problema. Además, aportó al avance estructural y
-          visual del proyecto elaborando los Web Applications Wireflow Diagrams y los wireframes
-          correspondientes a la Web Application, logrando las metas asignadas para esta entrega.
-        </p>
-      </td>
-
-<td>
-        Como equipo, organizamos las actividades de la entrega mediante la distribución de
-        responsabilidades y la definición de objetivos concretos para cada integrante. Cumplimos
-        tareas relacionadas con investigación, entrevistas, planificación del Sprint, diseño UX/UI,
-        wireframes, wireflows, prototipado, modelado UML, documentación y despliegue. Además,
-        utilizamos GitFlow, ramas individuales, commits y Pull Requests para mantener trazabilidad
-        sobre los avances realizados. La coordinación entre estas actividades permitió integrar los
-        diferentes entregables y alcanzar los objetivos establecidos para el AV1 de manera ordenada
-        y colaborativa.
+      <td>
+        <p><strong>AV1:</strong> Como equipo, organizamos las actividades de la entrega mediante la distribución de responsabilidades y la definición de objetivos concretos para cada integrante. Cumplimos tareas relacionadas con investigación, entrevistas, planificación del Sprint, diseño UX/UI, wireframes, wireflows, prototipado, modelado UML, documentación y despliegue. Además, utilizamos GitFlow, ramas individuales, commits y Pull Requests para mantener trazabilidad sobre los avances realizados. La coordinación entre estas actividades permitió integrar los diferentes entregables y alcanzar los objetivos establecidos para el AV1 de manera ordenada y colaborativa.</p>
+        <p><strong>TB1:</strong> Como equipo, organizamos las actividades de esta entrega dividiendo de manera equitativa la programación del frontend basada en Bounded Contexts independientes. Cumplimos con los objetivos de implementación mediante Vue/Vite, estructuramos bases de datos simuladas y ejecutamos correcciones sustanciales en la documentación. El uso riguroso de GitFlow, la comunicación en tiempo real para resolver dependencias y la disposición para intercambiar módulos de código evidenciaron un entorno altamente colaborativo orientado al cumplimiento de las metas del Trabajo Parcial.</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-
-<!-- Fuente: report/chapters/chapter-1-introduction/1-capitulo-i-introduccion.md -->
+<div style="page-break-after: always;"></div>
 
 ## Capítulo I: Introducción
 
@@ -409,9 +533,6 @@ El capítulo inicia con el Startup Profile, donde se describe a Trazza Labs, la 
 
 Finalmente, el capítulo cierra con la descripción de los segmentos objetivo a los que se dirige la solución, incluyendo sus características demográficas y la información estadística que sustenta su relevancia y tamaño de mercado.
 
-
-<!-- Fuente: report/chapters/chapter-1-introduction/1.1-startup-profile.md -->
-
 ### 1.1. Startup Profile
 
 En esta sección se presenta el perfil de Trazza Labs, startup responsable del
@@ -420,9 +541,6 @@ trazabilidad de los materiales dentro del sector construcción. Asimismo, se
 describe el propósito de la startup y se presentan los perfiles de los integrantes
 del equipo, destacando los principales conocimientos, habilidades y aportes de
 cada miembro para el desarrollo del proyecto.
-
-
-<!-- Fuente: report/chapters/chapter-1-introduction/1.1.1-descripcion-de-la-startup.md -->
 
 #### 1.1.1. Descripción de la Startup
 
@@ -457,9 +575,6 @@ sustenta en la suscripción de empresas constructoras y operadores logísticos b
 un esquema de Software as a Service, lo que le otorga escalabilidad al no requerir
 un incremento proporcional de recursos por cada nuevo cliente atendido.
 
-
-<!-- Fuente: report/chapters/chapter-1-introduction/1.1.2-perfiles-de-integrantes-del-equipo.md -->
-
 #### 1.1.2. Perfiles de integrantes del equipo
 
 En esta sección se presentan los perfiles de los integrantes de Trazza Labs. Para cada miembro se indican sus nombres y apellidos, su código de estudiante y su carrera, junto con un resumen de los conocimientos técnicos y las habilidades que aporta al desarrollo de Vigía.
@@ -472,7 +587,7 @@ El equipo reúne perfiles complementarios en desarrollo backend, desarrollo fron
 
 | | |
 |---|---|
-| <img src="../../../assets/chapther-1/Fabian.jpg" width="150"> | **Apellidos y Nombres:** Sandoval, Fabián<br><br>**Código:** u2022XXXXX<br><br>**Carrera:** Ingeniería de Software<br><br>**Rol en el equipo:** Team Leader |
+| <img src="../../assets/chapther-1/Fabian.jpg" width="150"> | **Apellidos y Nombres:** Sandoval, Fabián<br><br>**Código:** u2022XXXXX<br><br>**Carrera:** Ingeniería de Software<br><br>**Rol en el equipo:** Team Leader |
 
 *Soy estudiante de Ingeniería de Software con experiencia en desarrollo backend con Spring Boot y en desarrollo frontend con Vue 3 y PrimeVue, así como en el uso de Docker para la configuración de entornos de desarrollo. Manejo Git y GitHub aplicando GitFlow y Conventional Commits, lo que me permite coordinar la integración del trabajo del equipo en los repositorios del proyecto. Aporto al equipo en la organización de las tareas, la definición de la arquitectura de la solución y la implementación de los servicios del RESTful API.*
 
@@ -482,7 +597,7 @@ El equipo reúne perfiles complementarios en desarrollo backend, desarrollo fron
 
 | |                                                                                                                                                          |
 |---|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="../../../assets/chapther-1/leo.jpeg" width="150"> | **Apellidos y Nombres:** Lopez, Leonardo<br><br>**Código:** u20241a649<br><br>**Carrera:** Ingeniería de Software<br><br>**Rol en el equipo:** Developer |
+| <img src="../../assets/chapther-1/leo.jpeg" width="150"> | **Apellidos y Nombres:** Lopez, Leonardo<br><br>**Código:** u20241a649<br><br>**Carrera:** Ingeniería de Software<br><br>**Rol en el equipo:** Developer |
 
 *Mi nombre es leonardo gabriel lopez torres, estoy en el 6to ciclo de la carrera de ing de software en la upc, por lo general los conocimientos que tengo es sobre c sharp, c++, typesecript y javasciprt*
 
@@ -492,7 +607,7 @@ El equipo reúne perfiles complementarios en desarrollo backend, desarrollo fron
 
 | | |
 |---|---|
-| <img src="../../../assets/chapther-1/Andree.jpg" width="150"> | **Apellidos y Nombres:** Cardenas Huaman, Mathias Andree<br><br>**Código:** u202316353<br><br>**Carrera:** Ingeniería de Software<br><br>**Rol en el equipo:** Developer |
+| <img src="../../assets/chapther-1/Andree.jpg" width="150"> | **Apellidos y Nombres:** Cardenas Huaman, Mathias Andree<br><br>**Código:** u202316353<br><br>**Carrera:** Ingeniería de Software<br><br>**Rol en el equipo:** Developer |
 
 *Actualmente me encuentro estudiando la carrera de Ingeniería de Software. Soy proactivo y comunicativo, trabajo en equipo y resolución de problemas, también me gusta colocarme objetivos desafiantes para mejorar. Me encanta el curso y mi meta es completarla con la máxima nota posible.*
 
@@ -502,7 +617,7 @@ El equipo reúne perfiles complementarios en desarrollo backend, desarrollo fron
 
 | | |
 |---|---|
-| <img src="../../../assets/chapther-1/Elizabeth.jpg" width="150"> | **Apellidos y Nombres:** Apaza Bocanegra, Elizabeth Noelia<br><br>**Código:** u20231c197<br><br>**Carrera:** Ingeniería de Software<br><br>**Rol en el equipo:** Developer |
+| <img src="../../assets/chapther-1/Elizabeth.jpg" width="150"> | **Apellidos y Nombres:** Apaza Bocanegra, Elizabeth Noelia<br><br>**Código:** u20231c197<br><br>**Carrera:** Ingeniería de Software<br><br>**Rol en el equipo:** Developer |
 
 *Soy estudiante de la carrera de Ingeniería de Software, tengo 20 años y me defino como una persona responsable, organizada y con facilidad para colaborar con los demás. Disfruto mucho del trabajo en equipo porque me permite intercambiar ideas y seguir aprendiendo de mi carrera. Me interesa desarrollar constantemente nuevas habilidades y busco aportar siempre con una comunicación clara y efectiva en cada proyecto. Mi objetivo es fortalecer mi formación académica y aprovechar cada experiencia para crecer tanto en lo profesional como en lo personal.*
 
@@ -512,12 +627,9 @@ El equipo reúne perfiles complementarios en desarrollo backend, desarrollo fron
 
 | |                                                                                                                                                                    |
 |---|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="../../../assets/chapther-1/Ramos-Elias.jpg" width="150"> | **Apellidos y Nombres:** Ramos Cerdan, Elis Daniel<br><br>**Código:** u20201a277<br><br>**Carrera:** Ingeniería de Software<br><br>**Rol en el equipo:** Developer |
+| <img src="../../assets/chapther-1/Ramos-Elias.jpg" width="150"> | **Apellidos y Nombres:** Ramos Cerdan, Elis Daniel<br><br>**Código:** u20201a277<br><br>**Carrera:** Ingeniería de Software<br><br>**Rol en el equipo:** Developer |
 
 *Mi nombre es Elias Daniel Ramos Cerdan y estoy en el séptimo ciclo de la carrera de Ingeniería de Software. Me adapto con facilidad a entornos nuevos y siempre busco maneras de mejorar mi ejecución de cada avance en los trabajos. El desarrollo de software es un área de gran interés para mí, tengo conocimientos en C++, python, html, css, y javascript y disfruto abordando problemas que exigen tanto razonamiento lógico como creatividad. Dentro del grupo mi objetivo es brindar soluciones que favorezcan un buen desarrollo del proyecto, y siempre estar al tanto de que se haga lo mejor de lo mejor.*
-
-
-<!-- Fuente: report/chapters/chapter-1-introduction/1.2-solution-profile.md -->
 
 ### 1.2. Solution Profile
 
@@ -529,9 +641,6 @@ restricciones que delimitan el alcance del proyecto. La segunda, Lean UX Process
 presenta el resultado de aplicar dicho proceso sobre el dominio del problema,
 comprendiendo los Problem Statements, los Assumptions, los Hypothesis Statements
 y el Lean UX Canvas.
-
-
-<!-- Fuente: report/chapters/chapter-1-introduction/1.2.1-antecedentes-y-problematica.md -->
 
 #### 1.2.1. Antecedentes y problemática
 
@@ -587,17 +696,11 @@ El alcance del proyecto se delimita mediante las siguientes restricciones:
 
 - Los productos de la solución deben incorporar características de internacionalización (i18n) y accesibilidad (a11y), considerando como base los idiomas inglés (en_US) y español latinoamericano (es_419).
 
-
-<!-- Fuente: report/chapters/chapter-1-introduction/1.2.2-lean-ux-process.md -->
-
 #### 1.2.2. Lean UX Process
 
 En esta sección se presenta el resultado de aplicar el Lean UX Process sobre el dominio del problema descrito en la sección anterior. Este proceso permite al equipo articular la visión del modelo de negocio que será soportado por Vigía a partir de creencias explícitas sobre el mercado, los usuarios y las funcionalidades, las cuales podrán ser validadas posteriormente mediante la investigación con representantes de los segmentos objetivo.
 
 El proceso se desarrolla en cuatro secciones internas. En primer lugar, se formula un único Problem Statement para todo el proyecto, aplicando el template de Brand new initiative por tratarse de una iniciativa nueva y no de la evolución de un producto existente, y considerando en su enunciado a ambos segmentos objetivo. En segundo lugar, se enumeran los Assumptions del equipo, organizados en los cinco tipos que contempla el proceso: Business Assumptions, Business Outcome Assumptions, User Assumptions, User Outcome and Benefit Assumptions y Feature Assumptions. En tercer lugar, se formulan los Hypothesis Statements que cruzan los Feature Assumptions con los resultados de negocio y de usuario comprometidos en el Problem Statement. Finalmente, la sección cierra con el Lean UX Canvas, que consolida de forma visual los elementos anteriores.
-
-
-<!-- Fuente: report/chapters/chapter-1-introduction/1.2.2.1-lean-ux-problem-statements.md -->
 
 ##### 1.2.2.1. Lean UX Problem Statements
 
@@ -614,9 +717,6 @@ Nuestro producto atenderá esta brecha mediante una plataforma que registra de f
 Nuestro enfoque inicial será el segmento de empresas constructoras e inmobiliarias medianas de Lima Metropolitana que gestionan más de un frente de obra activo.
 
 Sabremos que hemos tenido éxito cuando observemos que las discrepancias entre lo despachado y lo recibido se detecten durante la recepción y no en la conciliación posterior de inventarios, que el tiempo dedicado a esclarecer la responsabilidad por faltantes se reduzca de forma significativa, y que los usuarios de ambos segmentos registren de manera sostenida los eventos de despacho y recepción en la plataforma.
-
-
-<!-- Fuente: report/chapters/chapter-1-introduction/1.2.2.2-lean-ux-assumptions.md -->
 
 ##### 1.2.2.2. Lean UX Assumptions
 
@@ -677,9 +777,6 @@ Para el desarrollo de la plataforma Vigía, el equipo identificó y categorizó 
 - **FA-03.** Creemos que un módulo de recepción, verificación y conciliación en obra permitirá al personal en destino registrar la cantidad efectivamente recibida, marcar discrepancias por faltantes o daños y generar el acta de recepción digital con evidencia fotográfica, operando bajo condiciones de conectividad intermitente.
 
 - **FA-04.** Creemos que un tablero de analítica y registro de incidencias brindará al supervisor de proyecto un histórico de discrepancias, tiempos de traslado y desempeño de transportistas, que sustente la toma de decisiones sobre la operación.
-
-
-<!-- Fuente: report/chapters/chapter-1-introduction/1.2.2.3-lean-ux-hypothesis-statements.md -->
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
@@ -743,10 +840,7 @@ si los transportistas
 obtienen un respaldo verificable de lo que efectivamente se despachó y de los eventos ocurridos en ruta
 mediante el módulo de registro de eventos de tránsito (FA-02) contrastado con la conformidad de recepción (FA-03).
 
-
-<!-- Fuente: report/chapters/chapter-1-introduction/1.2.2.4-lean-ux-canvas.md -->
-
-#### 1.2.2.4. Lean UX Canvas
+##### 1.2.2.4. Lean UX Canvas
 
 En esta sección se presenta el Lean UX Canvas de Vigía, que consolida en un solo artefacto visual los resultados del proceso Lean UX desarrollado en las secciones anteriores. El canvas no introduce contenido nuevo: cada una de sus cajas recoge, en forma resumida, lo ya desarrollado y sustentado previamente en el informe. La caja 1 resume el problema de negocio planteado en la sección 1.2.2.1; la caja 2 recoge los Business Outcome Assumptions de la sección 1.2.2.2; la caja 3 corresponde a los User Assumptions de esa misma sección, complementados con la caracterización de los segmentos de la sección 1.3; la caja 4 recoge los User Outcome and Benefit Assumptions; la caja 5 recoge los Feature Assumptions; y la caja 6 resume los Hypothesis Statements de la sección 1.2.2.3.
 
@@ -763,9 +857,6 @@ Se emplea la versión 2 del Lean UX Canvas de Jeff Gothelf, que organiza el proc
 *Nota.* Elaboración propia del equipo de Trazza Labs sobre la plantilla del Lean UX Canvas v2 de Jeff Gothelf, disponible bajo licencia Creative Commons BY-NC-SA. El contenido de cada caja procede de las secciones 1.2.2.1, 1.2.2.2, 1.2.2.3 y 1.3 del presente informe. El artefacto en su resolución original puede consultarse en el siguiente enlace: [Lean-UX-Canvas](https://tinyurl.com/2cynj6sz).
 
 ---
-
-
-<!-- Fuente: report/chapters/chapter-1-introduction/1.3-segmentos-objetivos.md -->
 
 ### 1.3. Segmentos objetivo
 
@@ -841,8 +932,7 @@ La decisión responde a tres criterios. En primer lugar, es este segmento el que
 
 **Consideración sobre la naturaleza de la información presentada.** Las cifras citadas en esta sección provienen de fuentes estadísticas oficiales y de investigaciones académicas, todas ellas referenciadas en la Bibliografía del presente informe. En contraste, las características de rango de edad, nivel socioeconómico, formación, dispositivos de preferencia y canales de interacción consignadas en los cuadros anteriores constituyen una caracterización preliminar elaborada por el equipo, que será confirmada mediante las entrevistas descritas en la sección 2.2 y cuantificada en el análisis de la sección 2.2.3, dando lugar a los User Personas de la sección 2.3.1.
 
-
-<!-- Fuente: report/chapters/chapter-2-requirements-elicitation-analysis/2-capitulo-ii-requirements-elicitation-analysis.md -->
+<div style="page-break-after: always;"></div>
 
 ## Capítulo II: Requirements Elicitation & Analysis
 
@@ -851,9 +941,6 @@ En este capítulo se presenta el proceso de Needfinding realizado por el equipo,
 A continuación se aborda la recolección de información de primera fuente mediante entrevistas a representantes de los dos segmentos objetivo definidos en la sección 1.3. Dichas entrevistas se registran en video y se editan para construir el video de evidencia de entrevistas. El análisis de las entrevistas sirve de base para la identificación de necesidades y para la construcción de los User Personas de cada segmento objetivo, así como del User Task Matrix, los User Journey Maps y los Empathy Maps correspondientes a cada arquetipo identificado.
 
 Finalmente, el capítulo presenta el Big Picture EventStorming, mediante el cual el equipo modela de forma colaborativa los eventos significativos del dominio del negocio y sus relaciones, y el Ubiquitous Language, que consolida el glosario de términos del dominio que será empleado de manera consistente por todos los miembros del equipo y los stakeholders del proyecto.
-
-
-<!-- Fuente: report/chapters/chapter-2-requirements-elicitation-analysis/2.1-competidores.md -->
 
 ### 2.1. Competidores
 
@@ -893,9 +980,6 @@ Samsara es una plataforma de gestión de flotas y activos que emplea localizaci�
 
 **Sitio web:** https://www.samsara.com/
 
-
-<!-- Fuente: report/chapters/chapter-2-requirements-elicitation-analysis/2.1.1-analisis-competitivo.md -->
-
 #### 2.1.1. Análisis competitivo
 
 En esta sección se presenta el Competitive Analysis Landscape elaborado por el equipo, con el objetivo de conocer mejor a los competidores identificados en la sección anterior, contrastando la idea inicial que el equipo tenía sobre ellos con la información recogida de sus propuestas de valor, mercados objetivo y canales de distribución.
@@ -927,9 +1011,6 @@ A continuación se presenta el análisis SWOT elaborado para la startup y para c
 | **Debilidades** | Startup sin trayectoria ni casos de referencia; menor amplitud funcional frente a plataformas integrales; recursos limitados; dependencia de la adopción por parte de dos segmentos a la vez. | Complejidad y costo elevados para empresas medianas; menor enfoque específico en el traslado y la conciliación de materiales; orientación a mercados de habla inglesa. | Propuesta amplia no especializada en el tramo de traslado y recepción; curva de aprendizaje pronunciada; costo elevado para empresas medianas. | Orientación al presupuesto y al control de costos, sin cobertura del traslado ni de la recepción física; interfaz de escritorio con limitada operación en campo. | No conoce el contenido de la carga ni registra la conformidad de la entrega; requiere inversión en hardware; no está orientada al sector construcción. |
 | **Oportunidades** | Creciente digitalización y formalización del sector construcción en el Perú; necesidad de reducir pérdidas por faltantes; posibilidad de integración futura con sistemas de presupuesto y control de costos ya adoptados por las constructoras. | Expansión hacia mercados latinoamericanos; integración con herramientas empresariales de terceros. | Crecimiento de la gestión digital de activos; ampliación del ecosistema de integraciones. | Ampliación de su alcance hacia la gestión de la operación en campo; migración de su base instalada a soluciones en la nube. | Crecimiento del uso de dispositivos conectados en logística y construcción; mayor exigencia de control sobre activos móviles. |
 | **Amenazas** | Competidores consolidados con mayor capacidad de inversión; resistencia al cambio del personal operativo; dificultad para lograr la adopción simultánea de constructoras y transportistas. | Competencia de plataformas especializadas de menor costo y complejidad; soluciones locales adaptadas a cada mercado. | Competencia directa de Procore y de plataformas especializadas con procesos más sencillos. | Aparición de soluciones en la nube con mayor cobertura funcional; competencia de plataformas internacionales. | Competencia de otras plataformas de localización y telemática; sensibilidad de los clientes al costo del hardware. |
-
-
-<!-- Fuente: report/chapters/chapter-2-requirements-elicitation-analysis/2.1.2-estrategias-y-tacticas-frente-a-competidores.md -->
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
@@ -1021,9 +1102,6 @@ Tácticas:
 
 El conjunto de estrategias descritas se orienta a sostener la ventaja competitiva declarada en el Competitive Analysis Landscape: la reconciliación, sobre un mismo despacho, de la información registrada por el almacén central, el transportista y el frente de obra. Las tácticas asociadas se han formulado considerando las limitaciones de recursos y de trayectoria propias de una startup de reciente creación, así como las características del segmento inicial de enfoque. Estas estrategias tienen carácter preliminar y serán refinadas a partir de los hallazgos del proceso de Needfinding descrito en las secciones siguientes.
 
-
-<!-- Fuente: report/chapters/chapter-2-requirements-elicitation-analysis/2.2-entrevistas.md -->
-
 ### 2.2. Entrevistas
 
 En esta sección se aborda la investigación tomando como base la recolección de información mediante entrevistas a representantes de los segmentos objetivo definidos en la sección 1.3. Las entrevistas permiten obtener información de primera fuente sobre las prácticas actuales de despacho, traslado y recepción de materiales, así como sobre las características objetivas y subjetivas necesarias para la construcción de los arquetipos.
@@ -1032,10 +1110,7 @@ La sección se organiza en tres partes. En primer lugar, el Diseño de entrevist
 
 Todas las entrevistas se registran en video, conforme a lo indicado en el Anexo C del enunciado del proyecto, y su consolidación constituye el video de evidencia de entrevistas.
 
-
-<!-- Fuente: report/chapters/chapter-2-requirements-elicitation-analysis/2.2.1-diseño-de-entrevistas.md -->
-
-### 2.2.1. Diseño de entrevistas
+#### 2.2.1. Diseño de entrevistas
 
 Con el fin de obtener información de primera fuente sobre el dominio del problema, el equipo diseñó un instrumento de entrevista semiestructurada dirigido a representantes de los dos segmentos objetivo definidos en la sección 1.3. El instrumento contempla, para cada segmento, un conjunto de preguntas principales que conducen el hilo de la conversación y un conjunto de preguntas complementarias que permiten profundizar en los temas que el entrevistado abre durante su relato.
 
@@ -1051,7 +1126,7 @@ Las preguntas están redactadas de modo que cada una retome de forma explícita 
 
 Cada entrevista se registra en video, según lo indicado en el Anexo C del enunciado, y su duración estimada es de veinte a treinta minutos. Se considera de tres a cinco entrevistas por cada segmento objetivo.
 
-#### Relación entre variables del arquetipo y preguntas del instrumento
+##### Relación entre variables del arquetipo y preguntas del instrumento
 
 El siguiente cuadro establece la trazabilidad entre las variables necesarias para la construcción de los User Personas y las preguntas que permiten recogerlas.
 
@@ -1073,7 +1148,7 @@ El siguiente cuadro establece la trazabilidad entre las variables necesarias par
 
 ---
 
-#### Preguntas para el Segmento 1: Empresas Constructoras e Inmobiliarias
+##### Preguntas para el Segmento 1: Empresas Constructoras e Inmobiliarias
 
 Este segmento comprende a ingenieros civiles residentes, directores de obra y arquitectos proyectistas responsables de la cubicación de planos, el pedido de materiales, el control de avances estructurales y la recepción física en el frente de trabajo.
 
@@ -1108,7 +1183,7 @@ Este segmento comprende a ingenieros civiles residentes, directores de obra y ar
 
 ---
 
-#### Preguntas para el Segmento 2: Empresas de Logística, Transporte y Almacenes Satélite
+##### Preguntas para el Segmento 2: Empresas de Logística, Transporte y Almacenes Satélite
 
 Este segmento comprende a jefes de almacén central, despachadores, operadores de pesaje y transportistas de carga pesada encargados de la custodia, el pesaje en báscula y el traslado fraccionado de insumos entre centros de acopio y frentes de obra.
 
@@ -1141,14 +1216,11 @@ Este segmento comprende a jefes de almacén central, despachadores, operadores d
 22. Sobre su operación, ¿con qué marcas de vehículos, equipos o aplicaciones trabaja habitualmente? ¿Y hay algún gremio, publicación o colega al que recurra cuando necesita orientarse sobre algo del rubro?
 23. Para cerrar, ¿le ha tocado atender un pedido urgente de una obra tomando material de otra obra o de un almacén más cercano? ¿Cómo se coordinó eso? ¿Y hay algo que no le haya preguntado y que considere importante que sepamos?
 
-
-<!-- Fuente: report/chapters/chapter-2-requirements-elicitation-analysis/2.2.2-registro-de-las-entrevistas.md -->
-
-### 2.2.2. Registro de las entrevistas
+#### 2.2.2. Registro de las entrevistas
 
 A continuación se consigna la información de cada entrevistado, agrupada por segmento objetivo, junto con un resumen descriptivo de los temas abordados durante la conversación. Conforme a lo indicado en el Anexo C del enunciado del proyecto, cada sesión se registra en video y su consolidación constituye el video de evidencia de entrevistas.
 
-> **Nota sobre el estado de esta sección.** Al cierre de esta entrega, el equipo ha completado y grabado la entrevista al primer entrevistado del Segmento 1. Las entrevistas restantes que se consignan a continuación se presentan como entradas ilustrativas, construidas a partir del instrumento de la sección 2.2.1 y del perfil demográfico definido en la sección 1.3, con el fin de avanzar con la estructura del Registro y del Análisis de entrevistas (sección 2.2.3) mientras se completa la etapa de campo. Cada una de ellas será reemplazada por la entrevista real, su grabación en video y su enlace correspondiente antes de la entrega final del informe.
+> **Nota sobre el estado de esta sección.** Las entrevistas a Owen Aguirre Campos, Jennifer Ruiz Aliaga, Angel Giuseppe Barrera Romero y Miguel Pomasonco se encuentran registradas en video, con su enlace de Microsoft Stream. La entrevista a Walter Cconislla Mamani es una entrada ilustrativa construida a partir del instrumento de la sección 2.2.1 y será reemplazada por la entrevista real, con su grabación y enlace, antes de la entrega final del informe. La entrevista a Enoc Ramos Chumpitaz está registrada, pero aún no se incorpora al análisis de la sección 2.2.3.
 >
 > Conforme al Anexo C del enunciado del proyecto, todas las entrevistas de Needfinding se deben consolidar en **un único video** (`upc-pre-202620-1asi0730-<NRC>-<startup>-needfinding-sprint-<n>`, formato .mp4), con un título por entrevista que indique el nombre del entrevistado, el segmento objetivo y la fecha de la entrevista. Por ello, cada entrada del registro incluye la fecha de la entrevista y el minuto de inicio dentro de ese video consolidado, campos que se completarán con el dato real una vez editado el video final.
 
@@ -1181,7 +1253,7 @@ En la entrevista, Owen relató su rutina diaria como residente de obra en un pro
 | Objectivos             | Cumplir los despachos a tiempo, reducir errores y reclamos por diferencias entre lo enviado y lo recibido, y mantener un mejor control de la información durante todo el traslado de los materiales. |
 | Fecha de la entrevista | *5/10/2026*                                                                                                                                                                                          |
 | Duracion               | *14:17*                                                                                                                                                                                              |
-| Captura                | *![img.png](img.png)*                                                                                                                                                                                |
+| Captura                | *![img.png](chapter-2-requirements-elicitation-analysis/img.png)*                                                                                                                                                                                |
 | Url:                   | https://lix.li/fXZIPe                                                                                                                                                                                |
 
 **Resumen de la entrevista**
@@ -1205,7 +1277,7 @@ El entrevistado considera que una nueva herramienta debería centralizar la info
 | Objetivos             | Garantizar la recepción de materiales en óptimas condiciones y cantidades para cumplir la meta diaria de obra al 100%, y proponer mejoras para agilizar los procesos.                                                                                                                                                          |
 | Fecha de la entrevista | 15/09/2026                                                                                                                                                                                                                                                                                              |
 | Inicio en el video consolidado | 0:00                                                                                                                                                                                                                                                                                                      |
-| Captura                | <img src="../../../assets/Chapther-4/entrevistas/entrevista-JenniferRuiz">                                                                                                                                                                                                                                                                                        |
+| Captura                | <img src="../../assets/Chapther-4/entrevistas/entrevista-JenniferRuiz">                                                                                                                                                                                                                                                                                        |
 | Url:                   | https://tinyurl.com/2bk4j9a2                                                                                                                                                                                                                                                                                                             |
 
 Jennifer narró su experiencia como ingeniera civil que asumió funciones de coordinadora en proyectos de infraestructura educativa, y explicó que, al trabajar en provincias, la empresa le asigna un hospedaje cercano para facilitar sus largas jornadas que suelen extenderse hasta las siete de la noche. Describió que la notificación de un despacho llega mediante una guía de remisión indicando que el material está en ruta, y que en el frente de obra usa un sistema de inventario corporativo con buena señal de internet, lo cual agiliza notablemente el flujo de trabajo. Contó que, en una ocasión, un despacho de cerámicos llegó con colores y cantidades diferentes a lo solicitado y que la solución fue rechazar el camión completo porque en la obra no pueden recibir entregas parciales de una compra total. Mencionó que lo que más la desgasta es el conteo unitario y la verificación exhaustiva de calidad al recibir lotes masivos, a pesar de considerar siempre un cinco por ciento de merma por traslado. Sobre el vocabulario, remarcó que en su obra al registro de entradas y salidas de material le dicen simplemente el Kárdex, y que a la validación matutina de seguridad la llaman la charla de Soma. Comentó que los proveedores de agregados cambian constantemente, pues esto depende de la región, aunque mantienen a Aceros Arequipa como aliado fijo por su calidad y suelen realizar préstamos internos de materiales entre distintas obras.
@@ -1224,7 +1296,7 @@ Jennifer narró su experiencia como ingeniera civil que asumió funciones de coo
 | Objectivos             | Organizar los despachos de materiales de manera rápida y ordenada, reducir errores y retrasos, centralizar la información de cada despacho y contar con evidencias claras de cada etapa del proceso.                                                                                                                         |
 | Fecha de la entrevista | 13/09/2026                                                                                                                                                                                                                                                                                                                   |
 | Duración               | 16:36                                                                                                                                                                                                                                                                                                                        |
-| Captura                | <img src="../../../assets/Chapther-4/entrevistas/entrevista-AngelBarrera.png" alt="Captura entrevista Angel Barrera" width="350">                                                                                                                                                                                                     |
+| Captura                | <img src="../../assets/Chapther-4/entrevistas/entrevista-AngelBarrera.png" alt="Captura entrevista Angel Barrera" width="350">                                                                                                                                                                                                     |
 | Url:                   | https://tinyurl.com/295hvb4u |
 
 **Resumen de la entrevista**
@@ -1242,7 +1314,7 @@ El entrevistado se desempeña como jefe de almacén y despacho, cuenta con ampli
 | Objectivos             | Atiende normalmente entre 3 y 5 obras activas y coordina entre 15 y 25 despachos por semana.                                                                                                                                                                                                                                 |
 | Fecha de la entrevista | 14/09/2026                                                                                                                                                                                                                                                                                                                   |
 | Duracion               | 11:30                                                                                                                                                                                                                                                                                                                        |
-| Captura                | <img src="../../../assets/Chapther-4/entrevistas/entrevista-MiguelPomasonco.png" alt="Captura entrevista Miguel Pomasonco" width="350">                                                                                                                                                                                      |
+| Captura                | <img src="../../assets/Chapther-4/entrevistas/entrevista-MiguelPomasonco.png" alt="Captura entrevista Miguel Pomasonco" width="350">                                                                                                                                                                                      |
 | Url:                   | https://tinyurl.com/2923phzy |
 
 **Resumen de la entrevista**
@@ -1260,21 +1332,19 @@ El entrevistado se desempeña como coordinador de despacho y transporte de mater
 | Objectivos             | Terminar cada ruta sin contratiempos ni descuentos en su liquidación por diferencias que él no ocasionó, para seguir sosteniendo a su familia con este trabajo |
 | Fecha de la entrevista | 10/09/26                                                                                                                                                      |
 | Inicio en el video consolidado | 0:00                                                                                                                                                          |
-| Captura                |                                                                                                                              |
-| Url:                   | *Pendiente*                                                                                                                                                   |
+| Captura                |  <img src="../../assets/Chapther-4/entrevistas/entrevista-WalterMamani.png" alt="Captura entrevista Walter Mamani" width="350">       |
+| Url:                   | https://28mbcfe.s.gy/my-link                                                                                                                                                   |
+
 
 Walter contó su experiencia de más de veinte años como transportista de carga pesada al servicio de obras de construcción, describiendo que su jornada empieza en el almacén, donde espera a que se complete el pesaje y la firma de la guía de remisión antes de salir hacia la obra asignada. Relató que, una vez en ruta, tiene poca o ninguna visibilidad de si algo cambia en el pedido, y que su principal forma de comunicación con el residente de obra es una llamada telefónica cuando se acerca al destino o cuando surge un imprevisto como un desvío o una demora. Narró un episodio en el que, al llegar a la obra, el residente cuestionó que faltaba material, y que él no tuvo forma de demostrar en ese momento que la carga había salido completa según lo firmado en el almacén, lo que terminó en un descuento sobre su liquidación. Señaló que desconfiaría de cualquier aplicación que le exigiera completar registros mientras conduce, y que la decisión de usar una herramienta así no depende de él sino del dueño de la empresa de transporte para la que trabaja. Mencionó que a la guía de remisión la llama simplemente la guía y que a la conformidad de entrega en obra la llama el visto bueno del residente. Sobre las marcas, mencionó su camión de una marca de uso extendido entre transportistas de carga pesada del país, y dijo mantenerse informado a través de otros conductores y de grupos de transportistas en redes sociales.
 
-
-<!-- Fuente: report/chapters/chapter-2-requirements-elicitation-analysis/2.2.3-analisis-de-entrevistas.md -->
-
-### 2.2.3. Análisis de entrevistas
+#### 2.2.3. Análisis de entrevistas
 
 En esta sección se analizan las entrevistas consignadas en la sección 2.2.2, con el fin de identificar las características objetivas y subjetivas más comunes de cada segmento objetivo. El análisis se organiza en dos partes, una por segmento, y en cada una se contrastan las respuestas obtenidas frente a las variables del arquetipo definidas en el cuadro de trazabilidad de la sección 2.2.1: datos demográficos, ocupación y background, habilidades, objetivos, frustraciones, personalidad, marcas e influencias, dispositivos, canales digitales, entorno organizacional, autoridad de decisión y terminología del dominio. Los hallazgos que se presentan a continuación constituyen la base de los User Personas de la sección 2.3.1 y del User Task Matrix de la sección 2.3.2.
 
-> **Nota sobre el estado de esta sección.** Actualmente se cuenta con dos entrevistas reales registradas para cada segmento objetivo. Las entrevistas de Renzo Salazar Huamán y Walter Cconislla Mamani se mantienen como entradas ilustrativas pendientes de grabación y, por ello, no se consideran dentro de los porcentajes ni frecuencias de este análisis. Los resultados presentados corresponden únicamente a las cuatro entrevistas reales disponibles y serán actualizados cuando se complete como mínimo una tercera entrevista por segmento, de acuerdo con lo establecido en el diseño de entrevistas.
+> **Nota sobre el estado de esta sección.** El análisis se basa en cuatro entrevistas reales, dos por segmento objetivo: Owen Aguirre Campos y Jennifer Ruiz Aliaga (Segmento 1), y Angel Giuseppe Barrera Romero y Miguel Pomasonco (Segmento 2). Las entrevistas a Enoc Ramos Chumpitaz y Walter Cconislla Mamani no se consideran dentro de los porcentajes ni frecuencias. Los resultados se actualizarán cuando se incorpore como mínimo una tercera entrevista por segmento, de acuerdo con lo establecido en el diseño de entrevistas.
 
-#### Análisis del Segmento 1: Empresas Constructoras e Inmobiliarias
+##### Análisis del Segmento 1: Empresas Constructoras e Inmobiliarias
 
 **Datos demográficos y ocupacionales.** Las dos personas entrevistadas —Owen Aguirre Campos (26 años, ingeniero civil y residente de obra) y Jennifer Ruiz Aliaga (29 años, ingeniera civil y coordinadora de obra)— tienen una edad promedio de 27.5 años. Owen reside en San Martín de Porres, mientras que Jennifer reside en San Isidro y actualmente se encuentra alojada en Huancayo debido al proyecto en el que trabaja. La proporción de género es de 50% hombres y 50% mujeres, y ambos entrevistados son solteros. A pesar de desempeñar cargos diferentes, los dos participan directamente en actividades relacionadas con el control, verificación y recepción de materiales en obra.
 
@@ -1298,7 +1368,7 @@ En esta sección se analizan las entrevistas consignadas en la sección 2.2.2, c
 
 **Personalidad, herramientas y entorno organizacional.** Las condiciones tecnológicas varían entre ambos entrevistados. Owen trabaja en un frente de obra donde la conexión a internet puede ser intermitente, por lo que utiliza temporalmente un cuaderno físico y posteriormente traslada la información a una hoja de cálculo. Además, WhatsApp constituye uno de sus principales canales para conocer y coordinar los despachos. Jennifer trabaja con una conexión estable y utiliza un sistema corporativo de inventario para apoyar el control de materiales, aunque la revisión física continúa siendo necesaria. Ambos muestran una actitud orientada al control y a la verificación de la información antes de aceptar una recepción. La terminología reportada incluye expresiones como guía de remisión, merma, Kárdex y conformidad de recepción, términos relacionados directamente con los procesos de control de materiales en obra.
 
-#### Análisis del Segmento 2: Empresas de Logística, Transporte y Almacenes Satélite
+##### Análisis del Segmento 2: Empresas de Logística, Transporte y Almacenes Satélite
 
 **Datos demográficos y ocupacionales.** Las dos personas entrevistadas —Angel Giuseppe Barrera Romero (40 años, jefe de almacén central) y Miguel Pomasonco (53 años, coordinador de despacho y transporte de materiales)— tienen una edad promedio de 46.5 años. Ángel reside en Ate y Miguel en La Victoria. Ambos participan directamente en la preparación, organización y seguimiento de una cantidad importante de despachos destinados a diferentes obras. Ángel coordina aproximadamente cuatro obras y entre veinte y treinta despachos por semana, mientras que Miguel gestiona normalmente entre tres y cinco obras activas y entre quince y veinticinco despachos semanales. Esto evidencia que ambos necesitan controlar simultáneamente información correspondiente a múltiples pedidos, vehículos y destinos.
 
@@ -1322,14 +1392,11 @@ En esta sección se analizan las entrevistas consignadas en la sección 2.2.2, c
 
 **Personalidad, herramientas y entorno organizacional.** Ambos entrevistados muestran una orientación práctica hacia la tecnología y consideran que una nueva herramienta debe facilitar el trabajo existente en lugar de añadir pasos innecesarios. Ángel coordina despachos mediante una combinación de documentación física, Excel, WhatsApp y llamadas, mientras que Miguel complementa estas herramientas con el sistema interno y correos electrónicos. En ambos casos existe interés por contar con una fuente centralizada de información que permita conocer qué ocurrió durante cada etapa del despacho y consultar posteriormente las evidencias asociadas. Asimismo, ambos consideran importante que la herramienta pueda utilizarse en condiciones de conectividad limitada y mantenga una operación rápida y sencilla. La terminología utilizada se relaciona con conceptos como guía de remisión, stock, pesaje, despacho, transporte y autorización de salida, términos que forman parte del proceso cotidiano de preparación y envío de materiales.
 
-#### Síntesis entre segmentos
+##### Síntesis entre segmentos
 
 El hallazgo más relevante para el diseño de la solución es que ambos segmentos participan en extremos distintos de un mismo proceso y encuentran dificultades para mantener continuidad sobre la información generada entre la salida del almacén y la recepción en obra. El Segmento 1 necesita comprobar que los materiales recibidos correspondan con lo esperado y evitar que las diferencias afecten el avance de las actividades de construcción. El Segmento 2 necesita mantener control sobre lo preparado y despachado, conocer qué ocurre durante el traslado y disponer de evidencia que permita aclarar posteriormente cualquier diferencia.
 
 En ambos segmentos se observa que la información necesaria para reconstruir un despacho puede encontrarse distribuida entre sistemas internos, hojas de cálculo, guías de remisión, llamadas, mensajes, fotografías y registros físicos. Cuando ocurre una diferencia, los usuarios deben reunir nuevamente estas fuentes para determinar qué sucedió. Esta coincidencia sustenta directamente la propuesta de valor de Vigía, orientada a mantener la trazabilidad de los materiales durante el proceso de despacho, transporte y recepción, y proporciona información para revisar y validar posteriormente los User Personas de la sección 2.3.1 y las tareas críticas identificadas en el User Task Matrix de la sección 2.3.2.
-
-
-<!-- Fuente: report/chapters/chapter-2-requirements-elicitation-analysis/2.3-needfinding.md -->
 
 ### 2.3. Needfinding
 
@@ -1339,16 +1406,13 @@ La sección se organiza en cuatro partes. En primer lugar, se presentan las fich
 
 Los artefactos de esta sección se elaboran en UXPressia, herramienta indicada para el proyecto, y se incorporan al informe mediante capturas de imagen acompañadas de su explicación y análisis correspondiente.
 
-
-<!-- Fuente: report/chapters/chapter-2-requirements-elicitation-analysis/2.3.1-user-personas.md -->
-
 #### 2.3.1. User Personas
 
 En esta sección se presentan las fichas de User Persona elaboradas para cada uno de los segmentos objetivo definidos en la sección 1.3. Cada arquetipo sintetiza las características objetivas y subjetivas que representan los aspectos más comunes de su segmento, recogidas a partir del análisis de entrevistas de la sección 2.2.3 y complementadas con los hallazgos del análisis de la competencia de la sección 2.1.
 
 Del análisis de la competencia se retoma, en particular, la constatación de que las plataformas existentes se orientan a perfiles de oficina técnica y no a usuarios que operan en el frente de obra o en ruta, lo que resulta determinante para caracterizar los dispositivos de preferencia, las condiciones de conectividad y el nivel de familiaridad con herramientas digitales de cada arquetipo.
 
-> **Nota sobre el estado de esta sección.** Los arquetipos que se presentan a continuación fueron elaborados a partir de la investigación documental de los segmentos objetivo y del análisis de la competencia, y han sido contrastados con el análisis preliminar de entrevistas de la sección 2.2.3. Dado que, conforme a lo señalado en la sección 2.2.2, la mayor parte de las entrevistas consignadas son entradas ilustrativas pendientes de grabación, las fichas siguientes conservan carácter preliminar. Los elementos marcados como confirmados coinciden con los patrones observados en al menos dos de las tres entrevistas de su segmento; el resto será validado, corregido o descartado con la muestra real antes de la entrega final del informe.
+> **Nota sobre el estado de esta sección.** Los arquetipos que se presentan a continuación fueron elaborados a partir de la investigación documental de los segmentos objetivo y del análisis de la competencia, y han sido contrastados con el análisis preliminar de entrevistas de la sección 2.2.3. Dado que el análisis de la sección 2.2.3 se basa por ahora en cuatro entrevistas reales (dos por segmento), las fichas siguientes conservan carácter preliminar. Los elementos marcados como confirmados coinciden con los patrones observados en las dos entrevistas reales analizadas de su segmento; el resto será validado, corregido o descartado con la muestra real antes de la entrega final del informe.
 
 ##### User Persona del Segmento 1: Representantes de Empresas Constructoras e Inmobiliarias
 
@@ -1404,13 +1468,10 @@ Este arquetipo representa al responsable de la custodia y el despacho de los mat
 
 **Figura 4**
 
-![Miguel Rojas (1).png](../../assets/chapther-2/user-persona/Miguel%20Rojas%20%281%29.png)
+![Miguel Rojas (1).png](../../assets/chapther-2/user-persona/Miguel%20Rojas%20(1).png)
 
 
 **Párrafo descriptivo para UXPressia.** Miguel Rojas es un jefe de almacén central de 45 años, conviviente y con tres hijos, que reside en Ate y con dieciocho años de experiencia en el sector, incluida trayectoria previa como despachador y operador de báscula. Es práctico y directo, valora los procedimientos claros y la constancia por escrito de lo actuado, y es cauto ante los cambios de sistema debido a experiencias previas de implementaciones que no prosperaron. Su objetivo es despachar completo y a tiempo lo solicitado por cada obra, contando con un respaldo verificable de lo efectivamente despachado que lo proteja de que se le impute una responsabilidad por faltantes originados fuera de su almacén. Lo que más lo frustra es recibir un reclamo días después del despacho, cuando ya es imposible reconstruir lo ocurrido, y depender de la guía de remisión en papel como único respaldo frente a ese reclamo. Se comunica principalmente por llamadas telefónicas y mensajería instantánea, con predominio del uso por voz, y su conectividad es estable en el almacén pero se vuelve variable en cuanto pierde de vista a la unidad que sale a ruta.
-
-
-<!-- Fuente: report/chapters/chapter-2-requirements-elicitation-analysis/2.3.2-user-task-matrix.md -->
 
 #### 2.3.2. User Task Matrix
 
@@ -1418,7 +1479,7 @@ En esta sección se presenta el User Task Matrix, que concentra las tareas que l
 
 Las tareas consignadas corresponden a actividades que ambos arquetipos ejecutan con independencia de la existencia de la solución propuesta, y no a funcionalidades del producto. La frecuencia se expresa en las categorías Alta, Media y Baja, según se ejecute la tarea de forma diaria, semanal u ocasional. La importancia se expresa en las mismas categorías, según la criticidad que el arquetipo atribuye a la tarea para el cumplimiento de sus objetivos.
 
-> **Nota sobre el estado de esta sección.** Los valores de frecuencia e importancia consignados a continuación constituyen una estimación del equipo, contrastada con el análisis preliminar de entrevistas de la sección 2.2.3. Dado que, conforme a lo señalado en la sección 2.2.2, la mayor parte de las entrevistas consignadas son entradas ilustrativas pendientes de grabación, el cuadro conserva carácter preliminar. Las tareas marcadas como confirmadas fueron declaradas de forma explícita, con la frecuencia e importancia indicadas, por al menos dos de los tres entrevistados de su segmento; el resto será validado, ajustado o descartado con la muestra real antes de la entrega final del informe.
+> **Nota sobre el estado de esta sección.** Los valores de frecuencia e importancia consignados a continuación constituyen una estimación del equipo, contrastada con el análisis preliminar de entrevistas de la sección 2.2.3. Dado que el análisis de la sección 2.2.3 se basa por ahora en cuatro entrevistas reales (dos por segmento), el cuadro conserva carácter preliminar. Las tareas marcadas como confirmadas fueron declaradas de forma explícita, con la frecuencia e importancia indicadas, por los dos entrevistados analizados de su segmento; el resto será validado, ajustado o descartado con la muestra real antes de la entrega final del informe.
 
 | | **Carlos Mendoza** (Ingeniero residente) | | **Miguel Rojas** (Jefe de almacén central) | |
 |---|---|---|---|---|
@@ -1459,10 +1520,7 @@ La principal diferencia radica en el foco de cada arquetipo. Las tareas exclusiv
 - *Conciliar el consumo de materiales contra lo presupuestado* y *Sustentar ante la gerencia las diferencias de consumo* se confirman para el Segmento 1: los tres entrevistados vinculan su desempeño profesional a la capacidad de sustentar estas diferencias ante una instancia superior.
 - *Consolidar los registros del día al cierre de la jornada* se confirma para el Segmento 2 con un matiz relevante: el 67% de los entrevistados (2/3) declara mantener, además del sistema o la guía oficial, un registro paralelo en papel o cuaderno como respaldo, lo que evidencia una falta de confianza en que el registro oficial por sí solo sea suficiente ante un reclamo.
 
-Dado que estos hallazgos provienen en su mayoría de entrevistas ilustrativas (sección 2.2.2), esta confirmación debe entenderse como preliminar y será recalculada con la muestra real antes de la entrega final del informe.
-
-
-<!-- Fuente: report/chapters/chapter-2-requirements-elicitation-analysis/2.3.3-user-journey-mapping.md -->
+Dado que estos hallazgos provienen de dos entrevistas reales por segmento (sección 2.2.3), esta confirmación debe entenderse como preliminar y será recalculada con la muestra real antes de la entrega final del informe.
 
 #### 2.3.3. User Journey Mapping
 
@@ -1490,7 +1548,7 @@ Cada User Journey Map se encuentra vinculado al User Persona correspondiente, cu
 
 **Figura 5**
 
-![User Journey Map_ Carlos Mendoza, ingeniero civil residente de obra.png](../../assets/chapther-2/user-journey-map/User%20Journey%20Map_%20Carlos%20Mendoza%2C%20ingeniero%20civil%20residente%20de%20obra.png)
+![User Journey Map_ Carlos Mendoza, ingeniero civil residente de obra.png](../../assets/chapther-2/user-journey-map/User%20Journey%20Map_%20Carlos%20Mendoza,%20ingeniero%20civil%20residente%20de%20obra.png)
 
 ##### User Journey Map: Miguel Rojas, jefe de almacén central
 
@@ -1508,10 +1566,7 @@ Cada User Journey Map se encuentra vinculado al User Persona correspondiente, cu
 
 **Figura 6**
 
-![User Journey Map_ Miguel Rojas, jefe de almacén central.png](../../assets/chapther-2/user-journey-map/User%20Journey%20Map_%20Miguel%20Rojas%2C%20jefe%20de%20almac%C3%A9n%20central.png)
-
-
-<!-- Fuente: report/chapters/chapter-2-requirements-elicitation-analysis/2.3.4-empathy-mapping.md -->
+![User Journey Map_ Miguel Rojas, jefe de almacén central.png](../../assets/chapther-2/user-journey-map/User%20Journey%20Map_%20Miguel%20Rojas,%20jefe%20de%20almac%C3%A9n%20central.png)
 
 #### 2.3.4. Empathy Mapping
 
@@ -1532,9 +1587,6 @@ El proceso de elaboración se inició con la preparación de la sesión colabora
 **Figura 8**
 
 ![Empathy map_Miguell.png](../../assets/chapther-2/empathy-mapping/Empathy%20map_Miguell.png)
-
-
-<!-- Fuente: report/chapters/chapter-2-requirements-elicitation-analysis/2.4-big-picture-eventstorming.md -->
 
 ### 2.4. Big Picture EventStorming
 
@@ -1589,9 +1641,6 @@ El segundo tramo recorre desde la asignación de la unidad y el transportista ha
 
 *Nota.* Tablero elaborado de forma colaborativa por el equipo de Trazza Labs en la herramienta Miro, durante la sesión de Big Picture EventStorming descrita en esta sección. La línea de tiempo se presenta en dos tramos por razones de legibilidad y corresponde a un único tablero continuo. El tablero en su resolución original, con la totalidad de los eventos y sus agrupaciones, puede consultarse en el siguiente enlace: [Big-Picture-Event-Storming](https://da.gd/hqzGI).
 
-
-<!-- Fuente: report/chapters/chapter-2-requirements-elicitation-analysis/2.5-ubiquitous-language.md -->
-
 ### 2.5. Ubiquitous Language
 
 En esta sección se presenta el glosario de términos del dominio de negocio de Vigía, elaborado a partir de la terminología recogida en las entrevistas de la sección 2.2, del análisis competitivo de la sección 2.1 y de los eventos identificados en el Big Picture EventStorming de la sección 2.4. Conforme a lo señalado por Eric Evans en *Domain-Driven Design: Tackling Complexity in the Heart of Software*, el Ubiquitous Language se modela dentro de un contexto delimitado, de modo que los términos y conceptos del dominio de negocio queden identificados sin ambigüedad y permitan una comunicación clara entre todos los miembros del equipo y los stakeholders del proyecto.
@@ -1632,8 +1681,7 @@ El glosario incluye únicamente términos del dominio de negocio de la cadena de
 
 <!-- Este glosario se ampliará conforme el equipo profundice en el Design-Level EventStorming de la sección 4.6.1 e identifique nuevos términos del dominio. -->
 
-
-<!-- Fuente: report/chapters/chapter-3-requirements-specification/3-capitulo-iii-requirements-specification.md -->
+<div style="page-break-after: always;"></div>
 
 ## Capítulo III: Requirements Specification
 
@@ -1641,10 +1689,7 @@ En este capítulo el equipo realiza la especificación de los requisitos de los 
 
 El capítulo se organiza en tres secciones internas. En primer lugar, User Stories presenta el conjunto de Epics, User Stories, Technical Stories y Landing Page Stories que traducen los hallazgos de la investigación en requisitos verificables, con sus respectivos criterios de aceptación. En segundo lugar, Impact Mapping vincula estos requisitos con los objetivos de negocio de Trazza Labs y con los User Persona identificados. Finalmente, Product Backlog organiza y prioriza el conjunto de Epics y User Stories para su desarrollo.
 
-
-<!-- Fuente: report/chapters/chapter-3-requirements-specification/3.1-user-stories.md -->
-
-#### 3.1. User Stories
+### 3.1. User Stories
 
 En esta sección se presenta el conjunto de Epics, User Stories, Technical Stories y Landing Page Stories identificados para Vigía. Las Epics se definieron a partir de los ocho Bounded Context candidatos identificados en el Big Picture EventStorming de la sección 2.4, actualizado tras la sesión de Design-Level EventStorming de la sección 4.6.1: Captación, Gestión de Cuentas y Accesos, Suscripciones y Pagos, Registro de Flota y Dispositivos, Gestión de Pedidos y Despacho, Trazabilidad en Tránsito, Recepción y Verificación en Obra, y Gestión de Discrepancias y Evidencia. La correspondencia entre ambos artefactos es directa: la Epic EP-06 (Landing Page) cubre el Bounded Context de Captación, y cada uno de los siete Bounded Context restantes se cubre con una Epic homónima (EP-01 a EP-05, EP-07 y EP-08).
 
@@ -1694,10 +1739,7 @@ Cada User Story sigue el formato "Como [rol], deseo [acción], para [beneficio]"
 | US-19 | Definición de geocercas de almacén y obra | Como Jefe de almacén, deseo definir la geocerca del almacén y de cada obra, para que el sistema pueda detectar automáticamente la salida y la llegada de una unidad. | Dado que el jefe de almacén dibuja el perímetro de un predio (almacén u obra) en el mapa, cuando confirma la geocerca, entonces el sistema la asocia a ese predio para su uso en la detección automática de eventos de tránsito. | EP-08 |
 | TS-08 | Endpoint de recepción de reportes del dispositivo GPS | Como desarrollador de la Web Application, necesito que el API reciba los reportes periódicos de posición del dispositivo de seguimiento satelital, para poder mostrar en las pantallas de Transporte y Envíos la ubicación de la unidad sin que el transportista registre nada. | Dado que el dispositivo GPS de una unidad en tránsito envía un reporte de posición, cuando el servidor lo recibe, entonces el servidor registra el evento de ubicación asociado al despacho en curso y responde con un código 200.<br><br>Dado que el reporte de posición proviene de un dispositivo no vinculado a ninguna unidad activa, cuando el servidor lo recibe, entonces el servidor descarta el reporte y lo registra como evento no asociado. | EP-08 |
 
-
-<!-- Fuente: report/chapters/chapter-3-requirements-specification/3.2-impact-mapping.md -->
-
-#### 3.2. Impact Mapping
+### 3.2. Impact Mapping
 
 En esta sección el equipo presenta el Impact Map elaborado para el modelo de negocio digital de Vigía, en la herramienta UXPressia. Su elaboración partió de las fichas de User Persona ya construidas en dicha herramienta (sección 2.3.1) y busca responder, para cada objetivo de negocio de Trazza Labs, tres preguntas sucesivas: quiénes pueden ayudar a lograr la meta (Actors), qué tendrían que hacer o cómo tendrían que cambiar su comportamiento para lograrlo (Impacts), y qué puede construir el negocio para provocar ese cambio (Deliverables). Cada Deliverable se conecta, a su vez, con las User Stories de la sección 3.1 que le dan origen.
 
@@ -1740,10 +1782,7 @@ A continuación se presenta la captura del Impact Map elaborado en UXPressia, do
 
 ![Impact map.png](../../assets/chapther-3/Impact-mapping/Impact%20map.png)
 
-
-<!-- Fuente: report/chapters/chapter-3-requirements-specification/3.3-product-backlog.md -->
-
-#### 3.3. Product Backlog
+### 3.3. Product Backlog
 
 En esta sección se presenta el Product Backlog de Vigía, que consolida el conjunto de User Stories, Technical Stories y Landing Page Stories de la sección 3.1, ordenadas según el valor que cada una aporta al negocio y asignadas al Sprint en que se implementan. La asignación parte de la primera versión de cada producto: el Sprint 1 entrega únicamente el Landing Page, y el Sprint 2 entrega la primera versión de la Web Application, limitada al acceso y a la suscripción de la empresa. Las funcionalidades del dominio (pedido, despacho, tránsito, recepción y discrepancias) no se adelantan a esa primera versión; se incorporan en los Sprints siguientes.
 
@@ -1806,8 +1845,7 @@ La estimación se expresa en Story Points, bajo la escala de Fibonacci (1 / 2 / 
 
 ![brave_screenshot_trello.com.png](../../assets/chapther-3/brave_screenshot_trello.com.png)
 
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4-capitulo-iv-product-design.md -->
+<div style="page-break-after: always;"></div>
 
 ## Capítulo IV: Product Design
 
@@ -1815,17 +1853,11 @@ En este capítulo el equipo desarrolla la propuesta de Software Architecture & D
 
 El capítulo se organiza en las siguientes secciones internas: Style Guidelines, que sienta las bases visuales comunes para todo el equipo; Information Architecture, que define cómo se organiza, etiqueta, navega y busca el contenido; Landing Page UI Design y Web Applications UX/UI Design, que traducen esas decisiones en Wireframes, Wireflows, Mock-ups y User Flows; Web Applications Prototyping; Domain-Driven Software Architecture, que profundiza el Big Picture EventStorming de la sección 2.4 hasta identificar los Bounded Context y los diagramas C4; Software Object-Oriented Design; y Database Design.
 
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.1-style-guidelines.md -->
-
 ### 4.1. Style Guidelines
 
 En esta sección el equipo sienta las bases de un repositorio visual central y consistente para Vigía, de uso común para todo el equipo de diseño y desarrollo. El objetivo es que cualquier pantalla nueva, tanto del Landing Page como de la Web Application, mantenga una presentación uniforme y reconocible, reduciendo el tiempo de decisión visual en cada Sprint. Las decisiones siguen el lenguaje de diseño Material Design, indicado en la sección de Tecnología, adaptado a la identidad de marca de Trazza Labs, y se apoyan en PrimeVue como biblioteca de componentes de UI para su implementación en Vue.
 
 La sección se organiza en dos partes: General Style Guidelines, que fija las decisiones de branding, tipografía, color, espaciado y tono de comunicación; y Web Style Guide, que traduce esas decisiones a estándares de interacción para interfaces web responsivas.
-
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.1.1-general-style-guidelines.md -->
 
 #### 4.1.1. General Style Guidelines
 
@@ -1899,9 +1931,6 @@ El color se usa de forma funcional y no decorativa: verde y rojo quedan reservad
 
 Como referencia de Design System existente sobre el cual se realizan las adaptaciones anteriores, se toma Material Design 3, del cual se conservan la escala tipográfica, la grilla de espaciado de 8px y el sistema de elevación, adaptando la paleta de color a la identidad de marca descrita.
 
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.1.2-web-style-guidelines.md -->
-
 #### 4.1.2. Web Style Guide
 
 Esta sección traduce las decisiones de la sección 4.1.1 a estándares de interacción para interfaces web responsivas, considerando que el Landing Page se consume principalmente en desktop y que la Web Application se usa mayoritariamente desde teléfonos inteligentes en el frente de obra y en el almacén, conforme a lo señalado en las secciones 1.2.1 y 2.3.1.
@@ -1942,9 +1971,6 @@ Esta sección traduce las decisiones de la sección 4.1.1 a estándares de inter
 
 **Accesibilidad.** Conforme a la restricción de accesibilidad (a11y) señalada en la sección 1.2.1, se exige un contraste mínimo AA (4.5:1) entre texto y fondo para todas las combinaciones de la paleta de la sección 4.1.1, tamaño de texto mínimo de 14px para contenido de lectura, y un área táctil mínima de 44x44px para elementos interactivos en mobile, dado el uso del producto en campo y con eventual uso de guantes de trabajo.
 
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.2-information-architecture.md -->
-
 ### 4.2. Information Architecture
 
 En esta sección el equipo plantea las decisiones y el sustento que dirigen la forma en que se organiza el contenido en las experiencias web de Vigía, incluyendo el Landing Page y la Web Application. Las propuestas buscan que los visitantes y los usuarios —los residentes de obra, jefes de almacén, despachadores y transportistas descritos en la sección 2.3.1— se adapten con facilidad a la funcionalidad de cada producto y encuentren lo que necesitan sin esfuerzo adicional, considerando en particular que gran parte de la interacción ocurre en campo, bajo presión de tiempo y con conectividad intermitente.
@@ -1952,9 +1978,6 @@ En esta sección el equipo plantea las decisiones y el sustento que dirigen la f
 Las decisiones se apoyan directamente en los artefactos ya elaborados en capítulos anteriores: los seis Bounded Context candidatos del Big Picture EventStorming (sección 2.4) determinan la organización principal del contenido; el Ubiquitous Language (sección 2.5) determina el vocabulario de las etiquetas; y las Epics y User Stories (sección 3.1) determinan qué necesita ser encontrado, filtrado o navegado en cada pantalla.
 
 La sección se organiza en cinco partes: Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems y Navigation Systems, siguiendo la estructura clásica de sistemas de Information Architecture propuesta por Rosenfeld y Morville en *Information Architecture for the Web and Beyond*, adaptada al alcance específico de Vigía.
-
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.2.1-organization-systems.md -->
 
 #### 4.2.1. Organization Systems
 
@@ -1985,9 +2008,6 @@ Se descarta deliberadamente un esquema puramente cronológico para el Dashboard 
 | EP-04 Recepción y Verificación en Obra | Secuencial | Según audiencia (solo lo asignado al residente de esa obra) | Continúa el mismo flujo secuencial de EP-02/EP-03 hasta su cierre |
 | EP-05 Gestión de Discrepancias y Evidencia | Matricial | Por tópico (obra) y por estado (caso) simultáneamente | Ningún criterio es jerárquicamente superior al otro para la Oficina Técnica, que a veces necesita ver "todo lo de esta obra" y otras veces "todo lo que sigue abierto" |
 | EP-06 Landing Page | Jerárquica | Por tópico (segmento / producto / contacto) | El visitante no tiene una tarea secuencial que cumplir; navega libremente por temas de su interés |
-
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.2.2-labeling-systems.md -->
 
 #### 4.2.2. Labeling Systems
 
@@ -2046,9 +2066,6 @@ Se evita deliberadamente la etiqueta "Login" en favor de "Iniciar sesión", y la
 | Credenciales inválidas al iniciar sesión (US-15) | "El correo o la contraseña no son correctos." |
 | Pérdida de conexión durante el registro en obra (US-14) | "Sin conexión. Tu registro se guardó en el dispositivo y se enviará automáticamente." |
 
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.2.3-seo-tags-and-meta-tags.md -->
-
 #### 4.2.3. SEO Tags and Meta Tags
 
 Esta sección define los SEO Tags y Meta Tags de las principales páginas de Vigía, tanto del Landing Page (sitio estático, público y con interés en posicionamiento orgánico) como de la Web Application (producto autenticado, sin interés en indexación pública). Para cada página se especifica como mínimo el Title, y los Meta Tags Description, Keywords y Author.
@@ -2080,9 +2097,6 @@ Dado que estas páginas requieren autenticación y no están dirigidas a posicio
 | Inicio de sesión | Iniciar sesión \| Vigía | Accede a Vigía con tu correo y contraseña para gestionar tus despachos y recepciones. | iniciar sesión Vigía, acceso plataforma | Trazza Labs |
 | Panel principal | Inicio \| Vigía | Consulta el estado de tus despachos, recepciones y discrepancias en un solo lugar. | panel Vigía, estado de despachos | Trazza Labs |
 | Discrepancias | Discrepancias \| Vigía | Consulta la evidencia consolidada y el estado de los casos de discrepancia abiertos. | discrepancias despacho, evidencia recepción | Trazza Labs |
-
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.2.4-searching-systems.md -->
 
 #### 4.2.4. Searching Systems
 
@@ -2117,9 +2131,6 @@ En todos los casos, el filtro se aplica sobre datos ya cargados para la empresa 
 | Resultado vacío | Se muestra el mensaje específico definido en la sección 4.2.2 ("No hay despachos que coincidan con este filtro."), nunca una lista en blanco sin explicación |
 | Filtros activos | Se muestran como chips removibles sobre la lista, para que el usuario vea de un vistazo qué filtro está aplicando y pueda quitarlo sin abrir de nuevo el panel de filtros |
 
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.2.5-navigation-systems.md -->
-
 #### 4.2.5. Navigation Systems
 
 **Clasificación general.** Siguiendo la taxonomía de sistemas de navegación de Rosenfeld y Morville referenciada en la sección 4.2, Vigía define cuatro tipos de navegación, cada uno con una responsabilidad distinta y sin superposición entre ellos:
@@ -2143,17 +2154,14 @@ En todos los casos, el filtro se aplica sobre datos ya cargados para la empresa 
 
 **Confirmación antes de acciones irreversibles.** Toda acción que cierra un estado del dominio (autorizar un despacho, registrar la conformidad de recepción, cerrar un caso de discrepancia) requiere una confirmación explícita del usuario antes de ejecutarse, dado que estas acciones no tienen una ruta de "deshacer" dentro del alcance actual del producto.
 
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.3-landing-page-ui-desing.md -->
-
 ### 4.3. Landing Page UI Design
 
 La Landing Page de Vigía está diseñada con una estructura clara y ordenada, orientada a presentar de manera sencilla nuestra propuesta de valor y facilitar que los visitantes comprendan cómo la plataforma mejora el control y la trazabilidad de los materiales de construcción. El diseño busca guiar al usuario desde la presentación del problema hasta el conocimiento de los beneficios, planes y solicitud de una demostración.
 
 
-## Estructura principal
+#### Estructura principal
 
-### Hero Section
+##### Hero Section
 
 Esta sección presenta de forma inmediata la propuesta principal de Vigía mediante el mensaje “Controla tus materiales desde el almacén hasta la obra”.
 
@@ -2168,7 +2176,7 @@ Incluye:
 - Menú de navegación hacia las principales secciones de la Landing Page.
 
 
-### Problem and Process Section
+##### Problem and Process Section
 
 Esta sección presenta los principales problemas que buscamos resolver durante el traslado de materiales hacia las obras.
 
@@ -2190,7 +2198,7 @@ Además, presentamos de forma visual el proceso principal que Vigía permite con
 De esta manera, mostramos cómo la plataforma permite mantener el control del material durante todo su recorrido.
 
 
-### Benefits Section
+##### Benefits Section
 
 Esta sección presenta los principales beneficios que obtiene una empresa al utilizar Vigía.
 
@@ -2206,7 +2214,7 @@ Los beneficios mostrados son:
 La información se organiza mediante tarjetas para que los visitantes puedan identificar rápidamente el valor que ofrece la plataforma.
 
 
-### Pricing Section
+##### Pricing Section
 
 Esta sección muestra las opciones de suscripción disponibles para utilizar Vigía.
 
@@ -2218,7 +2226,7 @@ Se presentan dos alternativas:
 Cada plan muestra su precio, las principales características incluidas y un botón “Elegir plan” que permite continuar con el proceso de contratación.
 
 
-### Demo Section
+##### Demo Section
 
 Esta sección permite que los visitantes conozcan con mayor detalle el funcionamiento de Vigía antes de utilizar la plataforma.
 
@@ -2235,7 +2243,7 @@ Incluye:
 Esta sección funciona como uno de los principales puntos de conversión de la Landing Page.
 
 
-### Team Section
+##### Team Section
 
 Esta sección presenta a los integrantes de nuestro equipo de desarrollo.
 
@@ -2248,7 +2256,7 @@ Para cada integrante se muestra:
 
 También se incluye un espacio para el Video About the Team, mediante el cual presentamos al equipo y el proceso desarrollado durante el proyecto.
 
-### Footer
+##### Footer
 
 El Footer reúne información complementaria y enlaces de navegación para facilitar el acceso a las diferentes partes de la experiencia.
 
@@ -2263,7 +2271,7 @@ Incluye:
 - Enlaces a redes sociales.
 
 
-## Aspectos de diseño UI/UX
+#### Aspectos de diseño UI/UX
 
 Para mantener una experiencia visual consistente en toda la Landing Page, aplicamos los siguientes criterios:
 
@@ -2275,60 +2283,49 @@ Para mantener una experiencia visual consistente en toda la Landing Page, aplica
 - Uso de llamados a la acción visibles como “Solicitar demo”, “Ver planes” y “Elegir plan”.
 - Distribución clara del contenido para que el visitante pueda comprender progresivamente qué es Vigía, qué problema resuelve, cómo funciona y qué beneficios ofrece.
 
+#### 4.3.1. Landing Page Wireframe
 
-<!-- Fuente: report/chapters/chapter-4-product-design/4.3.1-landing-page-wireframe.md -->
-
-### 4.3.1. Landing Page Wireframe
-
-#### Landing Page para Desktop Web Browser
+##### Landing Page para Desktop Web Browser
 
 <p align="center">
-  <img src="../../../assets/Chapther-4/wireframes-landing/Hero%20Section.png" width="48%">
-  <img src="../../../assets/Chapther-4/wireframes-landing/Problem%20and%20Process%20Section.png" width="48%">
+  <img src="../../assets/Chapther-4/wireframes-landing/Hero%20Section.png" width="48%">
+  <img src="../../assets/Chapther-4/wireframes-landing/Problem%20and%20Process%20Section.png" width="48%">
 </p>
 
 <p align="center">
-  <img src="../../../assets/Chapther-4/wireframes-landing/Benefits%20Section.png" width="48%">
-  <img src="../../../assets/Chapther-4/wireframes-landing/Pricing%20Section.png" width="48%">
+  <img src="../../assets/Chapther-4/wireframes-landing/Benefits%20Section.png" width="48%">
+  <img src="../../assets/Chapther-4/wireframes-landing/Pricing%20Section.png" width="48%">
 </p>
 
 <p align="center">
-  <img src="../../../assets/Chapther-4/wireframes-landing/Demo%20Section.png" width="48%">
-  <img src="../../../assets/Chapther-4/wireframes-landing/Team%20Section.png" width="48%">
+  <img src="../../assets/Chapther-4/wireframes-landing/Demo%20Section.png" width="48%">
+  <img src="../../assets/Chapther-4/wireframes-landing/Team%20Section.png" width="48%">
 </p>
 
 <p align="center">
-  <img src="../../../assets/Chapther-4/wireframes-landing/Footer.png" width="48%">
+  <img src="../../assets/Chapther-4/wireframes-landing/Footer.png" width="48%">
 </p>
 
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.3.2-landing-page-mock-up.md -->
-
-### 4.3.2. Landing Page Mock-up
+#### 4.3.2. Landing Page Mock-up
 
 <p align="center">
-  <img src="../../../assets/Chapther-4/mock-ups-landing/Hero%20Section.png" width="48%">
-  <img src="../../../assets/Chapther-4/mock-ups-landing/Problem%20and%20Process%20Section.png" width="48%">
+  <img src="../../assets/Chapther-4/mock-ups-landing/Hero%20Section.png" width="48%">
+  <img src="../../assets/Chapther-4/mock-ups-landing/Problem%20and%20Process%20Section.png" width="48%">
 </p>
 
 <p align="center">
-  <img src="../../../assets/Chapther-4/mock-ups-landing/Benefits%20Section.png" width="48%">
-  <img src="../../../assets/Chapther-4/mock-ups-landing/Pricing%20Section.png" width="48%">
+  <img src="../../assets/Chapther-4/mock-ups-landing/Benefits%20Section.png" width="48%">
+  <img src="../../assets/Chapther-4/mock-ups-landing/Pricing%20Section.png" width="48%">
 </p>
 
 <p align="center">
-  <img src="../../../assets/Chapther-4/mock-ups-landing/Demo%20Section.png" width="48%">
-  <img src="../../../assets/Chapther-4/mock-ups-landing/Team%20Section.png" width="48%">
+  <img src="../../assets/Chapther-4/mock-ups-landing/Demo%20Section.png" width="48%">
+  <img src="../../assets/Chapther-4/mock-ups-landing/Team%20Section.png" width="48%">
 </p>
 
 <p align="center">
-  <img src="../../../assets/Chapther-4/mock-ups-landing/Footer.png" width="48%">
+  <img src="../../assets/Chapther-4/mock-ups-landing/Footer.png" width="48%">
 </p>
-
-
-
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.4-web-applications-ux-ui-design.md -->
 
 ### 4.4. Web Applications UX/UI Design
 
@@ -2336,139 +2333,130 @@ En esta sección el equipo presenta y explica la propuesta visual y de interacci
 
 La sección se organiza en cuatro partes internas: Wireframes, que traducen la arquitectura de la información en la estructura de baja fidelidad de cada pantalla; Wireflow Diagrams, que documentan un flujo por cada User goal relevante mostrando el cambio de pantalla ante cada interacción; Mock-ups, que aplican el Design System completo (color, tipografía, componentes) sobre esa estructura; y User Flow Diagrams, que retoman los Wireflows para incorporar los Mock-ups reales de cada pantalla junto con el happy path y los unhappy paths de cada flujo.
 
-> **Nota sobre el estado de esta sección.** A la fecha, la sección 4.4.3 (Mock-ups) se encuentra completa, con 27 pantallas organizadas por rol (Supervisor, Responsable de Almacén y Responsable de Obra) y su descripción correspondiente. Las secciones 4.4.1 (Wireframes), 4.4.2 (Wireflow Diagrams) y 4.4.4 (User Flow Diagrams) están pendientes de elaboración en las herramientas indicadas.
+Las cuatro partes se encuentran completas: los Wireframes y Wireflow Diagrams se presentan en las secciones 4.4.1 y 4.4.2, los Mock-ups cubren 27 pantallas organizadas por rol (Supervisor, Responsable de Almacén y Responsable de Obra) y los User Flow Diagrams se presentan en la sección 4.4.4.
 
-Herramientas externas pendientes de usar por el equipo para completar esta sección:
-- **Figma** — para los Wireframes de la sección 4.4.1 (los Mock-ups de 4.4.3 ya están elaborados ahí).
-- **FigJam / LucidChart / Overflow** — para los Wireflow Diagrams de la sección 4.4.2 y los User Flow Diagrams de la sección 4.4.4.
+#### 4.4.1. Web Applications Wireframes
 
+Los wireframes de la Web Application de Vigía se elaboraron en Figma con baja fidelidad, antes de aplicar el Design System. Cada pantalla conserva la estructura definida en la sección 4.2: una barra lateral fija para la navegación principal, una cabecera con el rol activo y el selector de idioma, y un área de contenido organizada jerárquicamente, con los indicadores clave al inicio, las tablas de trabajo al centro y los paneles de detalle a la derecha. Las ventanas modales, como los formularios de creación, se representan sobre la pantalla que las origina para que el usuario no pierda el contexto.
 
-<!-- Fuente: report/chapters/chapter-4-product-design/4.4.1-web-applications-wireframes.md -->
+Las pantallas corresponden a los tres roles de la Web Application: Supervisor, Responsable de Almacén y Responsable de Obra. La estructura repetida entre roles busca consistencia y reduce la curva de aprendizaje, como se explica en la sección 4.2.5.
 
-## 4.4.1 Web Applications Wireframes
-
-
-**Figura 13**
+**Figura 13.** Wireframes de las pantallas de la Web Application (1 de 3).
 
 ![Wireframe 1.png](../../assets/charapter-4/wireframes1.png)
 
-**Figura 14**
+**Figura 14.** Wireframes de las pantallas de la Web Application (2 de 3).
 
 ![Wireframe2.png](../../assets/charapter-4/wireframes2.png)
 
-**Figura 15**
+**Figura 15.** Wireframes de las pantallas de la Web Application (3 de 3).
 
 ![Wireframe3.png](../../assets/charapter-4/wireframes3.png)
 
+#### 4.4.2. Web Applications Wireflow Diagrams
 
-<!-- Fuente: report/chapters/chapter-4-product-design/4.4.2-web-applications-wireflow-diagrams.md -->
+El wireflow conecta los wireframes de la sección 4.4.1 para mostrar cómo cambia la pantalla ante cada interacción del usuario, de modo que cada nuevo estado se representa con un nuevo wireframe. El diagrama parte de la pantalla de Inicio de cada rol, que funciona como centro de la navegación, y de ella salen las rutas hacia los módulos de trabajo (por ejemplo despachos, recepciones, incidencias, historial y configuración). Las ventanas modales se enlazan a la pantalla que las abre.
 
-## 4.4.2 Web Applications Wireflow Diagrams
+El wireflow sirve de base para los User Flow Diagrams de la sección 4.4.4, que retoman estas mismas rutas con los Mock-ups finales e incorporan los caminos alternativos.
 
-**Figura 16**
+**Figura 16.** Wireflow Diagram de la Web Application.
 
 ![web-applications-wireflow-diagrams.png](../../assets/charapter-4/web-applications-wireflow-diagrams.png)
 
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.4.3-web-applications-mock-ups.md -->
-
-### 4.4.3. Web Applications Mock-ups
+#### 4.4.3. Web Applications Mock-ups
 
 En esta sección se presentan los Mock-ups de la Web Application de Vigía, organizados por rol de usuario, aplicando la paleta de color, la tipografía y los componentes definidos en la sección 4.1, así como la organización, el etiquetado y la navegación definidos en la sección 4.2. Cada captura se acompaña de una descripción de la pantalla y de su relación con las User Stories de la sección 3.1.
 
 > **Nota de consistencia.** El usuario de ejemplo del rol Responsable de Almacén se llama "Carlos Mendoza" en estos Mock-ups, mismo nombre que el arquetipo de User Persona del Segmento 1 (residente de obra) de la sección 2.3.1, que corresponde a un rol distinto. Es una coincidencia de nombres entre el dato de ejemplo del mock-up y el arquetipo, no un error de rol; se recomienda renombrar al usuario de ejemplo en una siguiente iteración para evitar confusión al momento de la sustentación.
 
-## Supervisor
+##### Supervisor
 
 Rol con visión transversal de la operación (equivalente al "Responsable de oficina técnica" descrito en la Epic EP-05 de la sección 3.1), usado en estos mock-ups por María Torres.
 
-![mock-up-Supervisor (1).png](../../assets/Chapther-4/mock-ups/Supervisor/mock-up-Supervisor%20%281%29.png)
+![mock-up-Supervisor (1).png](../../assets/Chapther-4/mock-ups/Supervisor/mock-up-Supervisor%20(1).png)
 **Inicio.** Pantalla de bienvenida con la sección "Requiere mi atención" (diferencias en recepción, retrasos, materiales fuera de especificación, aprobaciones pendientes), el estado general de las obras con barra de avance y estado, y el cumplimiento semanal en gráfico de barras. Es el punto de entrada que prioriza jerárquicamente los casos críticos, conforme a la Organization System definida en la sección 4.2.1.
 
-![mock-up-Supervisor (2).png](../../assets/Chapther-4/mock-ups/Supervisor/mock-up-Supervisor%20%282%29.png)
+![mock-up-Supervisor (2).png](../../assets/Chapther-4/mock-ups/Supervisor/mock-up-Supervisor%20(2).png)
 **Obras.** Listado de todas las obras activas con su zona, responsable, porcentaje de avance, despachos, recepciones e incidencias asociadas, un resumen por zona geográfica y una sección de obras que requieren atención por retrasos o incidencias críticas.
 
-![mock-up-Supervisor (3).png](../../assets/Chapther-4/mock-ups/Supervisor/mock-up-Supervisor%20%283%29.png)
+![mock-up-Supervisor (3).png](../../assets/Chapther-4/mock-ups/Supervisor/mock-up-Supervisor%20(3).png)
 **Materiales.** Inventario consolidado de materiales monitoreados con alertas de stock bajo por obra, los materiales más utilizados, el consumo por obra en el mes y la distribución del inventario por categoría.
 
-![mock-up-Supervisor (4).png](../../assets/Chapther-4/mock-ups/Supervisor/mock-up-Supervisor%20%284%29.png)
+![mock-up-Supervisor (4).png](../../assets/Chapther-4/mock-ups/Supervisor/mock-up-Supervisor%20(4).png)
 **Despachos.** Panel de monitoreo de despachos con indicadores de despachos en preparación, programados, en tránsito y con incidencia; incluye la lista completa de despachos con filtros por obra, estado, transporte y fecha, y un panel de seguimiento de un despacho puntual con línea de estado (Preparación → Salida → En tránsito → Entrega) y mapa de ruta. Corresponde a la visión de supervisión de las Epics EP-02 y EP-03.
 
-![mock-up-Supervisor (5).png](../../assets/Chapther-4/mock-ups/Supervisor/mock-up-Supervisor%20%285%29.png)
+![mock-up-Supervisor (5).png](../../assets/Chapther-4/mock-ups/Supervisor/mock-up-Supervisor%20(5).png)
 **Transporte.** Vista de la flota de camiones con su estado (en ruta, en carga, en espera, con retraso, sin actividad), un mapa de seguimiento en tiempo real de las unidades, las asignaciones del día y un gráfico de disponibilidad de flota. Corresponde a la supervisión de US-06 y US-07 (EP-03).
 
-![mock-up-Supervisor (6).png](../../assets/Chapther-4/mock-ups/Supervisor/mock-up-Supervisor%20%286%29.png)
+![mock-up-Supervisor (6).png](../../assets/Chapther-4/mock-ups/Supervisor/mock-up-Supervisor%20(6).png)
 **Recepciones.** Tablero de recepciones con indicadores de recepciones del día, pendientes, con diferencia y completadas; la tabla compara lo enviado contra lo recibido por cada recepción, y el panel lateral muestra el detalle de una recepción con diferencia, incluyendo la observación registrada. Corresponde directamente a US-09 y US-10 (EP-04).
 
-![mock-up-Supervisor (7).png](../../assets/Chapther-4/mock-ups/Supervisor/mock-up-Supervisor%20%287%29.png)
+![mock-up-Supervisor (7).png](../../assets/Chapther-4/mock-ups/Supervisor/mock-up-Supervisor%20(7).png)
 **Problemas.** Listado de incidencias (faltantes, daños, retrasos, no conformidades) con prioridad y estado, filtrable por tipo, prioridad, estado y obra; el panel de detalle muestra la descripción completa de una incidencia y su tendencia en las últimas semanas. Corresponde a la gestión de discrepancias de EP-05, aunque el mock-up usa el término "Problemas" en lugar de "Discrepancias" — se recomienda unificar con el Ubiquitous Language de la sección 2.5.
 
-![mock-up-Supervisor (8).png](../../assets/Chapther-4/mock-ups/Supervisor/mock-up-Supervisor%20%288%29.png)
+![mock-up-Supervisor (8).png](../../assets/Chapther-4/mock-ups/Supervisor/mock-up-Supervisor%20(8).png)
 **Historial.** Bitácora general de eventos del sistema (despachos, recepciones, incidencias, documentos, configuración, usuarios) con buscador, filtros combinados y un resumen de actividad por tipo de evento en gráfico de dona. Sustenta la trazabilidad end-to-end declarada en el Problem Statement de la sección 1.2.2.1.
 
-![mock-up-Supervisor (9).png](../../assets/Chapther-4/mock-ups/Supervisor/mock-up-Supervisor%20%289%29.png)
+![mock-up-Supervisor (9).png](../../assets/Chapther-4/mock-ups/Supervisor/mock-up-Supervisor%20(9).png)
 **Configuración.** Perfil del usuario con datos personales y cambio de contraseña, preferencias de idioma, tema y notificaciones, y un panel de "Permisos y acceso" que lista los módulos habilitados según el rol. Corresponde a la asignación de roles de EP-01 (US-02), vista desde el usuario final.
 
-## Responsable de Almacén
+##### Responsable de Almacén
 
 Rol correspondiente al User Persona Miguel Rojas (jefe de almacén central, sección 2.3.1), usado en estos mock-ups por Carlos Mendoza (ver nota de consistencia al inicio de esta sección).
 
-![mock-up-Responsables de Almacen (1).png](../../assets/Chapther-4/mock-ups/Responsables%20de%20Almacen/mock-up-Responsables%20de%20Almacen%20%281%29.png)
+![mock-up-Responsables de Almacen (1).png](../../assets/Chapther-4/mock-ups/Responsables%20de%20Almacen/mock-up-Responsables%20de%20Almacen%20(1).png)
 **Inicio.** Saludo personalizado con indicadores de solicitudes pendientes, despachos en preparación, en tránsito y completados; incluye la lista de próximos despachos, el estado de despachos en gráfico de dona y la sección "Requiere mi atención" con alertas de stock bajo, transportista sin asignar y solicitudes por revisar.
 
-![mock-up-Responsables de Almacen (2).png](../../assets/Chapther-4/mock-ups/Responsables%20de%20Almacen/mock-up-Responsables%20de%20Almacen%20%282%29.png)
+![mock-up-Responsables de Almacen (2).png](../../assets/Chapther-4/mock-ups/Responsables%20de%20Almacen/mock-up-Responsables%20de%20Almacen%20(2).png)
 **Solicitudes.** Bandeja de solicitudes de materiales enviadas por las obras, con estado, prioridad y filtros, más un panel de solicitudes que requieren atención inmediata. Corresponde a la recepción del pedido del lado del almacén, previa a US-16 (verificación de existencias).
 
-![mock-up-Responsables de Almacen (3).png](../../assets/Chapther-4/mock-ups/Responsables%20de%20Almacen/mock-up-Responsables%20de%20Almacen%20%283%29.png)
+![mock-up-Responsables de Almacen (3).png](../../assets/Chapther-4/mock-ups/Responsables%20de%20Almacen/mock-up-Responsables%20de%20Almacen%20(3).png)
 **Detalle de solicitud (SOL-104).** Vista completa de una solicitud con los materiales pedidos, observaciones del residente, archivos adjuntos y las acciones de decisión disponibles (aprobar, solicitar cambios o rechazar), junto con el historial de acciones tomadas sobre la solicitud. Antesala de US-16 y US-04.
 
-![mock-up-Responsables de Almacen (4).png](../../assets/Chapther-4/mock-ups/Responsables%20de%20Almacen/mock-up-Responsables%20de%20Almacen%20%284%29.png)
+![mock-up-Responsables de Almacen (4).png](../../assets/Chapther-4/mock-ups/Responsables%20de%20Almacen/mock-up-Responsables%20de%20Almacen%20(4).png)
 **Materiales.** Inventario del almacén con código, categoría, stock actual y ubicación de cada material, alertas de stock bajo o sin stock, y los materiales más usados en el periodo. Sustenta la verificación de existencias (US-16).
 
-![mock-up-Responsables de Almacen (5).png](../../assets/Chapther-4/mock-ups/Responsables%20de%20Almacen/mock-up-Responsables%20de%20Almacen%20%285%29.png)
+![mock-up-Responsables de Almacen (5).png](../../assets/Chapther-4/mock-ups/Responsables%20de%20Almacen/mock-up-Responsables%20de%20Almacen%20(5).png)
 **Despachos.** Lista de despachos con su estado y un panel de seguimiento con stepper (Salida → En ruta → Cerca de obra → Llegada) y mapa de ruta estimada hacia la obra de destino, además de la actividad reciente del almacén. Corresponde a US-04 y US-05.
 
-![mock-up-Responsables de Almacen (6).png](../../assets/Chapther-4/mock-ups/Responsables%20de%20Almacen/mock-up-Responsables%20de%20Almacen%20%286%29.png)
+![mock-up-Responsables de Almacen (6).png](../../assets/Chapther-4/mock-ups/Responsables%20de%20Almacen/mock-up-Responsables%20de%20Almacen%20(6).png)
 **Nuevo despacho — paso 1 de 4 (Información).** Primer paso del asistente para crear un despacho: obra de destino, solicitud relacionada, fecha y hora de salida, tipo de despacho y observaciones, con un resumen en vivo de lo capturado. Primer paso de US-04/US-05.
 
-![mock-up-Responsables de Almacen (7).png](../../assets/Chapther-4/mock-ups/Responsables%20de%20Almacen/mock-up-Responsables%20de%20Almacen%20%287%29.png)
+![mock-up-Responsables de Almacen (7).png](../../assets/Chapther-4/mock-ups/Responsables%20de%20Almacen/mock-up-Responsables%20de%20Almacen%20(7).png)
 **Transporte.** Gestión de la flota de camiones y transportistas disponibles, con su placa, estado, última ubicación y próximo despacho asignado, más un mapa de seguimiento en tiempo real y las asignaciones del día. Sustenta la asignación de transportista de US-05.
 
-![mock-up-Responsables de Almacen (8).png](../../assets/Chapther-4/mock-ups/Responsables%20de%20Almacen/mock-up-Responsables%20de%20Almacen%20%288%29.png)
+![mock-up-Responsables de Almacen (8).png](../../assets/Chapther-4/mock-ups/Responsables%20de%20Almacen/mock-up-Responsables%20de%20Almacen%20(8).png)
 **Historial.** Bitácora de eventos del almacén (despachos, solicitudes, movimientos de stock, transporte, incidencias) con filtros combinados y un resumen de actividad por tipo en gráfico de dona.
 
-![mock-up-Responsables de Almacen (9).png](../../assets/Chapther-4/mock-ups/Responsables%20de%20Almacen/mock-up-Responsables%20de%20Almacen%20%289%29.png)
+![mock-up-Responsables de Almacen (9).png](../../assets/Chapther-4/mock-ups/Responsables%20de%20Almacen/mock-up-Responsables%20de%20Almacen%20(9).png)
 **Configuración.** Perfil del usuario con datos personales y cambio de contraseña, preferencias de idioma, tema y notificaciones, y un panel de "Permisos y acceso" que lista los módulos habilitados según el rol. Corresponde a la asignación de roles de EP-01 (US-02), vista desde el usuario final.
 
-## Responsable de Obra
+##### Responsable de Obra
 
 Rol correspondiente al User Persona Carlos Mendoza (ingeniero civil residente de obra, sección 2.3.1), usado en estos mock-ups por Juan Pérez.
 
-![mock-up-Responsable de Obra (1).png](../../assets/Chapther-4/mock-ups/Responsable%20de%20Obra/mock-up-Responsable%20de%20Obra%20%281%29.png)
+![mock-up-Responsable de Obra (1).png](../../assets/Chapther-4/mock-ups/Responsable%20de%20Obra/mock-up-Responsable%20de%20Obra%20(1).png)
 **Inicio.** Saludo personalizado con indicadores de envíos en camino, recepciones del día, materiales recibidos y problemas reportados; incluye la tabla de próximos envíos, el estado de recepción del plan en gráfico de dona y un comparativo semanal de material recibido contra lo planificado.
 
-![mock-up-Responsable de Obra (2).png](../../assets/Chapther-4/mock-ups/Responsable%20de%20Obra/mock-up-Responsable%20de%20Obra%20%282%29.png)
+![mock-up-Responsable de Obra (2).png](../../assets/Chapther-4/mock-ups/Responsable%20de%20Obra/mock-up-Responsable%20de%20Obra%20(2).png)
 **Obras.** Listado de las obras a cargo del residente con su avance, estado y próximo envío, y un panel de detalle de la obra seleccionada con su resumen, próximos envíos y avance por etapa constructiva (cimentación, estructura, instalaciones, acabados).
 
-![mock-up-Responsable de Obra (3).png](../../assets/Chapther-4/mock-ups/Responsable%20de%20Obra/mock-up-Responsable%20de%20Obra%20%283%29.png)
+![mock-up-Responsable de Obra (3).png](../../assets/Chapther-4/mock-ups/Responsable%20de%20Obra/mock-up-Responsable%20de%20Obra%20(3).png)
 **Envíos.** Indicadores de envíos en camino, por llegar hoy, retrasados y recibidos, con la lista de envíos filtrable y un panel de seguimiento con stepper y mapa en tiempo real del envío seleccionado. Corresponde a la visibilidad de EP-03 (US-06, US-07) desde el lado de la obra.
 
-![mock-up-Responsable de Obra (4).png](../../assets/Chapther-4/mock-ups/Responsable%20de%20Obra/mock-up-Responsable%20de%20Obra%20%284%29.png)
+![mock-up-Responsable de Obra (4).png](../../assets/Chapther-4/mock-ups/Responsable%20de%20Obra/mock-up-Responsable%20de%20Obra%20(4).png)
 **Recepciones.** Próximas llegadas, tabla de recepciones registradas con la comparación entre lo enviado y lo recibido, y un panel de detalle de recepción con checklist (material en buen estado, cantidad verificada, guía de remisión recibida, evidencia fotográfica) y la comparación de cantidades. Corresponde directamente a US-09.
 
-![mock-up-Responsable de Obra (5).png](../../assets/Chapther-4/mock-ups/Responsable%20de%20Obra/mock-up-Responsable%20de%20Obra%20%285%29.png)
+![mock-up-Responsable de Obra (5).png](../../assets/Chapther-4/mock-ups/Responsable%20de%20Obra/mock-up-Responsable%20de%20Obra%20(5).png)
 **Problemas.** Indicadores de problemas abiertos, retrasos, faltantes y resueltos, listado filtrable de incidencias, y el detalle de un problema (faltante de concreto premezclado) con su descripción, evidencia fotográfica adjunta y línea de seguimiento del estado. Corresponde directamente a US-10 (reporte de discrepancia con evidencia).
 
-![mock-up-Responsable de Obra (6).png](../../assets/Chapther-4/mock-ups/Responsable%20de%20Obra/mock-up-Responsable%20de%20Obra%20%286%29.png)
+![mock-up-Responsable de Obra (6).png](../../assets/Chapther-4/mock-ups/Responsable%20de%20Obra/mock-up-Responsable%20de%20Obra%20(6).png)
 **Historial.** Registros del mes, recepciones cerradas, envíos archivados y problemas resueltos, con filtros combinados, tabla de movimientos y una línea de tiempo de los últimos eventos de la obra.
 
-![mock-up-Responsable de Obra (7).png](../../assets/Chapther-4/mock-ups/Responsable%20de%20Obra/mock-up-Responsable%20de%20Obra%20%287%29.png)
+![mock-up-Responsable de Obra (7).png](../../assets/Chapther-4/mock-ups/Responsable%20de%20Obra/mock-up-Responsable%20de%20Obra%20(7).png)
 **Configuración.** Perfil del usuario con datos personales y cambio de contraseña, preferencias de idioma, tema y notificaciones, y un panel de "Permisos y acceso" que lista los módulos habilitados según el rol. Corresponde a la asignación de roles de EP-01 (US-02), vista desde el usuario final.
 
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.4.4-web-applications-user-flow-diagrams.md -->
-
-### 4.4.4. Web Applications User Flow Diagrams
+#### 4.4.4. Web Applications User Flow Diagrams
 
 El diagrama de flujo de usuario es una representación visual de los pasos que un usuario sigue al interactuar con la aplicación para alcanzar un objetivo concreto (User Goal). Muestra la secuencia de acciones, los puntos de decisión y los distintos caminos posibles, lo que ayuda a identificar puntos de fricción y a optimizar la experiencia.
 
@@ -2476,7 +2464,7 @@ Para cada User Goal se elabora un único diagrama que integra tanto el **happy p
 
 ---
 
-#### 1. Inicio de sesión
+##### 1. Inicio de sesión
 
 Este diagrama cubre el User Goal de autenticarse en la plataforma, derivado de la User Story **US-15** (y del endpoint **TS-01**). Representa el ingreso de credenciales, su validación, la verificación de vigencia de la sesión y la redirección del usuario a las funciones correspondientes a su rol.
 
@@ -2491,7 +2479,7 @@ Este diagrama cubre el User Goal de autenticarse en la plataforma, derivado de l
 
 ---
 
-#### 2. Pedido de materiales y emisión del despacho
+##### 2. Pedido de materiales y emisión del despacho
 
 Este diagrama cubre el User Goal de solicitar materiales y conformar el despacho que sale del almacén, derivado de las User Stories **US-03, US-16, US-04 y US-05**. Se representa con carriles (swimlanes) para los roles Residente de obra y Jefe de almacén.
 
@@ -2506,7 +2494,7 @@ Este diagrama cubre el User Goal de solicitar materiales y conformar el despacho
 
 ---
 
-#### 3. Recepción y verificación en obra
+##### 3. Recepción y verificación en obra
 
 Este diagrama cubre el User Goal de recibir y verificar el material en el frente de obra, derivado de las User Stories **US-09, US-10 y US-14**. Contempla además la operación bajo conectividad intermitente.
 
@@ -2521,7 +2509,7 @@ Este diagrama cubre el User Goal de recibir y verificar el material en el frente
 
 ---
 
-#### 4. Gestión de un caso de discrepancia
+##### 4. Gestión de un caso de discrepancia
 
 Este diagrama cubre el User Goal de investigar y cerrar un caso de discrepancia, derivado de las User Stories **US-11, US-12 y US-13**, desde el rol Responsable de oficina técnica.
 
@@ -2540,10 +2528,7 @@ A continuación se presenta la misma gestión de discrepancia en una vista resum
 
 *Diagrama de flujo de usuario — Gestión de un caso de discrepancia en Vigía (vista resumida)*
 
-![Diagrama de flujo de usuario — Gestión de un caso de discrepancia (vista resumida)](../../assets/Chapther-4/userflow-diagram/Blank%20diagram%20-%20Page%201%20Gestio%CC%81n%20de%20un%20caso%20de%20discrepancia%20en%20Vigi%CC%81a%20%281%29.png)
-
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.5-web-applications-prototyping.md -->
+![Diagrama de flujo de usuario — Gestión de un caso de discrepancia (vista resumida)](../../assets/Chapther-4/userflow-diagram/Blank%20diagram%20-%20Page%201%20Gestio%CC%81n%20de%20un%20caso%20de%20discrepancia%20en%20Vigi%CC%81a%20(1).png)
 
 ### 4.5. Web Applications Prototyping
 
@@ -2565,9 +2550,6 @@ El prototipo para Desktop Web Browser fue elaborado a partir de los Mock-ups des
 **Video de navegación del prototipo:**  
 [Prototype Navigation Video](https://tinyurl.com/2btzqwvo)
 
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.6-domain-driven-software-architecture.md -->
-
 ### 4.6. Domain-Driven Software Architecture
 
 En esta sección el equipo parte de los logros alcanzados en el Big Picture EventStorming de la sección 2.4 y profundiza en ellos desde la perspectiva de Domain-Driven Design, hasta llegar a la identificación de los Bounded Contexts de la solución y, dentro de cada uno, de sus Aggregates, Commands, Domain Events y Queries. Sobre esa base se presenta a continuación la representación de la arquitectura de software de Vigía aplicando el C4 Model, en sus tres niveles de abstracción: Context, Container y Component.
@@ -2577,9 +2559,6 @@ El recorrido de la sección es el siguiente. La sección 4.6.1 documenta la sesi
 Los diagramas del C4 Model se elaboran con Structurizr, herramienta indicada en la sección de Tecnología del enunciado del proyecto para los diagramas de Software Architecture bajo C4 Model.
 
 **Sobre el idioma de los artefactos.** Los nombres de Bounded Contexts y Aggregates se expresan en inglés, con su equivalente en español entre paréntesis en la primera mención de cada contexto. Esta decisión mantiene la correspondencia con el Ubiquitous Language de la sección 2.5, que conforme al enunciado del proyecto se redacta en inglés, y con el idioma por defecto de los productos de la solución. Los comandos, eventos, procesos de negocio y modelos de lectura conservan la redacción en español empleada en los tableros de EventStorming, de modo que la trazabilidad entre las secciones 2.4, 4.6.1 y el código permanezca visible.
-
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.6.1-design-level-eventstorming.md -->
 
 #### 4.6.1. Design-Level EventStorming
 
@@ -2932,9 +2911,6 @@ El segundo es una corrección en el orden de resolución de un caso de discrepan
 
 Link del tablero colaborativo en Miro: (Event-Storming)[https://da.gd/hqzGI]
 
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.6.2-software-architecture-context-diagram.md -->
-
 #### 4.6.2. Software Architecture Context Diagram
 
 En esta sección se presenta el Context Level Diagram del C4 Model para Vigía. Este primer nivel de abstracción sitúa a la solución como un único sistema de software y muestra quiénes la utilizan y con qué sistemas de terceros se integra, sin exponer todavía ninguna decisión interna de tecnología ni de estructura. Su propósito es delimitar el alcance del sistema: qué queda dentro de la responsabilidad del equipo y qué queda fuera.
@@ -2975,9 +2951,6 @@ En tercer lugar, Vigía no se integra con sistemas de gestión de obra ni con si
 ![IMAGEN — diagrama de contexto](../../assets/Chapther-4/c4-model/c4-model-context-diagram.png)
 
 *Nota.* Elaborado por el equipo de Trazza Labs en draw.io, aplicando el C4 Model de Simon Brown. Los recuadros de borde punteado delimitan las dos organizaciones que participan de la cadena de custodia. El diagrama editable puede consultarse en: [ENLACE].
-
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.6.3-software-architecture-container-diagrams.md -->
 
 #### 4.6.3. Software Architecture Container Diagrams
 
@@ -3022,9 +2995,6 @@ Las tecnologías corresponden a las indicadas en la sección de Tecnología del 
 ![IMAGEN — diagrama de contenedores](../../assets/Chapther-4/c4-model/c4-model-container-diagram.png)
 
 *Nota.* Elaborado por el equipo de Trazza Labs en draw.io, aplicando el C4 Model de Simon Brown. El recuadro de borde punteado delimita el alcance del sistema. El diagrama editable puede consultarse en: [ENLACE].
-
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.6.4-software-architecture-components-diagrams.md -->
 
 #### 4.6.4. Software Architecture Components Diagrams
 
@@ -3146,78 +3116,69 @@ Ninguna de las secciones exige autenticación, a diferencia de los otros dos con
 
 *Nota.* Elaborado por el equipo de Trazza Labs en draw.io, aplicando el C4 Model de Simon Brown. El formulario de demostración es el único componente con relación directa al RESTful API. El diagrama editable puede consultarse en: [C4-Model](https://tinyurl.com/284v5twu).
 
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.7-software-object-oriented-design.md -->
-
-## 4.7. Software Object-Oriented Design
+### 4.7. Software Object-Oriented Design
 
 En esta sección se detalla el diseño orientado a objetos del backend de la plataforma Vigía, modelado a partir de los conceptos estratégicos y tácticos identificados en el Design-Level EventStorming (sección 4.6.1) y el lenguaje ubicuo (Ubiquitous Language, sección 2.5).   El diseño se estructura bajo los principios de Domain-Driven Design (DDD) y la arquitectura limpia (Clean Architecture), adoptando el paradigma orientado a objetos sobre el lenguaje de programación C# (.NET 8). Los modelos de dominio encapsulan las reglas de negocio e invariantes críticas de cada Bounded Context, abstrayendo la persistencia y la infraestructura mediante contratos e interfaces desacopladas. Para cada contexto delimitado, se presentan las entidades raíz de agregado (Aggregate Roots), entidades secundarias, objetos de valor (Value Objects), enumeraciones (Enums) e interfaces de repositorios o servicios de dominio, garantizando una alta cohesión interna y bajo acoplamiento entre módulos.
 
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.7.1-class-diagrams.md -->
-
-## 4.7.1. Class Diagrams
+#### 4.7.1. Class Diagrams
 
 A continuación, se presentan los diagramas de clases UML para cada uno de los Bounded Contexts que conforman el núcleo (Core) y soporte de la solución:
 
-### 1. BC-01: Lead Management (Captación)
+##### 1. BC-01: Lead Management (Captación)
 Este contexto administra las solicitudes de demostración originadas por los visitantes a través del Landing Page comercial antes de que exista un vínculo contractual formal.
 
 **Figura 62**
 
 ![Diagrama.1](../../assets/Chapther-4/BC-01.png)
 
-### 2. BC-02: Identity and Access Management (IAM)
+##### 2. BC-02: Identity and Access Management (IAM)
 Este contexto administra las organizaciones cliente, los usuarios autenticados, la asignación estricta de roles y el ciclo de vida de las invitaciones.
 
 **Figura 63**
 
 ![Diagrama.2](../../assets/Chapther-4/BC-02.png)
 
-### 3. BC-03: Subscriptions and Payment (Suscripciones y Pagos)
+##### 3. BC-03: Subscriptions and Payment (Suscripciones y Pagos)
 Responde por la relación contractual, los planes SaaS, la facturación recurrente y la integración con la pasarela de pagos externa para autorizar el servicio a las empresas cliente registradas en BC-02.
 
 **Figura 64**
 
 ![Diagrama.3](../../assets/Chapther-4/BC-03.png)
 
-### 4. BC-04: Fleet and Device Management
+##### 4. BC-04: Fleet and Device Management
 Responde por el registro de los camiones de carga pesada, la vinculación unitaria de dispositivos telemáticos GPS y la delimitación de geocercas en almacenes y obras.
 
 **Figura 65**
 
 ![Diagrama.4](../../assets/Chapther-4/BC-04.png)
 
-### 5. BC-05: Ordering and Dispatch
+##### 5. BC-05: Ordering and Dispatch
 Gestiona el requerimiento de materiales, el desglose de ítems, el pesaje certificado en balanza de plataforma, la conformación de carga y la emisión de la guía de remisión que autoriza la salida del almacén central.
 
 **Figura 66**
 
 ![Diagrama.5](../../assets/Chapther-4/BC-05.png)
 
-### 6. BC-06: Transit Traceability
+##### 6. BC-06: Transit Traceability
 Modela el recorrido satelital continuo de la unidad durante su tránsito, capturando los reportes telemáticos del dispositivo GPS sin intervención humana directa y registrando anomalías de ruta.
 
 **Figura 67**
 
 ![Diagrama.6](../../assets/Chapther-4/BC-06.png)
 
-### 7. BC-07: Site Reception and Verification
+##### 7. BC-07: Site Reception and Verification
 Cubre la llegada de la unidad al frente de obra, el cotejo de materiales contra la guía digital de remisión y el registro fotográfico de evidencias ante faltantes o daños.
 
 **Figura 68**
 
 ![Diagrama.7](../../assets/Chapther-4/BC-07.png)
 
-### 8. BC-08: Discrepancy and Evidence Management
+##### 8. BC-08: Discrepancy and Evidence Management
 Contexto que consolida los historiales del despacho, el trayecto satelital y la recepción en obra para generar el expediente probatorio, expedir el reporte de sustento y adjudicar formalmente la responsabilidad.
 
 **Figura 69**
 
 ![Diagrama.8](../../assets/Chapther-4/BC-08.png)
-
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.8-database-design.md -->
 
 ### 4.8. Database Design
 
@@ -3232,9 +3193,6 @@ El diseño responde a cuatro criterios que se aplican de manera uniforme en los 
 **Las enumeraciones se representan como columnas de texto con restricción CHECK.** Los valores de cada enumeración provienen del dominio y forman un conjunto cerrado que no se modifica durante la operación, por lo que una tabla de catálogo resultaría innecesaria. La restricción CHECK conserva la misma garantía con menor complejidad.
 
 **No existen claves foráneas entre Bounded Contexts.** Cuando un agregado referencia una entidad de otro contexto, como ocurre con `company_id`, `vehicle_id` o `dispatch_id`, la columna se declara como identificador sin constraint de integridad referencial. Establecer una clave foránea entre contextos acoplaría sus esquemas y contradiría la separación definida en la sección 4.6.1. La consistencia de estas referencias es responsabilidad del componente de dominio correspondiente.
-
-
-<!-- Fuente: report/chapters/chapter-4-product-design/4.8.1-database-diagrams.md -->
 
 #### 4.8.1. Database Diagrams
 
@@ -3674,7 +3632,7 @@ erDiagram
 
 Este contexto sostiene el recorrido de la unidad durante el traslado y las anomalías detectadas en ruta. La tabla `position_reports` constituye el único caso en que un Value Object recibe clave primaria propia, dado que se presenta como colección dentro del agregado. Se emplea `bigserial` en lugar de `uuid` por el volumen previsto: es la tabla que acumula más filas, ya que recibe un registro por cada reporte del dispositivo GPS.
 
-Las columnas `occurred_at` y `received_at` conservan, respectivamente, el momento informado por el dispositivo y el momento de recepción en el servidor. Esta distinción corresponde a la decisión adoptada en la sección 4.6.3 y sostiene el valor probatorio de la evidencia consolidada en el apartado 8 de esta misma sección (BC-08).
+Las columnas `occurred_at` y `received_at` conservan, respectivamente, el momento informado por el dispositivo y el momento de recepción en el servidor. Esta distinción corresponde a la decisión adoptada en la sección 4.6.3 y sostiene el valor probatorio de la evidencia consolidada en el punto 8 de esta misma sección (BC-08).
 
 **Tabla `routes`**
 
@@ -3936,8 +3894,7 @@ erDiagram
     discrepancy_cases ||--|{ consolidated_timeline_entries : "consolida (CASCADE)"
 ```
 
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5-capitulo-v-product-implementation.md -->
+<div style="page-break-after: always;"></div>
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 
@@ -3945,70 +3902,76 @@ En este capítulo el equipo documenta la implementación, validación y desplieg
 
 > **Nota sobre el alcance de esta entrega (AV1).** Conforme al enunciado del proyecto, el requisito de implementación para la entrega AV1 es que esté implementada y desplegada la primera versión del Landing Page. Por esa razón, el Sprint 1 documentado en este capítulo cubre únicamente las Landing Page Stories del Product Backlog (LP-01 a LP-04); el RESTful API y la Web Application se implementan a partir del Sprint 2, conforme al orden de prioridad establecido en la sección 3.3.
 
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.1-software-configuration-management.md -->
-
 ### 5.1. Software Configuration Management
 
 En esta sección el equipo documenta las bases de configuración de software que sostienen el desarrollo de Vigía a lo largo de todo su ciclo de vida: el entorno de desarrollo, el esquema de control de versiones, la guía de estilo del código fuente y la configuración de despliegue. Estas decisiones se establecen desde el Sprint 1 y se amplían conforme el alcance del producto crece en los siguientes Sprints, en particular cuando se incorpore el RESTful API y la Web Application.
 
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.1.1-software-development-environment-configuration.md -->
-
 #### 5.1.1. Software Development Environment Configuration
 
-**Alcance en el Sprint 1.** Dado que el Sprint 1 implementa únicamente el Landing Page (sitio estático, sin RESTful API ni base de datos), el entorno de desarrollo configurado hasta esta entrega cubre solo lo necesario para ese alcance. La configuración del entorno para el RESTful API (ASP.NET Core, Entity Framework Core) y para la Web Application (Vue) se documentará a partir del Sprint en que se inicie su implementación, conforme al Product Backlog de la sección 3.3.
+Esta sección especifica los productos de software que utilizan los integrantes del equipo en cada tipo de actividad del ciclo de vida, junto con su propósito y su ruta de referencia.
 
-**Entorno configurado para el Landing Page.**
+| Actividad | Producto | Propósito en el proyecto | Ruta de referencia |
+|---|---|---|---|
+| Project Management | Trello | Tableros de Product Backlog y Sprint Backlog | https://trello.com |
+| Requirements Management | UXPressia | User Personas, Empathy Maps, Journey Maps e Impact Map | https://uxpressia.com |
+| Requirements Management | Miro | Big Picture EventStorming y Design-Level EventStorming | https://miro.com |
+| Product UX/UI Design | Figma | Wireframes, Mock-ups y Prototipos de la Web Application y del Landing Page | https://www.figma.com |
+| Software Architecture | Structurizr | Diagramas de C4 Model | https://structurizr.com |
+| Database Design | Mermaid | Diagramas de base de datos como código (carpeta `assets/Chapther-4/databases/source`) | https://mermaid.js.org |
+| Source Code Management | Git y GitHub | Control de versiones con GitFlow, Pull Requests y analíticos de colaboración | https://github.com |
+| Software Development | JetBrains WebStorm / Rider | Edición del código HTML, CSS, JavaScript, Vue y C# | https://www.jetbrains.com |
+| Software Development | Node.js y npm | Ejecución de Vite, instalación de dependencias y servidor simulado | https://nodejs.org |
+| Software Development | Vue 3, Vite, Pinia, Vue Router, vue-i18n y PrimeVue | Frontend Web Application (Single Page Application con internacionalización) | https://vuejs.org · https://vite.dev · https://primevue.org |
+| Software Development | json-server | Servidor simulado que reemplaza al RESTful API hasta su primera versión | https://github.com/typicode/json-server |
+| Software Development | ASP.NET Core y Entity Framework Core | Web Services (RESTful API), en desarrollo | https://dotnet.microsoft.com |
+| Software Deployment | GitHub Pages | Publicación del Landing Page | https://pages.github.com |
+| Software Deployment | Firebase Hosting | Publicación de la Frontend Web Application | https://firebase.google.com/products/hosting |
+| Software Documentation | Markdown en GitHub | Redacción colaborativa del informe | https://www.markdownguide.org |
 
-| Herramienta | Uso |
-|---|---|
-| Git | Control de versiones local, instalado en el equipo de cada integrante |
-| GitHub | Alojamiento del repositorio y ejecución de GitHub Pages para el despliegue |
-| IDE (JetBrains Rider / WebStorm, según integrante) | Edición del código HTML, CSS y JavaScript |
-| Navegador web (Chrome/Edge) | Ejecución y verificación local del sitio, sin necesidad de un servidor de desarrollo, dado que el Landing Page es HTML5, CSS3 y JavaScript puro sin paso de compilación |
-| Google Fonts (CDN) | Dependencia externa para la tipografía Inter definida en la sección 4.1.1; requiere conexión a internet durante el desarrollo y en producción |
+**Landing Page.** Es HTML5, CSS3 y JavaScript sin frameworks ni herramienta de build. Se ejecuta abriendo `docs/index.html` en el navegador (Chrome o Edge) y depende de Google Fonts, que requiere conexión a internet, para la tipografía Inter definida en la sección 4.1.1.
 
-No se requiere gestor de paquetes ni herramienta de build para el Sprint 1, dado que el Landing Page se implementó como HTML5, CSS3 y JavaScript sin frameworks, conforme a lo indicado en la sección de Tecnología del enunciado del proyecto. Esta decisión también simplifica su despliegue directo en GitHub Pages.
+**Frontend Web Application.** Requiere Node.js y npm. Los comandos del proyecto son `npm install` para instalar las dependencias, `npm run dev` para iniciar el servidor de desarrollo de Vite, `npm run server` para iniciar el servidor simulado con `json-server` y `npm run build` para generar la carpeta `dist/` que se publica en Firebase Hosting.
 
-
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.1.2-source-code-management.md -->
+**Web Services.** El entorno de desarrollo del RESTful API requiere el SDK de .NET, un editor compatible con C# y un gestor de base de datos relacional (MySQL Server o PostgreSQL), conforme a la sección de Tecnología del enunciado. Su configuración se detallará cuando el repositorio `vigia-platform` incorpore su primera versión.
 
 #### 5.1.2. Source Code Management
 
-El equipo utiliza GIT gestionado desde GitHub, bajo la organización `upc-pre-202620-1asi0730-8084-Developers`, con dos repositorios diferenciados según lo indicado en la sección de Tecnología del enunciado del proyecto:
+El equipo utiliza GIT gestionado desde GitHub, bajo la organización pública `upc-pre-202620-1asi0730-8084-Developers`, con un repositorio por producto de la solución, según lo indicado en la sección de Tecnología del enunciado del proyecto:
 
-| Repositorio | Contenido | URL |
-|---|---|---|
-| Vigia-Report | Informe del proyecto (este documento), en Markdown | https://tinyurl.com/2c98uev3 |
-| vigia-landing | Código fuente del Landing Page | https://tinyurl.com/282c9qzx |
+| Producto | Repositorio | Contenido | URL |
+|---|---|---|---|
+| Informe del proyecto | `vigia-report` | Documento de informe en Markdown | https://github.com/upc-pre-202620-1asi0730-8084-Developers/vigia-report |
+| Landing Page | `vigia-website` | HTML5, CSS3 y JavaScript del sitio estático | https://github.com/upc-pre-202620-1asi0730-8084-Developers/vigia-website |
+| Frontend Web Application | `vigia-web-application` | Aplicación Vue 3 con PrimeVue, organizada por Bounded Context | https://github.com/upc-pre-202620-1asi0730-8084-Developers/vigia-web-application |
+| Web Services (RESTful API) | `vigia-platform` | Proyecto ASP.NET Core con Entity Framework Core, en C#, junto con sus pruebas unitarias y de integración | https://github.com/upc-pre-202620-1asi0730-8084-Developers/vigia-platform |
 
-**GitFlow Workflow.** El repositorio Vigia-Report aplica GitFlow desde el inicio del proyecto: la rama `main` conserva el historial estable, la rama `develop` integra el trabajo en curso, y cada integrante desarrolla en una rama `feature/<nombre>` propia que se integra a `develop` mediante Pull Request. A la fecha de esta entrega, el repositorio registra las ramas `feature/Sandoval`, `feature/leonardo`, `feature/Apaza` y `feature/Cardenas`, y los Pull Requests #7, #8, #9 y #10 ya fueron revisados y fusionados a `develop`.
+**GitFlow Workflow.** Los cuatro repositorios aplican GitFlow. La rama `main` conserva únicamente versiones estables y etiquetadas, y la rama `develop` integra el trabajo en curso. Las convenciones de nombres de las demás ramas son las siguientes:
 
-El repositorio vigia-landing, al cubrir únicamente la primera versión del Landing Page en un solo Sprint, se mantiene por ahora sobre la rama `main`; el esquema de ramas por feature se incorporará a partir del Sprint 2, cuando el desarrollo del sitio continúe en paralelo con el de la Web Application.
+| Tipo de rama | Origen | Destino | Convención de nombre | Ejemplo |
+|---|---|---|---|---|
+| Feature | `develop` | `develop`, mediante Pull Request | `feature/<descripcion-en-kebab-case>` | `feature/transit-traceability` |
+| Release | `develop` | `main` y `develop` | `release/<MAJOR.MINOR.PATCH>` | `release/1.0.0` |
+| Hotfix | `main` | `main` y `develop` | `hotfix/<descripcion-en-kebab-case>` | Aún no se ha creado ninguna |
 
-**Conventional Commits.** El equipo redacta los mensajes de commit indicando el tipo de cambio al inicio del mensaje (por ejemplo, `docs:`, `chore:`). Se identifica como punto de mejora para el siguiente Sprint estandarizar el tipo en minúscula y ajustarlo estrictamente al catálogo de Conventional Commits (`feat`, `fix`, `docs`, `chore`, `refactor`, entre otros), dado que en el historial actual conviven variantes como `Add:` o `Doc:` que no siguen la convención de forma exacta.
+En el repositorio del informe, cada integrante trabaja además en una rama personal `feature/<nombre>` (`feature/Sandoval`, `feature/leonardo`, `feature/Apaza`, `feature/Cardenas`, `feature/Ramos`), que se integra a `develop` mediante Pull Request. En el repositorio `vigia-web-application`, cada funcionalidad tiene su propia rama (por ejemplo, `feature/transit-traceability`, `feature/inventory-management`, `feature/activity-history` y `feature/firebase-hosting`).
 
-**Semantic Versioning.** Aún no se han creado tags de versión en ninguno de los dos repositorios. Para el Sprint 2 se adoptará el esquema `MAJOR.MINOR.PATCH`, etiquetando la versión actualmente desplegada del Landing Page como `v0.1.0` (primera versión funcional, previa a la version 1.0.0 que corresponderá al lanzamiento comercial).
+**Conventional Commits.** Los mensajes de commit siguen el formato `<tipo>(<alcance opcional>): <descripción>`, con los tipos `feat`, `fix`, `docs`, `style`, `refactor`, `test` y `chore`. Por ejemplo, `feat(reception): implementar store reactivo Pinia y mock server con endpoints REST` o `docs: fix deployment evidence`. El historial incluye aún algunos mensajes que no siguen la convención (por ejemplo `Update 03-student-outcome.md`, generado desde la interfaz web de GitHub); el equipo los corrige a partir de este punto redactando los commits desde la línea de comandos.
 
-**Evidencia de aportes del equipo.** El siguiente cuadro resume los commits registrados en el repositorio Vigia-Report a la fecha de esta entrega, como evidencia de que todos los integrantes participan en la elaboración del informe, conforme lo exige el enunciado:
+**Semantic Versioning.** Las versiones se nombran con el esquema `MAJOR.MINOR.PATCH`. El repositorio `vigia-website` cuenta con la rama `release/1.0.0` y la etiqueta `v1.0.0`. El repositorio del informe registra sus versiones en el Registro de Versiones del Informe, y los demás repositorios etiquetarán sus versiones al cerrar cada Sprint.
 
-| Autor (usuario de GitHub) | Commits |
-|---|---|
-| Leonardo Lopez / Deiko-138 | 39 |
-| ApazaEN | 27 |
-| FabianSandovalCueto / JFabianSandoval | 20 |
-| eliocerdan | 9 |
-| Usuario353 | 8 |
+**Evidencia de aportes del equipo.** Los siguientes cuadros resumen los commits por integrante registrados en GitHub al 3 de noviembre de 2026. Todos los integrantes tienen commits en los tres repositorios que ya contienen implementación.
 
-
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.1.3-source-code-style-guide-and-conventions.md -->
+| Integrante | Usuario de GitHub | `vigia-report` | `vigia-website` | `vigia-web-application` |
+|---|---|---|---|---|
+| Leonardo Lopez | `LeonardoLopez138` | 63 | 11 | 15 |
+| Elías Ramos | `eliocerdan` | 49 | 2 | 48 |
+| Elizabeth Apaza | `ApazaEN` | 43 | 3 | 10 |
+| Mathias Cárdenas | `Usuario353` | 23 | 12 | 8 |
+| Fabián Sandoval | `FabianSandovalCueto` / `JFabianSandoval` | 27 | 8 | 55 |
 
 #### 5.1.3. Source Code Style Guide & Conventions
 
-Para el código del Landing Page (HTML5, CSS3 y JavaScript), implementado en el repositorio vigia-landing, el equipo adopta las siguientes convenciones:
+Para el código del Landing Page (HTML5, CSS3 y JavaScript), implementado en el repositorio vigia-website, el equipo adopta las siguientes convenciones:
 
 **Organización de archivos.** El sitio se estructura en tres archivos separados por responsabilidad —`index.html` (estructura y contenido), `styles.css` (presentación) y `script.js` (comportamiento)—, más una carpeta `assets/` para imágenes, publicados dentro de una carpeta `docs/` en la raíz del repositorio para su despliegue directo mediante GitHub Pages.
 
@@ -4018,29 +3981,39 @@ Para el código del Landing Page (HTML5, CSS3 y JavaScript), implementado en el 
 
 **JavaScript.** El script se encapsula en una única función autoejecutable (IIFE) para no exponer variables globales, usa `camelCase` para variables y funciones, y evita dependencias externas: la validación del formulario de demo, el menú móvil y el resaltado de la sección activa en el menú se implementan con JavaScript nativo (ES5, sin transpilación), suficiente para el alcance estático del Sprint 1.
 
-
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.1.4-software-deployment-configuration.md -->
-
 #### 5.1.4. Software Deployment Configuration
 
-El Landing Page de Vigía se despliega mediante **GitHub Pages**, directamente desde el repositorio vigia-landing, sin un pipeline de integración continua independiente por tratarse de un sitio estático sin paso de compilación.
+El despliegue de la solución se configura por producto. El Landing Page se publica en GitHub Pages y la Frontend Web Application en Firebase Hosting. Ambos son sitios estáticos sin servidor propio. Los Web Services se desplegarán en una etapa posterior, cuando el RESTful API cuente con su primera versión.
 
-**Configuración aplicada.**
+**Landing Page (GitHub Pages).** El sitio se despliega directamente desde el repositorio `vigia-website`, sin un pipeline de integración continua independiente, por tratarse de un sitio estático sin paso de compilación.
 
 | Parámetro | Valor |
 |---|---|
-| Repositorio | `upc-pre-202620-1asi0730-8084-Developers/vigia-landing` |
+| Repositorio | `upc-pre-202620-1asi0730-8084-Developers/vigia-website` |
 | Rama de despliegue | `main` |
 | Carpeta publicada | `/docs` |
 | Archivo `.nojekyll` | Presente en `docs/`, para que GitHub Pages sirva los archivos tal cual, sin procesarlos con Jekyll |
-| URL de producción | https://tinyurl.com/2xto55wc |
+| URL de producción | https://upc-pre-202620-1asi0730-8084-developers.github.io/vigia-website/ |
 
-**Proceso de despliegue actual.** El despliegue es automático a nivel de publicación (GitHub Pages reconstruye el sitio en cada push a `main` sobre la carpeta `/docs`), pero manual a nivel de integración: cada integrante hace `git push` directamente a `main` en este repositorio, dado que el Sprint 1 comprende un único entregable (el Landing Page) sin ramas paralelas en desarrollo todavía.
+GitHub Pages reconstruye el sitio en cada push a `main` sobre la carpeta `/docs`. La integración sigue GitFlow: los cambios llegan a `develop` mediante Pull Request y se publican al fusionar la rama de release a `main`.
 
+**Frontend Web Application (Firebase Hosting).**
 
+| Parámetro | Valor |
+|---|---|
+| Repositorio | `upc-pre-202620-1asi0730-8084-Developers/vigia-web-application` |
+| Comando de compilación | `npm run build` (Vite) |
+| Carpeta publicada | `dist/` |
+| URL de producción | https://vigia-frontend-8084.web.app |
 
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.2-landing-page-services-and-applications-implementation.md -->
+Pasos para desplegar una nueva versión:
+
+1. Fusionar la rama de la funcionalidad a `develop` mediante Pull Request.
+2. Ejecutar `npm install` y `npm run build` sobre `develop` para generar la carpeta `dist/`.
+3. Autenticarse con `firebase login` y publicar con `firebase deploy --only hosting` sobre el proyecto `vigia-frontend-8084` (definido en `.firebaserc`). La configuración `firebase.json` publica la carpeta `dist` y redirige todas las rutas a `index.html`, como requiere una Single Page Application.
+4. Verificar la URL de producción y registrar la evidencia en la sección 5.2.X.7 del Sprint correspondiente.
+
+El archivo `.env.production` define la URL base de los servicios que consume la aplicación; hasta que el RESTful API esté desplegado apunta al servidor simulado (sección 5.2.2.6).
 
 ### 5.2. Landing Page, Services & Applications Implementation
 
@@ -4048,19 +4021,13 @@ En esta sección el equipo documenta, Sprint a Sprint, la implementación del La
 
 Esta sección documenta el **Sprint 1** (entrega AV1), correspondiente a la primera versión del Landing Page, y el **Sprint 2** (entrega TB1), que inicia el desarrollo de la Frontend Web Application y del RESTful API, siguiendo el orden establecido en el Product Backlog de la sección 3.3.
 
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.2.1-sprint-1/5.2.1-sprint-1.md -->
-
 #### 5.2.1. Sprint 1
 
-**Duración:** 01 de septiembre de 2026 – 18 de septiembre de 2026 (según el historial de commits del repositorio Vigia-Report y del repositorio vigia-landing).
+**Duración:** 01 de septiembre de 2026 – 18 de septiembre de 2026 (según el historial de commits del repositorio Vigia-Report y del repositorio vigia-website).
 
 **Objetivo del Sprint:** Implementar y desplegar la primera versión del Landing Page de Vigía, cubriendo la propuesta de valor del producto, los beneficios diferenciados por segmento objetivo y el formulario de solicitud de demostración, para cumplir el requisito de implementación de la entrega AV1.
 
 Esta sección documenta el Sprint Planning, los líderes y colaboradores por aspecto, el Sprint Backlog y la evidencia de desarrollo, ejecución, documentación de servicios, despliegue y colaboración del equipo durante el Sprint.
-
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.2.1-sprint-1/5.2.1.1-sprint-planning-1.md -->
 
 ##### 5.2.1.1. Sprint Planning 1
 
@@ -4084,9 +4051,6 @@ Esta sección documenta el Sprint Planning, los líderes y colaboradores por asp
 
 **Historia diferida.** TS-06 (Endpoint de solicitud de demostración) se excluye deliberadamente del Sprint 1: al no existir todavía el RESTful API, el formulario de LP-04 valida los datos en el propio navegador pero no los envía a un servicio real. TS-06 se retoma en el Sprint en que se implemente el RESTful API, momento en el cual el formulario del Landing Page se conectará a ese endpoint.
 
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.2.1-sprint-1/5.2.1.2-aspect-leaders-and-collaborators.md -->
-
 ##### 5.2.1.2. Aspect Leaders and Collaborators
 
 | Aspecto | Líder | Colaboradores |
@@ -4096,15 +4060,11 @@ Esta sección documenta el Sprint Planning, los líderes y colaboradores por asp
 | Documentación del informe (Vigia-Report) | Leonardo Lopez (Documentación y soporte) | Todo el equipo |
 | Coordinación general y arquitectura | Fabián Sandoval (Team Leader) | Todo el equipo |
 
-
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.2.1-sprint-1/5.2.1.3-sprint-backlog-1.md -->
-
 ##### 5.2.1.3. Sprint Backlog 1
 
 | User Story Id | Título | Story Points | Estado | Evidencia |
 |---|---|---|---|---|
-| LP-01 | Página de inicio con la propuesta de valor | 2 | Completada | Sección "Inicio" en https://tinyurl.com/2xto55wc |
+| LP-01 | Página de inicio con la propuesta de valor | 2 | Completada | Sección "Inicio" en https://upc-pre-202620-1asi0730-8084-developers.github.io/vigia-website/ |
 | LP-02 | Sección para el segmento de empresas constructoras | 2 | Completada | Sección "Cómo funciona" / "Beneficios" del Landing Page desplegado |
 | LP-03 | Sección para el segmento de logística y transporte | 2 | Completada | Sección "Beneficios" del Landing Page desplegado |
 | LP-04 | Formulario de solicitud de demostración | 3 | Completada (validación en cliente; envío real pendiente de TS-06) | Sección "Demo" del Landing Page desplegado |
@@ -4124,18 +4084,14 @@ Esta sección documenta el Sprint Planning, los líderes y colaboradores por asp
 
 **Total estimado del Sprint:** 36 horas, distribuidas entre las Engineering Tasks de las cuatro Landing Page Stories comprometidas.
 
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.2.1-sprint-1/5.2.1.4-development-evidence-for-sprint-review.md -->
-
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
-El código fuente del Landing Page se encuentra en el repositorio [vigia-landing](https://tinyurl.com/282c9qzx), en la carpeta `docs/`, organizado en `index.html`, `styles.css`, `script.js` y `assets/`. El commit `689c72f` ("chore: initial commit") registra la primera versión completa del sitio.
+El código fuente del Landing Page se encuentra en el repositorio [vigia-website](https://github.com/upc-pre-202620-1asi0730-8084-Developers/vigia-website), en la carpeta `docs/`, organizado en `index.html`, `styles.css`, `script.js` y `assets/`. El commit `689c72f` ("chore: initial commit") registra la primera versión completa del sitio.
 
 El código aplica directamente los tokens de diseño definidos en la sección 4.1.1 mediante variables CSS (`--color-primary`, `--color-accent`, `--sp-*` para el espaciado de 8px), de modo que la hoja de estilos sea la fuente única de verdad del Design System para este producto.
 
 **`styles.css`** — hoja de estilos completa del Landing Page, con las variables del Design System (`:root`), los componentes reutilizables y las media queries responsivas:
 
-```css
 ```css
 * {
   box-sizing: border-box;
@@ -5806,7 +5762,6 @@ ol {
 }
 ```
 
-```
 
 **`script.js`** — comportamiento del sitio: menú móvil, resaltado de la sección activa, selector de idioma (solo visual en este MVP) y validación del formulario de demo:
 
@@ -5912,60 +5867,46 @@ ol {
 }());
 ```
 
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.2.1-sprint-1/5.2.1.5-execution-evidence-for-sprint-review.md -->
-
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 
 El Landing Page se encuentra desplegado y accesible públicamente en:
 
-**https://tinyurl.com/2xto55wc**
+**https://upc-pre-202620-1asi0730-8084-developers.github.io/vigia-website/**
 
 El sitio incluye las secciones Inicio, Cómo funciona, Beneficios, Planes, Demo, Equipo y Contacto, con navegación funcional por anclas, resaltado de la sección activa al hacer scroll, menú adaptado a mobile, y el formulario de solicitud de demo con validación de campos requeridos y de formato de correo electrónico.
 
 
 **Figura 78**
 
-![landing (1).png](../../assets/chapther-5/landing%20%281%29.png)
+![landing (1).png](../../assets/chapther-5/landing%20(1).png)
 
 **Figura 79**
 
-![landing (2).png](../../assets/chapther-5/landing%20%282%29.png)
+![landing (2).png](../../assets/chapther-5/landing%20(2).png)
 
 **Figura 80**
 
-![landing (3).png](../../assets/chapther-5/landing%20%283%29.png)
+![landing (3).png](../../assets/chapther-5/landing%20(3).png)
 
 **Figura 81**
 
-![landing (4).png](../../assets/chapther-5/landing%20%284%29.png)
+![landing (4).png](../../assets/chapther-5/landing%20(4).png)
 
 **Figura 82**
 
-![landing (5).png](../../assets/chapther-5/landing%20%285%29.png)
-
- 
-
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.2.1-sprint-1/5.2.1.6-services-documentation-evidence-for-sprint-review.md -->
+![landing (5).png](../../assets/chapther-5/landing%20(5).png)
 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 Esta subsección no aplica al Sprint 1: el alcance de este Sprint comprendió únicamente el Landing Page (sitio estático), sin ningún servicio del RESTful API implementado todavía. La Technical Story TS-06 (endpoint de solicitud de demostración), que sí generará documentación de servicio mediante OpenAPI Specification vía Swagger conforme a lo indicado en la sección de Tecnología del enunciado, se implementará en el Sprint en que comience el desarrollo del RESTful API. Esta subsección se completará a partir de esa entrega.
 
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.2.1-sprint-1/5.2.1.7-software-deployment-evidence-for-sprint-review.md -->
-
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-El despliegue del Landing Page se configuró en GitHub Pages sobre el repositorio vigia-landing, con la rama `main` y la carpeta `/docs` como origen de publicación, conforme a lo detallado en la sección 5.1.4. La URL pública resultante es https://tinyurl.com/2xto55wc.
+El despliegue del Landing Page se configuró en GitHub Pages sobre el repositorio vigia-website, con la rama `main` y la carpeta `/docs` como origen de publicación, conforme a lo detallado en la sección 5.1.4. La URL pública resultante es https://upc-pre-202620-1asi0730-8084-developers.github.io/vigia-website/.
 
 **Figura 83**
 
 ![Pages-configuration.png](../../assets/chapther-5/Pages-configuration.png)
-
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.2.1-sprint-1/5.2.1.8-team-collaboration-insights-during-sprint.md -->
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -5987,9 +5928,6 @@ Los cinco integrantes registran commits propios durante el Sprint, lo que eviden
 
 ![Collaboration-insigths.png](../../assets/chapther-5/Collaboration-insights.png)
 
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.2.2-sprint-2/5.2.2-sprint-2.md -->
-
 #### 5.2.2. Sprint 2
 
 **Duración:** 2 semanas
@@ -5997,9 +5935,6 @@ Los cinco integrantes registran commits propios durante el Sprint, lo que eviden
 **Objetivo del Sprint:** Implementar y desplegar la primera versión de la Frontend Web Application de Vigía, cubriendo el registro de la empresa, la activación de la suscripción y el acceso de los usuarios por rol, para cumplir el requisito de implementación de la entrega TB1; adicionalmente, desplegar una nueva versión del Landing Page con las correcciones y mejoras derivadas de la retroalimentación de AV1.
 
 Esta sección documenta el Sprint Planning, los líderes y colaboradores por aspecto, el Sprint Backlog y la evidencia de desarrollo, ejecución, documentación de servicios, despliegue y colaboración del equipo durante el Sprint 2.
-
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.2.2-sprint-2/5.2.2.1-sprint-planning-2.md -->
 
 ##### 5.2.2.1. Sprint Planning 2
 
@@ -6032,9 +5967,6 @@ Esta sección documenta el Sprint Planning, los líderes y colaboradores por asp
 
 **Total propuesto:** 30 Story Points
 
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.2.2-sprint-2/5.2.2.2-aspect-leaders-and-collaborators.md -->
-
 ##### 5.2.2.2. Aspect Leaders and Collaborators
 
 | Aspecto | Líder | Colaboradores |
@@ -6044,9 +5976,6 @@ Esta sección documenta el Sprint Planning, los líderes y colaboradores por asp
 | Landing Page (nueva versión) | Elías (UX/UI y Frontend) | Elizabeth (Investigación y negocio) |
 | Documentación del informe (Vigia-Report) | Leonardo Lopez (Documentación y soporte) | Todo el equipo |
 | Coordinación general y arquitectura | Fabián Sandoval (Team Leader) | Todo el equipo |
-
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.2.2-sprint-2/5.2.2.3-sprint-backlog-2.md -->
 
 ##### 5.2.2.3. Sprint Backlog 2
 
@@ -6086,376 +6015,288 @@ Esta sección documenta el Sprint Planning, los líderes y colaboradores por asp
 
 ![sprint backlog 2.png](../../assets/chapther-5/sprint%20backlog%202.png)
 
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.2.2-sprint-2/5.2.2.4-development-evidence-for-sprint-review.md -->
-
 ##### 5.2.2.4. Development Evidence for Sprint Review
 
 En esta sección se explica y presenta los avances en la implementación con relación a los productos de la solución según el alcance del Sprint 2: la **Frontend Web Application** de Vigía (Landing Page y Web Services se documentan en sus propias secciones). Durante este Sprint se construyó la primera versión de la Web Application aplicando GitFlow: cada funcionalidad se desarrolló en una rama `feature/*` y se integró a `develop` mediante Pull Requests, siguiendo Conventional Commits. A continuación se presenta, para el repositorio de la Web Application, la relación de commits relacionados con la implementación del Sprint, indicando la rama `feature/*` de cada aporte.
 
-**Repositorio:** `Vigia-Frontend` — organización `upc-pre-202620-1asi0730-8084-Developers`
+**Repositorio:** `vigia-web-application` — organización `upc-pre-202620-1asi0730-8084-Developers`
 **Rama base de integración:** `develop`
-**URL:** https://github.com/upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend/commits/develop/
+**URL:** https://github.com/upc-pre-202620-1asi0730-8084-Developers/vigia-web-application/commits/develop/
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |---|---|---|---|---|---|
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/shared | 2e2ea058c8c96478e4f8134fe8c6a47ee1a0ccc1 | Initial commit | — | 2026-09-01 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/shared | bb6c101bf21758ba14c02d4706f84c77f4c90476 | feat(shared): inicializar arquitectura base, navegacion global y componentes compartidos | — | 2026-10-04 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/fleet-and-device-registry | 0a50ca5c84eba54abde0403b10e44006b412ee73 | feat(fleet): implementar bounded context BC-04 gestion de flota, vehiculos y geocercas | — | 2026-10-04 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/fleet-and-device-registry | 9d3f84075c5eb529b5e933e93521c54bc22c0563 | test(fleet): agregar suite e2e automatizada de 22 aserciones para telemetria y validaciones de negocio | — | 2026-10-04 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/shared | b99876f6a0a57a0b4e59240f044c3aa222034dc8 | Delete docs directory | — | 2026-10-04 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/shared | 5d4acb7ea6a4d5e4db32f6f921cb0dbdf2bc8053 | Delete README.md | — | 2026-10-04 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/shared | 0d58572834111a371735327796619cc5c7dac4c2 | Merge pull request #1 from upc-pre-202620-1asi0730-8084-Developers/feature/shared | feat(shared): initialize shared module structure | 2026-10-04 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/site-reception-and-verification | daec8bbc9e031388df8e9f15b9f71e985570b672 | feat(reception): definir modelo de dominio, entidades y value objects para BC-07 | — | 2026-10-04 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/site-reception-and-verification | 99cc0d5de1684d170d717d0ba718628a503fa58b | feat(reception): implementar cliente API, endpoints y assemblers de recepcion | — | 2026-10-04 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/site-reception-and-verification | 11306fff0cc600718eed38a6eba80c61a0b5ab30 | feat(reception): implementar store reactivo Pinia y mock server con endpoints REST | — | 2026-10-04 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/site-reception-and-verification | 46569e0a9421609863cf9afffadb8447b416c8ec | feat(reception): implementar interfaces para responsable de obra y supervisor segun mockups | — | 2026-10-04 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/site-reception-and-verification | 72040fae0d1a43e58a85e52d243a53892dc2414f | test(reception): integrar rutas, traducciones i18n y suite de pruebas automatizadas | — | 2026-10-04 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/fleet-and-device-registry | fc2ff02ef98f128b14cefb82098fe4e44ffe2bc3 | Merge pull request #3 from upc-pre-202620-1asi0730-8084-Developers/feature/fleet-and-device-registry | Feature/fleet and device registry | 2026-10-04 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/site-reception-and-verification | db75f1e282511638f55975610b63deae5b4fc83f | Merge pull request #5 from upc-pre-202620-1asi0730-8084-Developers/feature/site-reception-and-verification | Feature/site reception and verification | 2026-10-04 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/shared | f990ac6ea0b313421a8016dab194b03c6e6d47da | doc: Delete LICENSE.md | — | 2026-10-04 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/shared | 1d9254b6d9488c19e8ca34bf5e1792cca046e25a | doc: Delete README.md | — | 2026-10-04 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/issues-list | 2375e07c275555e414fa2a6510b4dd552c9cff31 | feat: add discrepancy case entity | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/issues-list | 6b2f9c8d344f3b7b50fdda0634ae7a08e5b1a5e3 | feat: add discrepancy case assembler | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/issues-list | 0d728f63b4afd1af0c2a1409770bf1979b2d674e | feat: add discrepancy api | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/issues-list | 2fbcc088cce2682f8f3f0d7e7d4ef031653800a1 | feat: add discrepancy store | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/issues-list | 5da32080768553b19609ddf3d8c605616489898a | feat: add issues list view | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/issues-list | d7b19eadeb7ddfa59658fbd12020ae722270a5b5 | feat: add issues route | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/issues-list | 1eba1a996ddd51cbe626576da8998bd52b2c0c1b | Merge pull request #6 from upc-pre-202620-1asi0730-8084-Developers/feature/issues-list | Feature/issues list | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/issues-filters | d77c964502265fde3ea9ed1a5e0c09211a4f4771 | feat: add issues filters | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/issues-filters | 1b2270777093a88ef63420a88475d58939758b58 | Merge pull request #7 from upc-pre-202620-1asi0730-8084-Developers/feature/issues-filters | feat: add issues filters | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/issue-detail | c0d29c81d655a161d2d944601a0fba37ba9165b8 | feat: add issue detail view | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/issue-detail | 2fe47a04767d5d5a4bbdcc9230faa0e419d2e217 | feat: add discrepancy routes | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/issue-detail | 03cd4d99588632357503ec2e4a8d042e9fdce534 | refactor: integrate discrepancy routes into main router | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/issue-detail | bb45655ed0c3fd1289f4ac9d04149888481f9c65 | feat: enable navigation from issues list to case detail | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/issue-detail | baa801efcbd811ee40414571048ef4fb8d0e262e | Merge pull request #8 from upc-pre-202620-1asi0730-8084-Developers/feature/issue-detail | Feature/issue detail | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/evidence-timeline | 2b9c4ebe3c115e49877d1a45646afc6402a69732 | feat: include evidence timeline in discrepancy case model | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/evidence-timeline | c47564495986b4eaa3cc7cea0c3095206b486c11 | feat: map evidence timeline in discrepancy case assembler | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/evidence-timeline | 408baee6a3e9d3528becf92c3cd2a91b9b68f6e0 | feat: provide mock evidence timelines for discrepancy cases | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/evidence-timeline | c483c9dbbd209936df7c295cf38b2517f88f3132 | feat: display evidence timeline in issue detail view | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/evidence-timeline | 052b87dd094bfa627d653a4906cd2c5664587e6d | Merge pull request #9 from upc-pre-202620-1asi0730-8084-Developers/feature/evidence-timeline | Feature/evidence timeline | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/supporting-report | 1f63a1c8081fa9330394e11dd8637ee4ef64b927 | feat: simulate supporting report generation in discrepancy api | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/supporting-report | 9c768aac2e660226c7ce9751e2aab3ac7fae6cd2 | feat: expose supporting report generation through discrepancy store | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/supporting-report | ccadea283fb9b4b646cd77ef53a5c53d07fa3873 | feat: trigger supporting report generation from issue detail view | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/supporting-report | e9cd75ae4fbd837643b6642c4ed4c7620db04361 | Merge pull request #10 from upc-pre-202620-1asi0730-8084-Developers/feature/supporting-report | Feature/supporting report | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/case-responsibility | ac3ac3a4e7f02c92fba3a511e8a62a07fcedeeb2 | feat: include responsibility in discrepancy case model | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/case-responsibility | c3d50330ab661fbc7e39f9978c002b9f722ec0b6 | feat: map responsibility in discrepancy case assembler | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/case-responsibility | 69d02ce7c5436b32a4766761566f4ea8f66a4fef | feat: simulate responsibility assignment in discrepancy api | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/case-responsibility | 33fdf383564f21897131683f464b827449034221 | feat: manage responsibility updates in discrepancy store | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/case-responsibility | 252579075d1ba7797cedd8903adfbef2b7238c50 | feat: allow responsibility selection in issue detail view | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/case-responsibility | 0c4a3fbef594926c78c8172f1d493a00caa6e670 | Merge pull request #11 from upc-pre-202620-1asi0730-8084-Developers/feature/case-responsibility | Feature/case responsibility | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/case-closure | 0d77ce6f16347e89c447377cd326a5fe3df38bb0 | feat: simulate discrepancy case closure in api | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/case-closure | 316d1844454782586d31e33719bfbb26eb8cd35c | feat: validate and manage discrepancy case closure | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/case-closure | 998cc49be5783963dec6c18a798f382443b60587 | feat: allow closing discrepancy cases from detail view | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/case-closure | b253e705c01f7ad72e3c336406b6d4a5b336c31c | Merge pull request #12 from upc-pre-202620-1asi0730-8084-Developers/feature/case-closure | Feature/case closure | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/missing-evidence-handling | 3ad3f75a880722a0cd13ed8bb1d04a8ac4065e02 | feat: include missing evidence in discrepancy case model | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/missing-evidence-handling | fa8949015a8a2803beea160b2de53c5f549461c7 | feat: map missing evidence in discrepancy case assembler | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/missing-evidence-handling | 13c97fb190a8181a65e562ba3d37b3fe41fd9e5e | feat: provide missing evidence examples for discrepancy cases | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/missing-evidence-handling | 5f2daf30c6a41c63b0408871555ecf5e8d8a48cd | feat: display missing evidence in issue detail view | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/missing-evidence-handling | d8a7f49fdc9131b1511623255f45552438ad0bfb | Merge pull request #13 from upc-pre-202620-1asi0730-8084-Developers/feature/missing-evidence-handling | Feature/missing evidence handling | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/photographic-evidence | 102d30ee889823691a8a64c42c3a6666c4bfe0f8 | feat: include photographic evidence in discrepancy case model | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/photographic-evidence | 9c708f7f6ba36e2c3783bf0e713e14a8483e289e | feat: map photographic evidence in discrepancy case assembler | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/photographic-evidence | ab817757797e364d8e5bf094b8689ecc9c210616 | feat: provide photographic evidence examples for discrepancy cases | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/photographic-evidence | 27c8cfa1292e0f37f1481baa73e7f52d3e33ae2c | feat: display photographic evidence in issue detail view | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/photographic-evidence | 04f040da49ef4cb44800ce318585e2f80a366eba | Merge pull request #14 from upc-pre-202620-1asi0730-8084-Developers/feature/photographic-evidence | Feature/photographic evidence | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/discrepancy-i18n | dcfb742b92fa9bfec6b453a5e4d5f827c6661f01 | feat: add English translations for discrepancy management | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/discrepancy-i18n | 0fa2e3a97aa42919c4ace86b8cb51f5ca023395e | feat: add Spanish translations for discrepancy management | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/discrepancy-i18n | 74c6b82b6bdec48a3e91be123cf13141ab371254 | feat: localize issues list interface | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/discrepancy-i18n | c8418d887923933cc64cc1f476b9f7138aacdc88 | feat: localize issue detail interface | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/discrepancy-i18n | 116f097c4d0933f047b1f4df0d91bbeb01991f30 | Merge pull request #15 from upc-pre-202620-1asi0730-8084-Developers/feature/discrepancy-i18n | Feature/discrepancy i18n | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/order-management-and-dispatch | 4882c7a9509c6ed8cb252712a9ce8d89525cece8 | feat: add order and dispatch domain model | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/order-management-and-dispatch | 205ae4fb5cf1c678b7c1d8b63e5f3ed7ac078f32 | feat: add order and dispatch assemblers and api client | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/order-management-and-dispatch | 3adf56b985949cc23d73c7e0b821038b6201cf02 | feat: add order and dispatch pinia stores | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/order-management-and-dispatch | f9f1c651e13d82fb09653510a9678c410eaa9290 | feat: add orders list view | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/order-management-and-dispatch | 02d54b46fe7885e6e5e0bcbac68a1fa1c41c147f | feat: add order detail view | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/order-management-and-dispatch | 1373773027ff5c4554029f6704d2462c5583ab1f | feat: add dispatches list view | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/order-management-and-dispatch | 7edc8f76618f9cac8de639347e93ab6290b723e5 | feat: add new dispatch wizard information step | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/order-management-and-dispatch | a0d7bb541cad634d09c284de8cba5751a51e39cd | feat: register ordering and dispatch routes | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/order-management-and-dispatch | ded4a18c6b198fd4434158de8cffcc6ad952116f | feat: add orders and dispatches translations | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/order-management-and-dispatch | 3d7eef81294704daa544b4696fb134d27be73957 | feat: add orders and dispatches mock data and endpoints | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/order-management-and-dispatch | 8c89e6493aef01624e9a9aa784a3a7434cfa3fbb | refactor: use default primevue stepper, timeline and button styling in ordering views | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/order-management-and-dispatch | 3bbe44fb14ef0576c5fba187f177d29aa0b0d7be | refactor: align order management and dispatch structure with learning center conventions | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/order-management-and-dispatch | e50f146c23b9724d4249b47c2dbc05ea357c685a | refactor: align dispatch vehicle reference with transit traceability route | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/order-management-and-dispatch | 3658d25183cbbffd71d20e5c4a93f13297e0c656 | fix: use numeric dispatch vehicleId and add VIGIA_API_URL env alias for shared base-api compatibility | — | 2026-10-05 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/transit-traceability | 6f7f9d2856701e56da9c9df38118563c1fa962fd | feat(transit-traceability): add route domain model | Add the Route aggregate with TelemetryPosition and TransitAlert, plus route status and alert type definitions. The aggregate detects route deviation, prolonged stops, signal loss/recovery and destination geofence entry, and tracks alerts pending notification to the site. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/transit-traceability | 7e651dea9b75243b1ebe6de25cb23ad4d1148057 | feat(transit-traceability): add route assembler, api client and telemetry simulator | Add TransitTraceabilityApi over the routes endpoint, RouteAssembler for entity/resource mapping, and a TelemetrySimulator that stands in for the GPS telemetry platform by generating position reports along the planned path. Register VITE_ROUTES_ENDPOINT_PATH in both environments. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/transit-traceability | c34662b78f2983baed22b1814bc10d9e9acad6f2 | feat(transit-traceability): add transit traceability pinia store | Expose route queries and status counters, and the commands to report a position, report signal loss and notify the destination site. Commands run on a copy of the route and only replace local state once persisted. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/transit-traceability | d832a6842383d44b88c0629e1fc81bf35298b556 | feat(transit-traceability): add transit traceability translations | Add the transit section and the transit tracking tab label to the English and Spanish catalogs. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/transit-traceability | 8995eb41c76aa27f92affcbbe97c45a986ba9e58 | feat(transit-traceability): add routes mock data | Seed route RT-001 tracking dispatch DS-106 (vehicle V3B-920) from the Lurín warehouse to the San Isidro site geofence, with its planned path and first telemetry positions. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/transit-traceability | d859f1931c98821df774aee5c17aa475083714a4 | feat(transit-traceability): add transit tracking tab to transportation view | — | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/transit-traceability | df6f6b11a1f5a151c61b1245816a947ca9230dfc | feat(transit-traceability): add transit tracking view | Show route KPIs, the list of tracked routes and a Leaflet map with the planned path, travelled path, current position and destination geofence. Include the transit alerts timeline with the notify-site action, and controls to simulate GPS telemetry reports while no device is connected. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/server-json-dataset | e27b391ee7c147cf5f63f801b72220391458b64a | refactor(server): split mock database into per-collection json dataset | Move every collection of server/db.json into its own file under server/data/<bounded-context>/<collection>.json and load them through server/db.cjs, which json-server now uses as its source. Changes made while the server runs stay in memory, so the dataset files are no longer modified by the app. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/server-json-dataset | 78c393e2722b294821bbd66c6f1cb3af41bef9c2 | feat(iam): add users dataset | Add server/data/iam/users.json with the platform users and roles, reusing the user ids already referenced by receptions. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/server-json-dataset | ef9770920e18b29601cc92a5b10e2ee144f0b4b0 | refactor(discrepancy): serve discrepancy cases from the json dataset | Move the discrepancy cases hardcoded in DiscrepancyApi to server/data/discrepancy-and-evidence-management/discrepancy-cases.json. DiscrepancyApi now reads them through json-server and persists the responsibility and case closure with PATCH, keeping the same results for the store. Add VITE_DISCREPANCY_CASES_ENDPOINT_PATH. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/transit-traceability | 1196a0c0138d800682d189f4a8e2aac433eb6d7a | Merge branch 'feature/transit-traceability' into develop | — | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/server-json-dataset | 579ee16630765c1d0aa41a0bfbaf74c97d8b6a35 | Merge branch 'feature/server-json-dataset' into develop | — | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/header-selectors-fixes | 2c49ae0288f4a3c32ee034433028a926474b0fa1 | fix(i18n): keep a language always selected in the language switcher | Clicking the active ES/EN button deselected it and left the locale empty. The switcher now always keeps one language selected, highlights it with the primary color, saves the choice in localStorage so it survives reloads, and updates the document lang attribute. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/header-selectors-fixes | 175670a898b254df0a5b58760378a1e61410a3e6 | fix(iam): unify role selector and leave views the new role cannot access | The header, sidebar and mobile menu each built their own role dropdown, and the Admin option read "Supervisor (Admin) (María Torres)". Extract a shared RoleSelector that lists each profile as name and role, shows the selection as "role · name", and redirects to the first allowed view when the new role cannot access the current one. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/header-selectors-fixes | 91884552f6cc97dcef0342d0b1fae9a594aa85c5 | Merge branch 'feature/header-selectors-fixes' into develop | — | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/mock-server-and-theme-fixes | 7ce049da00faaad0c19b79ee5348be1ec36b827f | fix(server): start the mock api on the port the app is configured to call | `npm run server` always listened on port 3000, so when the API URL was overridden in .env.development.local (because 3000 was busy) every view failed with "Network Error". The server now reads the port from VITE_LEARNING_PLATFORM_API_URL in .env.development and .env.development.local, defaulting to 3000. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/mock-server-and-theme-fixes | 0eb6b3aeab9849af2eaadb85a727ad2ae47c7001 | fix(theme): keep the light theme when the system uses dark mode | PrimeVue followed the OS dark mode while the rest of the app is light, so inputs, selects and tables turned black and some text became unreadable. Restrict PrimeVue dark mode to an unused .app-dark class and declare color-scheme: light so native controls stay light too. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/mock-server-and-theme-fixes | 5c82750eaef8a89b7aadf649f3d6cdbc798ab10f | Merge branch 'feature/mock-server-and-theme-fixes' into develop | — | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/issues-list-and-error-feedback-fixes | 01703fc508c00f04b499c09b479d9fa863a1ecbb | fix(discrepancy): align issues list with the app components and translations | The issues list used native selects, showed the hardcoded "All" and raw English statuses in the filters, and listed cases as plain text. Use PrimeVue selects and a data table with translated filters, issue type, priority and status tags, keeping the row click to open the case. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/issues-list-and-error-feedback-fixes | 7c3d667103f1b02cead4fe4b3b1755ee70378512 | fix(order-management): stop repeating load errors and endless table spinner | Every visit to Orders or Dispatches after a failed request appended another "Network Error", and the tables kept spinning because loading was tied to "loaded". Fetches now clear the previous attempt's errors and expose ordersLoading / dispatchesLoading for the table spinners. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/issues-list-and-error-feedback-fixes | dcb2f1b42545a7fc9ea9e489591b12381c141b74 | Merge branch 'feature/issues-list-and-error-feedback-fixes' into develop | — | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/project-management | 00440e0dd1b847f4cde2b5d4a7b455dc281e89b8 | feat(project-management): add project domain model and dataset | Add the Project entity with status and zone definitions, and the projects dataset whose ids match the site ids used by dispatches. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/project-management | 9425c16623b8d45cf0be35d30ef00db09eb4ac8e | feat(project-management): add projects api client and store | Add ProjectManagementApi over the projects endpoint, ProjectAssembler, and a store with status counters and the number of projects per zone. Register VITE_PROJECTS_ENDPOINT_PATH. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/project-management | 673aae859b4afd3d0caa4eee593fed030fbc61f4 | feat(project-management): add projects translations and donut chart | Add the projects section to the English and Spanish catalogs and a shared DonutChart component drawn with CSS, with its legend. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/project-management | 5213049e18818feebc2e2b7766cca22541779994 | feat(project-management): add projects view and route | Replace the Projects placeholder with the projects view from the mockup: status KPIs, status/zone/manager filters, the project list with progress bars and status tags, and the projects-by-zone donut chart. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/project-management | d45a8d7c20c13e46060f7eee270f74096ffe3f66 | Merge branch 'feature/project-management' into develop | — | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/inventory-management | 4193f4bc6505a851d0f1e5e7936fb347fac80124 | feat(inventory-management): add material and movement domain model and dataset | Add the Material entity with its derived stock status, the InventoryMovement entity, categories and movement types, and the materials and inventory movements datasets linked to the projects. Expose movements at /inventory-movements. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/inventory-management | 01884df8522940b4cafffc7e7125fbb4897de6fc | feat(inventory-management): add inventory api client and store | Add InventoryManagementApi over the materials and inventory movements endpoints with their assemblers, and a store exposing low stock and category counters, today's movements, most used materials, withdrawals by project and materials by category. Register the endpoint variables. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/inventory-management | 635a851fe347bb05c8f6152f3d7b467be1ef7145 | feat(inventory-management): add inventory translations | — | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/inventory-management | 74fab7b94e2d838e207beeba5354df4677112c93 | refactor(shared): extract kpi card and content card styles | Move the indicator card of the projects view into a shared KpiCard component and the content card style into the global .vigia-card class, so the inventory and history views reuse them. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/inventory-management | 6961af2db3b0a5abdce9d1f3e7355de1a2ca51d6 | feat(inventory-management): add inventory view and route | Replace the Materials placeholder with the inventory view from the mockup: category/project/status filters with a stock alerts toggle, KPIs, the inventory status table, most used materials, withdrawals by project and the distribution by category. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/inventory-management | 0a4f83cb248a89cac813149b3b736869a3e69ba6 | Merge branch 'feature/inventory-management' into develop | — | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/activity-history | 0210061ae23deee3d47190a292b7e4126c727e3e | feat(activity-history): add activity record domain model and dataset | Add the ActivityRecord entity with activity types and statuses, and an activity records dataset built from the existing dispatches, routes, receptions and discrepancy cases so every reference exists. Expose it at /activity-records. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/activity-history | e2338879940201fcd2d1f360ff1e237255a8ae89 | feat(activity-history): add activity records api client and store | Add ActivityHistoryApi over the activity records endpoint with its assembler, and a store with records sorted by date and the list of users. Register VITE_ACTIVITY_RECORDS_ENDPOINT_PATH. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/activity-history | 386b6b378c654f6844856c49cebec61e31bcc0a4 | feat(activity-history): add history translations | — | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/activity-history | b40211c84ed88e0d3dcaddbce050f8afc41fcfa3 | feat(activity-history): add activity log view and route | Replace the History placeholder with the activity log from the mockup: date range, type, user and reference filters, and a paginated table with translated descriptions, type icons and status tags. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/activity-history | fc126f08e857367bcb0969b6acda9f7f700dc98f | Merge branch 'feature/activity-history' into develop | — | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/user-settings | 1356c1bd475df16cbdb22fa32d39a2d313037a9a | feat(iam): add user profile model and link test users to the dataset | Add the UserProfile entity with initials and field validation, add email, phone and time zone to the users dataset, and keep the active user id in the IAM store so Settings can load the matching profile. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/user-settings | 7cdcfb10d142d3b4a74c0198fedf754a551e644e | feat(iam): add profile store and user update endpoint | Add getUserById and updateUser to IamApi, a UserProfileAssembler, and a profile store that loads and saves the active user's profile. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/user-settings | 9a7fba30ec9bfa92f392da18810556e03a6b3055 | feat(iam): add settings translations | — | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/user-settings | a25b7511c94a81e49232bdcee108592dbc6d81e6 | feat(iam): add settings view and route | Replace the Settings placeholder with the settings view from the mockup: an editable profile with validation saved to the users dataset, the account card, and preferences for language and time zone. The profile follows the user chosen in the role selector. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/user-settings | bba3b15b865983967924778690962a0814057c5b | Merge branch 'feature/user-settings' into develop | — | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/embedded-mock-api | 44fd9647477c9d3a0dbcb0fd354f5b78570fda6e | fix(server): serve the mock api from the vite dev server | Every view failed with "Network Error" unless a second terminal ran `npm run server` on a free port. A Vite plugin now mounts the same json-server app (server/data dataset, routes.json rewrites and middleware.cjs rules) at /api/v1 while `npm run dev` runs, and the development API URL points to /api/v1. `npm run server` still works standalone on port 3000. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/embedded-mock-api | 28543e6baac9105b24e11c6a0bf1c133df412b40 | Merge branch 'feature/embedded-mock-api' into develop | — | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/inventory-period-filter | f87aae8cacec9c65e6e8135f1c92b8fc5b9b8f0d | feat(inventory-management): filter consumption charts by period | Replace the fixed "April 2025" label of the most used materials and withdrawals by project charts with a period selector: each month with movements (the latest by default), the last 7 days or the whole period. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/inventory-period-filter | 2b198363217ba9832289fcef8ae458b7a2ec4be3 | Merge branch 'feature/inventory-period-filter' into develop | — | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/issue-detail-layout | a3964f6c0c3fb73707543c405dbade87adb016df | fix(discrepancy): give the issue detail view the app layout | The issue detail was plain text with native controls and browser alerts. Lay it out in cards: case header with status and priority tags, case facts, an evidence timeline, a photo gallery with a placeholder for missing images, missing evidence, responsibility selection and case actions. Feedback now uses toasts, and the actions hide once the case is closed. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/issue-detail-layout | a9e151e3578f90980ca2246f6737adae9144fbea | Merge branch 'feature/issue-detail-layout' into develop | — | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/role-home-dashboards | f07897e4ea3c3f6b5e497ac74caa9f1f53498c18 | feat(dashboard): add role-based home dashboards | Replace the Home placeholder with a dashboard for the active role, built from the other bounded contexts' stores: the Supervisor sees the whole operation (from the mockup), the Warehouse Manager requests, dispatches and stock, and the Site Manager their projects, arrivals and receptions. The root path now opens Home. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/role-home-dashboards | 4e5875eb5822791e39af0ffee470190322c991d7 | feat(dashboard): add home translations and shared dashboard cards | Add the home section to the English and Spanish catalogs and the home building blocks: greeting header, needs-my-attention list, project progress list and recent activity feed. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/role-home-dashboards | 8ad7b9e40326a1e8ce09b924c51e6fc00e024433 | Merge branch 'feature/role-home-dashboards' into develop | — | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/forms-as-pages | 32ecb739912a2f660cdaeb48d3efd0bfacc18b73 | fix(site-reception): move reception registration and discrepancy report from dialogs to pages | Registering a reception and reporting a discrepancy opened modal dialogs. They are now pages with their own routes (/recepciones/nueva, with ?arrival= or ?reception= to preload data, and /recepciones/:id/discrepancia) that save, show a toast and return to the receptions list. The read-only evidence gallery stays as a dialog. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/forms-as-pages | a78a9c901b9948048dbc671d2ea1a47191ec9ba9 | fix(fleet): move vehicle registration and gps pairing from dialogs to pages | Registering a transport unit and pairing its GPS device opened modal dialogs over the list. They are now pages with their own routes (/transporte/unidades/nueva and /transporte/unidades/:id/gps) that keep the same validation and toasts and return to the list when saved. | 2026-10-06 |
-| upc-pre-202620-1asi0730-8084-Developers/Vigia-Frontend | feature/forms-as-pages | 6ae6c150eb838bf3a219c93bcbc3c234431ca44b | Merge branch 'feature/forms-as-pages' into develop | — | 2026-10-06 |
-
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.2.2-sprint-2/5.2.2.5-execution-evidence-for-sprint-review.md -->
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/shared | 2e2ea058c8c96478e4f8134fe8c6a47ee1a0ccc1 | Initial commit | — | 2026-09-01 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/shared | bb6c101bf21758ba14c02d4706f84c77f4c90476 | feat(shared): inicializar arquitectura base, navegacion global y componentes compartidos | — | 2026-10-04 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/fleet-and-device-registry | 0a50ca5c84eba54abde0403b10e44006b412ee73 | feat(fleet): implementar bounded context BC-04 gestion de flota, vehiculos y geocercas | — | 2026-10-04 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/fleet-and-device-registry | 9d3f84075c5eb529b5e933e93521c54bc22c0563 | test(fleet): agregar suite e2e automatizada de 22 aserciones para telemetria y validaciones de negocio | — | 2026-10-04 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/shared | b99876f6a0a57a0b4e59240f044c3aa222034dc8 | Delete docs directory | — | 2026-10-04 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/shared | 5d4acb7ea6a4d5e4db32f6f921cb0dbdf2bc8053 | Delete README.md | — | 2026-10-04 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/shared | 0d58572834111a371735327796619cc5c7dac4c2 | Merge pull request #1 from upc-pre-202620-1asi0730-8084-Developers/feature/shared | feat(shared): initialize shared module structure | 2026-10-04 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/site-reception-and-verification | daec8bbc9e031388df8e9f15b9f71e985570b672 | feat(reception): definir modelo de dominio, entidades y value objects para BC-07 | — | 2026-10-04 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/site-reception-and-verification | 99cc0d5de1684d170d717d0ba718628a503fa58b | feat(reception): implementar cliente API, endpoints y assemblers de recepcion | — | 2026-10-04 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/site-reception-and-verification | 11306fff0cc600718eed38a6eba80c61a0b5ab30 | feat(reception): implementar store reactivo Pinia y mock server con endpoints REST | — | 2026-10-04 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/site-reception-and-verification | 46569e0a9421609863cf9afffadb8447b416c8ec | feat(reception): implementar interfaces para responsable de obra y supervisor segun mockups | — | 2026-10-04 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/site-reception-and-verification | 72040fae0d1a43e58a85e52d243a53892dc2414f | test(reception): integrar rutas, traducciones i18n y suite de pruebas automatizadas | — | 2026-10-04 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/fleet-and-device-registry | fc2ff02ef98f128b14cefb82098fe4e44ffe2bc3 | Merge pull request #3 from upc-pre-202620-1asi0730-8084-Developers/feature/fleet-and-device-registry | Feature/fleet and device registry | 2026-10-04 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/site-reception-and-verification | db75f1e282511638f55975610b63deae5b4fc83f | Merge pull request #5 from upc-pre-202620-1asi0730-8084-Developers/feature/site-reception-and-verification | Feature/site reception and verification | 2026-10-04 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/shared | f990ac6ea0b313421a8016dab194b03c6e6d47da | doc: Delete LICENSE.md | — | 2026-10-04 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/shared | 1d9254b6d9488c19e8ca34bf5e1792cca046e25a | doc: Delete README.md | — | 2026-10-04 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/issues-list | 2375e07c275555e414fa2a6510b4dd552c9cff31 | feat: add discrepancy case entity | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/issues-list | 6b2f9c8d344f3b7b50fdda0634ae7a08e5b1a5e3 | feat: add discrepancy case assembler | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/issues-list | 0d728f63b4afd1af0c2a1409770bf1979b2d674e | feat: add discrepancy api | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/issues-list | 2fbcc088cce2682f8f3f0d7e7d4ef031653800a1 | feat: add discrepancy store | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/issues-list | 5da32080768553b19609ddf3d8c605616489898a | feat: add issues list view | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/issues-list | d7b19eadeb7ddfa59658fbd12020ae722270a5b5 | feat: add issues route | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/issues-list | 1eba1a996ddd51cbe626576da8998bd52b2c0c1b | Merge pull request #6 from upc-pre-202620-1asi0730-8084-Developers/feature/issues-list | Feature/issues list | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/issues-filters | d77c964502265fde3ea9ed1a5e0c09211a4f4771 | feat: add issues filters | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/issues-filters | 1b2270777093a88ef63420a88475d58939758b58 | Merge pull request #7 from upc-pre-202620-1asi0730-8084-Developers/feature/issues-filters | feat: add issues filters | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/issue-detail | c0d29c81d655a161d2d944601a0fba37ba9165b8 | feat: add issue detail view | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/issue-detail | 2fe47a04767d5d5a4bbdcc9230faa0e419d2e217 | feat: add discrepancy routes | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/issue-detail | 03cd4d99588632357503ec2e4a8d042e9fdce534 | refactor: integrate discrepancy routes into main router | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/issue-detail | bb45655ed0c3fd1289f4ac9d04149888481f9c65 | feat: enable navigation from issues list to case detail | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/issue-detail | baa801efcbd811ee40414571048ef4fb8d0e262e | Merge pull request #8 from upc-pre-202620-1asi0730-8084-Developers/feature/issue-detail | Feature/issue detail | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/evidence-timeline | 2b9c4ebe3c115e49877d1a45646afc6402a69732 | feat: include evidence timeline in discrepancy case model | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/evidence-timeline | c47564495986b4eaa3cc7cea0c3095206b486c11 | feat: map evidence timeline in discrepancy case assembler | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/evidence-timeline | 408baee6a3e9d3528becf92c3cd2a91b9b68f6e0 | feat: provide mock evidence timelines for discrepancy cases | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/evidence-timeline | c483c9dbbd209936df7c295cf38b2517f88f3132 | feat: display evidence timeline in issue detail view | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/evidence-timeline | 052b87dd094bfa627d653a4906cd2c5664587e6d | Merge pull request #9 from upc-pre-202620-1asi0730-8084-Developers/feature/evidence-timeline | Feature/evidence timeline | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/supporting-report | 1f63a1c8081fa9330394e11dd8637ee4ef64b927 | feat: simulate supporting report generation in discrepancy api | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/supporting-report | 9c768aac2e660226c7ce9751e2aab3ac7fae6cd2 | feat: expose supporting report generation through discrepancy store | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/supporting-report | ccadea283fb9b4b646cd77ef53a5c53d07fa3873 | feat: trigger supporting report generation from issue detail view | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/supporting-report | e9cd75ae4fbd837643b6642c4ed4c7620db04361 | Merge pull request #10 from upc-pre-202620-1asi0730-8084-Developers/feature/supporting-report | Feature/supporting report | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/case-responsibility | ac3ac3a4e7f02c92fba3a511e8a62a07fcedeeb2 | feat: include responsibility in discrepancy case model | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/case-responsibility | c3d50330ab661fbc7e39f9978c002b9f722ec0b6 | feat: map responsibility in discrepancy case assembler | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/case-responsibility | 69d02ce7c5436b32a4766761566f4ea8f66a4fef | feat: simulate responsibility assignment in discrepancy api | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/case-responsibility | 33fdf383564f21897131683f464b827449034221 | feat: manage responsibility updates in discrepancy store | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/case-responsibility | 252579075d1ba7797cedd8903adfbef2b7238c50 | feat: allow responsibility selection in issue detail view | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/case-responsibility | 0c4a3fbef594926c78c8172f1d493a00caa6e670 | Merge pull request #11 from upc-pre-202620-1asi0730-8084-Developers/feature/case-responsibility | Feature/case responsibility | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/case-closure | 0d77ce6f16347e89c447377cd326a5fe3df38bb0 | feat: simulate discrepancy case closure in api | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/case-closure | 316d1844454782586d31e33719bfbb26eb8cd35c | feat: validate and manage discrepancy case closure | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/case-closure | 998cc49be5783963dec6c18a798f382443b60587 | feat: allow closing discrepancy cases from detail view | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/case-closure | b253e705c01f7ad72e3c336406b6d4a5b336c31c | Merge pull request #12 from upc-pre-202620-1asi0730-8084-Developers/feature/case-closure | Feature/case closure | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/missing-evidence-handling | 3ad3f75a880722a0cd13ed8bb1d04a8ac4065e02 | feat: include missing evidence in discrepancy case model | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/missing-evidence-handling | fa8949015a8a2803beea160b2de53c5f549461c7 | feat: map missing evidence in discrepancy case assembler | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/missing-evidence-handling | 13c97fb190a8181a65e562ba3d37b3fe41fd9e5e | feat: provide missing evidence examples for discrepancy cases | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/missing-evidence-handling | 5f2daf30c6a41c63b0408871555ecf5e8d8a48cd | feat: display missing evidence in issue detail view | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/missing-evidence-handling | d8a7f49fdc9131b1511623255f45552438ad0bfb | Merge pull request #13 from upc-pre-202620-1asi0730-8084-Developers/feature/missing-evidence-handling | Feature/missing evidence handling | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/photographic-evidence | 102d30ee889823691a8a64c42c3a6666c4bfe0f8 | feat: include photographic evidence in discrepancy case model | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/photographic-evidence | 9c708f7f6ba36e2c3783bf0e713e14a8483e289e | feat: map photographic evidence in discrepancy case assembler | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/photographic-evidence | ab817757797e364d8e5bf094b8689ecc9c210616 | feat: provide photographic evidence examples for discrepancy cases | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/photographic-evidence | 27c8cfa1292e0f37f1481baa73e7f52d3e33ae2c | feat: display photographic evidence in issue detail view | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/photographic-evidence | 04f040da49ef4cb44800ce318585e2f80a366eba | Merge pull request #14 from upc-pre-202620-1asi0730-8084-Developers/feature/photographic-evidence | Feature/photographic evidence | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/discrepancy-i18n | dcfb742b92fa9bfec6b453a5e4d5f827c6661f01 | feat: add English translations for discrepancy management | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/discrepancy-i18n | 0fa2e3a97aa42919c4ace86b8cb51f5ca023395e | feat: add Spanish translations for discrepancy management | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/discrepancy-i18n | 74c6b82b6bdec48a3e91be123cf13141ab371254 | feat: localize issues list interface | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/discrepancy-i18n | c8418d887923933cc64cc1f476b9f7138aacdc88 | feat: localize issue detail interface | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/discrepancy-i18n | 116f097c4d0933f047b1f4df0d91bbeb01991f30 | Merge pull request #15 from upc-pre-202620-1asi0730-8084-Developers/feature/discrepancy-i18n | Feature/discrepancy i18n | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/order-management-and-dispatch | 4882c7a9509c6ed8cb252712a9ce8d89525cece8 | feat: add order and dispatch domain model | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/order-management-and-dispatch | 205ae4fb5cf1c678b7c1d8b63e5f3ed7ac078f32 | feat: add order and dispatch assemblers and api client | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/order-management-and-dispatch | 3adf56b985949cc23d73c7e0b821038b6201cf02 | feat: add order and dispatch pinia stores | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/order-management-and-dispatch | f9f1c651e13d82fb09653510a9678c410eaa9290 | feat: add orders list view | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/order-management-and-dispatch | 02d54b46fe7885e6e5e0bcbac68a1fa1c41c147f | feat: add order detail view | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/order-management-and-dispatch | 1373773027ff5c4554029f6704d2462c5583ab1f | feat: add dispatches list view | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/order-management-and-dispatch | 7edc8f76618f9cac8de639347e93ab6290b723e5 | feat: add new dispatch wizard information step | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/order-management-and-dispatch | a0d7bb541cad634d09c284de8cba5751a51e39cd | feat: register ordering and dispatch routes | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/order-management-and-dispatch | ded4a18c6b198fd4434158de8cffcc6ad952116f | feat: add orders and dispatches translations | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/order-management-and-dispatch | 3d7eef81294704daa544b4696fb134d27be73957 | feat: add orders and dispatches mock data and endpoints | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/order-management-and-dispatch | 8c89e6493aef01624e9a9aa784a3a7434cfa3fbb | refactor: use default primevue stepper, timeline and button styling in ordering views | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/order-management-and-dispatch | 3bbe44fb14ef0576c5fba187f177d29aa0b0d7be | refactor: align order management and dispatch structure with learning center conventions | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/order-management-and-dispatch | e50f146c23b9724d4249b47c2dbc05ea357c685a | refactor: align dispatch vehicle reference with transit traceability route | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/order-management-and-dispatch | 3658d25183cbbffd71d20e5c4a93f13297e0c656 | fix: use numeric dispatch vehicleId and add VIGIA_API_URL env alias for shared base-api compatibility | — | 2026-10-05 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/transit-traceability | 6f7f9d2856701e56da9c9df38118563c1fa962fd | feat(transit-traceability): add route domain model | Add the Route aggregate with TelemetryPosition and TransitAlert, plus route status and alert type definitions. The aggregate detects route deviation, prolonged stops, signal loss/recovery and destination geofence entry, and tracks alerts pending notification to the site. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/transit-traceability | 7e651dea9b75243b1ebe6de25cb23ad4d1148057 | feat(transit-traceability): add route assembler, api client and telemetry simulator | Add TransitTraceabilityApi over the routes endpoint, RouteAssembler for entity/resource mapping, and a TelemetrySimulator that stands in for the GPS telemetry platform by generating position reports along the planned path. Register VITE_ROUTES_ENDPOINT_PATH in both environments. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/transit-traceability | c34662b78f2983baed22b1814bc10d9e9acad6f2 | feat(transit-traceability): add transit traceability pinia store | Expose route queries and status counters, and the commands to report a position, report signal loss and notify the destination site. Commands run on a copy of the route and only replace local state once persisted. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/transit-traceability | d832a6842383d44b88c0629e1fc81bf35298b556 | feat(transit-traceability): add transit traceability translations | Add the transit section and the transit tracking tab label to the English and Spanish catalogs. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/transit-traceability | 8995eb41c76aa27f92affcbbe97c45a986ba9e58 | feat(transit-traceability): add routes mock data | Seed route RT-001 tracking dispatch DS-106 (vehicle V3B-920) from the Lurín warehouse to the San Isidro site geofence, with its planned path and first telemetry positions. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/transit-traceability | d859f1931c98821df774aee5c17aa475083714a4 | feat(transit-traceability): add transit tracking tab to transportation view | — | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/transit-traceability | df6f6b11a1f5a151c61b1245816a947ca9230dfc | feat(transit-traceability): add transit tracking view | Show route KPIs, the list of tracked routes and a Leaflet map with the planned path, travelled path, current position and destination geofence. Include the transit alerts timeline with the notify-site action, and controls to simulate GPS telemetry reports while no device is connected. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/server-json-dataset | e27b391ee7c147cf5f63f801b72220391458b64a | refactor(server): split mock database into per-collection json dataset | Move every collection of server/db.json into its own file under server/data/<bounded-context>/<collection>.json and load them through server/db.cjs, which json-server now uses as its source. Changes made while the server runs stay in memory, so the dataset files are no longer modified by the app. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/server-json-dataset | 78c393e2722b294821bbd66c6f1cb3af41bef9c2 | feat(iam): add users dataset | Add server/data/iam/users.json with the platform users and roles, reusing the user ids already referenced by receptions. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/server-json-dataset | ef9770920e18b29601cc92a5b10e2ee144f0b4b0 | refactor(discrepancy): serve discrepancy cases from the json dataset | Move the discrepancy cases hardcoded in DiscrepancyApi to server/data/discrepancy-and-evidence-management/discrepancy-cases.json. DiscrepancyApi now reads them through json-server and persists the responsibility and case closure with PATCH, keeping the same results for the store. Add VITE_DISCREPANCY_CASES_ENDPOINT_PATH. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/transit-traceability | 1196a0c0138d800682d189f4a8e2aac433eb6d7a | Merge branch 'feature/transit-traceability' into develop | — | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/server-json-dataset | 579ee16630765c1d0aa41a0bfbaf74c97d8b6a35 | Merge branch 'feature/server-json-dataset' into develop | — | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/header-selectors-fixes | 2c49ae0288f4a3c32ee034433028a926474b0fa1 | fix(i18n): keep a language always selected in the language switcher | Clicking the active ES/EN button deselected it and left the locale empty. The switcher now always keeps one language selected, highlights it with the primary color, saves the choice in localStorage so it survives reloads, and updates the document lang attribute. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/header-selectors-fixes | 175670a898b254df0a5b58760378a1e61410a3e6 | fix(iam): unify role selector and leave views the new role cannot access | The header, sidebar and mobile menu each built their own role dropdown, and the Admin option read "Supervisor (Admin) (María Torres)". Extract a shared RoleSelector that lists each profile as name and role, shows the selection as "role · name", and redirects to the first allowed view when the new role cannot access the current one. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/header-selectors-fixes | 91884552f6cc97dcef0342d0b1fae9a594aa85c5 | Merge branch 'feature/header-selectors-fixes' into develop | — | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/mock-server-and-theme-fixes | 7ce049da00faaad0c19b79ee5348be1ec36b827f | fix(server): start the mock api on the port the app is configured to call | `npm run server` always listened on port 3000, so when the API URL was overridden in .env.development.local (because 3000 was busy) every view failed with "Network Error". The server now reads the port from VITE_LEARNING_PLATFORM_API_URL in .env.development and .env.development.local, defaulting to 3000. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/mock-server-and-theme-fixes | 0eb6b3aeab9849af2eaadb85a727ad2ae47c7001 | fix(theme): keep the light theme when the system uses dark mode | PrimeVue followed the OS dark mode while the rest of the app is light, so inputs, selects and tables turned black and some text became unreadable. Restrict PrimeVue dark mode to an unused .app-dark class and declare color-scheme: light so native controls stay light too. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/mock-server-and-theme-fixes | 5c82750eaef8a89b7aadf649f3d6cdbc798ab10f | Merge branch 'feature/mock-server-and-theme-fixes' into develop | — | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/issues-list-and-error-feedback-fixes | 01703fc508c00f04b499c09b479d9fa863a1ecbb | fix(discrepancy): align issues list with the app components and translations | The issues list used native selects, showed the hardcoded "All" and raw English statuses in the filters, and listed cases as plain text. Use PrimeVue selects and a data table with translated filters, issue type, priority and status tags, keeping the row click to open the case. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/issues-list-and-error-feedback-fixes | 7c3d667103f1b02cead4fe4b3b1755ee70378512 | fix(order-management): stop repeating load errors and endless table spinner | Every visit to Orders or Dispatches after a failed request appended another "Network Error", and the tables kept spinning because loading was tied to "loaded". Fetches now clear the previous attempt's errors and expose ordersLoading / dispatchesLoading for the table spinners. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/issues-list-and-error-feedback-fixes | dcb2f1b42545a7fc9ea9e489591b12381c141b74 | Merge branch 'feature/issues-list-and-error-feedback-fixes' into develop | — | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/project-management | 00440e0dd1b847f4cde2b5d4a7b455dc281e89b8 | feat(project-management): add project domain model and dataset | Add the Project entity with status and zone definitions, and the projects dataset whose ids match the site ids used by dispatches. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/project-management | 9425c16623b8d45cf0be35d30ef00db09eb4ac8e | feat(project-management): add projects api client and store | Add ProjectManagementApi over the projects endpoint, ProjectAssembler, and a store with status counters and the number of projects per zone. Register VITE_PROJECTS_ENDPOINT_PATH. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/project-management | 673aae859b4afd3d0caa4eee593fed030fbc61f4 | feat(project-management): add projects translations and donut chart | Add the projects section to the English and Spanish catalogs and a shared DonutChart component drawn with CSS, with its legend. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/project-management | 5213049e18818feebc2e2b7766cca22541779994 | feat(project-management): add projects view and route | Replace the Projects placeholder with the projects view from the mockup: status KPIs, status/zone/manager filters, the project list with progress bars and status tags, and the projects-by-zone donut chart. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/project-management | d45a8d7c20c13e46060f7eee270f74096ffe3f66 | Merge branch 'feature/project-management' into develop | — | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/inventory-management | 4193f4bc6505a851d0f1e5e7936fb347fac80124 | feat(inventory-management): add material and movement domain model and dataset | Add the Material entity with its derived stock status, the InventoryMovement entity, categories and movement types, and the materials and inventory movements datasets linked to the projects. Expose movements at /inventory-movements. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/inventory-management | 01884df8522940b4cafffc7e7125fbb4897de6fc | feat(inventory-management): add inventory api client and store | Add InventoryManagementApi over the materials and inventory movements endpoints with their assemblers, and a store exposing low stock and category counters, today's movements, most used materials, withdrawals by project and materials by category. Register the endpoint variables. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/inventory-management | 635a851fe347bb05c8f6152f3d7b467be1ef7145 | feat(inventory-management): add inventory translations | — | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/inventory-management | 74fab7b94e2d838e207beeba5354df4677112c93 | refactor(shared): extract kpi card and content card styles | Move the indicator card of the projects view into a shared KpiCard component and the content card style into the global .vigia-card class, so the inventory and history views reuse them. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/inventory-management | 6961af2db3b0a5abdce9d1f3e7355de1a2ca51d6 | feat(inventory-management): add inventory view and route | Replace the Materials placeholder with the inventory view from the mockup: category/project/status filters with a stock alerts toggle, KPIs, the inventory status table, most used materials, withdrawals by project and the distribution by category. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/inventory-management | 0a4f83cb248a89cac813149b3b736869a3e69ba6 | Merge branch 'feature/inventory-management' into develop | — | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/activity-history | 0210061ae23deee3d47190a292b7e4126c727e3e | feat(activity-history): add activity record domain model and dataset | Add the ActivityRecord entity with activity types and statuses, and an activity records dataset built from the existing dispatches, routes, receptions and discrepancy cases so every reference exists. Expose it at /activity-records. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/activity-history | e2338879940201fcd2d1f360ff1e237255a8ae89 | feat(activity-history): add activity records api client and store | Add ActivityHistoryApi over the activity records endpoint with its assembler, and a store with records sorted by date and the list of users. Register VITE_ACTIVITY_RECORDS_ENDPOINT_PATH. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/activity-history | 386b6b378c654f6844856c49cebec61e31bcc0a4 | feat(activity-history): add history translations | — | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/activity-history | b40211c84ed88e0d3dcaddbce050f8afc41fcfa3 | feat(activity-history): add activity log view and route | Replace the History placeholder with the activity log from the mockup: date range, type, user and reference filters, and a paginated table with translated descriptions, type icons and status tags. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/activity-history | fc126f08e857367bcb0969b6acda9f7f700dc98f | Merge branch 'feature/activity-history' into develop | — | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/user-settings | 1356c1bd475df16cbdb22fa32d39a2d313037a9a | feat(iam): add user profile model and link test users to the dataset | Add the UserProfile entity with initials and field validation, add email, phone and time zone to the users dataset, and keep the active user id in the IAM store so Settings can load the matching profile. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/user-settings | 7cdcfb10d142d3b4a74c0198fedf754a551e644e | feat(iam): add profile store and user update endpoint | Add getUserById and updateUser to IamApi, a UserProfileAssembler, and a profile store that loads and saves the active user's profile. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/user-settings | 9a7fba30ec9bfa92f392da18810556e03a6b3055 | feat(iam): add settings translations | — | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/user-settings | a25b7511c94a81e49232bdcee108592dbc6d81e6 | feat(iam): add settings view and route | Replace the Settings placeholder with the settings view from the mockup: an editable profile with validation saved to the users dataset, the account card, and preferences for language and time zone. The profile follows the user chosen in the role selector. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/user-settings | bba3b15b865983967924778690962a0814057c5b | Merge branch 'feature/user-settings' into develop | — | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/embedded-mock-api | 44fd9647477c9d3a0dbcb0fd354f5b78570fda6e | fix(server): serve the mock api from the vite dev server | Every view failed with "Network Error" unless a second terminal ran `npm run server` on a free port. A Vite plugin now mounts the same json-server app (server/data dataset, routes.json rewrites and middleware.cjs rules) at /api/v1 while `npm run dev` runs, and the development API URL points to /api/v1. `npm run server` still works standalone on port 3000. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/embedded-mock-api | 28543e6baac9105b24e11c6a0bf1c133df412b40 | Merge branch 'feature/embedded-mock-api' into develop | — | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/inventory-period-filter | f87aae8cacec9c65e6e8135f1c92b8fc5b9b8f0d | feat(inventory-management): filter consumption charts by period | Replace the fixed "April 2025" label of the most used materials and withdrawals by project charts with a period selector: each month with movements (the latest by default), the last 7 days or the whole period. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/inventory-period-filter | 2b198363217ba9832289fcef8ae458b7a2ec4be3 | Merge branch 'feature/inventory-period-filter' into develop | — | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/issue-detail-layout | a3964f6c0c3fb73707543c405dbade87adb016df | fix(discrepancy): give the issue detail view the app layout | The issue detail was plain text with native controls and browser alerts. Lay it out in cards: case header with status and priority tags, case facts, an evidence timeline, a photo gallery with a placeholder for missing images, missing evidence, responsibility selection and case actions. Feedback now uses toasts, and the actions hide once the case is closed. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/issue-detail-layout | a9e151e3578f90980ca2246f6737adae9144fbea | Merge branch 'feature/issue-detail-layout' into develop | — | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/role-home-dashboards | f07897e4ea3c3f6b5e497ac74caa9f1f53498c18 | feat(dashboard): add role-based home dashboards | Replace the Home placeholder with a dashboard for the active role, built from the other bounded contexts' stores: the Supervisor sees the whole operation (from the mockup), the Warehouse Manager requests, dispatches and stock, and the Site Manager their projects, arrivals and receptions. The root path now opens Home. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/role-home-dashboards | 4e5875eb5822791e39af0ffee470190322c991d7 | feat(dashboard): add home translations and shared dashboard cards | Add the home section to the English and Spanish catalogs and the home building blocks: greeting header, needs-my-attention list, project progress list and recent activity feed. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/role-home-dashboards | 8ad7b9e40326a1e8ce09b924c51e6fc00e024433 | Merge branch 'feature/role-home-dashboards' into develop | — | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/forms-as-pages | 32ecb739912a2f660cdaeb48d3efd0bfacc18b73 | fix(site-reception): move reception registration and discrepancy report from dialogs to pages | Registering a reception and reporting a discrepancy opened modal dialogs. They are now pages with their own routes (/recepciones/nueva, with ?arrival= or ?reception= to preload data, and /recepciones/:id/discrepancia) that save, show a toast and return to the receptions list. The read-only evidence gallery stays as a dialog. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/forms-as-pages | a78a9c901b9948048dbc671d2ea1a47191ec9ba9 | fix(fleet): move vehicle registration and gps pairing from dialogs to pages | Registering a transport unit and pairing its GPS device opened modal dialogs over the list. They are now pages with their own routes (/transporte/unidades/nueva and /transporte/unidades/:id/gps) that keep the same validation and toasts and return to the list when saved. | 2026-10-06 |
+| upc-pre-202620-1asi0730-8084-Developers/vigia-web-application | feature/forms-as-pages | 6ae6c150eb838bf3a219c93bcbc3c234431ca44b | Merge branch 'feature/forms-as-pages' into develop | — | 2026-10-06 |
 
 ##### 5.2.2.5. Execution Evidence for Sprint Review
 
 
-![evidence for sprint review (1).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%281%29.png)
+![evidence for sprint review (1).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(1).png)
 
 **Figura 1.** Módulo Historial con el rol *Responsable de obra* (Juan Pérez). Muestra el registro de actividad del sistema con filtros por rango de fechas, tipo, usuario y referencia, listando 23 eventos (discrepancias, transportes, recepciones y despachos) con su estado.
 
-![evidence for sprint review (2).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%282%29.png)
+![evidence for sprint review (2).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(2).png)
 
 **Figura 2.** Módulo Problemas (Incidencias) con el rol *Responsable de obra*. Lista las incidencias por despacho (DSP-001 a DSP-003) con su obra, tipo, prioridad, fecha reportada y estado (Abierto, En revisión, Cerrado).
 
-![evidence for sprint review (3).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%283%29.png)
+![evidence for sprint review (3).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(3).png)
 
 **Figura 3.** Módulo Recepciones con el rol *Responsable de obra*. Presenta indicadores del día, próximas llegadas en tránsito, el listado de recepciones registradas y el panel de detalle de una recepción con la comparación de cantidades enviadas vs. recibidas.
 
-![evidence for sprint review (4).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%284%29.png)
+![evidence for sprint review (4).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(4).png)
 
 **Figura 4.** Módulo Obras con el rol *Responsable de obra*. Muestra las tarjetas resumen (obras activas, en riesgo, en curso, retrasadas), la lista de obras con su avance e incidencias, y el gráfico de distribución de obras por zona.
 
-![evidence for sprint review (5).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%285%29.png)
+![evidence for sprint review (5).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(5).png)
 
 **Figura 5.** Pantalla de Inicio (dashboard) del rol *Responsable de obra* (Juan Pérez). Incluye los indicadores principales, la sección "Requiere mi atención", las próximas llegadas, la actividad reciente y el avance de sus obras.
 
-![evidence for sprint review (6).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%286%29.png)
+![evidence for sprint review (6).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(6).png)
 
 **Figura 6.** Módulo Configuración con el rol *Supervisor (Admin)* (María Torres). Muestra el perfil del usuario, los datos de la cuenta y las preferencias de idioma y zona horaria.
 
-![evidence for sprint review (7).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%287%29.png)
+![evidence for sprint review (7).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(7).png)
 
 **Figura 7.** Módulo Reportes con el rol *Supervisor (Admin)*. Evidencia que la navegación y los permisos de acceso del módulo se encuentran activos para el rol, con el módulo planificado para la próxima iteración.
 
-![evidence for sprint review (8).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%288%29.png)
+![evidence for sprint review (8).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(8).png)
 
 **Figura 8.** Módulo Historial con el rol *Supervisor (Admin)*. Confirma el acceso al registro completo de actividad del sistema desde el rol supervisor.
 
-![evidence for sprint review (9).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%289%29.png)
+![evidence for sprint review (9).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(9).png)
 
 **Figura 9.** Módulo Recepciones con el rol *Supervisor (Admin)*. Muestra los indicadores de recepciones (hoy, pendientes, con discrepancias, completadas), los filtros por proyecto/estado/fechas y el detalle de la recepción seleccionada.
 
-![evidence for sprint review (10).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2810%29.png)
+![evidence for sprint review (10).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(10).png)
 
 **Figura 10.** Módulo Despachos con el rol *Supervisor (Admin)*. Presenta los contadores por estado (en preparación, programados, en tránsito, con incidencia) y el listado de despachos con obra, materiales, cantidad, transporte y fecha de salida.
 
-![evidence for sprint review (11).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2811%29.png)
+![evidence for sprint review (11).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(11).png)
 
 **Figura 11.** Módulo Transporte y Flota con el rol *Supervisor (Admin)*. Muestra la gestión de unidades con su placa, marca, modelo, capacidad y estado del dispositivo GPS (vinculado / sin dispositivo).
 
-![evidence for sprint review (12).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2812%29.png)
+![evidence for sprint review (12).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(12).png)
 
 **Figura 12.** Módulo Materiales con el rol *Supervisor (Admin)*. Presenta los indicadores de inventario y la tabla de estado del inventario con stock actual, stock mínimo, obra asociada y estado (en stock / stock bajo).
 
-![evidence for sprint review (13).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2813%29.png)
+![evidence for sprint review (13).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(13).png)
 
 **Figura 13.** Módulo Obras con el rol *Supervisor (Admin)*. Vista supervisora de la lista de obras con su avance, despachos, recepciones, incidencias y la distribución por zona.
 
-![evidence for sprint review (14).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2814%29.png)
+![evidence for sprint review (14).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(14).png)
 
 **Figura 14.** Pantalla de Inicio (dashboard) del rol *Supervisor (Admin)* (María Torres). Muestra la vista general de la operación con indicadores, "Requiere mi atención", el estado de operaciones (gráfico de despachos) y la actividad reciente.
 
-![evidence for sprint review (15).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2815%29.png)
+![evidence for sprint review (15).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(15).png)
 
 **Figura 15.** Módulo Configuración con el rol *Responsable de almacén* (Miguel Rojas). Muestra el perfil del usuario, los datos de la cuenta y las preferencias de idioma y zona horaria.
 
-![evidence for sprint review (16).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2816%29.png)
+![evidence for sprint review (16).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(16).png)
 
 **Figura 16.** Módulo Historial con el rol *Responsable de almacén*. Confirma el acceso al registro de actividad del sistema desde el rol de almacén.
 
-![evidence for sprint review (17).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2817%29.png)
+![evidence for sprint review (17).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(17).png)
 
 **Figura 17.** Módulo Transporte y Flota con el rol *Responsable de almacén*. Muestra las unidades de la flota con su capacidad y estado del dispositivo GPS.
 
-![evidence for sprint review (18).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2818%29.png)
+![evidence for sprint review (18).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(18).png)
 
 **Figura 18.** Módulo Despachos con el rol *Responsable de almacén*. Presenta los contadores por estado y el listado de despachos a preparar y programar desde el almacén.
 
-![evidence for sprint review (19).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2819%29.png)
+![evidence for sprint review (19).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(19).png)
 
 **Figura 19.** Módulo Solicitudes con el rol *Responsable de almacén*. Muestra los indicadores (pendientes, aprobadas, en revisión, urgentes) y el listado de solicitudes de materiales con su obra, cantidad, estado y prioridad.
 
-![evidence for sprint review (20).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2820%29.png)
+![evidence for sprint review (20).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(20).png)
 
 **Figura 20.** Módulo Materiales con el rol *Responsable de almacén*. Vista del inventario y su estado (en stock / stock bajo) por material, categoría y obra asociada.
 
-![evidence for sprint review (21).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2821%29.png)
+![evidence for sprint review (21).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(21).png)
 
 **Figura 21.** Pantalla de Inicio (dashboard) del rol *Responsable de almacén* (Miguel Rojas). Muestra los indicadores de almacén, "Requiere mi atención", el estado del inventario (gráfico) y los próximos despachos.
 
-![evidence for sprint review (22).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2822%29.png)
+![evidence for sprint review (22).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(22).png)
 
 **Figura 22.** Detalle de la pantalla de Inicio del rol *Responsable de almacén*, con las solicitudes y despachos que requieren atención, el estado del inventario y la actividad reciente.
 
-![evidence for sprint review (23).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2823%29.png)
+![evidence for sprint review (23).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20(23).png)
 
 **Figura 23.** Módulo Configuración con el rol *Responsable de obra* (Juan Pérez). Muestra el perfil del usuario, los datos de la cuenta y las preferencias de idioma y zona horaria.
-
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.2.2-sprint-2/5.2.2.6-services-documentation-evidence-for-sprint-review.md -->
 
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-A diferencia del Sprint 1 —que comprendió únicamente el Landing Page estático, sin servicios—, el Sprint 2 incorpora los primeros servicios del RESTful API que sustentan la Frontend Web Application, en particular el endpoint de autenticación de usuarios (TS-01) y los servicios asociados al registro de empresa y la activación de suscripción (US-01, US-17).
+En el Sprint 2 no se implementaron servicios del RESTful API, por lo que no existe documentación OpenAPI para este Sprint. El repositorio `vigia-platform` (ASP.NET Core con Entity Framework Core, C#) fue creado el 22 de octubre de 2026 y a la fecha de esta entrega contiene únicamente el commit inicial y la rama `feature/shared`.
 
-La documentación de estos servicios se elabora siguiendo la OpenAPI Specification vía Swagger, conforme a lo indicado en la sección de Tecnología del enunciado. Para cada endpoint se documenta la ruta, el método HTTP, los parámetros y el esquema del cuerpo de la solicitud, los esquemas de respuesta y los códigos de estado (por ejemplo, `200` y `401` para la autenticación, según los criterios de aceptación de TS-01 en la sección 3.1).
+Mientras se desarrolla el RESTful API, la Frontend Web Application v1 consume los datos de un servidor simulado con `json-server`, incluido en el repositorio `vigia-web-application` (carpeta `server/`). Este servidor expone los recursos que la capa de infraestructura de cada Bounded Context espera encontrar en el API real, de modo que el cambio posterior solo requiere reemplazar la URL base definida en las variables de entorno (`.env.development` y `.env.production`).
 
-*(Por completar con la evidencia real del Sprint 2: captura de la interfaz de Swagger UI con los endpoints documentados y el enlace al documento OpenAPI publicado.)*
-
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.2.2-sprint-2/5.2.2.7-software-deployment-evidence-for-sprint-review.md -->
+Las Technical Stories TS-01 (autenticación de usuarios) y TS-06 (contacto para suscripción), asignadas al Sprint 2 en la sección 3.3, quedan por lo tanto pendientes de implementación en el RESTful API. Se documentarán con OpenAPI Specification vía Swagger en el Sprint en que se publique la primera versión de los Web Services, requerida para la entrega AV2.
 
 ##### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-Esta subsección documenta el despliegue de los productos del Sprint 2. Debe incluir:
+Durante el Sprint 2 se desplegaron dos de los tres productos de la solución: la segunda versión del Landing Page y la primera versión de la Frontend Web Application. El tercer producto, los Web Services (RESTful API), aún no se despliega: su repositorio `vigia-platform` contiene únicamente la estructura inicial del proyecto, por lo que la Web Application consume por ahora datos simulados con `json-server` (sección 5.2.2.6).
 
-- Front end v1: https://vigia-frontend-8084.web.app
-- Landing Page v2: https://upc-pre-202620-1asi0730-8084-developers.github.io/vigia-landing/
-- Captura web:
+| Producto | Plataforma | URL pública | Repositorio |
+|---|---|---|---|
+| Landing Page v2 | GitHub Pages (rama `main`, carpeta `/docs`) | https://upc-pre-202620-1asi0730-8084-developers.github.io/vigia-website/ | `upc-pre-202620-1asi0730-8084-Developers/vigia-website` |
+| Frontend Web Application v1 | Firebase Hosting | https://vigia-frontend-8084.web.app | `upc-pre-202620-1asi0730-8084-Developers/vigia-web-application` |
+| Web Services (RESTful API) | No desplegado en este Sprint | — | `upc-pre-202620-1asi0730-8084-Developers/vigia-platform` |
 
-![evidence for sprint review (1).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%281%29.png)
+**Landing Page v2.** La nueva versión incorpora el selector de idioma inglés/español y los accesos a la Web Application. Los botones *Ir a la plataforma* e *Iniciar sesión* redirigen al usuario a la Frontend Web Application desplegada, de modo que la experiencia sea consistente entre ambos productos, conforme a lo exigido por el enunciado del proyecto.
 
-**Figura 1.** Módulo Historial con el rol *Responsable de obra* (Juan Pérez). Muestra el registro de actividad del sistema con filtros por rango de fechas, tipo, usuario y referencia, listando 23 eventos (discrepancias, transportes, recepciones y despachos) con su estado.
+**Figura 1.** Landing Page v2 en Desktop Web Browser (1440 × 900 px), capturado el 3 de noviembre de 2026.
 
-![evidence for sprint review (2).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%282%29.png)
+![Landing Page v2 en escritorio](../../assets/chapther-5/deployment/landing-v2-desktop.png)
 
-**Figura 2.** Módulo Problemas (Incidencias) con el rol *Responsable de obra*. Lista las incidencias por despacho (DSP-001 a DSP-003) con su obra, tipo, prioridad, fecha reportada y estado (Abierto, En revisión, Cerrado).
+**Figura 2.** Landing Page v2 en Mobile Web Browser (390 × 844 px), que evidencia la adaptación de la interfaz a las dimensiones del dispositivo.
 
-![evidence for sprint review (3).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%283%29.png)
+![Landing Page v2 en móvil](../../assets/chapther-5/deployment/landing-v2-mobile.png)
 
-**Figura 3.** Módulo Recepciones con el rol *Responsable de obra*. Presenta indicadores del día, próximas llegadas en tránsito, el listado de recepciones registradas y el panel de detalle de una recepción con la comparación de cantidades enviadas vs. recibidas.
+**Frontend Web Application v1.** La Web Application se publicó en Firebase Hosting; la configuración de publicación se desarrolló en la rama `feature/firebase-hosting` del repositorio `vigia-web-application`. La aplicación se construye con Vite (`npm run build`) y el resultado se sirve como sitio estático.
 
-![evidence for sprint review (4).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%284%29.png)
+**Figura 3.** Pantalla de Inicio de la Frontend Web Application v1 desplegada en Firebase Hosting, con el rol *Responsable de almacén*.
 
-**Figura 4.** Módulo Obras con el rol *Responsable de obra*. Muestra las tarjetas resumen (obras activas, en riesgo, en curso, retrasadas), la lista de obras con su avance e incidencias, y el gráfico de distribución de obras por zona.
-
-![evidence for sprint review (5).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%285%29.png)
-
-**Figura 5.** Pantalla de Inicio (dashboard) del rol *Responsable de obra* (Juan Pérez). Incluye los indicadores principales, la sección "Requiere mi atención", las próximas llegadas, la actividad reciente y el avance de sus obras.
-
-![evidence for sprint review (6).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%286%29.png)
-
-**Figura 6.** Módulo Configuración con el rol *Supervisor (Admin)* (María Torres). Muestra el perfil del usuario, los datos de la cuenta y las preferencias de idioma y zona horaria.
-
-![evidence for sprint review (7).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%287%29.png)
-
-**Figura 7.** Módulo Reportes con el rol *Supervisor (Admin)*. Evidencia que la navegación y los permisos de acceso del módulo se encuentran activos para el rol, con el módulo planificado para la próxima iteración.
-
-![evidence for sprint review (8).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%288%29.png)
-
-**Figura 8.** Módulo Historial con el rol *Supervisor (Admin)*. Confirma el acceso al registro completo de actividad del sistema desde el rol supervisor.
-
-![evidence for sprint review (9).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%289%29.png)
-
-**Figura 9.** Módulo Recepciones con el rol *Supervisor (Admin)*. Muestra los indicadores de recepciones (hoy, pendientes, con discrepancias, completadas), los filtros por proyecto/estado/fechas y el detalle de la recepción seleccionada.
-
-![evidence for sprint review (10).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2810%29.png)
-
-**Figura 10.** Módulo Despachos con el rol *Supervisor (Admin)*. Presenta los contadores por estado (en preparación, programados, en tránsito, con incidencia) y el listado de despachos con obra, materiales, cantidad, transporte y fecha de salida.
-
-![evidence for sprint review (11).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2811%29.png)
-
-**Figura 11.** Módulo Transporte y Flota con el rol *Supervisor (Admin)*. Muestra la gestión de unidades con su placa, marca, modelo, capacidad y estado del dispositivo GPS (vinculado / sin dispositivo).
-
-![evidence for sprint review (12).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2812%29.png)
-
-**Figura 12.** Módulo Materiales con el rol *Supervisor (Admin)*. Presenta los indicadores de inventario y la tabla de estado del inventario con stock actual, stock mínimo, obra asociada y estado (en stock / stock bajo).
-
-![evidence for sprint review (13).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2813%29.png)
-
-**Figura 13.** Módulo Obras con el rol *Supervisor (Admin)*. Vista supervisora de la lista de obras con su avance, despachos, recepciones, incidencias y la distribución por zona.
-
-![evidence for sprint review (14).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2814%29.png)
-
-**Figura 14.** Pantalla de Inicio (dashboard) del rol *Supervisor (Admin)* (María Torres). Muestra la vista general de la operación con indicadores, "Requiere mi atención", el estado de operaciones (gráfico de despachos) y la actividad reciente.
-
-![evidence for sprint review (15).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2815%29.png)
-
-**Figura 15.** Módulo Configuración con el rol *Responsable de almacén* (Miguel Rojas). Muestra el perfil del usuario, los datos de la cuenta y las preferencias de idioma y zona horaria.
-
-![evidence for sprint review (16).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2816%29.png)
-
-**Figura 16.** Módulo Historial con el rol *Responsable de almacén*. Confirma el acceso al registro de actividad del sistema desde el rol de almacén.
-
-![evidence for sprint review (17).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2817%29.png)
-
-**Figura 17.** Módulo Transporte y Flota con el rol *Responsable de almacén*. Muestra las unidades de la flota con su capacidad y estado del dispositivo GPS.
-
-![evidence for sprint review (18).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2818%29.png)
-
-**Figura 18.** Módulo Despachos con el rol *Responsable de almacén*. Presenta los contadores por estado y el listado de despachos a preparar y programar desde el almacén.
-
-![evidence for sprint review (19).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2819%29.png)
-
-**Figura 19.** Módulo Solicitudes con el rol *Responsable de almacén*. Muestra los indicadores (pendientes, aprobadas, en revisión, urgentes) y el listado de solicitudes de materiales con su obra, cantidad, estado y prioridad.
-
-![evidence for sprint review (20).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2820%29.png)
-
-**Figura 20.** Módulo Materiales con el rol *Responsable de almacén*. Vista del inventario y su estado (en stock / stock bajo) por material, categoría y obra asociada.
-
-![evidence for sprint review (21).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2821%29.png)
-
-**Figura 21.** Pantalla de Inicio (dashboard) del rol *Responsable de almacén* (Miguel Rojas). Muestra los indicadores de almacén, "Requiere mi atención", el estado del inventario (gráfico) y los próximos despachos.
-
-![evidence for sprint review (22).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2822%29.png)
-
-**Figura 22.** Detalle de la pantalla de Inicio del rol *Responsable de almacén*, con las solicitudes y despachos que requieren atención, el estado del inventario y la actividad reciente.
-
-![evidence for sprint review (23).png](../../assets/chapther-5/evidende-for-sprint-review/evidence%20for%20sprint%20review%20%2823%29.png)
-
-**Figura 23.** Módulo Configuración con el rol *Responsable de obra* (Juan Pérez). Muestra el perfil del usuario, los datos de la cuenta y las preferencias de idioma y zona horaria.
-
-
-<!-- Fuente: report/chapters/chapter-5-product-implementation-validation-deployment/5.2.2-sprint-2/5.2.2.8-team-collaboration-insights-during-sprint.md -->
+![Frontend Web Application v1 en Firebase Hosting](../../assets/chapther-5/deployment/web-app-v1-firebase.png)
 
 ##### 5.2.2.8. Team Collaboration Insights during Sprint
 
-![insigths (1).png](../../assets/chapther-5/inshiths/insigths%20%281%29.png)
-![insigths (2).png](../../assets/chapther-5/inshiths/insigths%20%282%29.png)
-![insigths (3).png](../../assets/chapther-5/inshiths/insigths%20%283%29.png)
-![insigths (4).png](../../assets/chapther-5/inshiths/insigths%20%284%29.png)
+![insigths (1).png](../../assets/chapther-5/inshiths/insigths%20(1).png)
+![insigths (2).png](../../assets/chapther-5/inshiths/insigths%20(2).png)
+![insigths (3).png](../../assets/chapther-5/inshiths/insigths%20(3).png)
+![insigths (4).png](../../assets/chapther-5/inshiths/insigths%20(4).png)
 
 Esta subsección documenta cómo colaboró el equipo durante el Sprint 2 bajo GitFlow. Conforme a lo exigido por el enunciado, todos los integrantes participaron en la implementación de los productos del alcance del Sprint, y a continuación se presentan los analíticos de colaboración y de commits del repositorio en GitHub.
 
-Durante el Sprint 2 el trabajo se organizó por funcionalidades, cada una desarrollada en su propia rama `feature/*` e integrada a la rama `develop` mediante Pull Requests, siguiendo Conventional Commits y Semantic Versioning. En total se integraron **27 ramas de trabajo** a `develop` (13 vía Pull Request formal y 14 por *merge* de rama), lo que evidencia un flujo de integración continuo y distribuido entre los miembros del equipo. Las capturas superiores corresponden a los analíticos de colaboración (Insights) y al historial de commits del repositorio `Vigia-Frontend`.
+Durante el Sprint 2 el trabajo se organizó por funcionalidades, cada una desarrollada en su propia rama `feature/*` e integrada a la rama `develop` mediante Pull Requests, siguiendo Conventional Commits y Semantic Versioning. En total se integraron **27 ramas de trabajo** a `develop` (13 vía Pull Request formal y 14 por *merge* de rama), lo que evidencia un flujo de integración continuo y distribuido entre los miembros del equipo. Las capturas superiores corresponden a los analíticos de colaboración (Insights) y al historial de commits del repositorio `vigia-web-application`.
 
 **Participación por integrante (commits en la rama `develop`).** El siguiente cuadro resume el número de commits aportados por cada miembro, identificado por su usuario de GitHub, sobre un total de 132 commits registrados en la rama `develop` del repositorio de la Frontend Web Application:
 
@@ -6463,14 +6304,71 @@ Durante el Sprint 2 el trabajo se organizó por funcionalidades, cada una desarr
 |-------------------------------|-----------------------|---|---|
 | Fabián Sandoval (Team Leader) | `FabianSandovalCueto` | 55 | Arquitectura base y componentes compartidos, dashboards por rol, trazabilidad en tránsito, gestión de proyectos/inventario, integración a `develop` y coordinación general |
 | Elías Ramos                   | `eliocerdan`          | 48 | Gestión de discrepancias y evidencias (lista, detalle, cierre, responsabilidad, evidencia fotográfica), internacionalización (i18n) |
-| Leonardo Lopez                | `Leonardo lopez`      | 14 | Gestión de órdenes y despachos (`feature/order-management-and-dispatch`) |
-| Andre                         | `Usuario353`          | 8 | Recepción y verificación en obra (BC-07) |
-| Elizabeth Bocanegra           | `ApazaEN`             | 7 | Gestión de flota y registro de dispositivos (BC-04) |
+| Leonardo Lopez                | `LeonardoLopez138`   | 14 | Gestión de órdenes y despachos (`feature/order-management-and-dispatch`) |
+| Mathias Cárdenas              | `Usuario353`          | 8 | Recepción y verificación en obra (BC-07) |
+| Elizabeth Apaza               | `ApazaEN`             | 7 | Gestión de flota y registro de dispositivos (BC-04) |
 
 La distribución de commits y la cantidad de ramas integradas evidencian que la carga de implementación se repartió entre los integrantes y que todos tuvieron participación efectiva sobre el producto del Sprint. La relación detallada de cada commit (identificador, rama, mensaje y fecha) se encuentra en la sección 5.2.2.4. *Development Evidence for Sprint Review*.
 
+<div style="page-break-after: always;"></div>
 
-<!-- Fuente: report/chapters/10-conclusiones.md -->
+## Conclusiones
 
-# Conclusions
+### Conclusiones y recomendaciones
 
+Esta versión del informe corresponde a la entrega TB1 y documenta el avance del proyecto hasta el Sprint 2. Las conclusiones que se presentan son parciales: las entrevistas de validación (sección 5.3) y los Web Services se completarán en las siguientes entregas, por lo que los Problem Statements, los assumptions y los Hypothesis Statements del proceso Lean UX aún no pueden contrastarse con resultados de validación.
+
+**Sobre el problema y la propuesta de valor.** Las cuatro entrevistas reales analizadas en la sección 2.2.3 coinciden en que la información de un mismo despacho se dispersa entre guías de remisión, hojas de cálculo, mensajes, llamadas y registros físicos, y que esa dispersión obliga a reconstruir lo ocurrido cuando aparece una diferencia entre lo despachado y lo recibido. Esta coincidencia respalda el problema planteado en la sección 1.2 y la propuesta de Vigía de mantener la trazabilidad de los materiales desde el almacén hasta la obra. Dado que la muestra es de dos entrevistas por segmento, la evidencia se considera preliminar y debe ampliarse a un mínimo de tres entrevistas por segmento.
+
+**Sobre el producto.** Se publicó la segunda versión del Landing Page y la primera versión de la Frontend Web Application, ambas accesibles en línea y con la Web Application enlazada desde el Landing Page. La Web Application cubre los roles de Supervisor, Responsable de Almacén y Responsable de Obra, con interfaz en inglés y español, y se organiza por Bounded Context conforme al diseño de la sección 4.6.
+
+**Sobre el trabajo en equipo.** Los cinco integrantes registran commits en el informe y en los repositorios de implementación, y el trabajo se integró mediante GitFlow y Pull Requests, como se evidencia en las secciones 5.1.2 y 5.2.2.8.
+
+**Recomendaciones para las siguientes entregas.**
+
+1. Implementar y documentar con OpenAPI (Swagger) la primera versión del RESTful API en el repositorio `vigia-platform` y reemplazar el servidor simulado de la Web Application.
+2. Completar las entrevistas de cada segmento, grabarlas y recalcular los análisis y artefactos de Needfinding (secciones 2.2 a 2.3) con la muestra real.
+3. Realizar las entrevistas de validación con el Landing Page y la Web Application, y evaluarlas con el formato de heurísticas del Anexo D del enunciado (sección 5.3).
+4. Producir y publicar los videos About-the-Product y About-the-Team, e incrustarlos en el Landing Page.
+5. Corregir las entradas pendientes de la bibliografía (sección Bibliografía) y estandarizar los mensajes de commit según Conventional Commits.
+
+<div style="page-break-after: always;"></div>
+
+## Bibliografía
+
+Cámara Peruana de la Construcción. (2025a, 30 de mayo). *Capeco: sector construcción cierra primer cuatrimestre del 2025 en azul pese a caída en abril*. El Comercio. https://elcomercio.pe/economia/peru/capeco-sector-construccion-cierra-primer-cuatrimestre-del-2025-en-azul-pese-a-caida-en-abril-l-ultimas-noticia/
+
+Cámara Peruana de la Construcción. (2025b, 18 de julio). *Construcción sube 3.4% hasta mayo, menos de lo que se espera para fin de año*. https://capeco.org/construccion-sube-3-4-hasta-mayo-menos-de-lo-que-se-espera-para-fin-de-ano/
+
+Constructivo. (2026, 29 de enero). *Construcción cerró el 2025 creciendo 6.5% y alcanzó su mejor desempeño desde 2021*. https://constructivo.com/noticia/construccion-cerro-el-2025-creciendo-65y-alcanzo-su-mejor-desempeno-desde-2021-1769723866
+
+Gothelf, J. (2019). *The Lean UX Canvas v2*. https://jeffgothelf.com/blog/leanuxcanvas-v2/
+
+Instituto Nacional de Estadística e Informática. (2025). *Demografía empresarial en el Perú*. https://www.gob.pe/institucion/inei
+
+Ministerio de Transportes y Comunicaciones. (2025). *Anuario estadístico 2024*. https://www.gob.pe/institucion/mtc/informes-publicaciones/6875581-anuario-estadistico-2024
+
+Perú Construye. (2025, 16 de junio). *Construcción lidera crecimiento del empleo por sectores*. https://peruconstruye.net/2025/06/16/construccion-crecimiento-empleo/
+
+PQS. (2026, 11 de agosto). *Sector construcción crecerá 10% este año, según proyección del BCRP*. https://pqs.pe/actualidad/economia/sector-construccion-crecera-10-este-ano-segun-proyeccion-del-bcrp/
+
+Universidad Nacional de Cajamarca. (2024). *[Título de la tesis pendiente de confirmar]* [Tesis de pregrado, Universidad Nacional de Cajamarca]. Repositorio institucional. https://repositorio.unc.edu.pe
+
+Universidad Nacional de San Cristóbal de Huamanga. (2023). *[Título de la tesis pendiente de confirmar]* [Tesis de pregrado, Universidad Nacional de San Cristóbal de Huamanga]. Repositorio institucional. https://repositorio.unsch.edu.pe
+
+---
+
+🟢 **Pendiente de completar.** Las dos entradas de tesis (Universidad Nacional de Cajamarca y Universidad Nacional de San Cristóbal de Huamanga), citadas en la sección 1.3 para sustentar los porcentajes de desperdicio de materiales, están incompletas: falta el nombre del autor, el título exacto de la tesis y el año exacto de sustentación (se usó el año de publicación del repositorio como aproximación). El equipo debe ubicar la ficha exacta en los repositorios institucionales (repositorio.unc.edu.pe y repositorio.unsch.edu.pe) y reemplazar el marcador `[Título de la tesis pendiente de confirmar]` y el nombre de autor antes de la entrega final.
+
+<div style="page-break-after: always;"></div>
+
+## Anexo A. Videos de Exposiciones
+
+Este anexo consolida, para cada entrega del proyecto, el enlace privado al video de exposición correspondiente, publicado en Microsoft Stream, conforme a lo indicado en el Anexo C del enunciado del proyecto.
+
+| Entrega | Nombre del archivo | Enlace (Microsoft Stream) |
+|---|---|---|
+| AV1 | `upc-pre-202620-1asi0730-8084-trazzalabs-expo-av1.mp4` | 🟢 *Pendiente: reemplazar este marcador por el enlace privado de Microsoft Stream.* |
+| TB1 | `upc-pre-202620-1asi0730-8084-trazzalabs-expo-tb1.mp4` | 🟢 *Pendiente: reemplazar este marcador por el enlace privado de Microsoft Stream.* |
+
+🟢 **Pendiente.** Cada video de exposición debe mostrar a cada integrante del equipo ante cámara explicando la construcción de los artefactos del trabajo, apoyándose en la presentación de PowerPoint y demostrando los artefactos en las herramientas indicadas, con una duración máxima de 30 minutos. Además del enlace aquí registrado, el archivo `.mp4` debe entregarse dentro del `.zip` de archivos complementarios.
