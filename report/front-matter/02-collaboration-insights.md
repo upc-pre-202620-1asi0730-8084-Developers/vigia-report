@@ -38,3 +38,9 @@ El siguiente cuadro resume los commits por integrante en el repositorio del info
 | Mathias Cárdenas | `Usuario353` | 23 | `feature/Cardenas` |
 
 Los cinco integrantes tienen commits propios en el informe, de modo que todos participaron en su elaboración, conforme lo exige el enunciado del proyecto. Los analíticos de colaboración y de commits de la implementación se presentan en la sección 5.2.2.8.
+
+### AV2
+
+Para la entrega AV2 el informe siguió elaborándose bajo GitFlow, con una rama personal `feature/<nombre>` por integrante integrada mediante Pull Request. En esta entrega se agregaron el Sprint 3 (sección 5.2.3), las Validation Interviews (sección 5.3), el Video About-the-Product (sección 5.4) y el Video About-The-Team, y se corrigieron los artefactos de entregas anteriores, como el Sprint Planning y el Sprint Backlog del Sprint 2, lo que se refleja en la versión 1.1.0 del Registro de Versiones del Informe.
+
+🟢 **Pendiente:** agregar el cuadro actualizado de commits por integrante del repositorio `vigia-report`, el número de Pull Requests fusionados y la captura de Insights de GitHub a la fecha de la entrega.
