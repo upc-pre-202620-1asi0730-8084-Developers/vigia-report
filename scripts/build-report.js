@@ -112,14 +112,14 @@ function inToc(h, file) {
     return num[1].split('.').length <= 4;
   }
   if (h.level === 2) return true;
-  return /^Conclusiones y recomendaciones$/i.test(t);
+  return /^(Conclusiones y recomendaciones|Video About-The-Team)$/i.test(t);
 }
 
 function depthOf(h) {
   const t = clean(h.text);
   const num = /^(\d+(?:\.\d+)*)\.?\s/.exec(t);
   if (num) return num[1].split('.').length;
-  return /^Conclusiones y recomendaciones$/i.test(t) ? 1 : 0;
+  return /^(Conclusiones y recomendaciones|Video About-The-Team)$/i.test(t) ? 1 : 0;
 }
 
 // Recorre todos los archivos en orden para calcular las anclas y los textos del índice

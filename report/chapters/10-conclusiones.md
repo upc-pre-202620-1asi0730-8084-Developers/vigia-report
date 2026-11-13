@@ -6,7 +6,9 @@ Esta versión del informe corresponde a la entrega AV2 y documenta el avance del
 
 **Sobre el problema y la propuesta de valor.** Las entrevistas de Needfinding analizadas en la sección 2.2.3 coinciden en que la información de un mismo despacho se dispersa entre guías de remisión, hojas de cálculo, mensajes, llamadas y registros físicos, y que esa dispersión obliga a reconstruir lo ocurrido cuando aparece una diferencia entre lo despachado y lo recibido. Esta coincidencia respalda el problema planteado en la sección 1.2 y la propuesta de Vigía de mantener la trazabilidad de los materiales desde el almacén hasta la obra. La brecha identificada, la continuidad del registro de custodia entre el despacho y la recepción, se refleja en el diseño del RESTful API, donde los Bounded Contexts de pedidos y despachos, tránsito, recepción y discrepancias comparten referencias al mismo despacho.
 
-**Sobre los criterios de éxito de Lean UX.** El primer criterio de éxito, detectar las discrepancias durante la recepción y no en la conciliación posterior, ya cuenta con soporte técnico: el API permite reportar una discrepancia al verificar la recepción y abrir un caso con su línea de tiempo. El segundo, reducir el tiempo de esclarecimiento de responsabilidades, y el tercero, el registro sostenido de eventos por parte de los usuarios, solo pueden medirse con usuarios reales.  *Completar con los resultados de las sesiones de validación (sección 5.3): qué hipótesis se confirmaron, cuáles se refutaron y qué assumptions del comportamiento de cada segmento se verificaron.*
+**Sobre los criterios de éxito de Lean UX.** El primer criterio de éxito, detectar las discrepancias durante la recepción y no en la conciliación posterior, ya cuenta con soporte técnico: el API permite reportar una discrepancia al verificar la recepción y abrir un caso con su línea de tiempo. El segundo, reducir el tiempo de esclarecimiento de responsabilidades, y el tercero, el registro sostenido de eventos por parte de los usuarios, solo pueden medirse con usuarios reales durante un piloto.
+
+**Resultados de la validación.** En las cuatro entrevistas de validación realizadas hasta la fecha (dos por segmento, sección 5.3.2), los entrevistados completaron las tareas guiadas sin ayuda y valoraron como útiles la visibilidad del estado de los despachos, la comparación entre cantidades enviadas y recibidas, el respaldo con evidencias fotográficas, los avisos prioritarios y el historial. Esto respalda de forma preliminar las hipótesis de trazabilidad y de detección temprana de discrepancias, y el assumption de que ambos segmentos necesitan centralizar la información de cada despacho. Los problemas detectados son de severidad 2 (etiquetas en inglés y carga lenta del mapa, sección 5.3.3). La muestra es menor al mínimo de tres entrevistas por segmento, por lo que los resultados deben ampliarse. 🟢 *Completar con la tercera entrevista de cada segmento.*
 
 **Sobre el producto.** Se mantienen desplegados el Landing Page y la primera versión de la Frontend Web Application, que cubre los roles de Supervisor, Responsable de Almacén y Responsable de Obra, con interfaz en inglés y español y organización por Bounded Context conforme al diseño de la sección 4.6. En el Sprint 3 se implementó la primera versión del RESTful API en `vigia-platform`, con endpoints de pedidos, despachos, vehículos y dispositivos GPS, geocercas, discrepancias, recepciones y rutas de tránsito, documentados con OpenAPI. El despliegue del API y la conexión de la Web Application con él, en reemplazo del servidor simulado, quedaron como las tasks pendientes de mayor prioridad (sección 5.2.3.3).
 
@@ -36,4 +38,16 @@ El Video About-The-Team resume el proceso de trabajo del equipo durante el desar
 | 00:02:00 | Retrospectiva del grupo | Aciertos y oportunidades de mejora del equipo |
 | 00:07:00 | Testimonios | Un minuto por integrante: Lopez, Ramos, Sandoval, Cárdenas y Apaza |
 
- **Pendiente:** grabar y publicar el video. Completar los tiempos reales de cada sección, la duración total, el screenshot representativo, la URL de Microsoft Stream y la URL de YouTube (que se incrusta en el Landing Page). Nombre del archivo: `upc-pre-202620-1asi0730-8084-trazzalabs-about-the-team-sprint-3.mp4`.
+
+**Figura 1.** Captura del Video About-The-Team.
+
+[![Video About-The-Team](../../assets/chapther-5/sprint-3/video-about-the-team.jpg)](https://youtu.be/8jhRrFqgy-8)
+
+| Dato | Valor |
+|---|---|
+| URL en YouTube (video incrustado en el Landing Page) | https://youtu.be/8jhRrFqgy-8 |
+| Duración | 10:41 |
+| Nombre del archivo | `upc-pre-202620-1asi0730-8084-trazzalabs-about-the-team-sprint-3.mp4` |
+| URL en Microsoft Stream | 🟢 *(completar con el enlace privado de Microsoft Stream)* |
+
+El video está incrustado en la sección del equipo del Landing Page. 🟢 *Pendiente:* completar en la pauta de secuencias los tiempos reales (hh:mm:ss) de cada sección, ya que los de la tabla son referenciales, y corregir el título en YouTube, que aparece como "Aboth the team" y debe decir "About the team".

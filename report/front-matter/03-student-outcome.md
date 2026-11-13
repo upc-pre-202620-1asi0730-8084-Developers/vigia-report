@@ -18,7 +18,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   </thead>
   <tbody>
     <tr>
-      <td rowspan="2"><strong>Trabaja en equipo para proporcionar liderazgo en forma conjunta</strong></td>
+      <td><strong>Trabaja en equipo para proporcionar liderazgo en forma conjunta</strong></td>
       <td>
         <ul>
           <li><strong>Sandoval Cueto, Fabián</strong>
@@ -59,7 +59,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       </td>
     </tr>
     <tr>
-      <td rowspan="2"><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</strong></td>
+      <td><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</strong></td>
       <td>
         <ul>
           <li><strong>Sandoval Cueto, Fabián</strong>
