@@ -349,7 +349,19 @@ Los cinco integrantes tienen commits propios en el informe, de modo que todos pa
 
 Para la entrega AV2 el informe siguió elaborándose bajo GitFlow, con una rama personal `feature/<nombre>` por integrante integrada mediante Pull Request. En esta entrega se agregaron el Sprint 3 (sección 5.2.3), las Validation Interviews (sección 5.3), el Video About-the-Product (sección 5.4) y el Video About-The-Team, y se corrigieron los artefactos de entregas anteriores, como el Sprint Planning y el Sprint Backlog del Sprint 2, lo que se refleja en la versión 1.1.0 del Registro de Versiones del Informe.
 
-🟢 **Pendiente:** agregar el cuadro actualizado de commits por integrante del repositorio `vigia-report`, el número de Pull Requests fusionados y la captura de Insights de GitHub a la fecha de la entrega.
+El siguiente cuadro resume los commits propios (sin commits de fusión) registrados en todas las ramas del repositorio a la fecha de esta entrega. Los conteos difieren de los del cuadro de TB1 porque aquí se excluyen los commits de fusión; cada integrante figura con todos los usuarios y correos con los que hizo commits.
+
+| Integrante | Usuario de GitHub | Commits | Rama de trabajo |
+|---|---|---|---|
+| Lopez, Leonardo | `LeonardoLopez138` / `Deiko-138` | 53 | `feature/leonardo` |
+| Apaza Bocanegra, Elizabeth | `ApazaEN` | 40 | `feature/Apaza` |
+| Ramos Cerdán, Elías | `eliocerdan` | 35 | `feature/Ramos` |
+| Sandoval Cueto, Fabián | `FabianSandovalCueto` / `JFabianSandoval` | 23 | `feature/Sandoval` |
+| Cárdenas Huaman, Mathias | `Usuario353` | 20 | `feature/Cardenas` |
+
+Los cinco integrantes tienen commits propios en el informe, de modo que todos participaron en su elaboración.
+
+🟢 **Pendiente:** agregar el número de Pull Requests fusionados y la captura de Insights de GitHub a la fecha de la entrega.
 
 <div style="page-break-after: always;"></div>
 
@@ -936,7 +948,7 @@ Estos profesionales asumen la responsabilidad técnica y financiera de los insum
 
 *Empleo del sector.* Al trimestre móvil marzo-abril-mayo de 2025, la población ocupada en el sector construcción en Lima Metropolitana asciende a 415,743 personas, lo que representa un incremento de 5.8% respecto al mismo periodo del año anterior, equivalente a 22,200 personas adicionales (Perú Construye, 2025). En el mismo periodo, el empleo formal del sector creció 13.1% (CAPECO, 2025b), indicador de una creciente formalización que favorece la adopción de herramientas de gestión digital.
 
-*Magnitud del problema de desperdicio de materiales.* No se dispone de cifras oficiales publicadas por el INEI, CAPECO o el Ministerio de la Producción sobre el desperdicio de materiales en obras de construcción a nivel nacional para el periodo 2024-2026. No obstante, investigaciones académicas desarrolladas en el país permiten dimensionar el fenómeno. Un estudio realizado en la ciudad de Ayacucho reporta porcentajes de desperdicio de entre 6.47% y 7.51% en concreto armado, y de entre 7.65% y 10.59% en acero, con un impacto de entre 3.55% y 5.14% sobre el costo inicial de la obra (Universidad Nacional de San Cristóbal de Huamanga, 2023). Por su parte, un estudio realizado en Celendín reporta desperdicios de 1.102% en concreto, 6.176% en mortero y 1.836% en ladrillo (Universidad Nacional de Cajamarca, 2024). Estas cifras corresponden a investigaciones académicas de alcance local y no constituyen estadística oficial de alcance nacional.
+*Magnitud del problema de desperdicio de materiales.* No se dispone de cifras oficiales publicadas por el INEI, CAPECO o el Ministerio de la Producción sobre el desperdicio de materiales en obras de construcción a nivel nacional para el periodo 2024-2026. No obstante, investigaciones académicas desarrolladas en el país permiten dimensionar el fenómeno. Un estudio realizado en dos reservorios de concreto armado en Ayacucho reporta porcentajes de desperdicio de entre 6.47% y 7.51% en concreto armado, y de entre 7.65% y 10.59% en acero, con un impacto de entre 3.55% y 5.14% sobre el costo inicial de la obra (Ayasca Lope, 2016). Por su parte, un estudio realizado en Celendín reporta desperdicios de 1.102% en concreto, 6.176% en mortero y 1.836% en ladrillo (Araujo Mejía, 2025). Estas cifras corresponden a investigaciones académicas de alcance local y no constituyen estadística oficial de alcance nacional.
 
 ##### Segmento 2: Empresas de Logística, Transporte y Almacenes Satélite
 
@@ -4056,7 +4068,9 @@ GitHub Pages reconstruye el sitio en cada push a `main` sobre la carpeta `/docs`
 | Base de datos | MySQL, con la cadena de conexión `ConnectionStrings__DefaultConnection` definida como variable de entorno |
 | Entorno | `ASPNETCORE_ENVIRONMENT` (`Development` o `Production`) |
 | CORS | Política `VigiaFrontend`, que permite `http://localhost:5173` y `https://vigia-frontend-8084.web.app` |
-| Documentación | Documento OpenAPI en `/openapi/v1.json` e interfaz Scalar en `/scalar/v1` (hoy habilitadas solo en `Development`) |
+| Autenticación | Clave de firma del JWT en la variable `Jwt__Secret` (mínimo 32 caracteres) |
+| Documentación | Documento OpenAPI en `/openapi/v1.json` e interfaz Scalar en `/scalar/v1`, habilitadas en todos los entornos |
+| Contenedor | `Dockerfile` en la raíz del repositorio (imagen .NET 10, puerto 8080) |
 
 Pasos para desplegar una nueva versión del API:
 
@@ -6405,20 +6419,20 @@ Esta sección documenta el Sprint Planning, los líderes y colaboradores por asp
 
 El Sprint Planning 3 definió el alcance del Sprint 3, orientado a que la solución cuente por primera vez con Web Services. Además de las historias que el Product Backlog de la sección 3.3 asigna a este Sprint, el equipo incorporó las Technical Stories TS-01 y TS-06, que quedaron pendientes en el Sprint 2 por no existir el RESTful API.
 
-| Sprint # | Sprint 3 |
-|---|---|
-| **Sprint Planning Background** | |
-| Date | 2026-11-04 🟢 *(confirmar la fecha real de la reunión)* |
-| Time | 🟢 *(completar: HH:MM AM/PM)* |
-| Location | Reunión virtual del equipo (🟢 *confirmar la plataforma usada*) |
-| Prepared By | Sandoval Cueto, Fabián (Team Leader) |
-| Attendees (to planning meeting) | Sandoval Cueto, Fabián / Lopez, Leonardo / Ramos Cerdán, Elías Daniel / Cárdenas Huaman, Mathias Andree / Apaza Bocanegra, Elizabeth Noelia |
-| **Sprint 2 Review Summary** | En el Sprint 2 se desplegó la primera versión de la Frontend Web Application en Firebase Hosting y una nueva versión del Landing Page, con 13 de los 18 Story Points comprometidos (US-01, US-15, US-02 y US-17). La Web Application se organizó por Bounded Context y se integró a `develop` mediante 27 ramas de trabajo, con la participación de los cinco integrantes. Las Technical Stories TS-01 y TS-06 (5 Story Points) no se completaron porque el RESTful API aún no existía, y la Web Application consumió datos del servidor simulado `json-server`. 🟢 *(Agregar el feedback del Product Owner y del docente tras TB1.)* |
-| **Sprint 2 Retrospective Summary** | Como acierto, el equipo consolidó el flujo con GitFlow, Pull Requests y Conventional Commits, y repartió la implementación del frontend por Bounded Context. Como oportunidad de mejora, el atraso del backend se repitió respecto del Sprint 1 y acumuló historias técnicas diferidas. Para el Sprint 3 se dividió el RESTful API por Bounded Context, de modo que cada integrante lidere su contexto en una rama `feature/*` propia, y se priorizó el despliegue de los Web Services. 🟢 *(Confirmar con el equipo los aciertos y mejoras acordados.)* |
-| **Sprint Goal & User Stories** | |
+| Sprint # | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|---|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Date | 2026-11-04                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Time | 8:00 PM - 10:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Location | Reunión virtual del equipo meet                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Prepared By | Sandoval Cueto, Fabián (Team Leader)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Attendees (to planning meeting) | Sandoval Cueto, Fabián / Lopez, Leonardo / Ramos Cerdán, Elías Daniel / Cárdenas Huaman, Mathias Andree / Apaza Bocanegra, Elizabeth Noelia                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Sprint 2 Review Summary** | En el Sprint 2 se desplegó la primera versión de la Frontend Web Application en Firebase Hosting y una nueva versión del Landing Page, con 13 de los 18 Story Points comprometidos (US-01, US-15, US-02 y US-17). La Web Application se organizó por Bounded Context y se integró a `develop` mediante 27 ramas de trabajo, con la participación de los cinco integrantes. Las Technical Stories TS-01 y TS-06 (5 Story Points) no se completaron porque el RESTful API aún no existía, y la Web Application consumió datos del servidor simulado `json-server`.  |
+| **Sprint 2 Retrospective Summary** | Como acierto, el equipo consolidó el flujo con GitFlow, Pull Requests y Conventional Commits, y repartió la implementación del frontend por Bounded Context. Como oportunidad de mejora, el atraso del backend se repitió respecto del Sprint 1 y acumuló historias técnicas diferidas. Para el Sprint 3 se dividió el RESTful API por Bounded Context, de modo que cada integrante lidere su contexto en una rama `feature/*` propia, y se priorizó el despliegue de los Web Services.                                                                           |
+| **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Sprint 3 Goal | Our focus is on publishing the first version of the Vigía Web Services and connecting the Web Application to real data for orders, fleet, geofences and dispatches. We believe it delivers a traceable and reliable operation to warehouse managers and site residents of construction and logistics companies, and gives the frontend team an API it can integrate against. This will be confirmed when the RESTful API is deployed with its OpenAPI documentation, the Web Application consumes its endpoints instead of `json-server`, and a user can create an order, register a vehicle with its GPS device and define a geofence. |
-| Sprint 3 Velocity | 24 Story Points |
-| Sum of Story Points | 24 |
+| Sprint 3 Velocity | 24 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Sum of Story Points | 24                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
 **Definition of Done del Sprint.** Los Web Services están desplegados en una URL pública con su documentación OpenAPI; cada endpoint devuelve los códigos de estado documentados; la Web Application desplegada consume el API en lugar de `json-server`; el Landing Page incorpora los cambios de AV2; y todo el trabajo se integra a `develop` mediante Pull Request.
 
@@ -6490,16 +6504,16 @@ El objetivo del Sprint 3 es publicar la primera versión de los Web Services y c
 | US-04 | T-10 | Dominio de despachos | Agregado `Dispatch` con ítems, servicios de comando y consulta y repositorio EF Core. | 8 | Lopez, Leonardo | Done |
 | US-04 | T-11 | `DispatchesController` | Endpoints de despachos: ítems, asignación de vehículo, cambio de estado y cancelación. | 6 | Lopez, Leonardo | Done |
 | US-04 | T-12 | Vista de conformación de carga | Conectar la pantalla de Despachos con `/api/v1/dispatches`. | 6 | Ramos Cerdán, Elías | To Do |
-| TS-02 | T-13 | Endpoint de registro de pesaje | Endpoint que recibe el identificador del despacho y el peso registrado. | 5 | Sandoval Cueto, Fabián | To Do |
-| TS-01 | T-14 | Autenticación | Endpoint de autenticación con validación de credenciales y emisión de JWT. | 8 | Sandoval Cueto, Fabián | To Do |
-| TS-06 | T-15 | Endpoint de contacto | Recibir los datos del formulario de contacto del Landing Page. | 4 | Cárdenas Huaman, Mathias | To Do |
+| TS-02 | T-13 | Endpoint de registro de pesaje | `POST /api/v1/dispatches/{dispatchId}/weighing`: recibe el peso en kilogramos y lo registra en el despacho con su evento en la línea de tiempo. | 5 | Sandoval Cueto, Fabián | To Review (implementado, pendiente de Pull Request) |
+| TS-01 | T-14 | Autenticación | `POST /api/v1/authentication/sign-in`: valida las credenciales contra el hash almacenado y emite un JWT con el usuario y el rol. | 8 | Sandoval Cueto, Fabián | To Review (implementado, pendiente de Pull Request) |
+| TS-06 | T-15 | Endpoint de contacto | `POST /api/v1/contact-requests`: recibe y valida los datos del formulario de contacto del Landing Page. | 4 | Cárdenas Huaman, Mathias | To Review (implementado, pendiente de Pull Request) |
 | Adelanto | T-16 | Discrepancias y evidencia | Endpoints de casos de discrepancia: crear, consultar, línea de tiempo y determinar responsabilidad o cerrar. | 8 | Ramos Cerdán, Elías | Done |
 | Adelanto | T-17 | Recepción en obra | Endpoints de recepciones: arribos, confirmación, verificación de material, conformidad, discrepancia y evidencia. | 8 | Cárdenas Huaman, Mathias | Done (rama `feature/site-reception-and-verification`) |
 | Adelanto | T-18 | Trazabilidad en tránsito | Endpoints de rutas: posiciones, pérdida de señal y alertas de desvío. | 8 | Sandoval Cueto, Fabián | Done |
 | Transversal | T-19 | Documentación OpenAPI | Documentar los endpoints de cada Bounded Context con OpenAPI. | 4 | Todo el equipo | In Process |
 | Transversal | T-20 | Despliegue de los Web Services | Desplegar la primera versión del RESTful API con su base de datos y variables de entorno. | 8 | Sandoval Cueto, Fabián | To Do |
 
-**Total de horas estimadas:** 130 h. Completadas (Done): 76 h. Pendientes: 54 h.
+**Total de horas estimadas:** 130 h. Completadas (Done): 76 h. En revisión (To Review): 17 h. Pendientes: 37 h. 🟢 *Actualizar el estado de cada task al cierre del Sprint.*
 
 Las filas marcadas como *Adelanto* corresponden a endpoints que el Product Backlog asigna a Sprints posteriores y que el equipo adelantó para integrarlos con las pantallas ya existentes de la Web Application.
 
@@ -6610,6 +6624,8 @@ La siguiente tabla lista los 94 commits propios del Sprint 3 (desde el 2026-11-0
 | upc-pre-202620-1asi0730-8084-Developers/vigia-platform | feature/Order-management-and-dispatch | eb29a15 | feat(orders): implement OrdersController endpoints | — | 2026-11-12 |
 | upc-pre-202620-1asi0730-8084-Developers/vigia-platform | feature/Order-management-and-dispatch | 4f3296b | chore(api): register order services and repository in Program.cs | — | 2026-11-12 |
 
+**Integración del API.** Para unir los cinco Bounded Contexts en un solo proyecto ejecutable, se integraron las ramas `feature/*` sobre `develop`, resolviendo los cambios comunes de `Program.cs` y `AppDbContext`, y se agregaron los contextos Identity and Access (autenticación, TS-01) y Subscription Contact (contacto, TS-06), el registro de pesaje del despacho (TS-02), el `Dockerfile` y la publicación de OpenAPI en todos los entornos. Estos cambios compilan sin errores y están pendientes de Pull Request, por lo que sus commits se agregarán a la tabla al registrarse. 🟢 *Pendiente: agregar los commits de esta integración.*
+
 **Landing Page.** Para AV2 se prepara una nueva versión del Landing Page en la rama `feature/av2-platform-screens` del repositorio `vigia-website`, que agrega la sección *Conoce la plataforma* con cuatro capturas de la Web Application (con textos alternativos y traducción al inglés), reemplaza los enlaces vacíos de redes sociales por enlaces a GitHub, YouTube y correo, y mantiene el video About-the-Product, la sección de equipo con su video, los planes, el CTA y los términos y condiciones en el footer. 🟢 *Pendiente:* agregar el id de los commits de esta rama cuando se registren.
 
 **Web Application.** El código de la Web Application ya define cada ruta de los Bounded Contexts mediante variables de entorno (`VITE_ORDERS_ENDPOINT_PATH`, `VITE_DISPATCHES_ENDPOINT_PATH`, `VITE_VEHICLES_ENDPOINT_PATH`, `VITE_GEOFENCES_ENDPOINT_PATH`, `VITE_ROUTES_ENDPOINT_PATH`, `VITE_DISCREPANCY_CASES_ENDPOINT_PATH` y `VITE_RECEPTIONS_ENDPOINT_PATH`), cuyos valores coinciden con las rutas del RESTful API, por lo que la integración consiste en definir la URL base del API. 🟢 *Pendiente:* agregar la tabla de commits de `vigia-web-application` posteriores al 2026-10-06 cuando se integre con el API.
@@ -6626,7 +6642,7 @@ En el Sprint 3 la ejecución del producto se evidencia en dos frentes: la Web Ap
 
 ##### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-En el Sprint 3 se implementó la primera versión del RESTful API de Vigía en el repositorio `vigia-platform`. Cada controlador declara sus rutas bajo el prefijo `api/v1` y sus respuestas con los códigos de estado posibles mediante `ProducesResponseType`, de modo que el documento OpenAPI generado por ASP.NET Core (`AddOpenApi` y `MapOpenApi`) describe cada endpoint, sus parámetros y sus respuestas. La documentación interactiva se publica con Scalar sobre ese documento OpenAPI. Por ahora la documentación solo está habilitada en el entorno de desarrollo (URL local); su publicación junto con el despliegue del API se registra en la sección 5.2.3.7.
+En el Sprint 3 se implementó la primera versión del RESTful API de Vigía en el repositorio `vigia-platform`. Cada controlador declara sus rutas bajo el prefijo `api/v1` y sus respuestas con los códigos de estado posibles mediante `ProducesResponseType`, de modo que el documento OpenAPI generado por ASP.NET Core (`AddOpenApi` y `MapOpenApi`) describe cada endpoint, sus parámetros y sus respuestas. La documentación interactiva se publica con Scalar sobre ese documento OpenAPI. En la versión integrada del API, la documentación se expone en todos los entornos (no solo en desarrollo), de modo que quede disponible junto con el despliegue; su publicación se registra en la sección 5.2.3.7.
 
 **Repositorio de Web Services:** https://github.com/upc-pre-202620-1asi0730-8084-Developers/vigia-platform
 
@@ -6652,6 +6668,7 @@ En el Sprint 3 se implementó la primera versión del RESTful API de Vigía en e
 | `/api/v1/dispatches/{dispatchId}/items/{itemId}` | DELETE | Quita un ítem del despacho. | `dispatchId`, `itemId`. | 200, 404, 409 |
 | `/api/v1/dispatches/{dispatchId}/vehicle` | PUT | Asigna un vehículo al despacho. | `dispatchId`; cuerpo `AssignVehicleResource`. | 200, 400, 404, 409 |
 | `/api/v1/dispatches/{dispatchId}/status` | PATCH | Cambia el estado del despacho. | `dispatchId`; cuerpo `ChangeDispatchStatusResource`. | 200, 400, 404, 409 |
+| `/api/v1/dispatches/{dispatchId}/weighing` | POST | Registra el peso certificado de la carga, en kilogramos (TS-02). El peso debe ser mayor que cero y el despacho no puede haber salido del almacén. | `dispatchId`; cuerpo `RecordDispatchWeighingResource` (`weightKg`, `performedBy`). | 200, 400, 404, 409 |
 | `/api/v1/dispatches/{dispatchId}/cancellation` | POST | Cancela el despacho indicando el motivo. | `dispatchId`; cuerpo `CancelDispatchResource`. | 200, 404, 409 |
 
 **Ejemplo: `POST /api/v1/orders`.**
@@ -6702,6 +6719,26 @@ La respuesta `201 Created` devuelve el pedido creado (`OrderResource`) con su id
 
 La respuesta `201 Created` devuelve el `VehicleResource` con `isGpsPaired` en `true`, la posición actual en `null` hasta recibir el primer reporte, y las fechas de creación y actualización.
 
+###### Identity and Access
+
+| Endpoint | Acción | Descripción | Parámetros | Respuestas |
+|---|---|---|---|---|
+| `/api/v1/authentication/sign-in` | POST | Valida las credenciales y devuelve un token JWT con el usuario y su rol (TS-01). Responde con un mensaje genérico si las credenciales no son válidas. | Cuerpo `SignInResource` (`username`, `password`). | 200 (`AuthenticatedUserResource`), 400, 401 |
+
+**Ejemplo: `POST /api/v1/authentication/sign-in`.**
+
+```json
+{ "username": "jperez", "password": "<contraseña del usuario>" }
+```
+
+La respuesta `200 OK` devuelve `{ "id": 2, "username": "jperez", "fullName": "Juan Pérez", "role": "SITE_MANAGER", "token": "<JWT>" }`. El token se firma con la clave `Jwt:Secret` definida en la configuración y expira a los 120 minutos.
+
+###### Subscription Contact
+
+| Endpoint | Acción | Descripción | Parámetros | Respuestas |
+|---|---|---|---|---|
+| `/api/v1/contact-requests` | POST | Registra la solicitud de contacto de una empresa interesada en suscribirse (TS-06). Valida los datos obligatorios y el formato del correo. | Cuerpo `CreateContactRequestResource` (`companyName`, `contactName`, `email`, `phone`, `planOfInterest`, `message`). | 201, 400 |
+
 ###### Discrepancy & Evidence Management
 
 | Endpoint | Acción | Descripción | Parámetros | Respuestas |
@@ -6739,7 +6776,7 @@ La respuesta `201 Created` devuelve el `VehicleResource` con `isGpsPaired` en `t
 | `/api/v1/routes/{routeId}/signal-lost` | POST | Registra la pérdida de señal del dispositivo. | 200, 404, 409 |
 | `/api/v1/routes/{routeId}/alerts/{alertId}/notify` | POST | Marca una alerta como notificada. | 200, 404, 409 |
 
-**Pendientes de documentación.** Los endpoints de TS-01 (autenticación), TS-02 (pesaje) y TS-06 (contacto para suscripción) aún no están implementados (sección 5.2.3.3), por lo que no figuran en las tablas. 🟢 *Agregar capturas de la documentación interactiva (Scalar) con datos de muestra, una por Bounded Context, una vez el API esté en ejecución.*
+**Estado de las Technical Stories.** Los endpoints de TS-01 (autenticación), TS-02 (pesaje) y TS-06 (contacto para suscripción) están implementados en la versión integrada del API y se encuentran en revisión, pendientes de Pull Request (sección 5.2.3.3). 🟢 *Agregar capturas de la documentación interactiva (Scalar) con datos de muestra, una por Bounded Context, una vez el API esté en ejecución.*
 
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -6749,19 +6786,21 @@ Durante el Sprint 3 el trabajo de despliegue se centró en preparar la publicaci
 |---|---|---|---|---|
 | Landing Page (nueva versión pendiente de publicar) | GitHub Pages (rama `main`, carpeta `/docs`) | https://upc-pre-202620-1asi0730-8084-developers.github.io/vigia-website/ | `vigia-website` | Desplegado |
 | Frontend Web Application | Firebase Hosting | https://vigia-frontend-8084.web.app | `vigia-web-application` | Desplegado |
-| Web Services (RESTful API) | 🟢 *Por definir* | 🟢 *Por definir* | `vigia-platform` | En preparación |
+| Web Services (RESTful API) | *Por definir* | *Por definir* | `vigia-platform` | En preparación |
 
 **Preparación del despliegue del RESTful API.** El API quedó configurado para desplegarse sin cambios de código en los siguientes puntos:
 
 - **Base de datos.** El API usa MySQL mediante Entity Framework Core. La cadena de conexión `ConnectionStrings:DefaultConnection` se lee de la configuración, por lo que en el entorno desplegado se define como variable de entorno (`ConnectionStrings__DefaultConnection`) y no se almacena en el repositorio.
 - **CORS.** La política `VigiaFrontend` ya permite el origen de la Web Application desplegada (`https://vigia-frontend-8084.web.app`) y el de desarrollo local (`http://localhost:5173`), de modo que la Web Application puede consumir el API desde Firebase Hosting.
-- **Documentación.** El documento OpenAPI y la interfaz Scalar se exponen hoy solo en el entorno `Development`. Para publicar la documentación junto con el API, el despliegue debe habilitarlas también en el entorno de producción.
+- **Documentación.** En la versión integrada del API, el documento OpenAPI y la interfaz Scalar se exponen en todos los entornos, de modo que la documentación quede publicada junto con el API.
+- **Contenedor.** El repositorio incluye un `Dockerfile` que compila y publica el API con .NET 10 y lo ejecuta en el puerto 8080, por lo que puede desplegarse en cualquier servicio que ejecute contenedores.
+- **Autenticación.** El token JWT se firma con la clave `Jwt__Secret`, que se define como variable de entorno (de al menos 32 caracteres). La variable opcional `Seed__DemoPassword` crea los usuarios de demostración cuando la tabla de usuarios está vacía.
 - **Esquema de la base de datos.** El esquema se crea con `EnsureCreated` en el entorno de desarrollo; el despliegue debe ejecutar la creación del esquema contra la base de datos de producción.
 
 **Pasos de despliegue previstos.**
 
 1. Aprovisionar una instancia de MySQL accesible desde el servicio donde se publique el API.
-2. Publicar el API como servicio web (`dotnet publish`) en la plataforma elegida y configurar las variables de entorno (`ASPNETCORE_ENVIRONMENT` y la cadena de conexión).
+2. Construir la imagen con el `Dockerfile` del repositorio (o publicar con `dotnet publish`) en la plataforma elegida y configurar las variables de entorno (`ConnectionStrings__DefaultConnection`, `Jwt__Secret` y, opcionalmente, `Seed__DemoPassword`).
 3. Actualizar el archivo `.env.production` de la Web Application con la URL base del API y volver a publicarla con `firebase deploy --only hosting`.
 4. Verificar la documentación OpenAPI desplegada y registrar aquí las capturas.
 
@@ -6782,7 +6821,7 @@ Esta subsección documenta cómo colaboró el equipo durante el Sprint 3. El tra
 | Cárdenas Huaman, Mathias | `Usuario353` | 7 | Bounded Context Site Reception & Verification: recepciones, repositorio y datos de prueba |
 
 Los cuadros de commits corresponden a los 94 commits únicos del Sprint 3 detallados en la sección 5.2.3.4. La distribución muestra que cada integrante lideró un Bounded Context, aunque la carga fue desigual, por lo que en el siguiente Sprint conviene repartir con mayor equilibrio las tasks de integración con el frontend.
-
+ 
 🟢 **Pendiente:** agregar (1) las capturas de los analíticos de colaboración (Insights) y del historial de commits de GitHub de `vigia-platform`, (2) la participación en los repositorios `vigia-web-application` y `vigia-website` durante el Sprint 3, de modo que los cinco integrantes figuren en los tres productos como exige el enunciado.
 
 ### 5.3. Validation Interviews
@@ -6793,34 +6832,56 @@ La sección se organiza en tres secciones internas: Diseño de Entrevistas, que 
 
 #### 5.3.1. Diseño de Entrevistas
 
-El diseño de las sesiones de validación sigue una misma estructura para ambos segmentos. Cada sesión dura entre 20 y 30 minutos, se realiza de forma individual y se graba en video. Se programan de tres a cinco entrevistas por segmento. La sesión se divide en cuatro momentos: presentación del propósito y consentimiento para grabar, exploración libre del Landing Page, ejecución de tareas guiadas en la Web Application y preguntas de cierre.
+El diseño de las sesiones de validación sigue una misma estructura para ambos segmentos objetivo. Cada sesión se realiza de forma individual, se graba en video y se programan de tres a cinco entrevistas por segmento. En cada sesión el entrevistado interactúa con la Frontend Web Application de Vigía y resuelve tareas guiadas, cada una acompañada de una sola pregunta. En total se validan 20 tareas y 20 preguntas: 10 tareas y 10 preguntas por segmento. El entrevistador lee la instrucción al participante, deja que la intente resolver y le hace la pregunta al terminar.
 
 **Elementos de la sesión.**
 
 | Elemento | Qué se presenta | Qué se observa |
 |---|---|---|
-| Landing Page | Página de inicio, secciones por segmento, planes de suscripción, formulario de contacto y selector de idioma | Si el visitante entiende la propuesta de valor en pocos segundos, si encuentra los planes y si completa el formulario de contacto |
-| Web Application | Vistas del rol correspondiente al segmento, con datos de ejemplo | Si el usuario completa cada tarea sin ayuda, los errores que comete y el tiempo que tarda |
+| Web Application | Vistas del rol correspondiente al segmento, con datos de ejemplo | Si el usuario completa cada tarea sin ayuda, los errores que comete, dónde duda y qué comenta |
+| Preguntas de cada tarea | Una pregunta por tarea, formulada al terminar la tarea | La percepción del entrevistado sobre la claridad de la pantalla |
 
-**Segmento 1: Empresas Constructoras e Inmobiliarias.** Los participantes son residentes de obra, directores de obra y responsables de oficina técnica. Se validan los siguientes user flows de la sección 4.4.4:
+**Indicaciones para el entrevistador.** El entrevistado realiza únicamente las tareas que correspondan al rol o experiencia que se está validando. El entrevistador no lo guía hacia los botones mientras hace la prueba. Si alguna acción no funciona, pide que indique dónde haría clic y registra que se probó la comprensión del diseño, no la funcionalidad.
 
-1. Inicio de sesión con el rol de Responsable de obra.
-2. Pedido de materiales: registrar una solicitud de materiales para una obra.
-3. Recepción y verificación en obra: verificar el material recibido contra la guía y reportar una diferencia.
-4. Gestión de un caso de discrepancia: consultar la evidencia consolidada y determinar la responsabilidad.
-
-**Segmento 2: Empresas de Logística, Transporte y Almacenes Satélite.** Los participantes son jefes de almacén y despachadores. Se validan los siguientes user flows:
-
-1. Inicio de sesión con el rol de Responsable de almacén.
-2. Pedido de materiales y emisión del despacho: atender una solicitud, conformar el despacho y asignarle un vehículo.
-3. Registro de una unidad de transporte con su dispositivo GPS.
-4. Seguimiento de un despacho en tránsito.
-
-**Tareas guiadas y criterios de éxito.** A cada participante se le entrega una tarea por flujo, redactada en términos de su trabajo cotidiano y sin mencionar los nombres de las pantallas. Una tarea se considera lograda cuando el participante la completa sin ayuda del entrevistador. Se registran el tiempo de ejecución, los errores y los comentarios espontáneos.
-
-**Preguntas de cierre.** (1) ¿Qué parte de la plataforma le resultó más útil para su trabajo? (2) ¿Qué parte le resultó confusa o innecesaria? (3) ¿Usaría Vigía en su empresa y qué le haría falta para hacerlo? (4) ¿Qué opina de la información presentada en el Landing Page y de los planes?
+**Ficha de la sesión.** Cada entrevista se registra en una ficha con los siguientes datos: nombre del entrevistado, cargo, fecha de la entrevista y nombre del entrevistador.
 
 **Registro y análisis.** Cada entrevista se graba, se resume en la sección 5.3.2 y se evalúa con el formato de heurísticas del Anexo D en la sección 5.3.3, usando como referencia las heurísticas de usabilidad de Nielsen, los principios de arquitectura de información (¿es usable?, ¿es encontrable?) y los de diseño inclusivo.
+
+##### Guion de entrevistas del Segmento 1: Empresas Constructoras e Inmobiliarias
+
+Los participantes de este segmento son residentes de obra, directores de obra y responsables de oficina técnica. Las tareas se ejecutan con los roles Responsable de Obra y Supervisor. Los nombres de las secciones de la interfaz se mantienen en inglés, porque es el idioma por defecto de la Web Application.
+
+| Tarea | Rol y sección | Instrucción para el entrevistado | Pregunta |
+|---|---|---|---|
+| 1 | Responsable de Obra — Shipments | Abre la sección Shipments del menú. Busca un envío en la lista Shipment List y selecciónalo. Mira los datos del envío y busca dónde aparece su estado actual. Cuando sepas si está en camino o si ya llegó, termina la tarea. | ¿Te resultó fácil saber en qué estado se encuentra el envío? |
+| 2 | Responsable de Obra — Shipments | Quédate en Shipments. Selecciona un envío y busca el componente Shipment Tracking. Revisa la información del recorrido e intenta reconocer cuál es el último paso registrado. No necesitas modificar nada, solo encontrar esa información. | ¿La información del seguimiento te ayudó a entender qué ocurrió con el envío? |
+| 3 | Responsable de Obra — Receptions | Abre Receptions. Busca la lista de recepciones registradas y elige una. En la parte de detalles, ubica la información de los materiales recibidos. Lee qué material llegó y qué cantidad se registró. | ¿Encontraste con facilidad las cantidades que llegaron a la obra? |
+| 4 | Responsable de Obra — Receptions | Dentro de Receptions, selecciona una recepción y busca Quantity Comparison. Compara la cantidad enviada con la recibida. Indica si ambas cantidades son iguales o si existe una diferencia. | ¿Fue claro para ti identificar si faltaban materiales? |
+| 5 | Responsable de Obra — Issues | Imagina que recibiste menos material del esperado. Abre Issues y busca la opción para reportar un problema. Intenta iniciar ese reporte. Si el botón todavía no funciona, señala dónde harías clic y qué información esperarías ingresar. | ¿Te quedó claro cómo empezar a reportar el problema? |
+| 6 | Supervisor — Home | Entra al inicio del Supervisor, Home. Busca la sección Need my attention. Revisa los avisos que aparecen y elige el que creas más importante atender primero. Explica brevemente cuál elegiste. | ¿Los avisos te permitieron reconocer fácilmente qué requería tu atención? |
+| 7 | Supervisor — Issues | En el menú del Supervisor, abre Issues. Busca un caso en Issue list, por ejemplo DIS-024 si aparece. Selecciónalo y lee su descripción dentro de Issue Details. Intenta explicar con tus palabras cuál fue el problema. | ¿La descripción del caso te permitió entender qué sucedió? |
+| 8 | Supervisor — Issues — Evidence | En Issues, abre un caso y busca la sección Evidence. Revisa las evidencias que se muestran, como imágenes o datos disponibles. Indica qué información usarías para comprobar lo ocurrido. | ¿Te resultó sencillo encontrar las evidencias del caso? |
+| 9 | Supervisor — Issues — Responsibility | Dentro del caso que estás revisando, busca Responsibility y el botón Determine responsibility. Lee los datos disponibles y muestra dónde intentarías registrar tu decisión. Si aún no existe un formulario funcional, basta con indicar el botón y explicar el siguiente paso que esperas. | ¿Te quedó claro dónde se determinaría la responsabilidad del caso? |
+| 10 | Supervisor — History | Abre History desde el menú del Supervisor. Busca un registro relacionado con una incidencia o una recepción anterior. Ábrelo o revisa sus datos e identifica qué ocurrió y cuál fue su estado final. Si el detalle no está disponible, señala qué registro consultarías. | ¿El historial te permitió encontrar y comprender un caso anterior? |
+
+##### Guion de entrevistas del Segmento 2: Empresas de Logística, Transporte y Almacenes Satélite
+
+Los participantes de este segmento son jefes de almacén y despachadores. Las tareas se ejecutan con el rol Responsable de Almacén.
+
+| Tarea | Rol y sección | Instrucción para el entrevistado | Pregunta |
+|---|---|---|---|
+| 1 | Responsable de Almacén — Requests | Abre la sección Requests. Mira la tabla Request List y busca una solicitud que todavía esté pendiente. Selecciónala para comenzar a revisarla. No debes aprobarla todavía. | ¿Te resultó fácil reconocer cuál solicitud estaba pendiente? |
+| 2 | Responsable de Almacén — Requests (búsqueda) | Sigue en Requests. Usa el buscador o los filtros que aparecen cerca de Request List para intentar encontrar una solicitud concreta. Cuando la encuentres, indica cómo supiste que era la correcta. | ¿El buscador o los filtros te facilitaron encontrar la solicitud? |
+| 3 | Responsable de Almacén — Request Detail | Abre el detalle de una solicitud, por ejemplo SOL-104 si está disponible. Localiza General Information. Revisa de qué solicitud se trata y busca los datos generales que necesitarías antes de atenderla. | ¿La información general te pareció suficiente para identificar la solicitud? |
+| 4 | Responsable de Almacén — Request Detail (materiales) | Dentro de Request Detail, busca Requested materials. Revisa la lista de materiales y las cantidades pedidas. Identifica uno de los materiales y di cuántas unidades están solicitando. | ¿Pudiste entender fácilmente qué material y qué cantidad estaban solicitando? |
+| 5 | Responsable de Almacén — Inventory | Abre Inventory desde el menú. En Materials Inventory, busca uno de los materiales de la solicitud anterior. Revisa su cantidad disponible y determina si habría existencias suficientes para atenderlo. | ¿Te resultó claro comprobar la cantidad disponible en el almacén? |
+| 6 | Responsable de Almacén — Inventory (estado) | Quédate en Inventory. Revisa la lista de materiales y encuentra alguno con una cantidad baja o con un estado que indique que necesita atención, si aparece. Señala qué dato te hizo reconocerlo. | ¿La pantalla te ayudó a identificar rápidamente un posible problema de stock? |
+| 7 | Responsable de Almacén — Request Detail (decisión) | Regresa a Request Detail y busca Make a decision. Imagina que la solicitud está correcta y hay materiales suficientes. Señala la opción que utilizarías para aprobarla. Si la opción funciona, intenta usarla; si no, simplemente muéstrala. | ¿La opción para aprobar la solicitud fue fácil de encontrar y entender? |
+| 8 | Responsable de Almacén — Request Detail (alternativa) | En Request Detail, vuelve a Make a decision. Esta vez imagina que la solicitud tiene un dato incorrecto y no puedes aprobarla todavía. Busca la opción que usarías para pedir que la corrijan o para no aceptarla, y explica cuál elegirías. | ¿Las opciones te permitieron distinguir qué hacer cuando una solicitud tiene errores? |
+| 9 | Responsable de Almacén — Dispatches | Abre Dispatches y busca List of dispatches. Elige un despacho de la lista. Luego revisa su estado y la sección Dispatch tracking para saber si ya salió, está en camino o llegó. | ¿Pudiste reconocer fácilmente la etapa en la que está el despacho? |
+| 10 | Responsable de Almacén — Transportation | Abre Transportation. Busca las secciones Fleet status y Real-time tracking. Revisa los vehículos y señala cuál parece estar disponible o cuál ya se encuentra en ruta, según lo que muestre la pantalla. | ¿Te resultó fácil diferenciar los vehículos disponibles de los que están en tránsito? |
+
+**Criterio de éxito.** Una tarea se considera lograda cuando el participante la completa sin ayuda del entrevistador o, en las acciones que todavía no son funcionales, cuando indica correctamente dónde haría clic. Se registran el tiempo de ejecución, los errores y los comentarios espontáneos.
 
 #### 5.3.2. Registro de Entrevistas
 
@@ -6832,79 +6893,79 @@ A continuación se consigna la información de cada entrevistado, agrupada por s
 
 ##### Segmento 1: Empresas Constructoras e Inmobiliarias (Gestión Técnica y de Obra)
 
-| Entrevistado:          | 🟢 *(nombres y apellidos de la persona entrevistada)* |
-|------------------------|-------------------------------------------------------|
-| Duración               | 🟢 *(mm:ss de la sesión editada)* |
-| Género                 | 🟢 |
-| Edad                   | 🟢 |
-| Distrito de residencia | 🟢 |
-| Estado civil           | 🟢 |
-| Ocupación              | 🟢 *(cargo y empresa)* |
-| Objetivos              | 🟢 |
-| Fecha de la entrevista | 🟢 *(dd/mm/aaaa)* |
-| Inicio en el video consolidado | 🟢 *(hh:mm:ss dentro del video de validación)* |
-| Captura                | 🟢 *(captura de un cuadro del video, en assets/chapther-5/entrevistas-validacion/)* |
-| Url:                   | 🟢 *(enlace privado de Microsoft Stream)* |
+| Entrevistado:          |  *(nombres y apellidos de la persona entrevistada)* |
+|------------------------|------------------------------------------------------|
+| Duración               |  *(mm:ss de la sesión editada)* |
+| Género                 |  |
+| Edad                   |  |
+| Distrito de residencia |  |
+| Estado civil           |  |
+| Ocupación              |  *(cargo y empresa)* |
+| Objetivos              |  |
+| Fecha de la entrevista |  *(dd/mm/aaaa)* |
+| Inicio en el video consolidado |  *(hh:mm:ss dentro del video de validación)* |
+| Captura                |  *(captura de un cuadro del video, en assets/chapther-5/entrevistas-validacion/)* |
+| Url:                   |  *(enlace privado de Microsoft Stream)* |
 
 **Resumen de la entrevista 1**
 
-🟢 *Redactar de forma descriptiva las principales apreciaciones del entrevistado sobre las tareas asignadas (sección 5.3.1): qué tareas completó sin ayuda, en qué pantalla dudó o se equivocó, cuánto tardó, qué opinó del Landing Page y de los planes, y qué comentó al responder las preguntas de cierre.*
+ *Redactar de forma descriptiva las principales apreciaciones del entrevistado sobre las tareas asignadas (sección 5.3.1): qué tareas completó sin ayuda, en qué pantalla dudó o se equivocó, cuánto tardó y qué respondió a la pregunta de cada tarea.*
 
-| Entrevistado:          | 🟢 *(nombres y apellidos de la persona entrevistada)* |
-|------------------------|-------------------------------------------------------|
-| Duración               | 🟢 *(mm:ss de la sesión editada)* |
-| Género                 | 🟢 |
-| Edad                   | 🟢 |
-| Distrito de residencia | 🟢 |
-| Estado civil           | 🟢 |
-| Ocupación              | 🟢 *(cargo y empresa)* |
-| Objetivos              | 🟢 |
-| Fecha de la entrevista | 🟢 *(dd/mm/aaaa)* |
-| Inicio en el video consolidado | 🟢 *(hh:mm:ss dentro del video de validación)* |
-| Captura                | 🟢 *(captura de un cuadro del video, en assets/chapther-5/entrevistas-validacion/)* |
-| Url:                   | 🟢 *(enlace privado de Microsoft Stream)* |
+| Entrevistado:          |  *(nombres y apellidos de la persona entrevistada)* |
+|------------------------|------------------------------------------------------|
+| Duración               |  *(mm:ss de la sesión editada)* |
+| Género                 |  |
+| Edad                   |  |
+| Distrito de residencia |  |
+| Estado civil           |  |
+| Ocupación              |  *(cargo y empresa)* |
+| Objetivos              |  |
+| Fecha de la entrevista |  *(dd/mm/aaaa)* |
+| Inicio en el video consolidado |  *(hh:mm:ss dentro del video de validación)* |
+| Captura                | *(captura de un cuadro del video, en assets/chapther-5/entrevistas-validacion/)* |
+| Url:                   |  *(enlace privado de Microsoft Stream)* |
 
 **Resumen de la entrevista 2**
 
-🟢 *Redactar de forma descriptiva las principales apreciaciones del entrevistado sobre las tareas asignadas (sección 5.3.1): qué tareas completó sin ayuda, en qué pantalla dudó o se equivocó, cuánto tardó, qué opinó del Landing Page y de los planes, y qué comentó al responder las preguntas de cierre.*
+ *Redactar de forma descriptiva las principales apreciaciones del entrevistado sobre las tareas asignadas (sección 5.3.1): qué tareas completó sin ayuda, en qué pantalla dudó o se equivocó, cuánto tardó y qué respondió a la pregunta de cada tarea.*
 
-| Entrevistado:          | 🟢 *(nombres y apellidos de la persona entrevistada)* |
-|------------------------|-------------------------------------------------------|
-| Duración               | 🟢 *(mm:ss de la sesión editada)* |
-| Género                 | 🟢 |
-| Edad                   | 🟢 |
-| Distrito de residencia | 🟢 |
-| Estado civil           | 🟢 |
-| Ocupación              | 🟢 *(cargo y empresa)* |
-| Objetivos              | 🟢 |
-| Fecha de la entrevista | 🟢 *(dd/mm/aaaa)* |
-| Inicio en el video consolidado | 🟢 *(hh:mm:ss dentro del video de validación)* |
-| Captura                | 🟢 *(captura de un cuadro del video, en assets/chapther-5/entrevistas-validacion/)* |
-| Url:                   | 🟢 *(enlace privado de Microsoft Stream)* |
+| Entrevistado:          |  *(nombres y apellidos de la persona entrevistada)* |
+|------------------------|------------------------------------------------------|
+| Duración               |  *(mm:ss de la sesión editada)* |
+| Género                 |  |
+| Edad                   |  |
+| Distrito de residencia |  |
+| Estado civil           |  |
+| Ocupación              |  *(cargo y empresa)* |
+| Objetivos              |  |
+| Fecha de la entrevista |  *(dd/mm/aaaa)* |
+| Inicio en el video consolidado |  *(hh:mm:ss dentro del video de validación)* |
+| Captura                |  *(captura de un cuadro del video, en assets/chapther-5/entrevistas-validacion/)* |
+| Url:                   |  *(enlace privado de Microsoft Stream)* |
 
 **Resumen de la entrevista 3**
 
-🟢 *Redactar de forma descriptiva las principales apreciaciones del entrevistado sobre las tareas asignadas (sección 5.3.1): qué tareas completó sin ayuda, en qué pantalla dudó o se equivocó, cuánto tardó, qué opinó del Landing Page y de los planes, y qué comentó al responder las preguntas de cierre.*
+ *Redactar de forma descriptiva las principales apreciaciones del entrevistado sobre las tareas asignadas (sección 5.3.1): qué tareas completó sin ayuda, en qué pantalla dudó o se equivocó, cuánto tardó y qué respondió a la pregunta de cada tarea.*
 
 ##### Segmento 2: Empresas de Logística, Transporte y Almacenes Satélite
 
-| Entrevistado:          | 🟢 *(nombres y apellidos de la persona entrevistada)* |
+| Entrevistado:          |  *(nombres y apellidos de la persona entrevistada)* |
 |------------------------|-------------------------------------------------------|
-| Duración               | 🟢 *(mm:ss de la sesión editada)* |
-| Género                 | 🟢 |
-| Edad                   | 🟢 |
-| Distrito de residencia | 🟢 |
-| Estado civil           | 🟢 |
-| Ocupación              | 🟢 *(cargo y empresa)* |
-| Objetivos              | 🟢 |
-| Fecha de la entrevista | 🟢 *(dd/mm/aaaa)* |
-| Inicio en el video consolidado | 🟢 *(hh:mm:ss dentro del video de validación)* |
-| Captura                | 🟢 *(captura de un cuadro del video, en assets/chapther-5/entrevistas-validacion/)* |
-| Url:                   | 🟢 *(enlace privado de Microsoft Stream)* |
+| Duración               |  *(mm:ss de la sesión editada)* |
+| Género                 |  |
+| Edad                   |  |
+| Distrito de residencia |  |
+| Estado civil           |  |
+| Ocupación              |  *(cargo y empresa)* |
+| Objetivos              |  |
+| Fecha de la entrevista |  *(dd/mm/aaaa)* |
+| Inicio en el video consolidado |  *(hh:mm:ss dentro del video de validación)* |
+| Captura                |  *(captura de un cuadro del video, en assets/chapther-5/entrevistas-validacion/)* |
+| Url:                   |  *(enlace privado de Microsoft Stream)* |
 
 **Resumen de la entrevista 4**
 
-🟢 *Redactar de forma descriptiva las principales apreciaciones del entrevistado sobre las tareas asignadas (sección 5.3.1): qué tareas completó sin ayuda, en qué pantalla dudó o se equivocó, cuánto tardó, qué opinó del Landing Page y de los planes, y qué comentó al responder las preguntas de cierre.*
+🟢 *Redactar de forma descriptiva las principales apreciaciones del entrevistado sobre las tareas asignadas (sección 5.3.1): qué tareas completó sin ayuda, en qué pantalla dudó o se equivocó, cuánto tardó y qué respondió a la pregunta de cada tarea.*
 
 | Entrevistado:          | 🟢 *(nombres y apellidos de la persona entrevistada)* |
 |------------------------|-------------------------------------------------------|
@@ -6922,7 +6983,7 @@ A continuación se consigna la información de cada entrevistado, agrupada por s
 
 **Resumen de la entrevista 5**
 
-🟢 *Redactar de forma descriptiva las principales apreciaciones del entrevistado sobre las tareas asignadas (sección 5.3.1): qué tareas completó sin ayuda, en qué pantalla dudó o se equivocó, cuánto tardó, qué opinó del Landing Page y de los planes, y qué comentó al responder las preguntas de cierre.*
+🟢 *Redactar de forma descriptiva las principales apreciaciones del entrevistado sobre las tareas asignadas (sección 5.3.1): qué tareas completó sin ayuda, en qué pantalla dudó o se equivocó, cuánto tardó y qué respondió a la pregunta de cada tarea.*
 
 | Entrevistado:          | 🟢 *(nombres y apellidos de la persona entrevistada)* |
 |------------------------|-------------------------------------------------------|
@@ -6940,7 +7001,7 @@ A continuación se consigna la información de cada entrevistado, agrupada por s
 
 **Resumen de la entrevista 6**
 
-🟢 *Redactar de forma descriptiva las principales apreciaciones del entrevistado sobre las tareas asignadas (sección 5.3.1): qué tareas completó sin ayuda, en qué pantalla dudó o se equivocó, cuánto tardó, qué opinó del Landing Page y de los planes, y qué comentó al responder las preguntas de cierre.*
+🟢 *Redactar de forma descriptiva las principales apreciaciones del entrevistado sobre las tareas asignadas (sección 5.3.1): qué tareas completó sin ayuda, en qué pantalla dudó o se equivocó, cuánto tardó y qué respondió a la pregunta de cada tarea.*
 
 Debe incluirse al menos un testimonio positivo por segmento, que se reutiliza en el Video About-the-Product (sección 5.4). Las observaciones que surjan de estas sesiones se evalúan con el formato de heurísticas en la sección 5.3.3.
 
@@ -6959,17 +7020,13 @@ Esta sección contiene la evaluación de las sesiones de validación según heur
 
 **Sitio o aplicación a evaluar.** Landing Page y Frontend Web Application de Vigía.
 
-**Tareas a evaluar.** La evaluación incluye la usabilidad de las siguientes tareas:
+**Tareas a evaluar.** La evaluación incluye la usabilidad de las 20 tareas del guion de la sección 5.3.1, 10 por segmento:
 
-1. Inicio de sesión según el rol.
-2. Registro de un pedido de materiales.
-3. Emisión y asignación de un despacho.
-4. Registro de una unidad de transporte con su dispositivo GPS.
-5. Verificación del material recibido y reporte de una diferencia en obra.
-6. Consulta y cierre de un caso de discrepancia.
-7. Navegación por el Landing Page y envío del formulario de contacto.
+1. Segmento 1, Responsable de Obra: consultar el estado y el seguimiento de un envío (Shipments), revisar los materiales recibidos y comparar las cantidades enviadas con las recibidas (Receptions) e iniciar el reporte de un problema (Issues).
+2. Segmento 1, Supervisor: identificar los avisos que requieren atención (Home), revisar la descripción, las evidencias y la responsabilidad de un caso (Issues) y consultar un registro anterior (History).
+3. Segmento 2, Responsable de Almacén: revisar, buscar y atender una solicitud (Requests y Request Detail), verificar las existencias (Inventory), decidir sobre una solicitud, consultar el estado de un despacho (Dispatches) y diferenciar los vehículos disponibles de los que están en tránsito (Transportation).
 
-No están incluidas en esta versión de la evaluación las siguientes tareas: la sincronización periódica de registros (US-07, US-08 y US-14), la generación del reporte de sustento (US-12) y la gestión del ciclo de vida de la suscripción (US-17).
+No están incluidas en esta versión de la evaluación las siguientes tareas: la navegación del Landing Page, la sincronización periódica de registros (US-07, US-08 y US-14), la generación del reporte de sustento (US-12) y la gestión del ciclo de vida de la suscripción (US-17).
 
 **Escala de severidad.**
 
@@ -7068,6 +7125,10 @@ El Video About-The-Team resume el proceso de trabajo del equipo durante el desar
 
 ## Bibliografía
 
+Araujo Mejía, R. A. (2025). *Productividad de mano de obra y desperdicios de materiales en concreto, mortero, ladrillo en la construcción de viviendas en el sector norte de la ciudad de Celendín, 2024* [Tesis de maestría, Universidad Nacional de Cajamarca]. Repositorio institucional UNC. http://hdl.handle.net/20.500.14074/8346
+
+Ayasca Lope, K. (2016). *Desperdicios de materiales y su influencia en los costos en la construcción de los reservorios nocturnos Erusco y Larampuquio, Ayacucho - 2016* [Tesis de pregrado, Universidad Nacional de San Cristóbal de Huamanga]. Repositorio institucional UNSCH. http://repositorio.unsch.edu.pe/handle/UNSCH/3711
+
 Cámara Peruana de la Construcción. (2025a, 30 de mayo). *Capeco: sector construcción cierra primer cuatrimestre del 2025 en azul pese a caída en abril*. El Comercio. https://elcomercio.pe/economia/peru/capeco-sector-construccion-cierra-primer-cuatrimestre-del-2025-en-azul-pese-a-caida-en-abril-l-ultimas-noticia/
 
 Cámara Peruana de la Construcción. (2025b, 18 de julio). *Construcción sube 3.4% hasta mayo, menos de lo que se espera para fin de año*. https://capeco.org/construccion-sube-3-4-hasta-mayo-menos-de-lo-que-se-espera-para-fin-de-ano/
@@ -7083,14 +7144,6 @@ Ministerio de Transportes y Comunicaciones. (2025). *Anuario estadístico 2024*.
 Perú Construye. (2025, 16 de junio). *Construcción lidera crecimiento del empleo por sectores*. https://peruconstruye.net/2025/06/16/construccion-crecimiento-empleo/
 
 PQS. (2026, 11 de agosto). *Sector construcción crecerá 10% este año, según proyección del BCRP*. https://pqs.pe/actualidad/economia/sector-construccion-crecera-10-este-ano-segun-proyeccion-del-bcrp/
-
-Universidad Nacional de Cajamarca. (2024). *[Título de la tesis pendiente de confirmar]* [Tesis de pregrado, Universidad Nacional de Cajamarca]. Repositorio institucional. https://repositorio.unc.edu.pe
-
-Universidad Nacional de San Cristóbal de Huamanga. (2023). *[Título de la tesis pendiente de confirmar]* [Tesis de pregrado, Universidad Nacional de San Cristóbal de Huamanga]. Repositorio institucional. https://repositorio.unsch.edu.pe
-
----
-
-🟢 **Pendiente de completar.** Las dos entradas de tesis (Universidad Nacional de Cajamarca y Universidad Nacional de San Cristóbal de Huamanga), citadas en la sección 1.3 para sustentar los porcentajes de desperdicio de materiales, están incompletas: falta el nombre del autor, el título exacto de la tesis y el año exacto de sustentación (se usó el año de publicación del repositorio como aproximación). El equipo debe ubicar la ficha exacta en los repositorios institucionales (repositorio.unc.edu.pe y repositorio.unsch.edu.pe) y reemplazar el marcador `[Título de la tesis pendiente de confirmar]` y el nombre de autor antes de la entrega final.
 
 <div style="page-break-after: always;"></div>
 

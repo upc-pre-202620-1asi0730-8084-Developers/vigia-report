@@ -1,5 +1,9 @@
 ## Bibliografía
 
+Araujo Mejía, R. A. (2025). *Productividad de mano de obra y desperdicios de materiales en concreto, mortero, ladrillo en la construcción de viviendas en el sector norte de la ciudad de Celendín, 2024* [Tesis de maestría, Universidad Nacional de Cajamarca]. Repositorio institucional UNC. http://hdl.handle.net/20.500.14074/8346
+
+Ayasca Lope, K. (2016). *Desperdicios de materiales y su influencia en los costos en la construcción de los reservorios nocturnos Erusco y Larampuquio, Ayacucho - 2016* [Tesis de pregrado, Universidad Nacional de San Cristóbal de Huamanga]. Repositorio institucional UNSCH. http://repositorio.unsch.edu.pe/handle/UNSCH/3711
+
 Cámara Peruana de la Construcción. (2025a, 30 de mayo). *Capeco: sector construcción cierra primer cuatrimestre del 2025 en azul pese a caída en abril*. El Comercio. https://elcomercio.pe/economia/peru/capeco-sector-construccion-cierra-primer-cuatrimestre-del-2025-en-azul-pese-a-caida-en-abril-l-ultimas-noticia/
 
 Cámara Peruana de la Construcción. (2025b, 18 de julio). *Construcción sube 3.4% hasta mayo, menos de lo que se espera para fin de año*. https://capeco.org/construccion-sube-3-4-hasta-mayo-menos-de-lo-que-se-espera-para-fin-de-ano/
@@ -15,11 +19,3 @@ Ministerio de Transportes y Comunicaciones. (2025). *Anuario estadístico 2024*.
 Perú Construye. (2025, 16 de junio). *Construcción lidera crecimiento del empleo por sectores*. https://peruconstruye.net/2025/06/16/construccion-crecimiento-empleo/
 
 PQS. (2026, 11 de agosto). *Sector construcción crecerá 10% este año, según proyección del BCRP*. https://pqs.pe/actualidad/economia/sector-construccion-crecera-10-este-ano-segun-proyeccion-del-bcrp/
-
-Universidad Nacional de Cajamarca. (2024). *[Título de la tesis pendiente de confirmar]* [Tesis de pregrado, Universidad Nacional de Cajamarca]. Repositorio institucional. https://repositorio.unc.edu.pe
-
-Universidad Nacional de San Cristóbal de Huamanga. (2023). *[Título de la tesis pendiente de confirmar]* [Tesis de pregrado, Universidad Nacional de San Cristóbal de Huamanga]. Repositorio institucional. https://repositorio.unsch.edu.pe
-
----
-
-🟢 **Pendiente de completar.** Las dos entradas de tesis (Universidad Nacional de Cajamarca y Universidad Nacional de San Cristóbal de Huamanga), citadas en la sección 1.3 para sustentar los porcentajes de desperdicio de materiales, están incompletas: falta el nombre del autor, el título exacto de la tesis y el año exacto de sustentación (se usó el año de publicación del repositorio como aproximación). El equipo debe ubicar la ficha exacta en los repositorios institucionales (repositorio.unc.edu.pe y repositorio.unsch.edu.pe) y reemplazar el marcador `[Título de la tesis pendiente de confirmar]` y el nombre de autor antes de la entrega final.
