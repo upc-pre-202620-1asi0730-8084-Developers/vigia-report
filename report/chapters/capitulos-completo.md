@@ -361,7 +361,7 @@ El siguiente cuadro resume los commits propios (sin commits de fusión) registra
 
 Los cinco integrantes tienen commits propios en el informe, de modo que todos participaron en su elaboración.
 
-🟢 **Pendiente:** agregar el número de Pull Requests fusionados y la captura de Insights de GitHub a la fecha de la entrega.
+ **Pendiente:** agregar el número de Pull Requests fusionados y la captura de Insights de GitHub a la fecha de la entrega.
 
 <div style="page-break-after: always;"></div>
 
