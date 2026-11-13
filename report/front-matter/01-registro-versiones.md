@@ -204,5 +204,11 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
       <td>Leonardo López</td>
       <td>Modelo simplificado del transportista en las historias de usuario, conversión de imágenes HTML a Markdown, enlaces al repositorio, competidor BuildPass y corrección de perfiles de integrantes.</td>
     </tr>
+    <tr>
+      <td>1.1.0</td>
+      <td>2026-11-12</td>
+      <td>Leonardo López</td>
+      <td>Entrega AV2: adición del Sprint 3 (5.2.3), Validation Interviews (5.3), Video About-the-Product (5.4) y Video About-The-Team. Corrección del Sprint Planning y del Sprint Backlog 2 (Story Points alineados con el Product Backlog y tasks reprogramadas), de las secciones 5.1.1, 5.1.4 y de las Conclusiones; actualización de Student Outcome y Collaboration Insights.</td>
+    </tr>
   </tbody>
 </table>
