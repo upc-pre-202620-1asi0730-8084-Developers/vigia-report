@@ -2618,7 +2618,7 @@ En esta sección el equipo parte de los logros alcanzados en el Big Picture Even
 
 El recorrido de la sección es el siguiente. La sección 4.6.1 documenta la sesión de Design-Level EventStorming, en la que las agrupaciones candidatas identificadas en 2.4 son revisadas, confirmadas y detalladas hasta el nivel de agregados, comandos, procesos de negocio y modelos de lectura. La sección 4.6.2 presenta el Context Level Diagram, que sitúa a Vigía como un único sistema frente a sus usuarios y a los sistemas externos con los que se integra. La sección 4.6.3 presenta el Container Level Diagram, que descompone ese sistema en unidades de despliegue independientes y expone las principales decisiones de tecnología. La sección 4.6.4 presenta los Component Level Diagrams correspondientes a cada uno de los containers considerados.
 
-Los diagramas del C4 Model se elaboran con Structurizr, herramienta indicada en la sección de Tecnología del enunciado del proyecto para los diagramas de Software Architecture bajo C4 Model.
+La nueva versión de los diagramas del C4 Model se elaboró en draw.io. El archivo editable puede consultarse en: [C4-Model (draw.io)](https://drive.google.com/file/d/1VHbQQeeRSdGzaou-WfJSaSNDTjN6BFZI/view?usp=sharing).
 
 **Sobre el idioma de los artefactos.** Los nombres de Bounded Contexts y Aggregates se expresan en inglés, con su equivalente en español entre paréntesis en la primera mención de cada contexto. Esta decisión mantiene la correspondencia con el Ubiquitous Language de la sección 2.5, que conforme al enunciado del proyecto se redacta en inglés, y con el idioma por defecto de los productos de la solución. Los comandos, eventos, procesos de negocio y modelos de lectura conservan la redacción en español empleada en los tableros de EventStorming, de modo que la trazabilidad entre las secciones 2.4, 4.6.1 y el código permanezca visible.
 
@@ -2983,36 +2983,35 @@ En esta sección se presenta el Context Level Diagram del C4 Model para Vigía. 
 
 | Persona | Organización | Relación con el sistema |
 |---|---|---|
-| Administrador | Constructora | Registra la empresa, activa la suscripción, invita usuarios y asigna roles, define las geocercas, resuelve los casos de discrepancia y consulta los tableros |
+| Supervisor | Constructora | Supervisa la operación de las obras y resuelve los casos de discrepancia |
 | Encargado de obra | Constructora | Solicita materiales, registra la llegada de la unidad, verifica el material recibido y registra la conformidad o reporta una discrepancia |
 | Encargado de almacén | Operador logístico | Verifica existencias, conforma la carga, registra el pesaje, emite la guía de remisión, asigna la unidad y registra la salida |
-| Visitante | Externa | Consulta la propuesta de valor en el Landing Page y solicita una demostración |
+| Visitante | Externa | Consulta la propuesta de valor en el Landing Page y accede a la plataforma |
 
-El transportista conduce la unidad y participa del dominio, pero no interactúa con el sistema: los hechos del traslado provienen del dispositivo de seguimiento satelital instalado a bordo.
+El transportista conduce la unidad y participa del dominio, pero no se representa como usuario de la plataforma. El proveedor externo de telemetría GPS figura como una integración prevista, pendiente de verificación.
 
 **Sistemas externos.**
 
 | Sistema externo | Relación con Vigía |
 |---|---|
-| Pasarela de pago | Procesa el pago del plan de suscripción y notifica la aceptación o el rechazo |
-| Servicio de correo electrónico | Entrega las invitaciones y las notificaciones que el sistema envía fuera de la aplicación |
-| Plataforma de telemetría GPS | Envía a Vigía los reportes de posición del dispositivo instalado en la unidad de transporte |
+| Servicio de mapas OpenStreetMap | Proporciona los mapas de fondo para visualizar las geocercas y las rutas |
+| Proveedor de telemetría GPS | Integración prevista para enviar los reportes de posición del dispositivo instalado en la unidad de transporte; pendiente de verificación |
 
 **Lectura del diagrama.** Tres observaciones se desprenden de este nivel.
 
-En primer lugar, las personas que interactúan con Vigía pertenecen a dos organizaciones distintas: la constructora que contrata el servicio y el operador logístico que ejecuta el traslado. Esta es la condición que el sistema debe sostener y que, según lo expuesto en la sección 1.2.1, ninguna de las soluciones analizadas en la sección 2.1.1 resuelve, ya que operan dentro de los límites de una sola empresa. Por esa razón el diagrama agrupa a las personas mediante dos fronteras organizacionales.
+En primer lugar, Vigía se representa como un único sistema de software, rodeado por el visitante y los tres roles de operación: Supervisor, Encargado de obra y Encargado de almacén. El Landing Page y las aplicaciones forman parte de ese sistema y se descomponen en el siguiente nivel.
 
-En segundo lugar, la relación con la plataforma de telemetría es la única cuya dirección entra hacia el sistema. Los reportes de posición ingresan sin que ninguna persona los registre, lo que sostiene la continuidad del registro durante el tramo de traslado.
+En segundo lugar, el sistema consulta los mapas de fondo de OpenStreetMap. La relación prevista con el proveedor de telemetría GPS entra hacia Vigía para entregar posiciones; el diagrama indica que esta integración aún no se ha verificado.
 
-En tercer lugar, Vigía no se integra con sistemas de gestión de obra ni con sistemas de control de flota. Esta ausencia es deliberada para el alcance actual: la solución constituye el registro de origen de los eventos de custodia y no un agregador de información producida por otros sistemas.
+En tercer lugar, esta versión no representa integraciones de pago ni correo electrónico como implementadas. El contexto se limita a las relaciones mostradas en la nueva versión del C4.
 
 **Figura 57**
 
 *Diagrama de contexto de la arquitectura de software de Vigía*
 
-![IMAGEN — diagrama de contexto](../../assets/Chapther-4/c4-model/c4-model-context-diagram.png)
+[![IMAGEN — diagrama de contexto](../../assets/Chapther-4/c4-model/c4-model-diagram-context.png)](https://drive.google.com/file/d/1VHbQQeeRSdGzaou-WfJSaSNDTjN6BFZI/view?usp=sharing)
 
-*Nota.* Elaborado por el equipo de Trazza Labs en draw.io, aplicando el C4 Model de Simon Brown. Los recuadros de borde punteado delimitan las dos organizaciones que participan de la cadena de custodia. El diagrama editable puede consultarse en: [ENLACE].
+*Nota.* Elaborado por el equipo de Trazza Labs en draw.io, aplicando el C4 Model de Simon Brown. El sistema se presenta como una sola unidad frente a sus usuarios y sistemas externos. El diagrama editable puede consultarse en: [C4-Model (draw.io)](https://drive.google.com/file/d/1VHbQQeeRSdGzaou-WfJSaSNDTjN6BFZI/view?usp=sharing).
 
 #### 4.6.3. Software Architecture Container Diagrams
 
@@ -3022,161 +3021,127 @@ En esta sección se presenta el Container Level Diagram del C4 Model para Vigía
 
 | Container | Tecnología | Responsabilidad |
 |---|---|---|
-| Landing Page | HTML5, CSS3 y JavaScript | Presenta la propuesta de valor de Vigía y las secciones dirigidas a cada segmento objetivo, y recoge las solicitudes de demostración |
+| Landing Page | HTML5, CSS3 y JavaScript | Presenta la propuesta de valor de Vigía y las secciones dirigidas a cada segmento objetivo, y permite acceder a la Web Application |
 | Web Application | Vue Framework con PrimeVue como biblioteca de componentes de interfaz | Ofrece la interfaz de trabajo de los tres roles del dominio: pedido, despacho, recepción y gestión de discrepancias |
-| RESTful API | ASP.NET Core Framework con Entity Framework Core, lenguaje C# | Concentra la lógica de dominio de los ocho Bounded Contexts de la sección 4.6.1, aplica las reglas de los agregados y expone los endpoints consumidos por los dos containers anteriores |
-| Base de datos relacional | PostgreSQL | Almacena de forma persistente el estado de los agregados y el historial de eventos de cada despacho |
+| RESTful API | ASP.NET Core Framework con Entity Framework Core, lenguaje C# | Concentra los módulos de operación y autenticación, aplica las reglas de los agregados y expone los endpoints para la Web Application |
+| Base de datos relacional | MySQL | Almacena de forma persistente el estado de los agregados y el historial de eventos de cada despacho |
 
-Las tecnologías corresponden a las indicadas en la sección de Tecnología del enunciado del proyecto: HTML5, CSS3 y JavaScript para el Landing Page; Vue Framework con PrimeVue para las Frontend Web Applications; ASP.NET Core con Entity Framework Core y C# para los Web Services bajo estilo arquitectónico RESTful API; y PostgreSQL como sistema gestor de base de datos relacional.
+Las tecnologías corresponden a las indicadas en la sección de Tecnología del enunciado del proyecto: HTML5, CSS3 y JavaScript para el Landing Page; Vue Framework con PrimeVue para las Frontend Web Applications; ASP.NET Core con Entity Framework Core y C# para los Web Services bajo estilo arquitectónico RESTful API; y MySQL como sistema gestor de base de datos relacional.
 
 **Comunicación entre containers.**
 
 | Origen | Destino | Protocolo y formato | Propósito |
 |---|---|---|---|
-| Landing Page | RESTful API | HTTPS, JSON | Registrar la solicitud de demostración del visitante |
-| Web Application | RESTful API | HTTPS, JSON | Ejecutar los comandos y consultas del dominio |
-| RESTful API | Base de datos | Entity Framework Core sobre el protocolo del motor | Leer y escribir el estado de los agregados |
-| RESTful API | Pasarela de pago | HTTPS, JSON | Procesar el pago y recibir la aceptación o el rechazo |
-| RESTful API | Servicio de correo electrónico | HTTPS, JSON | Entregar invitaciones y notificaciones |
-| Plataforma de telemetría GPS | RESTful API | Webhook HTTPS, JSON | Entregar los reportes de posición del dispositivo a bordo |
+| Landing Page | Web Application | Enlace web | Abrir la plataforma desde el sitio público |
+| Web Application | RESTful API | HTTPS, JSON, JWT | Ejecutar los comandos y consultas del dominio; su integración en producción sigue pendiente |
+| RESTful API | Base de datos | Entity Framework Core sobre el protocolo de MySQL | Leer y escribir el estado de los agregados |
+| Web Application | Servicio de mapas OpenStreetMap | HTTP(S), teselas de mapas | Mostrar los mapas de fondo de geocercas y rutas |
+| Proveedor de telemetría GPS | RESTful API | HTTP(S), JSON | Entregar los reportes de posición del dispositivo a bordo; integración prevista, pendiente de verificación |
 
 **Decisiones de arquitectura y su justificación.**
 
-*Un único container para los Web Services.* Los ocho Bounded Contexts de la sección 4.6.1 se implementan dentro de una misma RESTful API, manteniéndose separados en su interior como componentes independientes según se detalla en la sección 4.6.4. La separación en unidades de despliegue distintas por contexto no se adopta porque, para el alcance previsto, introduciría costos de coordinación y de despliegue que no se corresponden con el tamaño del equipo ni con el volumen de operación esperado. La delimitación lógica de los contextos se preserva, de modo que esa separación permanece disponible como evolución posterior.
+*Un único container para los Web Services.* Los módulos de la solución se implementan dentro de una misma RESTful API, manteniendo sus responsabilidades internas según se detalla en la sección 4.6.4. La separación en unidades de despliegue distintas por contexto no se adopta porque, para el alcance previsto, introduciría costos de coordinación y de despliegue que no se corresponden con el tamaño del equipo ni con el volumen de operación esperado. La delimitación lógica de los contextos se preserva, de modo que esa separación permanece disponible como evolución posterior.
 
 *El Landing Page como container separado.* Se despliega de forma independiente de la Web Application porque responde a una audiencia distinta, no requiere autenticación y, conforme al Product Backlog de la sección 3.3, se aborda desde el primer sprint sin depender de ninguna otra funcionalidad.
 
-*La telemetría ingresa por webhook.* El proveedor de telemetría envía los reportes al RESTful API en el momento en que se producen, en lugar de que el API los consulte de forma periódica. Esta decisión evita interrogar al proveedor por unidades que no se han desplazado y hace que la dirección de la relación, visible en el diagrama, sea la contraria a la de los otros dos sistemas externos.
+*Integración de telemetría.* El diagrama contempla que un proveedor externo entregue posiciones al endpoint de telemetría del RESTful API. Esta relación representa una integración prevista y no acredita la conexión con un proveedor real.
 
-*Dos marcas de tiempo en los reportes de posición.* El endpoint de ingesta conserva la marca de tiempo de ocurrencia informada por el dispositivo y registra además la marca de tiempo de recepción en el servidor. Conservar ambas permite distinguir cuándo ocurrió el hecho de cuándo llegó su registro, distinción de la que depende el valor probatorio de la evidencia consolidada en un caso de discrepancia.
+*Dos vistas del mismo nivel.* La vista general incluye el Landing Page, la Web Application, el RESTful API y MySQL. La vista de operación filtra el Landing Page y su visitante para enfocar la comunicación entre la Web Application, el API y la base de datos; ambas representan el mismo sistema y el mismo nivel de C4.
 
 **Figura 58**
 
-*Diagrama de contenedores de la arquitectura de software de Vigía*
+*Diagrama de contenedores de la arquitectura de software de Vigía — vista general*
 
-![IMAGEN — diagrama de contenedores](../../assets/Chapther-4/c4-model/c4-model-container-diagram.png)
+[![IMAGEN — diagrama de contenedores general](../../assets/Chapther-4/c4-model/c4-model-diagram-containers-general.png)](https://drive.google.com/file/d/1VHbQQeeRSdGzaou-WfJSaSNDTjN6BFZI/view?usp=sharing)
 
-*Nota.* Elaborado por el equipo de Trazza Labs en draw.io, aplicando el C4 Model de Simon Brown. El recuadro de borde punteado delimita el alcance del sistema. El diagrama editable puede consultarse en: [ENLACE].
+*Nota.* Elaborado por el equipo de Trazza Labs en draw.io, aplicando el C4 Model de Simon Brown. El recuadro de borde punteado delimita el alcance del sistema. El diagrama editable puede consultarse en: [C4-Model (draw.io)](https://drive.google.com/file/d/1VHbQQeeRSdGzaou-WfJSaSNDTjN6BFZI/view?usp=sharing).
+
+**Figura 58-A**
+
+*Diagrama de contenedores de la arquitectura de software de Vigía — vista de operación*
+
+[![IMAGEN — diagrama de contenedores de operación](../../assets/Chapther-4/c4-model/c4-model-diagram-containers-operation.png)](https://drive.google.com/file/d/1VHbQQeeRSdGzaou-WfJSaSNDTjN6BFZI/view?usp=sharing)
+
+*Nota.* Elaborado por el equipo de Trazza Labs en draw.io, aplicando el C4 Model de Simon Brown. Esta vista enfoca los contenedores de operación del mismo sistema. El diagrama editable puede consultarse en: [C4-Model (draw.io)](https://drive.google.com/file/d/1VHbQQeeRSdGzaou-WfJSaSNDTjN6BFZI/view?usp=sharing).
 
 #### 4.6.4. Software Architecture Components Diagrams
 
-En esta sección se presentan los Component Level Diagrams del C4 Model correspondientes a los containers definidos en la sección 4.6.3. Este tercer nivel de abstracción descompone cada container en sus bloques estructurales principales, indicando de qué responde cada uno y con qué tecnología se implementa. Se elaboran diagramas para los tres containers que contienen lógica propia: el RESTful API, la Web Application y el Landing Page. La base de datos relacional no se descompone en componentes, ya que su estructura interna se aborda en la sección 4.8.
+En esta sección se presentan los Component Level Diagrams del C4 Model correspondientes a los containers definidos en la sección 4.6.3. Este tercer nivel de abstracción descompone cada container en sus bloques estructurales principales, indicando de qué responde cada uno y con qué tecnología se implementa. Se elaboran diagramas para el RESTful API y la Web Application. El Landing Page se mantiene en el nivel de contenedores y no se descompone aquí. La base de datos relacional se aborda en la sección 4.8.
 
 ---
 
 ##### Component Diagram — RESTful API
 
-Este container concentra la lógica de dominio de la solución. Su descomposición sigue directamente los Bounded Contexts identificados en la sección 4.6.1: cada contexto se implementa como un componente independiente, con sus propios agregados, reglas y endpoints, de modo que los límites establecidos en el modelado se conserven en la estructura del código. Esta correspondencia uno a uno entre contextos y componentes es la razón por la que el API queda dividido de esta manera y no según una preferencia técnica.
+Este container concentra la lógica de dominio de la solución. La nueva versión distingue la interfaz REST, los módulos de servicios y la persistencia relacional dentro de un único proceso del backend. Los componentes se relacionan con los servicios implementados, sin asumir una equivalencia obligatoria entre cada Bounded Context y un componente.
 
-| Componente | Bounded Context | Responsabilidad |
+| Componente | Implementación | Responsabilidad |
 |---|---|---|
-| Componente de captación | BC-01 | Conserva las solicitudes de demostración originadas en el Landing Page |
-| Componente de accesos | BC-02 | Registro de la empresa, invitaciones, asignación de roles, autenticación y validación de sesión |
-| Componente de suscripciones | BC-03 | Plan contratado, estado de la relación comercial e integración con la pasarela de pago |
-| Componente de flota | BC-04 | Alta de unidades de transporte, vinculación del dispositivo y definición de geocercas |
-| Componente de despacho | BC-05 | Pedidos, verificación de existencias, conformación de carga, pesaje, guía de remisión y registro de salida |
-| Componente de tránsito | BC-06 | Recorrido de la unidad, desvíos, detenciones prolongadas y estado de la señal del dispositivo |
-| Componente de recepción | BC-07 | Registro de llegada, comparación entre lo despachado y lo recibido, conformidad y reporte de discrepancia |
-| Componente de discrepancias | BC-08 | Apertura del caso, consolidación de la evidencia, reporte de sustento, determinación de responsabilidad y cierre |
+| Identity and access | C# / AccountService | Inicio de sesión, emisión de JWT, cuentas y perfiles |
+| Project management | C# / ProjectQueryService | Consulta de obras y sus detalles |
+| Inventory management | C# / InventoryQueryService | Consulta de materiales y existencias |
+| Orders and dispatches | C# / servicios de comandos y consultas | Pedidos, preparación de despachos, pesaje y planificación de salida |
+| Fleet and devices | C# / servicios de flota | Unidades, vinculación GPS, geocercas e ingreso de telemetría |
+| Transit traceability | C# / servicios de rutas | Recorridos, posiciones, pérdida de señal y alertas |
+| Site reception | C# / servicios de recepción | Llegadas, verificación de materiales, conformidad y recepción física |
+| Discrepancies and reports | C# / servicios de casos | Casos, responsabilidad, referencias de evidencia, línea de tiempo y reporte de sustento |
+| Activity history | C# / ActivityQueryService | Consulta de registros de actividad operativa |
 
-Además de los ocho componentes de dominio, el container incluye tres componentes transversales:
+Además de los módulos de servicios, el container incluye los componentes de interfaz y persistencia:
 
 | Componente | Responsabilidad | Tecnología |
 |---|---|---|
-| Filtro de autenticación | Valida el token de sesión y el rol del usuario antes de que la solicitud alcance cualquier componente de dominio | ASP.NET Core |
-| Receptor de telemetría | Recibe los reportes de posición que el proveedor de telemetría envía por webhook y los entrega al componente de tránsito | ASP.NET Core |
-| Capa de persistencia | Traduce los agregados a su representación relacional y gestiona las transacciones | Entity Framework Core |
-
-La documentación de la interfaz de los Web Services se publica mediante OpenAPI Specification a través de Swagger, conforme a lo indicado en la sección de Tecnología del enunciado del proyecto.
+| REST interface | Convierte las solicitudes HTTP en comandos y consultas; la autenticación JWT y las políticas de roles protegen las rutas | Controladores de ASP.NET Core |
+| Relational persistence | Repositorios, AppDbContext y UnitOfWork para consultar y guardar el estado de los agregados | Entity Framework Core / proveedor MySQL |
 
 **Dos observaciones sobre el diagrama.**
 
-El endpoint de solicitud de demostración es el único de acceso público. Atraviesa el filtro de autenticación igual que las demás solicitudes, pero no exige una sesión iniciada, ya que el visitante todavía no es usuario de la plataforma.
+El inicio de sesión admite acceso anónimo; las rutas protegidas aplican autenticación y autorización en el backend. El middleware de autenticación no sustituye a los controladores que reciben las solicitudes.
 
-El componente de tránsito es el único que no recibe llamadas originadas en la Web Application. Sus datos ingresan por el receptor de telemetría y solo salen por consulta. Esta particularidad es coherente con lo observado en la sección 4.6.1, donde ese Bounded Context resultó no tener ningún rol de usuario asociado, y constituye la expresión arquitectónica del registro continuo durante el traslado.
+La recepción de telemetría pertenece al módulo de flota. El diagrama muestra el acceso directo de esa operación a AppDbContext, sin asumir una conexión automática con el módulo de tránsito.
 
-**Interacción entre componentes.** Los componentes de dominio se comunican entre sí siguiendo las relaciones establecidas en la sección 4.6.1. Por legibilidad, el diagrama representa únicamente las tres relaciones que convergen en el componente de discrepancias desde los componentes de despacho, tránsito y recepción, que son las que sostienen la línea de tiempo consolidada de un caso. El conjunto completo de relaciones entre contextos se encuentra en la tabla correspondiente de la sección 4.6.1.
+**Interacción entre componentes.** La Web Application invoca la interfaz REST; los controladores delegan en los módulos de servicios y estos consultan o guardan información mediante la persistencia relacional. MySQL se muestra fuera de la frontera del API, como contenedor de datos.
 
 **Figura 59**
 
 *Diagrama de componentes del RESTful API de Vigía*
 
-![IMAGEN — componentes del RESTful API](../../assets/Chapther-4/c4-model/c4-model-component-diagram-restful_api.png)
+[![IMAGEN — componentes del RESTful API](../../assets/Chapther-4/c4-model/c4-model-diagram-component-api.png)](https://drive.google.com/file/d/1VHbQQeeRSdGzaou-WfJSaSNDTjN6BFZI/view?usp=sharing)
 
-*Nota.* Elaborado por el equipo de Trazza Labs en draw.io, aplicando el C4 Model de Simon Brown. Los ocho componentes de dominio corresponden uno a uno con los Bounded Contexts identificados en la sección 4.6.1. El diagrama editable puede consultarse en: [C4-Model](https://tinyurl.com/284v5twu).
+*Nota.* Elaborado por el equipo de Trazza Labs en draw.io, aplicando el C4 Model de Simon Brown. Los componentes corresponden a la interfaz REST, los módulos de servicios y la persistencia del backend. El diagrama editable puede consultarse en: [C4-Model (draw.io)](https://drive.google.com/file/d/1VHbQQeeRSdGzaou-WfJSaSNDTjN6BFZI/view?usp=sharing).
 
 ---
 
 ##### Component Diagram — Web Application
 
-Este container concentra la interfaz de trabajo de los tres roles del dominio: Administrador, Responsable de obra y Responsable de almacén. A diferencia del RESTful API, su descomposición no sigue directamente los Bounded Contexts de la sección 4.6.1, sino los módulos de navegación reales de la aplicación, construidos en Vue a partir de los mockups de Figma. Cada módulo invoca, a través del cliente del API, los comandos y consultas del componente de dominio correspondiente.
+Este container concentra la interfaz de trabajo de los tres roles del dominio: Supervisor, Responsable de obra y Responsable de almacén. Su descomposición agrupa las vistas, stores y gateways relacionados, en lugar de representar cada pantalla como un componente arquitectónico independiente.
 
 | Componente | Responsabilidad |
 |---|---|
-| Inicio | Tablero de resumen con los indicadores y pendientes del rol |
-| Obras | Estado, avance y responsables de las obras de destino |
-| Materiales | Inventario, stock mínimo y alertas de reposición |
-| Solicitudes | Pedidos de materiales de las obras y su aprobación |
-| Despachos | Conformación, programación y seguimiento de la salida de materiales |
-| Transporte | Flota, transportistas y seguimiento de las unidades en ruta |
-| Recepciones | Registro de la llegada y comparación entre lo enviado y lo recibido |
-| Problemas | Faltantes, retrasos y observaciones, con su evidencia y seguimiento |
-| Historial | Registro de movimientos y eventos con su línea de tiempo |
-| Reportes | Indicadores de cumplimiento y reportes descargables |
-| Configuración | Perfil, preferencias y permisos del usuario |
+| Application shell and navigation | Layout compartido, rutas y navegación según rol mediante Vue Router |
+| IAM and session | Inicio de sesión, perfil, estado de sesión e interceptor del token |
+| Orders and dispatches UI | Creación y revisión de pedidos, preparación y seguimiento de despachos |
+| Fleet and tracking UI | Flota, geocercas, rutas y visualización de posiciones con Leaflet |
+| Reception and cases UI | Verificación de recepciones, casos de discrepancia y evidencia |
+| Operational support UI | Inicio, obras, inventario e historial de actividad |
 
-Además de los once módulos, el container incluye cuatro componentes transversales:
+Además de los módulos de interfaz, el container incluye los componentes de acceso a datos:
 
 | Componente | Responsabilidad | Tecnología |
 |---|---|---|
-| Control de acceso | Valida la sesión y habilita los módulos que corresponden al rol del usuario autenticado | Vue Router |
-| Cliente del API | Centraliza las llamadas al API y la gestión del token de sesión | JavaScript sobre Vue |
-| Componentes UI | Conjunto de componentes de interfaz estandarizado en la sección 4.1.2 | PrimeVue |
-| Idiomas | Resuelve los textos en English (en_US) y Latin American Spanish (es_419) | i18n sobre Vue |
+| Shared HTTP client | URL base, solicitudes JSON, token Bearer y manejo de respuestas 401 | Axios / BaseApi / BaseEndpoint |
+| In-browser mock adapter | Responde localmente cuando se habilita VITE_USE_IN_MEMORY_API; corresponde a la configuración de producción revisada | JavaScript / in-memory-api.js |
 
-**Una observación sobre el diagrama.** El control de acceso es el único punto de entrada de los tres roles: Administrador, Responsable de obra y Responsable de almacén acceden a través de él antes de que se habilite cualquier módulo, y es también el único componente que distingue entre roles. Los módulos que siguen no verifican permisos por sí mismos.
+**Una observación sobre el diagrama.** Los guards mejoran la navegación según la sesión y el rol, pero no reemplazan la autorización del backend. PrimeVue y vue-i18n son bibliotecas de soporte de los módulos de interfaz, no contenedores independientes.
 
-**Interacción entre componentes.** Por legibilidad, el diagrama no traza una flecha individual desde cada uno de los once módulos hacia el cliente del API: todos ellos invocan al cliente de la misma manera, y esa relación se generaliza en una sola flecha entre los módulos y el cliente del API.
+**Interacción entre componentes.** La navegación habilita los módulos funcionales y estos solicitan datos mediante el cliente HTTP compartido. El cliente puede usar el adaptador en memoria o comunicarse con el RESTful API; la integración real en producción sigue pendiente. El módulo de flota y seguimiento consulta las teselas de OpenStreetMap para los mapas de fondo.
 
 **Figura 60**
 
 *Diagrama de componentes de la Web Application de Vigía*
 
-![IMAGEN — componentes de la Web Application](../../assets/Chapther-4/c4-model/c4-model-component-diagram-web_application.png)
+[![IMAGEN — componentes de la Web Application](../../assets/Chapther-4/c4-model/c4-model-diagram-component-web.png)](https://drive.google.com/file/d/1VHbQQeeRSdGzaou-WfJSaSNDTjN6BFZI/view?usp=sharing)
 
-*Nota.* Elaborado por el equipo de Trazza Labs en draw.io, aplicando el C4 Model de Simon Brown. Los módulos se agrupan por la navegación real de la aplicación, construida a partir de los mockups de Figma. El diagrama editable puede consultarse en: [C4-Model](https://tinyurl.com/284v5twu).
-
----
-
-##### Component Diagram — Landing Page
-
-Este container presenta la propuesta de valor de Vigía y recoge las solicitudes de demostración de los visitantes. Al no exigir autenticación, su descomposición sigue directamente las secciones del sitio, en el orden en que el visitante las recorre.
-
-| Componente | Responsabilidad | Tecnología |
-|---|---|---|
-| Encabezado | Navegación del sitio (Inicio, Cómo funciona, Beneficios, Planes, Demo, Equipo, Contacto), cambio de idioma y acceso al inicio de sesión | HTML5, CSS3, JavaScript |
-| Inicio | Propuesta de valor, vista previa del producto y llamados a la acción hacia Demo y Planes | HTML5, CSS3 |
-| Cómo funciona | Presenta el problema que resuelve Vigía y el flujo de seis pasos del proceso | HTML5, CSS3 |
-| Beneficios | Presenta los seis beneficios del producto, unificados para ambos segmentos | HTML5, CSS3 |
-| Planes | Presenta los planes de suscripción mensual y anual, con su selección | HTML5, CSS3 |
-| Demo | Recoge los datos de contacto del visitante (empresa, correo) y los envía al API | JavaScript |
-| Equipo | Presenta los perfiles del equipo de desarrollo y el video del equipo | HTML5, CSS3 |
-| Pie de página | Enlaces de navegación, información legal y datos de contacto | HTML5, CSS3 |
-| Idiomas | Resuelve los textos del sitio en English (en_US) y Latin American Spanish (es_419) | JavaScript |
-
-**Dos observaciones sobre el diagrama.**
-
-El componente de demo es el único con relación directa al RESTful API. El encabezado y planes, en cambio, no llaman al API desde este container: redirigen al visitante hacia la Web Application, para el inicio de sesión y la suscripción del plan elegido respectivamente.
-
-Ninguna de las secciones exige autenticación, a diferencia de los otros dos containers. Es la razón por la que aquí no existe un componente de control de acceso.
-
-**Figura 61**
-
-*Diagrama de componentes del Landing Page de Vigía*
-
-![IMAGEN — componentes del Landing Page](../../assets/Chapther-4/c4-model/c4-model-component-diagram-landing_page.png)
-
-*Nota.* Elaborado por el equipo de Trazza Labs en draw.io, aplicando el C4 Model de Simon Brown. El formulario de demostración es el único componente con relación directa al RESTful API. El diagrama editable puede consultarse en: [C4-Model](https://tinyurl.com/284v5twu).
+*Nota.* Elaborado por el equipo de Trazza Labs en draw.io, aplicando el C4 Model de Simon Brown. Los módulos agrupan vistas, estado y acceso a datos relacionados dentro de la misma SPA. El diagrama editable puede consultarse en: [C4-Model (draw.io)](https://drive.google.com/file/d/1VHbQQeeRSdGzaou-WfJSaSNDTjN6BFZI/view?usp=sharing).
 
 ### 4.7. Software Object-Oriented Design
 
