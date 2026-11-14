@@ -514,19 +514,19 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
           <li><strong>Ramos Cerdán, Elías Daniel</strong>
             <br><em>— AV1:</em> Lideró el desarrollo del diseño UX/UI correspondiente a la Landing Page y a la Web Application, elaborando wireframes, mock-ups, User Flow Diagrams y el prototipo de navegación. Además, mantuvo la consistencia visual entre las diferentes vistas y roles considerados para Vigía.
             <br><em>— TB1:</em> Lideró la estandarización de la experiencia de usuario, traduciendo al inglés y actualizando los mock-ups separados por roles específicos. Dirigió la compilación final del reporte en la rama <code>main</code>, la elaboración de diapositivas y la documentación de Performance.
-            <br><em>— AV2:</em> Lideró el Bounded Context Discrepancy & Evidence Management del RESTful API (casos, línea de tiempo, responsabilidad y cierre) y restauró el contexto de datos compartido para destrabar la integración.
+            <br><em>— AV2:</em> Lideró el desarrollo backend del Bounded Context Discrepancy &amp; Evidence Management en el RESTful API (gestión de casos, línea de tiempo cronológica, determinación de responsabilidad, cierre y restauración de <code>AppDbContext</code> para destrabar la integración).
           </li>
           <br>
           <li><strong>Cardenas Huaman, Mathias Andree</strong>
             <br><em>— AV1:</em> Guio al equipo en la formulación de las hipótesis de valor y coordinó la estructuración del Lean UX Canvas para alinear la visión del negocio con métricas de éxito medibles. Asimismo, asumió el liderazgo técnico en el diseño orientado a objetos, definiendo los agregados, entidades y contratos de dominio en UML para cada Bounded Context en estrecha coordinación con sus compañeros.
             <br><em>— TB1:</em> Lideró el alineamiento de la visión del producto corrigiendo, estructurando y traduciendo los Hypothesis Statements del Lean UX para enfocarlos en metas reales de un negocio emergente.
-            <br><em>— AV2:</em> Lideró el Bounded Context Site Reception & Verification del RESTful API (recepciones, repositorio y datos de prueba).
+            <br><em>— AV2:</em> Lideró el desarrollo backend del Bounded Context Site Reception &amp; Verification en el RESTful API (agregado <code>Reception</code> con reglas de EventStorming, command/query handlers, persistencia con Entity Framework Core, <code>ReceptionsController</code> y datos semilla), además de estructurar el Sprint 3 y Validation Interviews en el informe.
           </li>
           <br>
           <li><strong>Apaza Bocanegra, Elizabeth Noelia</strong>
             <br><em>— AV1:</em> Contribuyó al análisis inicial del proyecto desarrollando la sección de Antecedentes y problemática, así como los Lean UX Problem Statements. Con este aporte, facilitó que el equipo tuviera un marco de referencia claro sobre el contexto y las necesidades de los usuarios para alinear el diseño de la solución.
             <br><em>— TB1:</em> Lideró la validación continua del problema en campo, incorporando, documentando y analizando demográficamente nuevas entrevistas para asegurar que los artefactos de diseño respondan fielmente a los usuarios objetivo.
-            <br><em>— AV2:</em> Lideró el Bounded Context Fleet & Device Registry del RESTful API (vehículos, dispositivos GPS y geocercas) y su documentación OpenAPI.
+            <br><em>— AV2:</em> Lideró el desarrollo backend del Bounded Context Fleet &amp; Device Registry en el RESTful API (agregados de vehículos y geocercas, servicios, repositorios con Entity Framework Core, controladores REST y documentación OpenAPI), y continuó el registro de entrevistas de validación en el informe.
           </li>
         </ul>
       </td>
@@ -555,19 +555,19 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
           <li><strong>Ramos Cerdán, Elías Daniel</strong>
             <br><em>— AV1:</em> Cumplió las actividades asignadas relacionadas con el Startup Profile, registro de entrevistas, diseño de la Landing Page, diseño de la Web Application, User Flow Diagrams y prototipado. Asimismo, trabajó mediante la rama feature/Ramos, registrando sus avances mediante commits y aportando progresivamente al informe del proyecto.
             <br><em>— TB1:</em> Logró los objetivos de codificación frontend implementando su Bounded Context asignado, "Gestión de Discrepancias y Evidencia", y garantizó la entrega a tiempo de los artefactos consolidando las versiones finales en el repositorio principal.
-            <br><em>— AV2:</em> Cumplió su meta de discrepancias y evidencia en la rama <code>feature/discrepancy-and-evidence-management</code>, con 25 commits, y entregó los endpoints a tiempo para integrarse con la Web Application.
+            <br><em>— AV2:</em> Cumplió con la implementación backend de Discrepancy &amp; Evidence Management en la rama <code>feature/discrepancy-and-evidence-management</code> con 25 commits, entregando a tiempo los endpoints de casos, responsabilidad, cierre y línea de tiempo para integrarse con la Web Application.
           </li>
           <br>
           <li><strong>Cardenas Huaman, Mathias Andree</strong>
             <br><em>— AV1:</em> Promovió la participación activa del grupo durante la ideación del Lean UX Canvas para integrar las diferentes perspectivas del equipo. Planificó y ejecutó a tiempo la elaboración de los diagramas de clases UML, descomponiendo el trabajo en entregables claros y asegurando que las clases modeladas respondieran a las historias de usuario y alcances del Sprint.
             <br><em>— TB1:</em> Alcanzó las metas de implementación frontend establecidas para el Bounded Context de "Recepción y Verificación en Obra", asegurando su correcta integración en el control de versiones dentro de los plazos.
-            <br><em>— AV2:</em> Cumplió su meta de recepción en obra en la rama <code>feature/site-reception-and-verification</code>, con 7 commits.
+            <br><em>— AV2:</em> Cumplió con la implementación backend de Site Reception &amp; Verification en la rama <code>feature/site-reception-and-verification</code> con 7 commits (incluyendo pruebas HTTP de integración y manejo de errores REST), y registró en el informe las entrevistas de validación del Segmento 1.
           </li>
           <br>
           <li><strong>Apaza Bocanegra, Elizabeth Noelia</strong>
             <br><em>— AV1:</em> Cumplió con las tareas de investigación y diseño establecidas, ejecutando dos entrevistas a usuarios objetivo para la validación del problema. Además, aportó al avance estructural y visual del proyecto elaborando los Web Applications Wireflow Diagrams y los wireframes correspondientes a la Web Application, logrando las metas asignadas para esta entrega.
             <br><em>— TB1:</em> Cumplió con el desarrollo del código frontend para el Bounded Context de "Registro de Flota y Dispositivos", y completó las metas de documentación subiendo la evidencia de investigación al repositorio centralizado.
-            <br><em>— AV2:</em> Cumplió su meta de flota y dispositivos en la rama <code>feature/fleet-and-device-registry</code>, con 8 commits, incluida la documentación OpenAPI de sus endpoints.
+            <br><em>— AV2:</em> Cumplió con la implementación backend de Fleet &amp; Device Registry en la rama <code>feature/fleet-and-device-registry</code> con 8 commits (incluyendo la verificación de endpoints y documentación OpenAPI), y completó el registro de entrevistas de validación en el informe.
           </li>
         </ul>
       </td>
@@ -6924,8 +6924,8 @@ A continuación se consigna la información de cada entrevistado, agrupada por s
 | Dispositivo de prueba  | Laptop Workstation Dell Precision 5570 (Intel Core i7-12800H, 32 GB RAM DDR5, 1 TB SSD NVMe, NVIDIA RTX A1000 4GB, pantalla 15.6" UHD+, Wi-Fi 6). Hardware de alto rendimiento para planos CAD/BIM y plataformas web simultáneas. |
 | Fecha de la entrevista | *(12/11/2026)* |
 | Inicio en el video consolidado | *(25:10)* |
-| Captura                | ![Captura entrevista Clara Esperanza](chapter-5-product-implementation-validation-deployment/assets/chapther-5/validation-interviews/Clara.png) |
-| Url:                   | [Ver video en SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202316353_upc_edu_pe/IQA4K3p9pMHUSJ0W4TcW80WnAXXTQaMFiGcmPoK1pR5QAgo) |
+| Captura                | ![Captura entrevista Clara Esperanza](../../assets/chapther-5/validation-interviews/Clara.png) |
+| Url:                   | [https://acortar.link/rr5twG](https://acortar.link/rr5twG) |
 
 **Resumen de la entrevista 1**
 
@@ -6943,30 +6943,30 @@ Durante la sesión de validación, la entrevistada interactuó con la plataforma
 | Dispositivo de prueba  | Laptop Workstation Lenovo ThinkPad P16s (AMD Ryzen 7 PRO 7840U, 32 GB RAM LPDDR5x, 1 TB SSD NVMe, AMD Radeon 780M / GPU dedicada, pantalla 16" WQXGA, fibra óptica 200 Mbps). Capaz de ejecutar programas de ingeniería y software SaaS en paralelo. |
 | Fecha de la entrevista | *(13/11/2026)* |
 | Inicio en el video consolidado | *(09:25)* |
-| Captura                | ![Captura entrevista Gianmarco Jiménez](chapter-5-product-implementation-validation-deployment/assets/chapther-5/validation-interviews/Gianmarco.png) |
-| Url:                   | [Ver video en SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202316353_upc_edu_pe/IQBDz3ytXsL_SZnGNEjC_6c8ASTTJ35I-5mrNHm28wbmMz4) |
+| Captura                | ![Captura entrevista Gianmarco Jiménez](../../assets/chapther-5/validation-interviews/Gianmarco.png) |
+| Url:                   | [https://acortar.link/4N3FRc](https://acortar.link/4N3FRc) |
 
 **Resumen de la entrevista 2**
 
 En la evaluación realizada, el entrevistado analizó los flujos de gestión de incidencias y supervisión de obras en la plataforma Vigía, manifestando que el sistema de alertas tempranas y avisos permite reconocer de forma inmediata aquellas situaciones operativas que demandan una intervención urgente, facilitando la priorización del trabajo técnico. Resaltó que el nivel de detalle y contexto provisto en la descripción de cada caso (como el registro de discrepancias en entregas de materiales) resulta suficiente para comprender la raíz del problema antes de tomar decisiones en obra, enfatizando el valor de respaldar cada evento con evidencias fotográficas concretas para evitar ambigüedades. Finalmente, valoró positivamente la claridad en la asignación de responsabilidades y la funcionalidad de filtrado cronológico en el historial de incidentes, subrayando que esta trazabilidad histórica es fundamental para auditar resoluciones pasadas y optimizar los procesos de abastecimiento en proyectos futuros.
 
-| Entrevistado:          |  *(nombres y apellidos de la persona entrevistada)* |
-|------------------------|------------------------------------------------------|
-| Duración               |  *(mm:ss de la sesión editada)* |
-| Género                 |  |
-| Edad                   |  |
-| Distrito de residencia |  |
-| Estado civil           |  |
-| Ocupación              |  *(cargo y empresa)* |
-| Objetivos              |  |
-| Fecha de la entrevista |  *(dd/mm/aaaa)* |
-| Inicio en el video consolidado |  *(hh:mm:ss dentro del video de validación)* |
-| Captura                |  *(captura de un cuadro del video, en assets/chapther-5/entrevistas-validacion/)* |
-| Url:                   |  *(enlace privado de Microsoft Stream)* |
+| Entrevistado:          | *Owen Aguirre Campos*                                                            |
+|------------------------|----------------------------------------------------------------------------------|
+| Duración               | *8:26*                                                                           |
+| Género                 | Masculino                                                                        |
+| Edad                   | 26                                                                               |
+| Distrito de residencia | Lima                                                                             |
+| Estado civil           | Soltero                                                                          |
+| Ocupación              | *Gestor de proyectos*                                                            |
+| Objetivos              | Priorizar su optimizacion de tiempo y recursos en su trabajo                     |
+| Fecha de la entrevista | *(13/11/2026)*                                                                   |
+| Inicio en el video consolidado | *0:00*                                                                           |
+| Captura                | ![Sprint3-owen.png](../../assets/chapther-5/sprint-3/Sprint3-owen.png) |
+| Url:                   | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a649_upc_edu_pe/IQCVfBDA6LJiRr1Ax88Ndc6tAVpeF9hvLHgSOAL6bcxfifg?e=lXaz1I&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D                                         |
 
 **Resumen de la entrevista 3**
+Durante la validación de la plataforma Vigía como responsable de obra, Owen Aguirre Campos destacó que los avisos prioritarios y alertas tempranas permiten identificar de inmediato situaciones críticas para priorizar el trabajo técnico y evitar sobrecostos. Asimismo, valoró la claridad en la trazabilidad de los despachos en tránsito y la comparación directa entre materiales enviados y recibidos, señalando que el respaldo con evidencias fotográficas y el historial cronológico resultan fundamentales para resolver discrepancias sin ambigüedades, auditar incidentes y optimizar futuros abastecimientos. Finalmente, identificó como oportunidades de mejora la traducción completa de ciertas etiquetas aún en inglés y la optimización en el tiempo de carga del mapa de geolocalización.
 
-🟢 *Pendiente: realizar la tercera entrevista del segmento (mínimo de 3 por segmento). Redactar de forma descriptiva las principales apreciaciones del entrevistado sobre las tareas asignadas (sección 5.3.1): qué tareas completó sin ayuda, en qué pantalla dudó o se equivocó, cuánto tardó y qué respondió a la pregunta de cada tarea.*
 
 ##### Segmento 2: Empresas de Logística, Transporte y Almacenes Satélite
 
@@ -6981,7 +6981,7 @@ En la evaluación realizada, el entrevistado analizó los flujos de gestión de 
 | Objetivos              | Cumplir los despachos a tiempo, reducir errores y reclamos por diferencias entre lo enviado y lo recibido, y mantener un mejor control de la información durante todo el traslado de los materiales. |
 | Fecha de la entrevista | *(12/11/2026)*                                                                                                                                                                                       |
 | Inicio en el video consolidado | *(00:00)*                                                                                                                                                                                            |
-| Captura                | ![Captura entrevista Enoc Chumpitaz](chapter-5-product-implementation-validation-deployment/assets/chapther-5/validation-interviews/validation-interview-enoc%20chumpitaz.png)                                                                                |
+| Captura                | ![Captura entrevista Enoc Chumpitaz](../../assets/chapther-5/validation-interviews/validation-interview-enoc-chumpitaz.png)                                                                                |
 | Url:                   | *(https://n9.cl/fe5x5x)*                                                                                                                                                                             |
 
 **Resumen de la entrevista 4**
@@ -7001,7 +7001,7 @@ En la evaluación realizada, el entrevistado analizó los flujos de gestión de 
 | Objetivos              | Organizar los despachos de materiales de manera rápida y ordenada, reducir errores y retrasos, centralizar la información de cada despacho y contar con evidencias claras de cada etapa del proceso. |
 | Fecha de la entrevista | *(12/11/2026)*                                                                                                                                                                                      |
 | Inicio en el video consolidado | *(00:00)*                                                                                                                                                                                           |
-| Captura                | ![Captura entrevista Angel Barrera](chapter-5-product-implementation-validation-deployment/assets/chapther-5/validation-interviews/validation-interviews-angel%20barrera.png)                                                                                 |
+| Captura                | ![Captura entrevista Angel Barrera](../../assets/chapther-5/validation-interviews/validation-interviews-angel-barrera.png)                                                                                 |
 | Url:                   | *(https://n9.cl/28u6x)*                                                                                                                                                                             |
 
 **Resumen de la entrevista 5**
@@ -7010,25 +7010,23 @@ En la evaluación realizada, el entrevistado analizó los flujos de gestión de 
  Sin embargo, se identificaron algunas oportunidades de mejora. Principalmente, sería conveniente resaltar los datos más importantes de cada solicitud y agregar alertas más visibles para los materiales con pocas existencias, de manera que los responsables de almacén puedan reconocer rápidamente posibles problemas de stock. Estas mejoras permitirían agilizar la revisión de pedidos y reducir el riesgo de errores durante las operaciones.
  En general, Ángel consideró que Vigía cuenta con una interfaz comprensible y fácil de utilizar, aunque todavía se pueden mejorar algunos elementos visuales para facilitar el trabajo diario.*
 
-| Entrevistado:          |  *(nombres y apellidos de la persona entrevistada)* |
-|------------------------|-------------------------------------------------------|
-| Duración               |  *(mm:ss de la sesión editada)* |
-| Género                 |  |
-| Edad                   |  |
-| Distrito de residencia |  |
-| Estado civil           |  |
-| Ocupación              |  *(cargo y empresa)* |
-| Objetivos              |  |
-| Fecha de la entrevista |  *(dd/mm/aaaa)* |
-| Inicio en el video consolidado |  *(hh:mm:ss dentro del video de validación)* |
-| Captura                |  *(captura de un cuadro del video, en assets/chapther-5/entrevistas-validacion/)* |
-| Url:                   |  *(enlace privado de Microsoft Stream)* |
+| Entrevistado:          | *(Alessandro Bravo)*                                                                                                                                                                                 |
+|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Duración               | *(06:47)*                                                                                                                                                                                            |
+| Género                 | Masculino                                                                                                                                                                                            |
+| Edad                   | 31                                                                                                                                                                                                   |
+| Distrito de residencia | San Martín de Porres                                                                                                                                                                                 |
+| Estado civil           | Soltero                                                                                                                                                                                              |
+| Ocupación              | *(Supervisor de Almacén Satélite y Distribución)*                                                                                                                                                    |
+| Objetivos              | Validar la disponibilidad de stock antes de atender requerimientos, gestionar las órdenes de materiales con claridad y monitorear el estado de los despachos y unidades de transporte en ruta.      |
+| Fecha de la entrevista | *(13/11/2026)*                                                                                                                                                                                       |
+| Inicio en el video consolidado | *(18:18)*                                                                                                                                                                                    |
+| Captura                | ![Captura entrevista Alessandro Bravo](../../assets/chapther-5/validation-interviews/validation-interview-alessandro-bravo.png)                                                                     |
+| Url:                   | *(https://tinyurl.com/EntrevistaSegmento2)*                                                                                                                                                          |
 
 **Resumen de la entrevista 6**
 
-🟢 *Pendiente: realizar la tercera entrevista del segmento (mínimo de 3 por segmento). Redactar de forma descriptiva las principales apreciaciones del entrevistado sobre las tareas asignadas (sección 5.3.1): qué tareas completó sin ayuda, en qué pantalla dudó o se equivocó, cuánto tardó y qué respondió a la pregunta de cada tarea.*
-
-Debe incluirse al menos un testimonio positivo por segmento, que se reutiliza en el Video About-the-Product (sección 5.4). Las observaciones que surjan de estas sesiones se evalúan con el formato de heurísticas en la sección 5.3.3.
+En la evaluación realizada, Alessandro Bravo analizó los flujos de gestión de pedidos de materiales, inventario, despachos y transporte en la plataforma Vigía, manifestando que el uso del buscador, los filtros y las etiquetas de estado facilita identificar de forma rápida las solicitudes pendientes y aquellas que ya fueron aprobadas. Resaltó que el nivel de detalle provisto en cada orden (donde se especifican el tipo de material, la cantidad requerida, la unidad de medida y las observaciones) resulta suficiente para evaluar los requerimientos antes de tomar una decisión, enfatizando además que la diferenciación por colores agiliza la distinción entre las opciones para editar, corregir o cancelar pedidos. Asimismo, destacó que el módulo de materiales permite reconocer alertas tempranas de bajo stock al contrastar las existencias actuales con el umbral mínimo establecido, y que el monitoreo de flota distingue con claridad qué unidades se encuentran en ruta frente a las disponibles para optimizar la asignación logística.
 
 #### 5.3.3. Evaluaciones según heurísticas
 

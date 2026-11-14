@@ -36,19 +36,19 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
           <li><strong>Ramos Cerdán, Elías Daniel</strong>
             <br><em>— AV1:</em> Lideró el desarrollo del diseño UX/UI correspondiente a la Landing Page y a la Web Application, elaborando wireframes, mock-ups, User Flow Diagrams y el prototipo de navegación. Además, mantuvo la consistencia visual entre las diferentes vistas y roles considerados para Vigía.
             <br><em>— TB1:</em> Lideró la estandarización de la experiencia de usuario, traduciendo al inglés y actualizando los mock-ups separados por roles específicos. Dirigió la compilación final del reporte en la rama <code>main</code>, la elaboración de diapositivas y la documentación de Performance.
-            <br><em>— AV2:</em> Lideró el Bounded Context Discrepancy & Evidence Management del RESTful API (casos, línea de tiempo, responsabilidad y cierre) y restauró el contexto de datos compartido para destrabar la integración.
+            <br><em>— AV2:</em> Lideró el desarrollo backend del Bounded Context Discrepancy &amp; Evidence Management en el RESTful API (gestión de casos, línea de tiempo cronológica, determinación de responsabilidad, cierre y restauración de <code>AppDbContext</code> para destrabar la integración).
           </li>
           <br>
           <li><strong>Cardenas Huaman, Mathias Andree</strong>
             <br><em>— AV1:</em> Guio al equipo en la formulación de las hipótesis de valor y coordinó la estructuración del Lean UX Canvas para alinear la visión del negocio con métricas de éxito medibles. Asimismo, asumió el liderazgo técnico en el diseño orientado a objetos, definiendo los agregados, entidades y contratos de dominio en UML para cada Bounded Context en estrecha coordinación con sus compañeros.
             <br><em>— TB1:</em> Lideró el alineamiento de la visión del producto corrigiendo, estructurando y traduciendo los Hypothesis Statements del Lean UX para enfocarlos en metas reales de un negocio emergente.
-            <br><em>— AV2:</em> Lideró el Bounded Context Site Reception & Verification del RESTful API (recepciones, repositorio y datos de prueba).
+            <br><em>— AV2:</em> Lideró el desarrollo backend del Bounded Context Site Reception &amp; Verification en el RESTful API (agregado <code>Reception</code> con reglas de EventStorming, command/query handlers, persistencia con Entity Framework Core, <code>ReceptionsController</code> y datos semilla), además de estructurar el Sprint 3 y Validation Interviews en el informe.
           </li>
           <br>
           <li><strong>Apaza Bocanegra, Elizabeth Noelia</strong>
             <br><em>— AV1:</em> Contribuyó al análisis inicial del proyecto desarrollando la sección de Antecedentes y problemática, así como los Lean UX Problem Statements. Con este aporte, facilitó que el equipo tuviera un marco de referencia claro sobre el contexto y las necesidades de los usuarios para alinear el diseño de la solución.
             <br><em>— TB1:</em> Lideró la validación continua del problema en campo, incorporando, documentando y analizando demográficamente nuevas entrevistas para asegurar que los artefactos de diseño respondan fielmente a los usuarios objetivo.
-            <br><em>— AV2:</em> Lideró el Bounded Context Fleet & Device Registry del RESTful API (vehículos, dispositivos GPS y geocercas) y su documentación OpenAPI.
+            <br><em>— AV2:</em> Lideró el desarrollo backend del Bounded Context Fleet &amp; Device Registry en el RESTful API (agregados de vehículos y geocercas, servicios, repositorios con Entity Framework Core, controladores REST y documentación OpenAPI), y continuó el registro de entrevistas de validación en el informe.
           </li>
         </ul>
       </td>
@@ -77,19 +77,19 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
           <li><strong>Ramos Cerdán, Elías Daniel</strong>
             <br><em>— AV1:</em> Cumplió las actividades asignadas relacionadas con el Startup Profile, registro de entrevistas, diseño de la Landing Page, diseño de la Web Application, User Flow Diagrams y prototipado. Asimismo, trabajó mediante la rama feature/Ramos, registrando sus avances mediante commits y aportando progresivamente al informe del proyecto.
             <br><em>— TB1:</em> Logró los objetivos de codificación frontend implementando su Bounded Context asignado, "Gestión de Discrepancias y Evidencia", y garantizó la entrega a tiempo de los artefactos consolidando las versiones finales en el repositorio principal.
-            <br><em>— AV2:</em> Cumplió su meta de discrepancias y evidencia en la rama <code>feature/discrepancy-and-evidence-management</code>, con 25 commits, y entregó los endpoints a tiempo para integrarse con la Web Application.
+            <br><em>— AV2:</em> Cumplió con la implementación backend de Discrepancy &amp; Evidence Management en la rama <code>feature/discrepancy-and-evidence-management</code> con 25 commits, entregando a tiempo los endpoints de casos, responsabilidad, cierre y línea de tiempo para integrarse con la Web Application.
           </li>
           <br>
           <li><strong>Cardenas Huaman, Mathias Andree</strong>
             <br><em>— AV1:</em> Promovió la participación activa del grupo durante la ideación del Lean UX Canvas para integrar las diferentes perspectivas del equipo. Planificó y ejecutó a tiempo la elaboración de los diagramas de clases UML, descomponiendo el trabajo en entregables claros y asegurando que las clases modeladas respondieran a las historias de usuario y alcances del Sprint.
             <br><em>— TB1:</em> Alcanzó las metas de implementación frontend establecidas para el Bounded Context de "Recepción y Verificación en Obra", asegurando su correcta integración en el control de versiones dentro de los plazos.
-            <br><em>— AV2:</em> Cumplió su meta de recepción en obra en la rama <code>feature/site-reception-and-verification</code>, con 7 commits.
+            <br><em>— AV2:</em> Cumplió con la implementación backend de Site Reception &amp; Verification en la rama <code>feature/site-reception-and-verification</code> con 7 commits (incluyendo pruebas HTTP de integración y manejo de errores REST), y registró en el informe las entrevistas de validación del Segmento 1.
           </li>
           <br>
           <li><strong>Apaza Bocanegra, Elizabeth Noelia</strong>
             <br><em>— AV1:</em> Cumplió con las tareas de investigación y diseño establecidas, ejecutando dos entrevistas a usuarios objetivo para la validación del problema. Además, aportó al avance estructural y visual del proyecto elaborando los Web Applications Wireflow Diagrams y los wireframes correspondientes a la Web Application, logrando las metas asignadas para esta entrega.
             <br><em>— TB1:</em> Cumplió con el desarrollo del código frontend para el Bounded Context de "Registro de Flota y Dispositivos", y completó las metas de documentación subiendo la evidencia de investigación al repositorio centralizado.
-            <br><em>— AV2:</em> Cumplió su meta de flota y dispositivos en la rama <code>feature/fleet-and-device-registry</code>, con 8 commits, incluida la documentación OpenAPI de sus endpoints.
+            <br><em>— AV2:</em> Cumplió con la implementación backend de Fleet &amp; Device Registry en la rama <code>feature/fleet-and-device-registry</code> con 8 commits (incluyendo la verificación de endpoints y documentación OpenAPI), y completó el registro de entrevistas de validación en el informe.
           </li>
         </ul>
       </td>
