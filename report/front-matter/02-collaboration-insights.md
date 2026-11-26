@@ -55,4 +55,12 @@ El siguiente cuadro resume los commits propios (sin commits de fusión) registra
 
 Los cinco integrantes tienen commits propios en el informe, de modo que todos participaron en su elaboración.
 
-🟢 **Pendiente:** agregar el número de Pull Requests fusionados y la captura de Insights de GitHub a la fecha de la entrega.
+Al 14 de noviembre de 2026, el repositorio `vigia-report` registra 24 Pull Requests fusionados. Las siguientes capturas de GitHub muestran los Pull Requests y el historial de commits de la rama `develop` a esa fecha.
+
+**Figura 2.** Pull Requests fusionados en `vigia-report` hasta el 14 de noviembre de 2026.
+
+![Pull Requests fusionados en vigia-report](../../assets/chapther-5/inshiths/av2-report-pulls.jpg)
+
+**Figura 3.** Historial de commits de `vigia-report` (rama `develop`) del 30 de octubre al 14 de noviembre de 2026.
+
+![Historial de commits de vigia-report](../../assets/chapther-5/inshiths/av2-report-commits.jpg)

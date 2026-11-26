@@ -51,6 +51,6 @@ El Video About-The-Team resume el proceso de trabajo del equipo durante el desar
 | URL en YouTube (video incrustado en el Landing Page) | [https://youtu.be/8jhRrFqgy-8](https://youtu.be/8jhRrFqgy-8) |
 | Duración | 10:41 |
 | Nombre del archivo | `upc-pre-202620-1asi0730-8084-trazzalabs-about-the-team-sprint-3.mp4` |
-| URL en Microsoft Stream | *(por actualizar al publicar la versión final de TB2 en `S4-16`)* |
+| URL en Microsoft Stream | 🟢 *(por actualizar al publicar la versión final de TB2 en `S4-16`)* |
 
-El video está incrustado en la sección del equipo del Landing Page. *(Nota para cierre de `S4-16`: actualizar la pauta de secuencias con los tiempos definitivos y corregir el título en YouTube cuando se publique la versión final de TB2).*
+El video está incrustado en la sección del equipo del Landing Page. 🟢 *(Nota para cierre de `S4-16`: actualizar la pauta de secuencias con los tiempos definitivos y corregir el título en YouTube cuando se publique la versión final de TB2).*
