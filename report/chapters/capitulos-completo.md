@@ -463,6 +463,10 @@ Los cinco integrantes tienen commits propios en el informe, de modo que todos pa
       - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -4067,7 +4071,7 @@ El archivo `.env.production` define la URL base de los servicios que consume la 
 
 En esta sección el equipo documenta, Sprint a Sprint, la implementación del Landing Page, del RESTful API y de la Web Application de Vigía. Cada Sprint incluye su planificación, los líderes y colaboradores por aspecto, el Sprint Backlog y la evidencia de desarrollo, ejecución, documentación de servicios, despliegue y colaboración del equipo.
 
-Esta sección documenta el **Sprint 1** (entrega AV1), correspondiente a la primera versión del Landing Page, y el **Sprint 2** (entrega TB1), que inicia el desarrollo de la Frontend Web Application y del RESTful API, siguiendo el orden establecido en el Product Backlog de la sección 3.3.
+Esta sección documenta el **Sprint 1** (entrega AV1), correspondiente a la primera versión del Landing Page; el **Sprint 2** (entrega TB1), que inicia el desarrollo de la Frontend Web Application y planifica el RESTful API; el **Sprint 3** (entrega AV2), en el que se publica la primera versión de los Web Services y se integra la Web Application con el backend; y el **Sprint 4** (entrega TB2 — Trabajo Final), orientado al cierre integrado, verificación por roles y publicación definitiva de los tres productos, siguiendo el orden establecido en el Product Backlog de la sección 3.3.
 
 #### 5.2.1. Sprint 1
 
@@ -6842,6 +6846,167 @@ Esta subsección documenta cómo colaboró el equipo durante el Sprint 3. El tra
 Los cuadros de commits corresponden a los 95 commits únicos del Sprint 3 detallados en la sección 5.2.3.4. La distribución muestra que cada integrante lideró un Bounded Context, aunque la carga fue desigual, por lo que en el siguiente Sprint conviene repartir con mayor equilibrio las tasks de integración con el frontend.
  
  **Pendiente:** agregar (1) las capturas de los analíticos de colaboración (Insights) y del historial de commits de GitHub de `vigia-platform`, (2) la participación en los repositorios `vigia-web-application` y `vigia-website` durante el Sprint 3, de modo que los cinco integrantes figuren en los tres productos como exige el enunciado.
+
+#### 5.2.4. Sprint 4
+
+**Duración:** desde el 2026-11-14 hasta el 2026-11-29 (cierre interno para la entrega TB2 — Release Review, Semana 15).
+
+**Objetivo del Sprint:** Consolidar y publicar la versión final integrada de los tres productos de Vigía (Web Services RESTful API, Frontend Web Application y Landing Page), completando el flujo operativo de principio a fin —pedido de materiales, pesaje neto, emisión de guía de remisión digital, inicio de traslado con telemetría GPS, verificación de recepción en obra, comparación de cantidades y reporte de discrepancia con evidencia fotográfica persistente— bajo control estricto de acceso por rol y proyecto, documentación OpenAPI/Scalar y evidencias finales exigidas para la entrega TB2.
+
+Esta sección documenta el Sprint Planning 4, la matriz de líderes y colaboradores por aspecto (LACX) y el Sprint Backlog 4 (secciones 5.2.4.1 a 5.2.4.3). Las evidencias de desarrollo, ejecución, documentación de servicios, despliegue y colaboración del equipo se incorporarán en las subsecciones siguientes conforme se completen la integración y las publicaciones definitivas de TB2.
+
+##### 5.2.4.1. Sprint Planning 4
+
+El Sprint Planning 4 definió el alcance de cierre del proyecto para la entrega final TB2 (Semana 15). El compromiso incorpora las seis historias asignadas al Sprint 4 en el Product Backlog de la sección 3.3 (`US-05`, `TS-08`, `US-06`, `US-09`, `US-10` y `TS-04`, que suman 21 Story Points), junto con el cierre de las dos historias técnicas pendientes tras AV2 (`TS-02` y `TS-06`, 5 Story Points) sin duplicar el trabajo ya completado en el Sprint 3. Asimismo, esta planificación deja constancia explícita de la reorganización operativa con cuatro integrantes activos y reconcilia las historias originalmente planificadas para los Sprints 5 y 6 frente al cierre académico del proyecto en el Sprint 4.
+
+| Sprint # | Sprint 4 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 2026-11-23 *(consolidación operativa del plan TB2 tras el cierre de versiones AV2 del 2026-11-14)* |
+| Time | *(por confirmar horario exacto de la sesión con el Team Leader)* |
+| Location | Reunión virtual del equipo (Google Meet y coordinación en el tablero Trello TB2) |
+| Prepared By | Cárdenas Huaman, Mathias Andree (en coordinación con Sandoval Cueto, Fabián Jesus, Team Leader) |
+| Attendees (to planning meeting) | Sandoval Cueto, Fabián Jesus / Lopez, Leonardo / Ramos Cerdán, Elías Daniel / Cárdenas Huaman, Mathias Andree *(cuatro integrantes activos en el Sprint 4; Apaza Bocanegra, Elizabeth Noelia se retiró de la ejecución operativa tras AV2, conservándose íntegros sus aportes históricos de AV1, TB1 y AV2)* |
+| **Sprint 3 Review Summary** | En el Sprint 3 (entrega AV2) el equipo publicó la primera versión del RESTful API (`vigia-platform` `v1.0.0`, commit `9df65d1`, con los cinco Bounded Contexts implementados sobre ASP.NET Core, Entity Framework Core con MySQL, autenticación Bearer de ASP.NET Core y documentación OpenAPI expuesta mediante Scalar), la versión `v2.1.0` de la Frontend Web Application (`vigia-web-application`, commit `69599a0`) conectada al API real en Firebase Hosting y la versión `v1.1.0` del Landing Page (`vigia-website`, commit `a327eb1`) en GitHub Pages. Los cinco integrantes registraron commits propios en el repositorio de Web Services. Sin embargo, la revisión técnica al cierre de AV2 identificó brechas que pasaron al Sprint 4: faltaba el endpoint específico de pesaje neto de despacho (`TS-02`/`T-13`), el endpoint de contacto del Landing Page (`TS-06`/`T-15`), el cumplimiento estricto de autorización por proyecto en recepción y casos de discrepancia, el almacenamiento persistente de archivos fotográficos de evidencia, el cierre de validaciones de flota/geocercas/telemetría y la publicación final del RESTful API con evidencia completa en entorno desplegado. |
+| **Sprint 3 Retrospective Summary** | Como aciertos, la división del backend por Bounded Context en ramas `feature/*`, el uso de Conventional Commits, Pull Requests y Scalar consolidaron una arquitectura cliente-servidor coherente. Como oportunidades de mejora, el equipo identificó una carga de trabajo desigual, contratos cruzados sin verificación integral de extremo a extremo y demoras de coordinación cuando varios integrantes dependían de la misma estación de trabajo. Para el Sprint 4 se acordó: (1) redistribuir los cinco Bounded Contexts entre los cuatro integrantes activos —asumiendo Fabián Sandoval el doble contexto de *Fleet & Device Registry* y *Transit Traceability*—, (2) separar operativamente el trabajo de Mathias Andree Cárdenas del horario de la PC compartida, ejecutando sus entregas de *Site Reception & Verification* y documentación en ramas propias (`feature/*`, `fix/*`, `docs/*`) sincronizadas por contratos acordados, y (3) exigir verificación automatizada por rol y proyecto antes de aprobar la versión de cierre. |
+| **Sprint Goal & User Stories** | |
+| Sprint 4 Goal | Our focus is on completing and integrating the end-to-end operational flow of Vigía —from weighed dispatch and immutable digital delivery guide issuance through GPS-tracked transit to project-authorized on-site reception, quantity comparison and persistent photographic discrepancy evidence— while delivering the final verified versions of the Web Services, Web Application, Landing Page and project documentation. We believe it delivers auditable, role-protected material traceability from warehouse to construction site to warehouse managers, site residents and technical office supervisors, and provides a functional subscription contact channel to prospective companies visiting the Landing Page. This will be confirmed when authorized users complete both the conformant delivery closure and the discrepant case with stored photo and PDF report against the deployed API, unauthorized role or cross-project requests are rejected with 401/403/404, Scalar documents and authenticates all protected endpoints, and all TB2 deliverables are published and verified. |
+| Sprint 4 Velocity | 21 Story Points *(historias asignadas al Sprint 4 en la sección 3.3)* + 5 Story Points de arrastre técnico pendiente de AV2 (`TS-02` y `TS-06`); referencia combinada: 26 Story Points *(sin duplicar trabajo ya completado en AV2 ni contabilizar tareas documentales como Story Points)* |
+| Sum of Story Points | 21 *(26 incluyendo el cierre pendiente de `TS-02` y `TS-06` arrastrados de AV2)* |
+
+**Definition of Done del Sprint 4.** Toda funcionalidad comprometida cuenta con implementación en backend y frontend integrada a `develop` mediante ramas `feature/*` o `fix/*`; las pruebas de integración y regresión por rol confirman respuestas `200`/`201` para operaciones autorizadas y `401`/`403`/`404` ante accesos no permitidos; la base de datos MySQL se actualiza mediante migraciones EF Core preservando esquemas y datos existentes; la interfaz Scalar expone los endpoints protegidos con autenticación Bearer; las versiones finales del RESTful API, la Web Application y el Landing Page se encuentran desplegadas y verificadas en sus URLs públicas; y los entregables TB2 (informe consolidado en `report/chapters/capitulos-completo.md`, presentación Keynote/PDF, videos finales *About-the-Product* y *About-the-Team*, y reporte individual de participación) han sido revisados y validados.
+
+**Historias comprometidas en el Sprint 4.**
+
+| Story Id | Título | Story Points | Origen | Responsable de seguimiento |
+|---|---|---|---|---|
+| US-05 | Emisión de guía de remisión y asignación de transportista | 3 | Product Backlog (Sprint 4) | Lopez, Leonardo |
+| TS-08 | Endpoint de recepción de reportes del dispositivo GPS | 5 | Product Backlog (Sprint 4) | Sandoval Cueto, Fabián |
+| US-06 | Inicio de traslado | 2 | Product Backlog (Sprint 4) | Sandoval Cueto, Fabián |
+| US-09 | Verificación del material recibido | 5 | Product Backlog (Sprint 4) | Cárdenas Huaman, Mathias Andree |
+| US-10 | Reporte de discrepancia en recepción | 3 | Product Backlog (Sprint 4) | Ramos Cerdán, Elías *(coordinado con Cárdenas Huaman, Mathias Andree)* |
+| TS-04 | Endpoint de comparación de cantidades | 3 | Product Backlog (Sprint 4) | Cárdenas Huaman, Mathias Andree |
+| TS-02 | Endpoint de registro de pesaje | 3 | Arrastrada del Sprint 3 *(habilita US-04 y condiciona US-05)* | Lopez, Leonardo |
+| TS-06 | Endpoint de contacto para suscripción | 2 | Arrastrada del Sprint 2/3 *(coordinada para el Landing Page en T-15)* | Cárdenas Huaman, Mathias Andree / Lopez, Leonardo |
+
+**Total comprometido:** 21 Story Points del Sprint 4 más 5 Story Points correspondientes al cierre pendiente de `TS-02` y `TS-06` (26 Story Points en total).
+
+**Reconciliación del Product Backlog (Sprints 5 y 6 frente al cierre TB2 en el Sprint 4).** En la sección 3.3 el Product Backlog distribuyó inicialmente el producto completo de 103 Story Points en seis Sprints; sin embargo, el calendario académico del curso concluye con la entrega TB2 en el Sprint 4 (Semana 15). Con el fin de mantener trazabilidad honesta y evitar dar por resueltas historias no cerradas, el equipo acordó la siguiente clasificación explícita para los Sprints 5 y 6:
+
+| Sprint original | Historias (Story Points) | Estado real frente al cierre TB2 | Decisión y justificación acordada |
+|---|---|---|---|
+| Sprint 5 | US-11 (3), TS-05 (5), US-12 (5), US-13 (2) — 15 SP | Capacidades adelantadas e integradas parcialmente como soporte al flujo de discrepancias | Para dar continuidad al caso generado desde `US-10`, el equipo adelantó desde el Sprint 3 y reforzó en el Sprint 4 los endpoints e interfaz de consulta de casos, línea de tiempo, evidencia fotográfica almacenada, generación de reporte PDF y cierre de caso con autorización por proyecto. Se documentan como avance de soporte y no como cierre total de un Sprint 5 formal. |
+| Sprint 5 | US-16 — Verificación de existencias disponibles (2 SP) | Parcial / fuera de cierre completo | Existen consultas persistentes de inventario y movimientos en el API, pero la validación automática de reservas de existencias al aprobar cada pedido permanece fuera del alcance cerrado de TB2. |
+| Sprint 6 | US-07 (3), US-08 (5), TS-03 (5), US-14 (3), TS-07 (3) — 19 SP | No implementadas (diferidas a hoja de ruta posterior al curso) | **No se dan por resueltas en el Sprint 4.** Las incidencias manuales de ruta y la sincronización periódica en lote fuera de línea (offline/batch) quedan explícitamente fuera del cierre TB2 —junto con pasarelas de pagos/suscripciones en vivo y facturación electrónica SUNAT— para concentrar el esfuerzo de los cuatro integrantes activos en la seguridad, integridad de datos y verificación completa del flujo principal hasta el Sprint 4. |
+
+##### 5.2.4.2. Aspect Leaders and Collaborators
+
+Para el cierre del proyecto en el Sprint 4 (TB2), el equipo elaboró la matriz *Leadership-and-Collaboration Matrix* (LACX) considerando la distribución operativa vigente de **cuatro integrantes activos**, conservando al mismo tiempo el registro histórico de los cinco integrantes reales de Trazza Labs. Los aspectos técnicos y de entrega considerados son:
+
+1. **Order Mgmt & Dispatch:** pedidos del residente, pesaje neto con tolerancia, emisión de guía de remisión digital inmutable y contratos de despacho.
+2. **Fleet & Device Registry:** validación de unidades de transporte, vinculación de dispositivos GPS y gestión de geocercas (contexto asumido por Fabián Sandoval en el Sprint 4 tras la retirada operativa de Elizabeth Apaza).
+3. **Transit Traceability:** inicio de traslado, reserva de unidad y recepción ordenada de telemetría GPS asociada y no asociada.
+4. **Site Reception & Verification:** autorización por proyecto, recepción contra guía oficial, comparación de cantidades, verificación idempotente y cierre atómico de recepción y despacho.
+5. **Discrepancy & Evidence:** almacenamiento persistente de fotografías protegidas, autorización de casos/línea de tiempo/PDF y cierre del flujo discrepante.
+6. **Integración, Despliegue y Scalar:** migraciones MySQL coordinadas, pruebas integrales y regresión por roles, documentación OpenAPI/Scalar y publicación final en la nube.
+7. **Planificación S4, Usabilidad y Keynote:** definición de Sprint Planning 4, matriz LACX y Sprint Backlog 4 (`S4-01`–`S4-03`), actualización de flujos/usabilidad (`S4-05`) y presentación final (`S4-06`).
+8. **Landing, Reporte TB2 y Videos:** consolidación final del informe y publicación del Landing Page (liderados por Leonardo López, `S4-11`–`S4-15`), junto con la producción de videos finales, evidencia de ejecución y coordinación de la exposición (con liderazgo operativo de Elías Ramos en `S4-16`–`S4-18`).
+
+En esta etapa cada líder de Bounded Context participa tanto en backend (`vigia-platform`) como en frontend (`vigia-web-application`), coordinando contratos con el resto del equipo. De manera específica: (a) **Fabián Jesus Sandoval Cueto** asume un **doble contexto** técnico (*Fleet & Device Registry* y *Transit Traceability*) además de la integración y despliegue; (b) **Mathias Andree Cárdenas Huaman** (`Usuario353`) trabaja de forma **separada del horario de la PC compartida**, entregando *Site Reception & Verification*, la planificación del Sprint 4, usabilidad/wireflows y el Keynote en ramas independientes; y (c) **Elizabeth Noelia Apaza Bocanegra** (`ApazaEN`) figura sin asignación operativa (`—`) en el Sprint 4, manteniéndose intactos sus créditos por el trabajo entregado en AV1, TB1 y AV2.
+
+| Team Member (Last Name, First Name) | GitHub Username | Order Mgmt & Dispatch | Fleet & Device Registry | Transit Traceability | Site Reception & Verification | Discrepancy & Evidence | Integración, Despliegue y Scalar | Planificación S4, Usabilidad y Keynote | Landing, Reporte TB2 y Videos |
+|---|---|---|---|---|---|---|---|---|---|
+| Sandoval Cueto, Fabián Jesus | `JFabianSandoval` (`FabianSandovalCueto`) | C | L | L | C | C | L | C | C |
+| Lopez, Leonardo | `LeonardoLopez138` | L | C | C | C | C | C | C | L |
+| Ramos Cerdán, Elías Daniel | `eliocerdan` | C | C | C | C | L | C | C | C |
+| Cárdenas Huaman, Mathias Andree | `Usuario353` | C | C | C | L | C | C | L | C |
+| Apaza Bocanegra, Elizabeth Noelia | `ApazaEN` | — | — | — | — | — | — | — | — |
+
+L = Leader, C = Collaborator, — = sin participación operativa en el Sprint 4 (se conservan íntegramente sus aportes históricos de los Sprints 1, 2 y 3). En el aspecto *Landing, Reporte TB2 y Videos*, Leonardo López lidera la consolidación del informe, el Landing Page y el paquete final (`S4-11`–`S4-15`), mientras Elías Ramos coordina directamente los videos finales, la evidencia de navegación/ejecución y la exposición (`S4-16`–`S4-18`), con la participación de los cuatro integrantes activos.
+
+**Distribución vigente de Bounded Contexts en el Sprint 4 (acordada el 2026-11-23).**
+
+| Responsable | GitHub Username | Bounded Context asignado (backend y frontend) | Modalidad de coordinación en el Sprint 4 |
+|---|---|---|---|
+| Sandoval Cueto, Fabián Jesus | `JFabianSandoval` | Fleet & Device Registry; Transit Traceability | Doble contexto tras asumir *Fleet & Device Registry*; Team Leader e integración/despliegue. |
+| Lopez, Leonardo | `LeonardoLopez138` | Order Management & Dispatch | Pedidos, pesaje y guía de remisión; consolidación del reporte y Landing Page. |
+| Ramos Cerdán, Elías Daniel | `eliocerdan` | Discrepancy & Evidence Management | Casos, evidencia fotográfica persistente y reportes PDF; apoyo transversal i18n/a11y y videos. |
+| Cárdenas Huaman, Mathias Andree | `Usuario353` | Site Reception & Verification | Trabajo separado del horario de la PC compartida; recepción, comparación, planificación S4, usabilidad y Keynote. |
+
+La asignación de líderes y colaboradores de esta matriz se corresponde directamente con las tasks del Sprint Backlog 4 (sección 5.2.4.3).
+
+##### 5.2.4.3. Sprint Backlog 4
+
+El objetivo del Sprint 4 es cerrar e integrar el flujo operativo completo de Vigía —desde el pedido, el pesaje y la emisión de guía de remisión hasta el traslado con telemetría GPS, la verificación de recepción en obra, la comparación de cantidades y el reporte de discrepancia con evidencia fotográfica persistente— y publicar las versiones finales de los tres productos para la entrega TB2. El alcance abarca las seis historias asignadas al Sprint 4 en el Product Backlog (`US-05`, `TS-08`, `US-06`, `US-09`, `US-10` y `TS-04`, 21 Story Points), el cierre de las historias técnicas arrastradas de AV2 (`TS-02` y `TS-06`, 5 Story Points) y las 18 tareas de coordinación, implementación, evidencia y entrega final (`S4-01` a `S4-18`).
+
+El seguimiento se gestiona en un tablero público de Trello con cuatro columnas acordadas por el equipo: **To-do** (no iniciado o pendiente), **In-Process** (resuelto parcialmente o en curso), **To-Review** (implementado/redactado y a la espera de revisión o integración) y **Done** (completado para el alcance descrito y con evidencia verificada).
+
+**URL público del tablero del Sprint 4 en Trello:** [https://trello.com/b/Ox4oCNN2/vigia-tb2-sprint-4-trabajo-final](https://trello.com/b/Ox4oCNN2/vigia-tb2-sprint-4-trabajo-final)
+
+**Figura 2.** Board del Sprint 4 (TB2 — Trabajo final) en Trello *(captura de seguimiento; actualizar con el estado definitivo al cierre del Sprint)*.
+
+![Board del Sprint 4 en Trello](../../assets/chapther-5/sprint-backlog-4.jpg)
+
+**Historias comprometidas del Sprint 4**
+
+| Story Id | Story Title | Story Points | Responsable de seguimiento | Estado al 2026-11-26 |
+|---|---|---|---|---|
+| US-05 | Emisión de guía de remisión y asignación de transportista | 3 | Lopez, Leonardo | To-Review |
+| TS-08 | Endpoint de recepción de reportes del dispositivo GPS | 5 | Sandoval Cueto, Fabián | To-Review |
+| US-06 | Inicio de traslado | 2 | Sandoval Cueto, Fabián | To-Review |
+| US-09 | Verificación del material recibido | 5 | Cárdenas Huaman, Mathias Andree | Done |
+| US-10 | Reporte de discrepancia en recepción | 3 | Ramos Cerdán, Elías | In-Process |
+| TS-04 | Endpoint de comparación de cantidades | 3 | Cárdenas Huaman, Mathias Andree | Done |
+| TS-02 | Endpoint de registro de pesaje *(arrastrada del Sprint 3)* | 3 | Lopez, Leonardo | To-Review |
+| TS-06 | Endpoint de contacto para suscripción *(arrastrada del Sprint 2/3)* | 2 | Cárdenas Huaman, Mathias Andree / Lopez, Leonardo | To-do |
+
+**Work-Items / Tasks del Sprint 4.** Cada historia se descompone en Engineering Tasks de entre 4 y 8 horas como máximo, y se listan además las tareas de planificación, documentación, evidencias, videos y cierre TB2 registradas en Trello (`S4-01` a `S4-18`). Para evitar duplicar esfuerzo, las tarjetas resumen de implementación del tablero (`S4-04` Frontend, `S4-07` Backend/Integración y `S4-11` Landing) se desglosan directamente en sus Engineering Tasks correspondientes (`T-13`, `T-15`, `T-24` a `T-31`) y no se suman dos veces. Las estimaciones en horas constituyen **propuestas de planificación a confirmar con el Team Leader** y no equivalen a horas reales ejecutadas.
+
+| Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---|---|---|
+| US-05 | Emisión de guía de remisión y asignación de transportista | T-24 | Guía de remisión digital inmutable y flujo de Despachos | Implementar `POST`/`GET /api/v1/dispatches/{dispatchId}/delivery-guide` con bloqueo sin pesaje vigente, instantánea inmutable de carga/vehículo, idempotencia y vista de autorización de guía en `vigia-web-application` *(cubre bloque de guía de `S4-04`/`S4-07`)*. | 6 | Lopez, Leonardo | To-Review |
+| US-06 | Inicio de traslado | T-25 | Confirmación de salida y enlace con ruta activa | Vincular la autorización de guía con el paso a `IN_TRANSIT`, la reserva activa de la unidad de transporte y la confirmación de salida en `vigia-platform` y `vigia-web-application` *(cubre bloque de salida de `S4-04`/`S4-07`)*. | 5 | Sandoval Cueto, Fabián | To-Review |
+| TS-08 | Endpoint de recepción de reportes del dispositivo GPS | T-26 | Telemetría GPS ordenada, geocercas e invariantes de flota | Corregir validaciones de vehículos/GPS/geocercas, asegurar orden temporal y persistencia de eventos asociados y no asociados en `TelemetryController` (migraciones EF Core) y exponer el monitoreo en la Web Application *(cubre bloque de flota y telemetría de `S4-04`/`S4-07`)*. | 8 | Sandoval Cueto, Fabián | To-Review |
+| US-09 | Verificación del material recibido | T-27 | Autorización por proyecto, guía oficial y cierre atómico de recepción | Exigir pertenencia al proyecto asignado y guía emitida por el servidor, añadir migración de idempotencia y concurrencia (`Version`, `RegisterRequestId`, `VerifyRequestId`), cerrar atómicamente recepción/despacho/ruta en `vigia-platform` y bloquear campos autoritativos en las vistas de recepción de `vigia-web-application` *(entregables A01/A02; integra `S4-04`)*. | 8 | Cárdenas Huaman, Mathias Andree | Done |
+| TS-04 | Endpoint de comparación de cantidades | T-28 | Comparación de cantidades y verificación idempotente | Consolidar el cálculo comparativo entre cantidades despachadas y recibidas por ítem y la recuperación idempotente mediante `requestId` entre el RESTful API y el cliente web *(entregables A01/A02; integra `S4-04`)*. | 5 | Cárdenas Huaman, Mathias Andree | Done |
+| US-10 | Reporte de discrepancia en recepción | T-29 | Fotografías protegidas de evidencia y casos de discrepancia | Persistir archivos reales de evidencia fotográfica, aplicar autorización por proyecto en casos, línea de tiempo, fotografías y reporte PDF, e integrar la vista de reporte de discrepancias y miniaturas protegidas en `vigia-web-application` *(entregable A03 y cierre de evidencia)* . | 8 | Ramos Cerdán, Elías / Cárdenas Huaman, Mathias Andree | In-Process |
+| TS-02 | Endpoint de registro de pesaje *(arrastre AV2)* | T-13 | Pesaje neto, tolerancia e historial persistente | Completar `POST /api/v1/dispatches/{dispatchId}/weighing` con persistencia de peso neto, evaluación de tolerancia, actualización de estado y vista conectada en Despachos *(arrastrada del Sprint 3)*. | 5 | Lopez, Leonardo | To-Review |
+| TS-06 | Endpoint de contacto para suscripción *(arrastre AV2)* | T-15 | Endpoint y formulario de contacto del Landing Page | Acordar contrato con el equipo, implementar `POST /api/v1/contact-requests` en `vigia-platform` y conectarlo desde la sección de contacto de `vigia-website` sin alterar el flujo de pesaje *(arrastrada del Sprint 2/3; entregable A04)*. | 4 | Cárdenas Huaman, Mathias Andree / Lopez, Leonardo | To-do |
+| Transversal | Integración transversal, regresión por roles y accesibilidad base *(S4-04 / S4-07)* | T-30 | Regresión por roles, Scalar con Bearer auth e i18n/accesibilidad | Ejecutar pruebas de integración y matriz de permisos por rol (`ADMIN`, `WAREHOUSE_MANAGER`, `SITE_MANAGER`), exponer autenticación Bearer en Scalar, corregir desbordamiento de tablas en recepción y aplicar mejoras base de idioma inglés/teclado. | 8 | Sandoval Cueto, Fabián / Ramos Cerdán, Elías | In-Process |
+| Transversal | Publicación final del Landing Page *(S4-11)* | T-31 | Actualización y publicación final del Landing Page | Incorporar videos finales (*About-the-Product* y *About-the-Team*), verificar enlaces, conectar el contacto (`T-15`) y publicar la versión final en GitHub Pages *(desglose de la tarjeta `S4-11`)*. | 4 | Lopez, Leonardo | To-do |
+| Planificación | Gestión del Sprint 4 | S4-01 | Definir alcance y Sprint Goal del Sprint 4 | Acordar alcance final, reconciliar los Sprints 5 y 6 frente al cierre TB2, incorporar pendientes vigentes de AV2 y redactar la sección 5.2.4.1. | 2 | Cárdenas Huaman, Mathias Andree | To-Review |
+| Planificación | Gestión del Sprint 4 | S4-02 | Registrar líderes y colaboradores del Sprint 4 | Completar la matriz LACX de la sección 5.2.4.2 reflejando a los cuatro integrantes activos, el doble contexto de Fabián Sandoval, el trabajo independiente de Mathias Andree Cárdenas y los créditos históricos de Elizabeth Apaza. | 1 | Cárdenas Huaman, Mathias Andree | To-Review |
+| Planificación | Gestión del Sprint 4 | S4-03 | Crear y mantener Sprint Backlog 4 y tablero | Redactar la tabla de seguimiento de la sección 5.2.4.3 enlazada al tablero público de Trello TB2 y mantener actualizados los estados hasta el cierre. | 2 | Cárdenas Huaman, Mathias Andree | To-Review |
+| Diseño y UX | Actualización de flujos y usabilidad | S4-05 | Actualizar flujos e interfaces y cerrar usabilidad | Actualizar wireflows por rol sin la ruta obsoleta de Reportes, completar la validación y auditoría de usabilidad/accesibilidad en recepción y Landing Page *(entregables A05 y A12)*. | 3 | Cárdenas Huaman, Mathias Andree | In-Process |
+| Sustentación | Presentación final TB2 | S4-06 | Preparar Keynote final TB2 y PDF | Elaborar la presentación final del proyecto en PPTX y PDF priorizando la entrega TB2, con diapositiva de integrantes y demostración *(entregable A10)*. | 4 | Cárdenas Huaman, Mathias Andree | To-do |
+| Arquitectura | Alineamiento documental técnico | S4-08 | Alinear arquitectura, clases, MySQL y configuración finales | Actualizar diagramas C4, clases, base de datos MySQL y configuración de la sección 5.1 para reflejar la versión final de los repositorios. | 4 | Sandoval Cueto, Fabián | In-Process |
+| Evidencia API | Documentación de servicios | S4-09 | Completar evidencia final de servicios con Scalar | Registrar la tabla de endpoints OpenAPI/Scalar del Sprint 4 y capturas verificadas de interacción con datos reales y autenticación Bearer *(con aportes de recepción de A11)*. | 3 | Sandoval Cueto, Fabián | In-Process |
+| Despliegue | Publicación y verificación en nube | S4-10 | Verificar publicaciones finales y documentar despliegue | Aprobar versiones, verificar respaldo/migración MySQL, desplegar API en Azure y frontend en Firebase Hosting, y registrar evidencia en URLs públicas. | 3 | Sandoval Cueto, Fabián | In-Process |
+| Evidencia | Desarrollo y colaboración | S4-12 | Registrar desarrollo y colaboración del Sprint 4 | Documentar la tabla de commits, ramas y analíticos de colaboración (Insights) del Sprint 4 en los tres repositorios *(con evidencia de recepción de A11)*. | 3 | Lopez, Leonardo | To-do |
+| Informe | Consolidación documental TB2 | S4-13 | Consolidar contenido final del reporte TB2 | Integrar secciones terminadas, actualizar Student Outcome, Collaboration Insights, Registro de Versiones, conclusiones de validación (`A09`), bibliografía APA y anexos, regenerando `capitulos-completo.md`. | 4 | Lopez, Leonardo | In-Process |
+| Entrega | Evaluación individual | S4-14 | Preparar participación individual final TB2 | Elaborar el *Participant Performance Report* final del equipo en formato Word con la evaluación de cada integrante para TB2. | 2 | Lopez, Leonardo | To-do |
+| Entrega | Paquete de entrega TB2 | S4-15 | Exportar reporte y preparar paquete final TB2 | Exportar el PDF definitivo verificando enlaces clicables, incorporar el enlace de exposición y empaquetar el archivo `.zip` final de TB2. | 2 | Lopez, Leonardo | To-do |
+| Videos | Videos promocional y de equipo | S4-16 | Publicar videos finales de producto y equipo | Grabar, editar y publicar en Microsoft Stream y YouTube las versiones finales de *Video About-the-Product* y *Video About-the-Team* con sus capturas, enlaces y tiempos. | 4 | Ramos Cerdán, Elías | In-Process |
+| Evidencia | Navegación y ejecución | S4-17 | Registrar navegación y ejecución del producto final | Documentar capturas finales y video demostrativo de navegación y ejecución del producto integrado para la sección 5.2.4.5 *(con capturas de recepción de A11)*. | 3 | Ramos Cerdán, Elías | In-Process |
+| Sustentación | Exposición final TB2 | S4-18 | Coordinar y publicar exposición final TB2 | Coordinar ensayo, grabación y publicación del video de exposición final de 12 minutos cubriendo demostración en operación y evidencias de colaboración. | 4 | Ramos Cerdán, Elías | To-do |
+
+**Resumen de horas estimadas (propuesta a validar con Fabián Sandoval, corte al 2026-11-26):** 105 h totales (61 h en Engineering Tasks de implementación + 44 h en tareas de planificación, documentación, evidencias, videos y entrega TB2; sin duplicar las tarjetas resumen `S4-04`, `S4-07` y `S4-11`).
+
+- **Done:** 13 h (`T-27`, `T-28`; respaldadas por el cierre de `US-09`, `TS-04` y el bloque de recepción de `S4-04`).
+- **To-Review:** 29 h (`T-13`, `T-24`, `T-25`, `T-26`, `S4-01`, `S4-02`, `S4-03`).
+- **In-Process:** 40 h (`T-29`, `T-30`, `S4-05`, `S4-08`, `S4-09`, `S4-10`, `S4-13`, `S4-16`, `S4-17`).
+- **To-do:** 23 h (`T-15`, `T-31`, `S4-06`, `S4-12`, `S4-14`, `S4-15`, `S4-18`).
+
+**Secuencia operativa por fases (sin fechas límite inventadas).** El equipo coordina el cierre del Sprint 4 en seis fases dependientes por contrato, permitiendo trabajo en paralelo entre la estación compartida y el entorno independiente de Mathias Andree Cárdenas:
+
+| Fase | Leonardo | Fabián | Mathias Andree | Elías | Criterio de avance |
+|---|---|---|---|---|---|
+| 0 — Alcance y contratos | Pedido, pesaje y guía | Flota, GPS, tránsito y estado Azure | Planificación (`S4-01`–`S4-03`) y contrato de recepción | Caso y evidencia | Contratos acordados y reconciliación de Sprints 5/6 documentada. |
+| 1 — Preparación paralela | Formulario de pedido y permisos del residente | Validación API/MySQL y flota/GPS/geocercas | Contrato e interfaz de recepción/comparación | Carga y consulta protegida de evidencia | Flujo base verificado sobre MySQL con migraciones limpias. |
+| 2 — Despacho autorizado | Cierre de `US-04`/`TS-02`/`T-13` y `US-05` | Contrato de unidad/GPS y salida | Recepción vinculada a guía oficial | Vínculo despacho–recepción–caso | Guía bloqueada sin pesaje y emitida de forma inmutable. |
+| 3 — Traslado y recepción | Ajustes de contrato de despacho | Cierre de `US-06`/`TS-08` y telemetría ordenada | Cierre de `US-09`/`TS-04` y cierre atómico | Cierre de `US-10` con fotos persistentes y PDF | Flujo conforme y flujo discrepante verificados de extremo a extremo. |
+| 4 — Aceptación y release | Regresión de pedidos/guías y aportes al Landing | Integración, regresión por roles, migraciones y despliegue | Pruebas de recepción, usabilidad y contacto (`T-15`) | Regresión de casos/PDF, i18n/a11y y videos | Pruebas aprobadas, versiones publicadas en URLs públicas y evidencia capturada. |
+| 5 — Evidencias y entrega TB2 | `S4-11` a `S4-15` | `S4-08` a `S4-10` | `S4-05`, `S4-06` y actualización final del backlog | `S4-16` a `S4-18` | Informe consolidado, Keynote, videos y paquete final TB2 verificados. |
 
 ### 5.3. Validation Interviews
 
