@@ -8051,7 +8051,7 @@ El Video About-the-Product presenta Vigía a los visitantes del Landing Page y a
 |---|---|
 | Título en YouTube | About the product |
 | URL en YouTube (video incrustado en el Landing Page) | https://youtu.be/RjaLFXTpLvg |
-| Duración | 03:15 |
+| Duración | 02:57 |
 | Visibilidad | No listado (se reproduce incrustado en el Landing Page) |
 | Nombre del archivo | `upc-pre-202620-1asi0730-8084-trazzalabs-about-the-product-sprint-3.mp4` |
 | URL en Microsoft Stream | 🟢 *(completar con el enlace privado de Microsoft Stream; el nombre del archivo debe seguir el Anexo C)* |
@@ -8060,7 +8060,7 @@ El video está incrustado en la sección *Así funciona Vigía* del Landing Page
 
 **Aspectos por corregir antes de la entrega.**
 
-- 🟢 *Duración:* el Anexo C del enunciado pide una duración de 1 a 3 minutos y el video dura 3:15. Recortar al menos 15 segundos.
+- 🟢 *Verificar duración:* el 26/11/2026 se recortó el video de 3:15 a 2:57, dentro del rango de 1 a 3 minutos del Anexo C. Comprobar que YouTube haya terminado de procesar el cambio y publicar en Microsoft Stream la versión recortada.
 - 🟢 *Testimonio:* el enunciado exige al menos un testimonio positivo de un usuario que participó en las entrevistas de validación. Incorporar un fragmento de las entrevistas de la sección 5.3.2 o confirmar que el video ya lo incluye.
 
 <div style="page-break-after: always;"></div>
