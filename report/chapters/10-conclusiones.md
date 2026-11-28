@@ -31,16 +31,17 @@ Esta versión del informe corresponde al cierre del proyecto en el **Sprint 4 (e
 
 ### Video About-The-Team
 
-El Video About-The-Team resume el proceso de trabajo del equipo durante el desarrollo de Vigía. Incluye escenas de sesiones reales de trabajo, narración en voz en off del proceso y el testimonio ante cámara de cada integrante, que describe las actividades que realizó, el logro del Student Outcome 5 y las competencias que desarrolló.
+El Video About-The-Team presenta, ante cámara, el testimonio de cada integrante del equipo sobre las actividades que realizó en el desarrollo de Vigía, el logro del Student Outcome 5 y las competencias que desarrolló.
 
 **Pauta de secuencias.**
 
-| Inicio (hh:mm:ss) | Sección | Contenido |
+| Inicio (hh:mm:ss) | Sección | Duración |
 |---|---|---|
-| 00:00:00 | Presentación | Presentación del equipo Trazza Labs y del producto Vigía |
-| 00:00:30 | Proceso de trabajo | Escenas de las sesiones de trabajo, GitFlow y Sprints, con voz en off |
-| 00:02:00 | Retrospectiva del grupo | Aciertos y oportunidades de mejora del equipo |
-| 00:07:00 | Testimonios | Un minuto por integrante: Lopez, Ramos, Sandoval, Cárdenas y Apaza |
+| 00:00:00 | Testimonio de Leonardo López | 00:58 |
+| 00:00:58 | Testimonio de Elías Ramos | 01:27 |
+| 00:02:25 | Testimonio de Elizabeth Apaza *(el tramo no tiene audio)* | 01:36 |
+| 00:04:01 | Testimonio de Mathias Cárdenas | 01:31 |
+| 00:05:32 | Testimonio de Fabián Sandoval: aportes, arquitectura y dificultades del proyecto | 05:08 |
 
 **Figura 1.** Captura del Video About-The-Team.
 
@@ -49,8 +50,14 @@ El Video About-The-Team resume el proceso de trabajo del equipo durante el desar
 | Dato | Valor |
 |---|---|
 | URL en YouTube (video incrustado en el Landing Page) | [https://youtu.be/8jhRrFqgy-8](https://youtu.be/8jhRrFqgy-8) |
-| Duración | 10:41 |
+| Duración | 10:40 |
 | Nombre del archivo | `upc-pre-202620-1asi0730-8084-trazzalabs-about-the-team-sprint-3.mp4` |
 | URL en Microsoft Stream | 🟢 *(por actualizar al publicar la versión final de TB2 en `S4-16`)* |
 
-El video está incrustado en la sección del equipo del Landing Page. 🟢 *(Nota para cierre de `S4-16`: actualizar la pauta de secuencias con los tiempos definitivos y corregir el título en YouTube cuando se publique la versión final de TB2).*
+El video está incrustado en la sección del equipo del Landing Page.
+
+**Aspectos por corregir en el video** (revisión del 28/11/2026).
+
+- 🟢 *Audio:* volver a grabar o reemplazar el tramo 00:02:25 – 00:04:01, que no tiene sonido.
+- 🟢 *Contenido exigido:* agregar escenas de sesiones de trabajo reales del equipo, narración en voz en off del proceso y una sección de retrospectiva grupal, que no se identificaron en el video publicado.
+- 🟢 *Título y publicación:* corregir el título en YouTube ("Aboth the team" debe decir "About the team") y publicar el video en Microsoft Stream.

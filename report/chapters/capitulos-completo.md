@@ -299,6 +299,12 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
       <td>Leonardo López</td>
       <td>Entrega AV2: adición del Sprint 3 (5.2.3), Validation Interviews (5.3), Video About-the-Product (5.4) y Video About-The-Team. Corrección del Sprint Planning y del Sprint Backlog 2 (Story Points alineados con el Product Backlog y tasks reprogramadas), de las secciones 5.1.1, 5.1.4 y de las Conclusiones; actualización de Student Outcome y Collaboration Insights.</td>
     </tr>
+    <tr>
+      <td>1.1.1</td>
+      <td>2026-11-28</td>
+      <td>Leonardo López</td>
+      <td>Revisión de la entrega AV2: integración a <em>develop</em> de las ramas pendientes (anexo de evidencias en OneDrive, capturas de entrevistas y wireflows), corrección de la pauta del Video About-The-Team y de la ficha del Video About-the-Product, fecha de la entrevista de Needfinding de Owen Aguirre y adición del Anexo B.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -490,6 +496,7 @@ Al 14 de noviembre de 2026, el repositorio `vigia-report` registra 24 Pull Reque
   - [Video About-The-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexo A. Videos de Exposiciones](#anexo-a-videos-de-exposiciones)
+- [Anexo B. Repositorio de Evidencias en OneDrive](#anexo-b-repositorio-de-evidencias-en-onedrive)
 
 <div style="page-break-after: always;"></div>
 
@@ -591,7 +598,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td>
         <p><strong>AV1:</strong> Como equipo, organizamos las actividades de la entrega mediante la distribución de responsabilidades y la definición de objetivos concretos para cada integrante. Cumplimos tareas relacionadas con investigación, entrevistas, planificación del Sprint, diseño UX/UI, wireframes, wireflows, prototipado, modelado UML, documentación y despliegue. Además, utilizamos GitFlow, ramas individuales, commits y Pull Requests para mantener trazabilidad sobre los avances realizados. La coordinación entre estas actividades permitió integrar los diferentes entregables y alcanzar los objetivos establecidos para el AV1 de manera ordenada y colaborativa.</p>
         <p><strong>TB1:</strong> Como equipo, organizamos las actividades de esta entrega dividiendo de manera equitativa la programación del frontend basada en Bounded Contexts independientes. Cumplimos con los objetivos de implementación mediante Vue/Vite, estructuramos bases de datos simuladas y ejecutamos correcciones sustanciales en la documentación. El uso riguroso de GitFlow, la comunicación en tiempo real para resolver dependencias y la disposición para intercambiar módulos de código evidenciaron un entorno altamente colaborativo orientado al cumplimiento de las metas del Trabajo Parcial.</p>
-        <p><strong>AV2:</strong> Como equipo, planificamos el Sprint 3 con un Sprint Goal definido, un Sprint Backlog con tasks de 4 a 8 horas y un tablero de Trello con los estados To Do, In Process, To Review y Done. Cumplimos las metas de implementación del RESTful API en cada Bounded Context y registramos 94 commits propios del Sprint en el repositorio de Web Services. Quedaron pendientes el despliegue del API y la autenticación, que se reprogramaron explícitamente en el Sprint Backlog para no perder trazabilidad.</p>
+        <p><strong>AV2:</strong> Como equipo, planificamos el Sprint 3 con un Sprint Goal definido, un Sprint Backlog con tasks de 4 a 8 horas y un tablero de Trello con los estados To Do, In Process, To Review y Done. Cumplimos las metas de implementación del RESTful API en cada Bounded Context y registramos 105 commits propios del Sprint en el repositorio de Web Services. Quedaron pendientes el despliegue del API y la autenticación, que se reprogramaron explícitamente en el Sprint Backlog para no perder trazabilidad.</p>
       </td>
     </tr>
   </tbody>
@@ -1316,7 +1323,7 @@ A continuación se consigna la información de cada entrevistado, agrupada por s
 | Estado civil           | Soltero                                                                                                                                                                                                                                                                                                                 |
 | Ocupacion              | Ingeniero Civil - Residente de obra                                                                                                                                                                                                                                                                                     |
 | Objectivos             | Subir de puestos consecutivamente para poder tener mas experiencia laboral                                                                                                                                                                                                                                              |
-| Fecha de la entrevista | *(completar con la fecha real de grabación)*                                                                                                                                                                                                                                                                            |
+| Fecha de la entrevista | 14/09/2026 *(fecha de publicación del video)*                                                                                                                                                                                                                                                                            |
 | Inicio en el video consolidado | *(completar una vez editado el video único de Needfinding Interviews, Anexo C)*                                                                                                                                                                                                                                  |
 | Captura                | ![Entrevista Owen.png](../../assets/Chapther-4/entrevistas/Entrevista%20Owen.png)                                                                                                                                                                                                                                    |
 | Url:                   | [https://tinyurl.com/2yak5fm2](https://tinyurl.com/2yak5fm2) |
@@ -6778,7 +6785,7 @@ En el Sprint 3 se implementó la primera versión del RESTful API de Vigía en e
 
 **Repositorio de Web Services:** https://github.com/upc-pre-202620-1asi0730-8084-Developers/vigia-platform
 
-**URL de la documentación desplegada:** https://vigia-api-8084.northcentralus.cloudapp.azure.com/scalar/v1, y el documento OpenAPI en https://vigia-api-8084.northcentralus.cloudapp.azure.com/openapi/v1.json. 🟢 *Verificar: el servidor no respondió a la comprobación del 26/11/2026.*
+**URL de la documentación desplegada:** https://vigia-api-8084.northcentralus.cloudapp.azure.com/scalar/v1, y el documento OpenAPI en https://vigia-api-8084.northcentralus.cloudapp.azure.com/openapi/v1.json. 🟢 *Verificar: el servidor no respondió a las comprobaciones del 26/11/2026 y del 28/11/2026.*
 
 **URL de la documentación (entorno local):** `http://localhost:5125/scalar/v1`, y el documento OpenAPI en `/openapi/v1.json`.
 
@@ -6941,7 +6948,7 @@ Durante el Sprint 3 el trabajo de despliegue se centró en preparar la publicaci
 4. Aplicar las migraciones de Entity Framework Core a la base de datos de producción antes de iniciar la nueva versión del API (`dotnet ef database update` o un script generado con `dotnet ef migrations script`), porque el arranque en producción no aplica migraciones ni datos de ejemplo.
 5. Verificar la documentación OpenAPI desplegada y registrar aquí las capturas.
 
-🟢 *Verificar: el servidor no respondió a la comprobación del 26/11/2026.*
+🟢 *Verificar: el servidor no respondió a las comprobaciones del 26/11/2026 y del 28/11/2026.*
 
 🟢 **Pendiente:** agregar las capturas de cada paso del despliegue (creación de la máquina virtual y sus recursos en Azure, configuración de variables de entorno y verificación). Esta evidencia es requisito de AV2 y corresponde a la task T-20 del Sprint Backlog 3.
 
@@ -8060,8 +8067,7 @@ El video está incrustado en la sección *Así funciona Vigía* del Landing Page
 
 **Aspectos por corregir antes de la entrega.**
 
-- 🟢 *Verificar duración:* el 26/11/2026 se recortó el video de 3:15 a 2:57, dentro del rango de 1 a 3 minutos del Anexo C. Comprobar que YouTube haya terminado de procesar el cambio y publicar en Microsoft Stream la versión recortada.
-- 🟢 *Testimonio:* el enunciado exige al menos un testimonio positivo de un usuario que participó en las entrevistas de validación. Incorporar un fragmento de las entrevistas de la sección 5.3.2 o confirmar que el video ya lo incluye.
+- 🟢 *Opiniones de usuarios:* el Anexo C pide al menos una opinión por cada segmento objetivo, y el enunciado un testimonio positivo de un usuario que participó en las entrevistas de validación. En la revisión del 28/11/2026 el video muestra el Landing Page y la Web Application, sin opiniones: incorporar un fragmento por segmento de las entrevistas de la sección 5.3.2 y publicar la versión final en YouTube y Microsoft Stream.
 
 <div style="page-break-after: always;"></div>
 
@@ -8098,16 +8104,17 @@ Esta versión del informe corresponde al cierre del proyecto en el **Sprint 4 (e
 
 ### Video About-The-Team
 
-El Video About-The-Team resume el proceso de trabajo del equipo durante el desarrollo de Vigía. Incluye escenas de sesiones reales de trabajo, narración en voz en off del proceso y el testimonio ante cámara de cada integrante, que describe las actividades que realizó, el logro del Student Outcome 5 y las competencias que desarrolló.
+El Video About-The-Team presenta, ante cámara, el testimonio de cada integrante del equipo sobre las actividades que realizó en el desarrollo de Vigía, el logro del Student Outcome 5 y las competencias que desarrolló.
 
 **Pauta de secuencias.**
 
-| Inicio (hh:mm:ss) | Sección | Contenido |
+| Inicio (hh:mm:ss) | Sección | Duración |
 |---|---|---|
-| 00:00:00 | Presentación | Presentación del equipo Trazza Labs y del producto Vigía |
-| 00:00:30 | Proceso de trabajo | Escenas de las sesiones de trabajo, GitFlow y Sprints, con voz en off |
-| 00:02:00 | Retrospectiva del grupo | Aciertos y oportunidades de mejora del equipo |
-| 00:07:00 | Testimonios | Un minuto por integrante: Lopez, Ramos, Sandoval, Cárdenas y Apaza |
+| 00:00:00 | Testimonio de Leonardo López | 00:58 |
+| 00:00:58 | Testimonio de Elías Ramos | 01:27 |
+| 00:02:25 | Testimonio de Elizabeth Apaza *(el tramo no tiene audio)* | 01:36 |
+| 00:04:01 | Testimonio de Mathias Cárdenas | 01:31 |
+| 00:05:32 | Testimonio de Fabián Sandoval: aportes, arquitectura y dificultades del proyecto | 05:08 |
 
 **Figura 1.** Captura del Video About-The-Team.
 
@@ -8116,11 +8123,17 @@ El Video About-The-Team resume el proceso de trabajo del equipo durante el desar
 | Dato | Valor |
 |---|---|
 | URL en YouTube (video incrustado en el Landing Page) | [https://youtu.be/8jhRrFqgy-8](https://youtu.be/8jhRrFqgy-8) |
-| Duración | 10:41 |
+| Duración | 10:40 |
 | Nombre del archivo | `upc-pre-202620-1asi0730-8084-trazzalabs-about-the-team-sprint-3.mp4` |
 | URL en Microsoft Stream | 🟢 *(por actualizar al publicar la versión final de TB2 en `S4-16`)* |
 
-El video está incrustado en la sección del equipo del Landing Page. 🟢 *(Nota para cierre de `S4-16`: actualizar la pauta de secuencias con los tiempos definitivos y corregir el título en YouTube cuando se publique la versión final de TB2).*
+El video está incrustado en la sección del equipo del Landing Page.
+
+**Aspectos por corregir en el video** (revisión del 28/11/2026).
+
+- 🟢 *Audio:* volver a grabar o reemplazar el tramo 00:02:25 – 00:04:01, que no tiene sonido.
+- 🟢 *Contenido exigido:* agregar escenas de sesiones de trabajo reales del equipo, narración en voz en off del proceso y una sección de retrospectiva grupal, que no se identificaron en el video publicado.
+- 🟢 *Título y publicación:* corregir el título en YouTube ("Aboth the team" debe decir "About the team") y publicar el video en Microsoft Stream.
 
 <div style="page-break-after: always;"></div>
 
@@ -8161,3 +8174,11 @@ Este anexo consolida, para cada entrega del proyecto, el enlace privado al video
 Además de los videos de exposición, el informe registra los videos de producto y de equipo: Needfinding Interviews (sección 2.2.2), Validation (sección 5.3.2), About-the-Product (sección 5.4) y About-The-Team (sección Conclusiones).
 
  🟢 **Pendiente.** Cada video de exposición debe mostrar a cada integrante del equipo ante cámara explicando la construcción de los artefactos del trabajo, apoyándose en la presentación de PowerPoint y demostrando los artefactos en las herramientas indicadas, con una duración máxima de 30 minutos. Además del enlace aquí registrado, el archivo `.mp4` debe entregarse dentro del `.zip` de archivos complementarios.
+
+<div style="page-break-after: always;"></div>
+
+<div style="page-break-before: always;"></div>
+
+## Anexo B. Repositorio de Evidencias en OneDrive
+
+* **Repositorio en OneDrive:** [Carpeta de Evidencias del Proyecto - OneDrive](https://upcedupe-my.sharepoint.com/:f:/g/personal/u20221a132_upc_edu_pe/IgDr9W-rjfD6R4F16bVgbwlQAXA7A0IEX4jjZ5Jhltt6bY4?e=iPpsjB)
