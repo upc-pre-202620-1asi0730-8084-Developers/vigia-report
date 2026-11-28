@@ -1,6 +1,6 @@
 ## Project Report Collaboration Insights
 
-Repositorio del Project Report: **https://tinyurl.com/2c98uev3**
+Repositorio del Project Report: **https://github.com/upc-pre-202620-1asi0730-8084-Developers/vigia-report**
 
 ### AV1
 
@@ -22,3 +22,45 @@ Los cinco integrantes registran commits propios sobre el repositorio durante el 
 
 ![Collaboration-insigths.png](../../assets/chapther-5/Collaboration-insights.png)
 
+
+### TB1
+
+Para la entrega TB1 el informe siguió elaborándose bajo GitFlow: cada integrante trabajó en su rama personal `feature/<nombre>` e integró su avance mediante Pull Request. El repositorio `vigia-report` registra 23 Pull Requests fusionados a la fecha. En esta entrega se agregaron las secciones de diseño de producto (capítulo IV), el Sprint 2 y los diagramas de arquitectura, y se corrigieron los artefactos presentados en AV1 con la retroalimentación recibida, lo que se refleja en las versiones 1.0.1 a 1.0.4 del Registro de Versiones del Informe.
+
+El siguiente cuadro resume los commits por integrante en el repositorio del informe, según GitHub, al 3 de noviembre de 2026:
+
+| Integrante | Usuario de GitHub | Commits | Rama de trabajo |
+|---|---|---|---|
+| Leonardo Lopez | `LeonardoLopez138` | 63 | `feature/leonardo` |
+| Elías Ramos | `eliocerdan` | 49 | `feature/Ramos` |
+| Elizabeth Apaza | `ApazaEN` | 43 | `feature/Apaza` |
+| Fabián Sandoval | `FabianSandovalCueto` / `JFabianSandoval` | 27 | `feature/Sandoval` |
+| Mathias Cárdenas | `Usuario353` | 23 | `feature/Cardenas` |
+
+Los cinco integrantes tienen commits propios en el informe, de modo que todos participaron en su elaboración, conforme lo exige el enunciado del proyecto. Los analíticos de colaboración y de commits de la implementación se presentan en la sección 5.2.2.8.
+
+### AV2
+
+Para la entrega AV2 el informe siguió elaborándose bajo GitFlow, con una rama personal `feature/<nombre>` por integrante integrada mediante Pull Request. En esta entrega se agregaron el Sprint 3 (sección 5.2.3), las Validation Interviews (sección 5.3), el Video About-the-Product (sección 5.4) y el Video About-The-Team, y se corrigieron los artefactos de entregas anteriores, como el Sprint Planning y el Sprint Backlog del Sprint 2, lo que se refleja en la versión 1.1.0 del Registro de Versiones del Informe.
+
+El siguiente cuadro resume los commits propios (sin commits de fusión) registrados en todas las ramas del repositorio a la fecha de esta entrega. Los conteos difieren de los del cuadro de TB1 porque aquí se excluyen los commits de fusión; cada integrante figura con todos los usuarios y correos con los que hizo commits.
+
+| Integrante | Usuario de GitHub | Commits | Rama de trabajo |
+|---|---|---|---|
+| Lopez, Leonardo | `LeonardoLopez138` / `Deiko-138` | 53 | `feature/leonardo` |
+| Apaza Bocanegra, Elizabeth | `ApazaEN` | 40 | `feature/Apaza` |
+| Ramos Cerdán, Elías | `eliocerdan` | 35 | `feature/Ramos` |
+| Sandoval Cueto, Fabián | `FabianSandovalCueto` / `JFabianSandoval` | 23 | `feature/Sandoval` |
+| Cárdenas Huaman, Mathias | `Usuario353` | 20 | `feature/Cardenas` |
+
+Los cinco integrantes tienen commits propios en el informe, de modo que todos participaron en su elaboración.
+
+Al 14 de noviembre de 2026, el repositorio `vigia-report` registra 24 Pull Requests fusionados. Las siguientes capturas de GitHub muestran los Pull Requests y el historial de commits de la rama `develop` a esa fecha.
+
+**Figura 2.** Pull Requests fusionados en `vigia-report` hasta el 14 de noviembre de 2026.
+
+![Pull Requests fusionados en vigia-report](../../assets/chapther-5/inshiths/av2-report-pulls.jpg)
+
+**Figura 3.** Historial de commits de `vigia-report` (rama `develop`) del 30 de octubre al 14 de noviembre de 2026.
+
+![Historial de commits de vigia-report](../../assets/chapther-5/inshiths/av2-report-commits.jpg)
