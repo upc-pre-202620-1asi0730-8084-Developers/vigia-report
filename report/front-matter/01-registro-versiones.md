@@ -214,7 +214,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
       <td>1.1.1</td>
       <td>2026-11-28</td>
       <td>Leonardo López</td>
-      <td>Revisión de la entrega AV2: integración a <em>develop</em> de las ramas pendientes (anexo de evidencias en OneDrive, capturas de entrevistas y wireflows), corrección de la pauta del Video About-The-Team y de la ficha del Video About-the-Product, fecha de la entrevista de Needfinding de Owen Aguirre, video de navegación del Sprint 3 (sección 5.2.3.5) y adición del Anexo B.</td>
+      <td>Revisión de la entrega AV2: integración a <em>develop</em> de las ramas pendientes (anexo de evidencias en OneDrive, capturas de entrevistas y wireflows), corrección de la pauta del Video About-The-Team y de la ficha del Video About-the-Product, fecha de la entrevista de Needfinding de Owen Aguirre, video de navegación del Sprint 3 (sección 5.2.3.5), enlaces de Microsoft Stream de los videos del Sprint 3 y adición del Anexo B.</td>
     </tr>
   </tbody>
 </table>

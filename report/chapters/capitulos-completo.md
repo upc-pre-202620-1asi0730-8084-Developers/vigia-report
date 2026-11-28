@@ -303,7 +303,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
       <td>1.1.1</td>
       <td>2026-11-28</td>
       <td>Leonardo López</td>
-      <td>Revisión de la entrega AV2: integración a <em>develop</em> de las ramas pendientes (anexo de evidencias en OneDrive, capturas de entrevistas y wireflows), corrección de la pauta del Video About-The-Team y de la ficha del Video About-the-Product, fecha de la entrevista de Needfinding de Owen Aguirre, video de navegación del Sprint 3 (sección 5.2.3.5) y adición del Anexo B.</td>
+      <td>Revisión de la entrega AV2: integración a <em>develop</em> de las ramas pendientes (anexo de evidencias en OneDrive, capturas de entrevistas y wireflows), corrección de la pauta del Video About-The-Team y de la ficha del Video About-the-Product, fecha de la entrevista de Needfinding de Owen Aguirre, video de navegación del Sprint 3 (sección 5.2.3.5), enlaces de Microsoft Stream de los videos del Sprint 3 y adición del Anexo B.</td>
     </tr>
   </tbody>
 </table>
@@ -6790,9 +6790,9 @@ En el Sprint 3 la ejecución del producto se evidencia en dos frentes: la Web Ap
 
 **Figura 9.** Captura del video de navegación: registro de una unidad de transporte con su dispositivo GPS.
 
-![Captura del video de navegación del Sprint 3](../../assets/chapther-5/sprint-3/video-product-navigation-sprint-3.jpg)
+[![Captura del video de navegación del Sprint 3](../../assets/chapther-5/sprint-3/video-product-navigation-sprint-3.jpg)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a649_upc_edu_pe/IQB_r5IbM-2PRJNwhdLZ9fTgAXLsQxg_BtZU9H57rRS-48w)
 
-🟢 **Pendiente:** publicar el video en Microsoft Stream y agregar aquí el enlace privado.
+**URL en Microsoft Stream:** [Ver video en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a649_upc_edu_pe/IQB_r5IbM-2PRJNwhdLZ9fTgAXLsQxg_BtZU9H57rRS-48w) *(visible con cuenta UPC)*
 
 ##### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -8076,7 +8076,7 @@ El Video About-the-Product presenta Vigía a los visitantes del Landing Page y a
 | Duración | 02:57 |
 | Visibilidad | No listado (se reproduce incrustado en el Landing Page) |
 | Nombre del archivo | `upc-pre-202620-1asi0730-8084-trazzalabs-about-the-product-sprint-3.mp4` |
-| URL en Microsoft Stream | 🟢 *(completar con el enlace privado de Microsoft Stream; el nombre del archivo debe seguir el Anexo C)* |
+| URL en Microsoft Stream | [Ver video en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a649_upc_edu_pe/IQB__ddu4CywS6SBdHB_je02AZWzFba9oL3_uFOaRLG9f80) *(visible con cuenta UPC)* |
 
 El video está incrustado en la sección *Así funciona Vigía* del Landing Page, en el repositorio `vigia-website`, y su título se traduce al inglés mediante el selector de idioma.
 
@@ -8140,7 +8140,7 @@ El Video About-The-Team presenta, ante cámara, el testimonio de cada integrante
 | URL en YouTube (video incrustado en el Landing Page) | [https://youtu.be/8jhRrFqgy-8](https://youtu.be/8jhRrFqgy-8) |
 | Duración | 10:40 |
 | Nombre del archivo | `upc-pre-202620-1asi0730-8084-trazzalabs-about-the-team-sprint-3.mp4` |
-| URL en Microsoft Stream | 🟢 *(por actualizar al publicar la versión final de TB2 en `S4-16`)* |
+| URL en Microsoft Stream | [Ver video en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a649_upc_edu_pe/IQDCR1Ja8nXTR6gqd3JwzGDmAWMXX0hKBqWD4VdRc_LKjF0) *(visible con cuenta UPC)* |
 
 El video está incrustado en la sección del equipo del Landing Page.
 
@@ -8148,7 +8148,6 @@ El video está incrustado en la sección del equipo del Landing Page.
 
 - 🟢 *Audio:* volver a grabar o reemplazar el tramo 00:02:25 – 00:04:01, que no tiene sonido.
 - 🟢 *Contenido exigido:* agregar escenas de sesiones de trabajo reales del equipo, narración en voz en off del proceso y una sección de retrospectiva grupal, que no se identificaron en el video publicado.
-- 🟢 *Título y publicación:* corregir el título en YouTube ("Aboth the team" debe decir "About the team") y publicar el video en Microsoft Stream.
 
 <div style="page-break-after: always;"></div>
 

@@ -52,7 +52,7 @@ El Video About-The-Team presenta, ante cámara, el testimonio de cada integrante
 | URL en YouTube (video incrustado en el Landing Page) | [https://youtu.be/8jhRrFqgy-8](https://youtu.be/8jhRrFqgy-8) |
 | Duración | 10:40 |
 | Nombre del archivo | `upc-pre-202620-1asi0730-8084-trazzalabs-about-the-team-sprint-3.mp4` |
-| URL en Microsoft Stream | 🟢 *(por actualizar al publicar la versión final de TB2 en `S4-16`)* |
+| URL en Microsoft Stream | [Ver video en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a649_upc_edu_pe/IQDCR1Ja8nXTR6gqd3JwzGDmAWMXX0hKBqWD4VdRc_LKjF0) *(visible con cuenta UPC)* |
 
 El video está incrustado en la sección del equipo del Landing Page.
 
@@ -60,4 +60,3 @@ El video está incrustado en la sección del equipo del Landing Page.
 
 - 🟢 *Audio:* volver a grabar o reemplazar el tramo 00:02:25 – 00:04:01, que no tiene sonido.
 - 🟢 *Contenido exigido:* agregar escenas de sesiones de trabajo reales del equipo, narración en voz en off del proceso y una sección de retrospectiva grupal, que no se identificaron en el video publicado.
-- 🟢 *Título y publicación:* corregir el título en YouTube ("Aboth the team" debe decir "About the team") y publicar el video en Microsoft Stream.
